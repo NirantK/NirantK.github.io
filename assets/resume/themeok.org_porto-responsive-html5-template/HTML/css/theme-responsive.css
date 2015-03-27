@@ -1,0 +1,271 @@
+@media (min-width: 768px) and (max-width: 979px) { 
+
+	/* Base */
+	header div.social-icons {
+		display: none;
+	}
+
+	header nav ul.nav-main {
+		margin-right: -10px;
+	}
+
+	/* Thumb Info */
+	a.thumb-info span.thumb-info-title {
+		font-size: 14px;
+	}
+
+	a.thumb-info span.thumb-info-more {
+		font-size: 11px;
+	}
+
+	/* Hexagon */
+	div.hexagon.pull-left-tablet {
+		margin-left: -91px;
+	}
+
+}
+
+@media (max-width: 767px) { 
+
+	/* Base */
+	body.boxed {
+		background: none !important;
+	}
+
+	header,
+	div.slider-container,
+	div.slider-container > div.slider > div.tp-bannertimer,
+	div.home-intro,
+	div.home-concept,
+	section.highlight,
+	section.featured,
+	section.featured.footer,
+	section.page-top,
+	footer,
+	div.footer-copyright,
+	div.google-map,
+	div.map-section {
+		margin-left: -20px;
+		margin-right: -20px;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	div.home-intro-compact {
+		margin-left: 0;
+		margin-right: 0;
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	body.boxed div.body {
+		border: 0;
+		border-bottom: 0;
+		border-top: 0;
+		box-shadow: none;
+		margin: 0;
+		width: auto;
+	}
+
+	body.boxed header {
+		padding: 0;
+	}
+
+	header div.search {
+		display: block;
+		float: none;
+		position: absolute;
+		right: 0;
+		margin-top: 0;
+	}
+
+	header div.search input {
+		float: right;
+		width: 45% !important;
+	}
+
+	header nav {
+		width: 55%;
+	}
+
+	header nav select.selectnav {
+		display: block;
+		margin-top: 58px;
+		width: 100%;
+	}
+
+	header nav ul.nav-main,
+	header div.social-icons {
+		display: none;
+	}
+
+	header nav ul.nav-top {
+		left: 39%;
+		position: absolute;
+	}
+
+	header h1.logo {
+		margin-right: 10%;
+		width: 30%;
+	}
+
+	header nav ul.nav-top li.phone {
+		display: block;
+	}
+
+	header nav ul.nav-top li {
+		display: none;
+	}
+
+	a.scroll-to-top.visible {
+		display: none;
+	}
+
+	.sort-destination,
+	.isotope-item,
+	.mobile-max-width {
+		margin-left: auto !important;
+		margin-right: auto !important;
+		max-width: 380px;
+	}
+
+	.mobile-max-width.small {
+		max-width: 200px;
+	}
+
+	/* Miscellaneous */
+	.pull-bottom-phone {
+		margin-bottom: 35px;
+	}
+
+	.pull-top-phone {
+		margin-bottom: 35px;
+	}
+
+	/* Flexslider */
+	div.flexslider-center-mobile div.flex-viewport {
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 390px;
+	}
+
+	div.flexslider-center-mobile.flexslider-simple {
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 390px;
+	}
+
+	/* Pricing Tables */
+	div.pricing-table {
+		margin-left: 0px;
+	}
+
+	div.pricing-table div.plan {
+		margin-right: 0;
+	}
+
+}
+
+@media (max-width: 480px) { 
+
+	/* Base */
+	body {
+		font-size: 13px;
+	}
+
+	h2 {
+		font-size: 2.3em;
+		line-height: 33px;
+	}
+
+	header nav ul {
+		display: none;
+	}
+
+	header div.search {
+		display: none;
+	}
+
+	header nav select.selectnav {
+		margin-top: 35px;
+	}
+
+	header h1.logo img {
+		width: 100%;
+	}
+
+	/* Blog */
+	ul.comments li {
+		border-left: 8px solid #DDDDDD;
+		clear: both;
+		padding: 0 0 0 10px;
+	}
+
+	ul.comments li div.thumbnail,
+	ul.comments div.comment-arrow {
+		display: none;
+	}
+
+	article.post-large-image div.post-image,
+	article.post-large-image div.post-date,
+	article.post-large-image {
+		margin-left: 0;
+	}
+
+	/* Page 404 */
+	section.page-not-found {
+		margin: 0;
+	}
+
+	section.page-not-found h2 {
+		font-size: 100px;
+		letter-spacing: 0;
+		line-height: 100px;
+	}
+
+
+	/* Timeline */
+	ul.timeline li div.thumb {
+		display: none;
+	}
+
+	ul.timeline li div.featured-box {
+		margin-left: 0;
+	}
+
+}
+
+/* Home Concept */
+@media (max-width: 1180px) { 
+
+	div.home-concept div.project-image,
+	div.home-concept div.process-image {
+		margin-left: -50%;
+	}
+
+}
+
+@media (max-width: 767px) { 
+
+	div.home-concept {
+		background: none;
+	}
+
+	div.home-concept span.shadow {
+		display: none;
+	}
+
+	div.home-concept div.process-image,
+	div.home-concept div.project-image {
+		margin: 0 auto;
+	}
+
+}
+
+@media (max-width: 380px) { 
+
+	div.home-concept div.project-image {
+		margin-left: -13%;
+	}
+
+}

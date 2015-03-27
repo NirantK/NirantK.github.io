@@ -1,0 +1,52 @@
+/* Header */
+html.ie header {
+	background: #fff;
+	filter: none;
+}
+
+/* Social Icons */
+html.ie8 header ul.social-icons {
+	margin-top: 2px;
+}
+
+html.ie8 header ul.social-icons li {
+	background-color: #F1F1F1;
+}
+
+/* Home */
+html.ie8 div.home-concept div.process-image img {
+	behavior: url(css/htc/PIE.htc);
+}
+
+html.ie8 div.home-concept div.project-image img {
+	behavior: url(css/htc/PIE.htc);
+}
+
+/* Timeline */
+html.ie8 ul.timeline li div.thumb {
+	background: none;
+}
+
+html.ie8 ul.timeline li div.thumb img {
+	behavior: url(css/htc/PIE.htc);
+}
+
+/* Testimonials */
+html.ie8 div.testimonial-author div.thumbnail {
+	height: 60px;
+	width: 60px;
+}
+
+html.ie8 div.testimonial-author div.thumbnail img {
+	float: left;
+}
+
+/* Pricing Plans */
+html.ie8 div.plan-ribbon-wrapper {
+	top: -30px;
+}
+
+html.ie8 div.plan-ribbon-wrapper div.plan-ribbon {
+	text-align: left;
+	padding-left: 20px;
+}

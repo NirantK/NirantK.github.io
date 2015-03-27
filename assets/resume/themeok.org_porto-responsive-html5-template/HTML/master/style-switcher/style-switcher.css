@@ -1,0 +1,126 @@
+div.style-switcher {
+	background: #303030;
+	width: 195px;
+	position: fixed;
+	top: 42px;
+	z-index: 999;
+	border-radius: 0 0 6px 0;
+	left: -195px;
+}
+
+div.style-switcher div.style-switcher-wrap {
+	padding: 10px
+}
+
+div.style-switcher h4 {
+	background: #404040;
+	color: #FFF;
+	padding: 5px 0 5px 10px;
+	margin: 0;
+	line-height: 30px;
+	font-size: 15px;
+}
+
+div.style-switcher h4 a {
+	background-color: #404040;
+	display: block;
+	height: 40px;
+	position: absolute;
+	right: -40px;
+	top: 0;
+	width: 40px;
+	font-size: 20px;
+	line-height: 38px;
+	color: #FFF;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 0 6px 6px 0;
+}
+
+div.style-switcher h4 a i {
+	margin-right: 5px
+}
+
+div.style-switcher h4 a:hover {
+	text-decoration: none
+}
+
+div.style-switcher h5 {
+	color: #999;
+	margin: 0 0 5px 0;
+	padding: 0;
+	line-height: 30px;
+	font-size: 13px;
+	font-weight: normal;
+}
+
+div.style-switcher ul.options {
+	list-style: none;
+	margin: -3px 0 10px 0;
+	overflow: hidden;
+}
+
+div.style-switcher ul.options li {
+	float: left;
+	margin: 2px;
+}
+
+div.style-switcher ul.options li a {
+	display: block;
+	width: 15px;
+	height: 15px;
+	cursor: pointer;
+}
+
+div.style-switcher ul.options li a.pattern {
+	background-repeat: repeat;
+	background-position: 0 0;
+	background-color: transparent;
+}
+
+div.style-switcher ul.options li span.color-picker {
+	background-color: #000;
+	border: 1px solid #000;
+	color: #ccc;
+	font-size: 12px;
+	margin-bottom: 0;
+	margin-right: 5px;
+	padding: 5px 12px;
+	text-decoration: none;
+	display: inline-block;
+}
+
+div.style-switcher div.options-links {
+	padding: 0 0 10px
+}
+
+div.style-switcher div.options-links a {
+	background-color: #000;
+	border: 1px solid #000;
+	color: #ccc;
+	font-size: 12px;
+	margin-bottom: 0;
+	margin-right: 5px;
+	padding: 5px 12px;
+	text-decoration: none;
+}
+
+div.style-switcher div.options-links a:hover {
+	background-color: #111
+}
+
+div.style-switcher div.options-links a.active {
+	border-color: #ADADAD
+}
+
+div.style-switcher hr {
+	border-color: #555
+}
+
+textarea.get-css {
+	height: 325px;
+	width: 517px;
+	resize: none;
+	cursor: text;
+}
+
