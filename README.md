@@ -1,9 +1,6 @@
 NirantK's Home
 =================
-This repository hosts the content at [Nirant's Home][www.nirantk.in]
-
-I am a young developer from Indian looking to opportunites in startups anywhere in the world.
-
+This repository hosts the content at [my web page][www.nirantk.in] 
 ---
 
 Credits:

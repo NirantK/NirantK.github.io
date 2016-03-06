@@ -1,6 +1,0 @@
----
-published: true
-title: Test Post
-layout: post
----
-This is my first post with TinyPress for Github Pages. 
