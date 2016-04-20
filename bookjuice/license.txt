@@ -1,0 +1,67 @@
+--------------------------------------------
+Template License 
+--------------------------------------------
+
+Template Name : Intensely
+Author : MarkUps
+Author URL : http://www.markups.io/
+License URL : http://www.markups.io/license   
+Note : Before using we recommend check our template license page.
+
+--------------------------------------------
+Resources License and Credits : 
+--------------------------------------------
+
+Images:
+	Website URL : https://pixabay.com/
+	License : Creative Commons CC0
+	License URL : https://creativecommons.org/publicdomain/zero/1.0/deed.en
+	Note: All the images used in this item owned by the respective authors & you might need permission for using those on live sites from authors.
+
+Bootstrap :
+	Website URL : http://getbootstrap.com/
+	License : The MIT License
+	License URL : https://github.com/twbs/bootstrap/blob/master/LICENSE
+
+Mixitup :
+	Website URL : https://mixitup.kunkalabs.com/
+	License : Creative Commons CC0
+	License URL : https://mixitup.kunkalabs.com/licenses/
+
+fancyBox :
+	Website URL : http://fancyapps.com/fancybox/
+	License : Creative Commons Attribution-NonCommercial 3.0
+	License URL : http://creativecommons.org/licenses/by-nc/3.0/
+
+Slick SLider :
+	Website URL : http://kenwheeler.github.io/slick/
+	License : The MIT License 
+	License URL : https://github.com/kenwheeler/slick/blob/master/LICENSE
+
+Bootstrap-progressbar :
+	Website URL : https://github.com/minddust/bootstrap-progressbar
+	License : The MIT License 
+	License URL : https://github.com/minddust/bootstrap-progressbar/blob/master/LICENSE
+
+Counter-Up :
+	Website URL : https://github.com/bfintal/Counter-Up
+	License : GNU GENERAL PUBLIC LICENSE, Version 2
+	License URL : https://github.com/bfintal/Counter-Up/blob/master/LICENSE
+
+Font Awesome :
+	Website URL : http://fortawesome.github.io/Font-Awesome/
+	License : open source 
+	License URL : http://fortawesome.github.io/Font-Awesome/license/
+
+Google Fonts : 
+	Lato Font:
+	Website URL : https://www.google.com/fonts/specimen/Lato
+	License : SIL Open Font License, version 1.1
+	License URL : http://scripts.sil.org/cms/scripts/page.php?site_id=nrsi&id=OFL
+
+	Open Sans Font:
+	Website URL : https://www.google.com/fonts/specimen/Open+Sans
+	License : Apache License, version 2.0
+	License URL : http://www.apache.org/licenses/LICENSE-2.0.html
+
+
