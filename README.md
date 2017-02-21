@@ -1,15 +1,7 @@
 NirantK's Home
 =================
-This repository hosts the content at [my web page][www.nirantk.in] 
----
 
-Credits:
-Design Author: Xiaoying Riley at 3rd Wave Media Ltd. (http://themes.3rdwavemedia.com/)
+This repository hosts the content at [my web page](www.nirantk.in)
 
-Design Contact:
-Web: http://themes.3rdwavemedia.com/
-Email: hello@3rdwavemedia.com
-Twitter: @3rdwave_themes
-
-License: This template is free under the Creative Commons Attribution 3.0 License.
-https://creativecommons.org/licenses/by/3.0
+[1 page pdf resume](nirantk.in/resume/nirant-kasliwal-resume.pdf)
+- Updated annually. 
