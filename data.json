@@ -1,0 +1,3940 @@
+data= {
+  "matching_results": 935785, 
+  "results": [
+    {
+      "author": "107.77.169.6", 
+      "country": "US", 
+      "crawl_date": "2017-07-22T01:54:36Z", 
+      "enriched_text": {
+        "categories": [
+          {
+            "label": "/food and drink/food/grains and pasta", 
+            "score": 0.605825
+          }, 
+          {
+            "label": "/business and industrial/energy/oil", 
+            "score": 0.441406
+          }, 
+          {
+            "label": "/business and industrial/agriculture and forestry/crops and seed", 
+            "score": 0.348453
+          }
+        ], 
+        "concepts": [
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Sunflower", 
+            "relevance": 0.937564, 
+            "text": "Sunflower"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Seed", 
+            "relevance": 0.907713, 
+            "text": "Seed"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Fruit", 
+            "relevance": 0.858844, 
+            "text": "Fruit"
+          }
+        ], 
+        "entities": [
+          {
+            "count": 1, 
+            "relevance": 0.01, 
+            "sentiment": {
+              "score": 0
+            }, 
+            "text": "01.50.05.0", 
+            "type": "IPAddress"
+          }
+        ], 
+        "keywords": [
+          {
+            "relevance": 0.99996, 
+            "sentiment": {
+              "score": 0
+            }, 
+            "text": "Plant Sunflower Seeds"
+          }, 
+          {
+            "relevance": 0.306783, 
+            "sentiment": {
+              "score": 0
+            }, 
+            "text": "01.50.05.0.jpg"
+          }
+        ], 
+        "relations": [], 
+        "semantic_roles": [], 
+        "sentiment": {
+          "document": {
+            "label": "neutral", 
+            "score": 0
+          }
+        }
+      }, 
+      "enriched_title": {
+        "categories": [
+          {
+            "label": "/food and drink/food/grains and pasta", 
+            "score": 0.237098
+          }, 
+          {
+            "label": "/business and industrial/energy/oil", 
+            "score": 0.195193
+          }, 
+          {
+            "label": "/technology and computing/internet technology/web clip art", 
+            "score": 0.193244
+          }
+        ], 
+        "concepts": [
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Sunflower", 
+            "relevance": 0.937564, 
+            "text": "Sunflower"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Seed", 
+            "relevance": 0.907713, 
+            "text": "Seed"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Fruit", 
+            "relevance": 0.858844, 
+            "text": "Fruit"
+          }
+        ], 
+        "entities": [
+          {
+            "count": 1, 
+            "relevance": 0.01, 
+            "sentiment": {
+              "score": 0
+            }, 
+            "text": "01.50.05.0", 
+            "type": "IPAddress"
+          }
+        ], 
+        "keywords": [
+          {
+            "relevance": 0.966959, 
+            "sentiment": {
+              "score": 0
+            }, 
+            "text": "Plant Sunflower Seeds"
+          }, 
+          {
+            "relevance": 0.388877, 
+            "sentiment": {
+              "score": 0
+            }, 
+            "text": "Completed"
+          }, 
+          {
+            "relevance": 0.215249, 
+            "sentiment": {
+              "score": 0
+            }, 
+            "text": "User"
+          }, 
+          {
+            "relevance": 0.214036, 
+            "sentiment": {
+              "score": 0
+            }, 
+            "text": "01.50.05.0.jpg"
+          }
+        ], 
+        "relations": [], 
+        "semantic_roles": [], 
+        "sentiment": {
+          "document": {
+            "label": "neutral", 
+            "score": 0
+          }
+        }
+      }, 
+      "extracted_metadata": {
+        "file_type": "json", 
+        "filename": "1500688476747.zip-a01868dda8e012882164ed160eef95ef.xml", 
+        "sha1": "c65e788c588220b1b4eb0e3fd31b02bdbd01bc2c"
+      }, 
+      "forum_title": "wikiHow  - Recent Changes [en]", 
+      "host": "wikihow.com", 
+      "id": "OHf2fTQlkgY-F6zZkVxP4UZFk3jt-RKxmxMmkzly8kul0Njv-JQ1CeumrK76esNz", 
+      "language": "en", 
+      "publication_date": "2017-07-22T01:50:00Z", 
+      "score": 2.1998997, 
+      "source_type": "mainstream", 
+      "text": "Plant Sunflower Seeds 2017.07.22 01.50.05.0.jpg", 
+      "title": "Image:User Completed Image Plant Sunflower Seeds 2017.07.22 01.50.05.0.jpg", 
+      "url": "http://www.wikihow.com/Image:User-Completed-Image-Plant-Sunflower-Seeds-2017.07.22-01.50.05.0.jpg"
+    }, 
+    {
+      "author": "New Scientist", 
+      "country": "US", 
+      "crawl_date": "2017-08-04T13:36:41Z", 
+      "enriched_text": {
+        "categories": [
+          {
+            "label": "/business and industrial/agriculture and forestry/crops and seed", 
+            "score": 0.564445
+          }, 
+          {
+            "label": "/home and garden/pest control", 
+            "score": 0.389208
+          }, 
+          {
+            "label": "/food and drink", 
+            "score": 0.179021
+          }
+        ], 
+        "concepts": [
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Plant", 
+            "relevance": 0.973411, 
+            "text": "Plant"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Tree", 
+            "relevance": 0.969789, 
+            "text": "Tree"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Fruit", 
+            "relevance": 0.821177, 
+            "text": "Fruit"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Plant_morphology", 
+            "relevance": 0.801408, 
+            "text": "Plant morphology"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Seed", 
+            "relevance": 0.70747, 
+            "text": "Seed"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Agriculture", 
+            "relevance": 0.690644, 
+            "text": "Agriculture"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Trunk_(botany)", 
+            "relevance": 0.677983, 
+            "text": "Trunk"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Pinophyta", 
+            "relevance": 0.549375, 
+            "text": "Pinophyta"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Bark", 
+            "relevance": 0.533387, 
+            "text": "Bark"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Perennial_plant", 
+            "relevance": 0.514199, 
+            "text": "Perennial plant"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Annual_plant", 
+            "relevance": 0.492103, 
+            "text": "Annual plant"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Symbiosis", 
+            "relevance": 0.490118, 
+            "text": "Symbiosis"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Spice", 
+            "relevance": 0.4771, 
+            "text": "Spice"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Wood", 
+            "relevance": 0.467445, 
+            "text": "Wood"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Nut_(fruit)", 
+            "relevance": 0.464293, 
+            "text": "Nut"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Apple", 
+            "relevance": 0.463559, 
+            "text": "Apple"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Tannin", 
+            "relevance": 0.450332, 
+            "text": "Tannin"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Ant", 
+            "relevance": 0.450247, 
+            "text": "Ant"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Insect", 
+            "relevance": 0.450094, 
+            "text": "Insect"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Evolution", 
+            "relevance": 0.450013, 
+            "text": "Evolution"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Woody_plant", 
+            "relevance": 0.449598, 
+            "text": "Woody plant"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Root", 
+            "relevance": 0.44714, 
+            "text": "Root"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Pine", 
+            "relevance": 0.435223, 
+            "text": "Pine"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Botany", 
+            "relevance": 0.43515, 
+            "text": "Botany"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Harvest", 
+            "relevance": 0.432153, 
+            "text": "Harvest"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Cretaceous", 
+            "relevance": 0.413295, 
+            "text": "Cretaceous"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Extinction", 
+            "relevance": 0.404545, 
+            "text": "Extinction"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Legume", 
+            "relevance": 0.400809, 
+            "text": "Legume"
+          }
+        ], 
+        "entities": [
+          {
+            "count": 1, 
+            "disambiguation": {
+              "dbpedia_resource": "http://dbpedia.org/resource/Alice_Klein", 
+              "name": "Alice Klein", 
+              "subtype": []
+            }, 
+            "relevance": 0.864349, 
+            "sentiment": {
+              "score": 0
+            }, 
+            "text": "Alice Klein", 
+            "type": "Person"
+          }, 
+          {
+            "count": 1, 
+            "relevance": 0.864349, 
+            "sentiment": {
+              "score": 0
+            }, 
+            "text": "3 million years", 
+            "type": "Quantity"
+          }
+        ], 
+        "keywords": [
+          {
+            "relevance": 0.95207, 
+            "sentiment": {
+              "score": 0
+            }, 
+            "text": "Alice Klein Ants"
+          }, 
+          {
+            "relevance": 0.83987, 
+            "sentiment": {
+              "score": 0
+            }, 
+            "text": "Squamellaria fruit plants"
+          }, 
+          {
+            "relevance": 0.777924, 
+            "sentiment": {
+              "score": 0
+            }, 
+            "text": "Fijian ant"
+          }, 
+          {
+            "relevance": 0.717189, 
+            "sentiment": {
+              "score": 0
+            }, 
+            "text": "ant \u2013 Philidris"
+          }, 
+          {
+            "relevance": 0.693824, 
+            "sentiment": {
+              "score": 0
+            }, 
+            "text": "planting sites"
+          }, 
+          {
+            "relevance": 0.667299, 
+            "sentiment": {
+              "score": 0
+            }, 
+            "text": "fruit crops"
+          }, 
+          {
+            "relevance": 0.665645, 
+            "sentiment": {
+              "score": -0.282192
+            }, 
+            "text": "tree bark"
+          }, 
+          {
+            "relevance": 0.664319, 
+            "sentiment": {
+              "score": 0
+            }, 
+            "text": "human agriculture"
+          }, 
+          {
+            "relevance": 0.654804, 
+            "sentiment": {
+              "score": -0.386895
+            }, 
+            "text": "hollow structures"
+          }, 
+          {
+            "relevance": 0.654092, 
+            "sentiment": {
+              "score": 0
+            }, 
+            "text": "various trees"
+          }, 
+          {
+            "relevance": 0.479941, 
+            "sentiment": {
+              "score": -0.282192
+            }, 
+            "text": "cracks"
+          }, 
+          {
+            "relevance": 0.475094, 
+            "sentiment": {
+              "score": 0
+            }, 
+            "text": "seedlings"
+          }, 
+          {
+            "relevance": 0.472133, 
+            "sentiment": {
+              "score": 0
+            }, 
+            "text": "Advertisement"
+          }, 
+          {
+            "relevance": 0.459497, 
+            "sentiment": {
+              "score": -0.282192
+            }, 
+            "text": "seeds"
+          }, 
+          {
+            "relevance": 0.455126, 
+            "sentiment": {
+              "score": 0
+            }, 
+            "text": "branches"
+          }, 
+          {
+            "relevance": 0.440263, 
+            "sentiment": {
+              "score": 0
+            }, 
+            "text": "Workers"
+          }
+        ], 
+        "relations": [
+          {
+            "arguments": [
+              {
+                "entities": [
+                  {
+                    "text": "ants", 
+                    "type": "Animal"
+                  }
+                ], 
+                "text": "ants"
+              }, 
+              {
+                "entities": [
+                  {
+                    "text": "plant", 
+                    "type": "Facility"
+                  }
+                ], 
+                "text": "plant"
+              }
+            ], 
+            "score": 0.512713, 
+            "sentence": "First, the ants insert seeds of the fruit plant in the cracks in tree bark.", 
+            "type": "locatedAt"
+          }, 
+          {
+            "arguments": [
+              {
+                "entities": [
+                  {
+                    "text": "fruit", 
+                    "type": "Person"
+                  }
+                ], 
+                "text": "fruit"
+              }, 
+              {
+                "entities": [
+                  {
+                    "text": "plant", 
+                    "type": "Facility"
+                  }
+                ], 
+                "text": "plant"
+              }
+            ], 
+            "score": 0.478281, 
+            "sentence": "First, the ants insert seeds of the fruit plant in the cracks in tree bark.", 
+            "type": "ownerOf"
+          }, 
+          {
+            "arguments": [
+              {
+                "entities": [
+                  {
+                    "text": "plants", 
+                    "type": "Facility"
+                  }
+                ], 
+                "text": "plants"
+              }, 
+              {
+                "entities": [
+                  {
+                    "text": "structures", 
+                    "type": "Facility"
+                  }
+                ], 
+                "text": "structures"
+              }
+            ], 
+            "score": 0.362903, 
+            "sentence": "As the plants grow, they form large, round hollow structures.. Advertisement", 
+            "type": "partOfMany"
+          }
+        ], 
+        "semantic_roles": [
+          {
+            "action": {
+              "normalized": "beat", 
+              "text": "beat", 
+              "verb": {
+                "tense": "past", 
+                "text": "beat"
+              }
+            }, 
+            "object": {
+              "text": "us"
+            }, 
+            "sentence": "By Alice Klein Ants beat us to it.", 
+            "subject": {
+              "entities": [
+                {
+                  "disambiguation": {
+                    "dbpedia_resource": "http://dbpedia.org/resource/Alice_Klein", 
+                    "name": "Alice Klein", 
+                    "subtype": [
+                      "Person"
+                    ]
+                  }, 
+                  "text": "Alice Klein", 
+                  "type": "Person"
+                }
+              ], 
+              "keywords": [
+                {
+                  "text": "Ants"
+                }
+              ], 
+              "text": "By Alice Klein Ants"
+            }
+          }, 
+          {
+            "action": {
+              "normalized": "start plant", 
+              "text": "started planting", 
+              "verb": {
+                "tense": "present", 
+                "text": "plant"
+              }
+            }, 
+            "object": {
+              "keywords": [
+                {
+                  "text": "fruit crops"
+                }
+              ], 
+              "text": "fruit crops"
+            }, 
+            "sentence": " A Fijian ant first started planting fruit crops 3 million years ago, long before human agriculture evolved.", 
+            "subject": {
+              "keywords": [
+                {
+                  "text": "Fijian ant"
+                }
+              ], 
+              "text": "A Fijian ant"
+            }
+          }, 
+          {
+            "action": {
+              "normalized": "harvest", 
+              "text": "harvests", 
+              "verb": {
+                "tense": "present", 
+                "text": "harvest"
+              }
+            }, 
+            "object": {
+              "keywords": [
+                {
+                  "text": "Squamellaria fruit plants"
+                }
+              ], 
+              "text": "Squamellaria fruit plants"
+            }, 
+            "sentence": " The ant \u2013 Philidris nagasau \u2013 grows and harvests Squamellaria fruit plants that grow on the branches of various trees.", 
+            "subject": {
+              "keywords": [
+                {
+                  "text": "ant \u2013 Philidris"
+                }
+              ], 
+              "text": "The ant \u2013 Philidris nagasau \u2013"
+            }
+          }, 
+          {
+            "action": {
+              "normalized": "insert", 
+              "text": "insert", 
+              "verb": {
+                "tense": "present", 
+                "text": "insert"
+              }
+            }, 
+            "object": {
+              "keywords": [
+                {
+                  "text": "seeds"
+                }, 
+                {
+                  "text": "fruit plant"
+                }
+              ], 
+              "text": "seeds of the fruit plant"
+            }, 
+            "sentence": " First, the ants insert seeds of the fruit plant in the cracks in tree bark.", 
+            "subject": {
+              "keywords": [
+                {
+                  "text": "ants"
+                }
+              ], 
+              "text": "the ants"
+            }
+          }, 
+          {
+            "action": {
+              "normalized": "patrol", 
+              "text": "patrol", 
+              "verb": {
+                "tense": "present", 
+                "text": "patrol"
+              }
+            }, 
+            "object": {
+              "keywords": [
+                {
+                  "text": "planting sites"
+                }
+              ], 
+              "text": "the planting sites"
+            }, 
+            "sentence": " Workers constantly patrol the planting sites and fertilise the seedlings, probably with their faeces.", 
+            "subject": {
+              "keywords": [
+                {
+                  "text": "Workers"
+                }
+              ], 
+              "text": "Workers"
+            }
+          }, 
+          {
+            "action": {
+              "normalized": "fertilise", 
+              "text": "fertilise", 
+              "verb": {
+                "tense": "present", 
+                "text": "fertilise"
+              }
+            }, 
+            "object": {
+              "keywords": [
+                {
+                  "text": "seedlings"
+                }
+              ], 
+              "text": "the seedlings"
+            }, 
+            "sentence": " Workers constantly patrol the planting sites and fertilise the seedlings, probably with their faeces.", 
+            "subject": {
+              "keywords": [
+                {
+                  "text": "Workers"
+                }
+              ], 
+              "text": "Workers"
+            }
+          }, 
+          {
+            "action": {
+              "normalized": "form", 
+              "text": "form", 
+              "verb": {
+                "tense": "present", 
+                "text": "form"
+              }
+            }, 
+            "object": {
+              "keywords": [
+                {
+                  "text": "hollow structures"
+                }
+              ], 
+              "text": "large, round hollow structures"
+            }, 
+            "sentence": " As the plants grow, they form large, round hollow structures..", 
+            "subject": {
+              "text": "they"
+            }
+          }
+        ], 
+        "sentiment": {
+          "document": {
+            "label": "negative", 
+            "score": -0.590311
+          }
+        }
+      }, 
+      "enriched_title": {
+        "categories": [
+          {
+            "label": "/business and industrial/agriculture and forestry/crops and seed", 
+            "score": 0.541998
+          }, 
+          {
+            "label": "/food and drink", 
+            "score": 0.340042
+          }, 
+          {
+            "label": "/home and garden/pest control", 
+            "score": 0.194748
+          }
+        ], 
+        "concepts": [
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Plant", 
+            "relevance": 0.931049, 
+            "text": "Plant"
+          }
+        ], 
+        "entities": [], 
+        "keywords": [
+          {
+            "relevance": 0.910853, 
+            "sentiment": {
+              "score": 0
+            }, 
+            "text": "farm tropical fruits"
+          }, 
+          {
+            "relevance": 0.847539, 
+            "sentiment": {
+              "score": 0
+            }, 
+            "text": "Fijian ants"
+          }, 
+          {
+            "relevance": 0.483903, 
+            "sentiment": {
+              "score": 0
+            }, 
+            "text": "plant cities"
+          }
+        ], 
+        "relations": [
+          {
+            "arguments": [
+              {
+                "entities": [
+                  {
+                    "text": "their", 
+                    "type": "Person"
+                  }
+                ], 
+                "text": "their"
+              }, 
+              {
+                "entities": [
+                  {
+                    "text": "cities", 
+                    "type": "GeopoliticalEntity"
+                  }
+                ], 
+                "text": "cities"
+              }
+            ], 
+            "score": 0.421254, 
+            "sentence": "Fijian ants grow their own plant cities and farm tropical fruits", 
+            "type": "residesIn"
+          }
+        ], 
+        "semantic_roles": [], 
+        "sentiment": {
+          "document": {
+            "label": "neutral", 
+            "score": 0
+          }
+        }
+      }, 
+      "extracted_metadata": {
+        "file_type": "json", 
+        "filename": "1501853801083.zip-7dcfc2af106687c812954bb1f1bde4b1.xml", 
+        "sha1": "5c97c98ab5dd866b1162daa9439e8d466a37fe86"
+      }, 
+      "forum_title": "fijian News Results and Analysis |OOYUZ", 
+      "host": "ooyuz.com", 
+      "id": "iIW8ekLOOPQMAMrFWB7pk1hpp9Oy1dntWfZq3CyXm9gJqdcKqBFABebrP2GRzZea", 
+      "language": "en", 
+      "publication_date": "2016-11-21T07:15:00-05:00", 
+      "score": 2.168992, 
+      "source_type": "mainstream", 
+      "text": "By Alice Klein Ants beat us to it. A Fijian ant first started planting fruit crops 3 million years ago, long before human agriculture evolved. The ant \u2013 Philidris nagasau \u2013 grows and harvests Squamellaria fruit plants that grow on the branches of various trees. First, the ants insert seeds of the fruit plant in the cracks in tree bark. Workers constantly patrol the planting sites and fertilise the seedlings, probably with their faeces. As the plants grow, they form large, round hollow structures.. Advertisement", 
+      "title": "Fijian ants grow their own plant cities and farm tropical fruits", 
+      "url": "http://www.ooyuz.com/geturl?aid=14004797"
+    }, 
+    {
+      "country": "US", 
+      "crawl_date": "2017-06-14T08:03:14Z", 
+      "enriched_text": {
+        "categories": [
+          {
+            "label": "/family and parenting/children", 
+            "score": 0.448358
+          }, 
+          {
+            "label": "/business and industrial/agriculture and forestry/crops and seed", 
+            "score": 0.377487
+          }, 
+          {
+            "label": "/health and fitness/disease/infertility", 
+            "score": 0.259926
+          }
+        ], 
+        "concepts": [
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Plant_sexuality", 
+            "relevance": 0.953828, 
+            "text": "Plant sexuality"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Fruit", 
+            "relevance": 0.655308, 
+            "text": "Fruit"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Seed", 
+            "relevance": 0.619876, 
+            "text": "Seed"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Hermaphrodite", 
+            "relevance": 0.61313, 
+            "text": "Hermaphrodite"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Male", 
+            "relevance": 0.5607, 
+            "text": "Male"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Plant_morphology", 
+            "relevance": 0.537945, 
+            "text": "Plant morphology"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Female", 
+            "relevance": 0.5355, 
+            "text": "Female"
+          }
+        ], 
+        "entities": [], 
+        "keywords": [
+          {
+            "relevance": 0.960658, 
+            "sentiment": {
+              "score": 0
+            }, 
+            "text": "dioecious Definition Bearing"
+          }, 
+          {
+            "relevance": 0.481605, 
+            "sentiment": {
+              "score": 0
+            }, 
+            "text": "separate plants"
+          }, 
+          {
+            "relevance": 0.411003, 
+            "sentiment": {
+              "score": 0
+            }, 
+            "text": "female flowers"
+          }, 
+          {
+            "relevance": 0.370911, 
+            "sentiment": {
+              "score": 0
+            }, 
+            "text": "female plants"
+          }, 
+          {
+            "relevance": 0.233156, 
+            "sentiment": {
+              "score": 0
+            }, 
+            "text": "fruit"
+          }
+        ], 
+        "relations": [], 
+        "semantic_roles": [
+          {
+            "action": {
+              "normalized": "be", 
+              "text": "is", 
+              "verb": {
+                "tense": "future", 
+                "text": "be"
+              }
+            }, 
+            "object": {
+              "text": "desired"
+            }, 
+            "sentence": "dioecious Definition Bearing male and female flowers on separate plants, so that both male and female plants must be grown if fruit is desired.", 
+            "subject": {
+              "keywords": [
+                {
+                  "text": "fruit"
+                }
+              ], 
+              "text": "fruit"
+            }
+          }
+        ], 
+        "sentiment": {
+          "document": {
+            "label": "neutral", 
+            "score": 0
+          }
+        }
+      }, 
+      "enriched_title": {
+        "categories": [], 
+        "concepts": [], 
+        "entities": [], 
+        "keywords": [], 
+        "relations": [], 
+        "semantic_roles": [], 
+        "sentiment": {
+          "document": {
+            "label": "neutral", 
+            "score": 0
+          }
+        }
+      }, 
+      "extracted_metadata": {
+        "file_type": "json", 
+        "filename": "1497427394252.zip-b84bc424e79b6c56f975e91cfabdf66a.xml", 
+        "sha1": "a63140102b17f10b64a65a61e1d50d9529e3db74"
+      }, 
+      "forum_title": "Botanical Terms of the Day", 
+      "host": "sunnygardens.com", 
+      "id": "OSPOxCpYSUEnPpGuFOspM7jGiXOVardoPW0tuby8g2bmPe8ji4FTyAWzrtV_kVnS", 
+      "language": "english", 
+      "publication_date": "2017-06-14T07:14:00Z", 
+      "score": 2.1419086, 
+      "source_type": "mainstream", 
+      "text": "dioecious Definition Bearing male and female flowers on separate plants, so that both male and female plants must be grown if fruit is desired.", 
+      "title": "dioecious", 
+      "url": "https://www.sunnygardens.com/garden_glossary/dioecious/dioecious_000251.php"
+    }, 
+    {
+      "author": "Dirtroll", 
+      "country": "US", 
+      "crawl_date": "2017-06-20T00:32:46Z", 
+      "enriched_text": {
+        "categories": [
+          {
+            "label": "/technology and computing/hardware/computer components/memory/portable", 
+            "score": 0.573659
+          }, 
+          {
+            "label": "/pets/birds", 
+            "score": 0.569642
+          }, 
+          {
+            "label": "/law, govt and politics", 
+            "score": 0.563
+          }
+        ], 
+        "concepts": [
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Herbivore", 
+            "relevance": 0.920062, 
+            "text": "Herbivore"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Animal", 
+            "relevance": 0.911521, 
+            "text": "Animal"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Plant", 
+            "relevance": 0.897012, 
+            "text": "Plant"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Omnivore", 
+            "relevance": 0.849821, 
+            "text": "Omnivore"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Carnivore", 
+            "relevance": 0.829467, 
+            "text": "Carnivore"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Anarchism", 
+            "relevance": 0.786188, 
+            "text": "Anarchism"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Nature", 
+            "relevance": 0.73089, 
+            "text": "Nature"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Earth", 
+            "relevance": 0.671723, 
+            "text": "Earth"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Political_philosophy", 
+            "relevance": 0.663206, 
+            "text": "Political philosophy"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Left-wing_politics", 
+            "relevance": 0.637635, 
+            "text": "Left-wing politics"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Seed", 
+            "relevance": 0.632954, 
+            "text": "Seed"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Law", 
+            "relevance": 0.62146, 
+            "text": "Law"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Natural_environment", 
+            "relevance": 0.616598, 
+            "text": "Natural environment"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Authority", 
+            "relevance": 0.585736, 
+            "text": "Authority"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/The_Wild", 
+            "relevance": 0.584032, 
+            "text": "The Wild"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Radical_(chemistry)", 
+            "relevance": 0.58294, 
+            "text": "Radical"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Moon", 
+            "relevance": 0.573393, 
+            "text": "Moon"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Andre_the_Giant_Has_a_Posse", 
+            "relevance": 0.56866, 
+            "text": "Andre the Giant Has a Posse"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/The_Surplus", 
+            "relevance": 0.545044, 
+            "text": "The Surplus"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Fruit", 
+            "relevance": 0.52876, 
+            "text": "Fruit"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Bird", 
+            "relevance": 0.528612, 
+            "text": "Bird"
+          }
+        ], 
+        "entities": [
+          {
+            "count": 1, 
+            "disambiguation": {
+              "dbpedia_resource": "http://dbpedia.org/resource/Greenpeace", 
+              "name": "Greenpeace", 
+              "subtype": [
+                "Company", 
+                "Non-ProfitOrganisation"
+              ]
+            }, 
+            "relevance": 0.917693, 
+            "sentiment": {
+              "score": -0.522637
+            }, 
+            "text": "Greenpeace", 
+            "type": "Organization"
+          }
+        ], 
+        "keywords": [
+          {
+            "relevance": 0.977974, 
+            "sentiment": {
+              "score": 0
+            }, 
+            "text": "Radical Radio Audiobooks"
+          }, 
+          {
+            "relevance": 0.947378, 
+            "sentiment": {
+              "score": 0
+            }, 
+            "text": "Wild recording series"
+          }, 
+          {
+            "relevance": 0.926199, 
+            "sentiment": {
+              "score": 0
+            }, 
+            "text": "FRR Audibooks"
+          }, 
+          {
+            "relevance": 0.880499, 
+            "sentiment": {
+              "score": -0.228621
+            }, 
+            "text": "herbivorous animals"
+          }, 
+          {
+            "relevance": 0.764199, 
+            "sentiment": {
+              "score": -0.522637
+            }, 
+            "text": "Greenpeace bombing"
+          }, 
+          {
+            "relevance": 0.758427, 
+            "sentiment": {
+              "score": 0
+            }, 
+            "text": "bombing Greenpeace"
+          }, 
+          {
+            "relevance": 0.75568, 
+            "sentiment": {
+              "score": 0
+            }, 
+            "text": "Individualists Tending"
+          }, 
+          {
+            "relevance": 0.711098, 
+            "sentiment": {
+              "score": 0
+            }, 
+            "text": "genderless letter"
+          }, 
+          {
+            "relevance": 0.700443, 
+            "sentiment": {
+              "score": 0
+            }, 
+            "text": "Home \u00bb FRR"
+          }, 
+          {
+            "relevance": 0.69487, 
+            "sentiment": {
+              "score": 0
+            }, 
+            "text": "technology apologia"
+          }, 
+          {
+            "relevance": 0.691417, 
+            "sentiment": {
+              "score": 0.502356
+            }, 
+            "text": "interesting nuggets"
+          }, 
+          {
+            "relevance": 0.688478, 
+            "sentiment": {
+              "score": 0
+            }, 
+            "text": "juicy quotes"
+          }, 
+          {
+            "relevance": 0.675035, 
+            "sentiment": {
+              "score": 0
+            }, 
+            "text": "communiques"
+          }, 
+          {
+            "relevance": 0.66755, 
+            "sentiment": {
+              "score": -0.408535
+            }, 
+            "text": "physical decline"
+          }, 
+          {
+            "relevance": 0.666574, 
+            "sentiment": {
+              "score": 0.309723
+            }, 
+            "text": "aforementioned tree"
+          }, 
+          {
+            "relevance": 0.663154, 
+            "sentiment": {
+              "score": 0.444511
+            }, 
+            "text": "good paths"
+          }, 
+          {
+            "relevance": 0.661155, 
+            "sentiment": {
+              "score": 0.444511
+            }, 
+            "text": "wise counsel"
+          }, 
+          {
+            "relevance": 0.657785, 
+            "sentiment": {
+              "score": 0
+            }, 
+            "text": "new plants"
+          }, 
+          {
+            "relevance": 0.65508, 
+            "sentiment": {
+              "score": -0.399948
+            }, 
+            "text": "authority figure"
+          }, 
+          {
+            "relevance": 0.649441, 
+            "sentiment": {
+              "score": -0.258461
+            }, 
+            "text": "natural statutes"
+          }, 
+          {
+            "relevance": 0.64679, 
+            "sentiment": {
+              "score": 0
+            }, 
+            "text": "natural laws"
+          }, 
+          {
+            "relevance": 0.640039, 
+            "sentiment": {
+              "score": 0.328378
+            }, 
+            "text": "Wild Nature"
+          }, 
+          {
+            "relevance": 0.637568, 
+            "sentiment": {
+              "score": -0.258461
+            }, 
+            "text": "human nature"
+          }, 
+          {
+            "relevance": 0.488732, 
+            "sentiment": {
+              "score": -0.474519
+            }, 
+            "text": "earth"
+          }, 
+          {
+            "relevance": 0.479305, 
+            "sentiment": {
+              "score": 0.328378
+            }, 
+            "text": "order"
+          }, 
+          {
+            "relevance": 0.477523, 
+            "sentiment": {
+              "score": 0.309723
+            }, 
+            "text": "bird"
+          }, 
+          {
+            "relevance": 0.473443, 
+            "sentiment": {
+              "score": -0.522637
+            }, 
+            "text": "leftists"
+          }, 
+          {
+            "relevance": 0.463473, 
+            "sentiment": {
+              "score": 0
+            }, 
+            "text": "stance"
+          }, 
+          {
+            "relevance": 0.456475, 
+            "sentiment": {
+              "score": 0
+            }, 
+            "text": "capacities"
+          }, 
+          {
+            "relevance": 0.45575, 
+            "sentiment": {
+              "score": 0
+            }, 
+            "text": "slaves"
+          }, 
+          {
+            "relevance": 0.454101, 
+            "sentiment": {
+              "score": -0.389098
+            }, 
+            "text": "anarchism"
+          }, 
+          {
+            "relevance": 0.453681, 
+            "sentiment": {
+              "score": 0
+            }, 
+            "text": "respond"
+          }, 
+          {
+            "relevance": 0.453184, 
+            "sentiment": {
+              "score": 0
+            }, 
+            "text": "Free"
+          }, 
+          {
+            "relevance": 0.452727, 
+            "sentiment": {
+              "score": -0.522637
+            }, 
+            "text": "targets"
+          }, 
+          {
+            "relevance": 0.452189, 
+            "sentiment": {
+              "score": 0
+            }, 
+            "text": "Posted"
+          }, 
+          {
+            "relevance": 0.450362, 
+            "sentiment": {
+              "score": 0
+            }, 
+            "text": "ends"
+          }, 
+          {
+            "relevance": 0.450154, 
+            "sentiment": {
+              "score": -0.522637
+            }, 
+            "text": "responsibility"
+          }, 
+          {
+            "relevance": 0.450128, 
+            "sentiment": {
+              "score": 0
+            }, 
+            "text": "humidity"
+          }, 
+          {
+            "relevance": 0.448905, 
+            "sentiment": {
+              "score": 0
+            }, 
+            "text": "things"
+          }, 
+          {
+            "relevance": 0.448256, 
+            "sentiment": {
+              "score": -0.389098
+            }, 
+            "text": "relationship"
+          }, 
+          {
+            "relevance": 0.447442, 
+            "sentiment": {
+              "score": 0
+            }, 
+            "text": "text"
+          }, 
+          {
+            "relevance": 0.447194, 
+            "sentiment": {
+              "score": 0
+            }, 
+            "text": "comments"
+          }, 
+          {
+            "relevance": 0.44711, 
+            "sentiment": {
+              "score": -0.442813
+            }, 
+            "text": "Freedom"
+          }, 
+          {
+            "relevance": 0.444965, 
+            "sentiment": {
+              "score": 0
+            }, 
+            "text": "moon"
+          }, 
+          {
+            "relevance": 0.44485, 
+            "sentiment": {
+              "score": 0
+            }, 
+            "text": "environment"
+          }, 
+          {
+            "relevance": 0.444493, 
+            "sentiment": {
+              "score": -0.228621
+            }, 
+            "text": "future"
+          }, 
+          {
+            "relevance": 0.444432, 
+            "sentiment": {
+              "score": 0
+            }, 
+            "text": "rain"
+          }, 
+          {
+            "relevance": 0.444073, 
+            "sentiment": {
+              "score": -0.228621
+            }, 
+            "text": "fruits"
+          }, 
+          {
+            "relevance": 0.44369, 
+            "sentiment": {
+              "score": 0.309723
+            }, 
+            "text": "nest"
+          }
+        ], 
+        "relations": [
+          {
+            "arguments": [
+              {
+                "entities": [
+                  {
+                    "text": "yourself", 
+                    "type": "Person"
+                  }
+                ], 
+                "text": "we"
+              }, 
+              {
+                "entities": [
+                  {
+                    "text": "say", 
+                    "type": "EventCommunication"
+                  }
+                ], 
+                "text": "say"
+              }
+            ], 
+            "score": 0.989384, 
+            "sentence": "... From this idea that everything in Wild Nature has an order, and because we say that we obey this order and these natural laws, those who disobey these natural statutes are confined to obeying the system and denying their human nature.", 
+            "type": "agentOf"
+          }
+        ], 
+        "semantic_roles": [
+          {
+            "action": {
+              "normalized": "take", 
+              "text": "take", 
+              "verb": {
+                "tense": "present", 
+                "text": "take"
+              }
+            }, 
+            "object": {
+              "keywords": [
+                {
+                  "text": "responsibility"
+                }
+              ], 
+              "text": "responsibility"
+            }, 
+            "sentence": " Some interesting nuggets, of which there are many: In #5, they take responsibility for a Greenpeace bombing and warn all leftists they're targets too.", 
+            "subject": {
+              "text": "they"
+            }
+          }, 
+          {
+            "action": {
+              "normalized": "warn", 
+              "text": "warn", 
+              "verb": {
+                "tense": "present", 
+                "text": "warn"
+              }
+            }, 
+            "object": {
+              "keywords": [
+                {
+                  "text": "leftists"
+                }, 
+                {
+                  "text": "targets"
+                }
+              ], 
+              "text": "all leftists they're targets too"
+            }, 
+            "sentence": " Some interesting nuggets, of which there are many: In #5, they take responsibility for a Greenpeace bombing and warn all leftists they're targets too.", 
+            "subject": {
+              "text": "they"
+            }
+          }, 
+          {
+            "action": {
+              "normalized": "change", 
+              "text": "change", 
+              "verb": {
+                "tense": "present", 
+                "text": "change"
+              }
+            }, 
+            "object": {
+              "keywords": [
+                {
+                  "text": "stance"
+                }
+              ], 
+              "text": "their stance"
+            }, 
+            "sentence": " In #6, they change their stance on things like using the genderless letter 'x', and bombing Greenpeace.", 
+            "subject": {
+              "text": "they"
+            }
+          }, 
+          {
+            "action": {
+              "normalized": "be", 
+              "text": "are", 
+              "verb": {
+                "tense": "present", 
+                "text": "be"
+              }
+            }, 
+            "object": {
+              "text": "probably too lazy/skeptical"
+            }, 
+            "sentence": " And since you're probably too lazy/skeptical to actually click through to the audio or read the text, here are two juicy quotes out of context for you internet slaves to feed off in the comments:", 
+            "subject": {
+              "text": "you"
+            }
+          }, 
+          {
+            "action": {
+              "normalized": "internet", 
+              "text": "internet", 
+              "verb": {
+                "tense": "present", 
+                "text": "internet"
+              }
+            }, 
+            "object": {
+              "keywords": [
+                {
+                  "text": "slaves"
+                }
+              ], 
+              "text": "slaves"
+            }, 
+            "sentence": " And since you're probably too lazy/skeptical to actually click through to the audio or read the text, here are two juicy quotes out of context for you internet slaves to feed off in the comments:", 
+            "subject": {
+              "text": "you"
+            }
+          }, 
+          {
+            "action": {
+              "normalized": "think", 
+              "text": "thinks", 
+              "verb": {
+                "tense": "present", 
+                "text": "think"
+              }
+            }, 
+            "object": {
+              "keywords": [
+                {
+                  "text": "capacities"
+                }, 
+                {
+                  "text": "authority"
+                }, 
+                {
+                  "text": "ends"
+                }, 
+                {
+                  "text": "Freedom"
+                }
+              ], 
+              "text": "that authority is not always bad\u2013it is bad when it restricts Freedom, when it limits your capacities to be able to reach your ends"
+            }, 
+            "sentence": " But ITS thinks that authority is not always bad\u2013it is bad when it restricts Freedom, when it limits your capacities to be able to reach your ends.", 
+            "subject": {
+              "text": "ITS"
+            }
+          }, 
+          {
+            "action": {
+              "normalized": "be", 
+              "text": "is", 
+              "verb": {
+                "tense": "present", 
+                "text": "be"
+              }
+            }, 
+            "object": {
+              "text": "not bad"
+            }, 
+            "sentence": " But it is not bad when an authority figure teaches you not to falter, to pick yourself up from some emotional or physical decline, when he gives you wise counsel and when he leads you by good paths.", 
+            "subject": {
+              "text": "it"
+            }
+          }, 
+          {
+            "action": {
+              "normalized": "teach", 
+              "text": "teaches", 
+              "verb": {
+                "tense": "present", 
+                "text": "teach"
+              }
+            }, 
+            "object": {
+              "text": "you"
+            }, 
+            "sentence": " But it is not bad when an authority figure teaches you not to falter, to pick yourself up from some emotional or physical decline, when he gives you wise counsel and when he leads you by good paths.", 
+            "subject": {
+              "keywords": [
+                {
+                  "text": "authority figure"
+                }
+              ], 
+              "text": "an authority figure"
+            }
+          }, 
+          {
+            "action": {
+              "normalized": "to pick", 
+              "text": "to pick", 
+              "verb": {
+                "tense": "future", 
+                "text": "pick"
+              }
+            }, 
+            "object": {
+              "keywords": [
+                {
+                  "text": "physical decline"
+                }
+              ], 
+              "text": "from some emotional or physical decline"
+            }, 
+            "sentence": " But it is not bad when an authority figure teaches you not to falter, to pick yourself up from some emotional or physical decline, when he gives you wise counsel and when he leads you by good paths.", 
+            "subject": {
+              "text": "yourself"
+            }
+          }, 
+          {
+            "action": {
+              "normalized": "give", 
+              "text": "gives", 
+              "verb": {
+                "tense": "present", 
+                "text": "give"
+              }
+            }, 
+            "object": {
+              "keywords": [
+                {
+                  "text": "wise counsel"
+                }
+              ], 
+              "text": "wise counsel"
+            }, 
+            "sentence": " But it is not bad when an authority figure teaches you not to falter, to pick yourself up from some emotional or physical decline, when he gives you wise counsel and when he leads you by good paths.", 
+            "subject": {
+              "text": "he"
+            }
+          }, 
+          {
+            "action": {
+              "normalized": "give", 
+              "text": "gives", 
+              "verb": {
+                "tense": "present", 
+                "text": "give"
+              }
+            }, 
+            "object": {
+              "keywords": [
+                {
+                  "text": "strength"
+                }
+              ], 
+              "text": "it strength"
+            }, 
+            "sentence": " An example: The tree grows, the rain gives it strength, the moon makes it so there is humidity in the environment and new plants may germinate; the tree drops fruits that in turn are eaten by the herbivorous animals and their young so they grow in a future, these herbivorous animals are hunted by carnivorous and omnivorous (human) animals, the meat is for them and their young, the surplus is devoured by scavenging animals and brought to their young, the earth is nourished with what is finally left.", 
+            "subject": {
+              "keywords": [
+                {
+                  "text": "rain"
+                }
+              ], 
+              "text": "the rain"
+            }
+          }, 
+          {
+            "action": {
+              "normalized": "make", 
+              "text": "makes", 
+              "verb": {
+                "tense": "present", 
+                "text": "make"
+              }
+            }, 
+            "object": {
+              "text": "it"
+            }, 
+            "sentence": " An example: The tree grows, the rain gives it strength, the moon makes it so there is humidity in the environment and new plants may germinate; the tree drops fruits that in turn are eaten by the herbivorous animals and their young so they grow in a future, these herbivorous animals are hunted by carnivorous and omnivorous (human) animals, the meat is for them and their young, the surplus is devoured by scavenging animals and brought to their young, the earth is nourished with what is finally left.", 
+            "subject": {
+              "keywords": [
+                {
+                  "text": "moon"
+                }
+              ], 
+              "text": "the moon"
+            }
+          }, 
+          {
+            "action": {
+              "normalized": "be", 
+              "text": "is", 
+              "verb": {
+                "tense": "present", 
+                "text": "be"
+              }
+            }, 
+            "sentence": " An example: The tree grows, the rain gives it strength, the moon makes it so there is humidity in the environment and new plants may germinate; the tree drops fruits that in turn are eaten by the herbivorous animals and their young so they grow in a future, these herbivorous animals are hunted by carnivorous and omnivorous (human) animals, the meat is for them and their young, the surplus is devoured by scavenging animals and brought to their young, the earth is nourished with what is finally left.", 
+            "subject": {
+              "keywords": [
+                {
+                  "text": "humidity"
+                }
+              ], 
+              "text": "humidity"
+            }
+          }, 
+          {
+            "action": {
+              "normalized": "drop", 
+              "text": "drops", 
+              "verb": {
+                "tense": "future", 
+                "text": "drop"
+              }
+            }, 
+            "object": {
+              "keywords": [
+                {
+                  "text": "fruits"
+                }
+              ], 
+              "text": "fruits"
+            }, 
+            "sentence": " An example: The tree grows, the rain gives it strength, the moon makes it so there is humidity in the environment and new plants may germinate; the tree drops fruits that in turn are eaten by the herbivorous animals and their young so they grow in a future, these herbivorous animals are hunted by carnivorous and omnivorous (human) animals, the meat is for them and their young, the surplus is devoured by scavenging animals and brought to their young, the earth is nourished with what is finally left.", 
+            "subject": {
+              "keywords": [
+                {
+                  "text": "tree"
+                }
+              ], 
+              "text": "the tree"
+            }
+          }, 
+          {
+            "action": {
+              "normalized": "be", 
+              "text": "are", 
+              "verb": {
+                "tense": "present", 
+                "text": "be"
+              }
+            }, 
+            "object": {
+              "keywords": [
+                {
+                  "text": "herbivorous animals"
+                }
+              ], 
+              "text": "eaten by the herbivorous animals"
+            }, 
+            "sentence": " An example: The tree grows, the rain gives it strength, the moon makes it so there is humidity in the environment and new plants may germinate; the tree drops fruits that in turn are eaten by the herbivorous animals and their young so they grow in a future, these herbivorous animals are hunted by carnivorous and omnivorous (human) animals, the meat is for them and their young, the surplus is devoured by scavenging animals and brought to their young, the earth is nourished with what is finally left.", 
+            "subject": {
+              "keywords": [
+                {
+                  "text": "fruits"
+                }, 
+                {
+                  "text": "tree"
+                }
+              ], 
+              "text": "the tree drops fruits"
+            }
+          }, 
+          {
+            "action": {
+              "normalized": "be eat", 
+              "text": "are eaten", 
+              "verb": {
+                "tense": "past", 
+                "text": "eat"
+              }
+            }, 
+            "object": {
+              "keywords": [
+                {
+                  "text": "fruits"
+                }, 
+                {
+                  "text": "tree"
+                }
+              ], 
+              "text": "the tree drops fruits"
+            }, 
+            "sentence": " An example: The tree grows, the rain gives it strength, the moon makes it so there is humidity in the environment and new plants may germinate; the tree drops fruits that in turn are eaten by the herbivorous animals and their young so they grow in a future, these herbivorous animals are hunted by carnivorous and omnivorous (human) animals, the meat is for them and their young, the surplus is devoured by scavenging animals and brought to their young, the earth is nourished with what is finally left.", 
+            "subject": {
+              "keywords": [
+                {
+                  "text": "herbivorous animals"
+                }
+              ], 
+              "text": "by the herbivorous animals and their young"
+            }
+          }, 
+          {
+            "action": {
+              "normalized": "grow", 
+              "text": "grow", 
+              "verb": {
+                "tense": "present", 
+                "text": "grow"
+              }
+            }, 
+            "sentence": " An example: The tree grows, the rain gives it strength, the moon makes it so there is humidity in the environment and new plants may germinate; the tree drops fruits that in turn are eaten by the herbivorous animals and their young so they grow in a future, these herbivorous animals are hunted by carnivorous and omnivorous (human) animals, the meat is for them and their young, the surplus is devoured by scavenging animals and brought to their young, the earth is nourished with what is finally left.", 
+            "subject": {
+              "text": "they"
+            }
+          }, 
+          {
+            "action": {
+              "normalized": "be hunt", 
+              "text": "are hunted", 
+              "verb": {
+                "tense": "past", 
+                "text": "hunt"
+              }
+            }, 
+            "object": {
+              "keywords": [
+                {
+                  "text": "herbivorous animals"
+                }
+              ], 
+              "text": "these herbivorous animals"
+            }, 
+            "sentence": " An example: The tree grows, the rain gives it strength, the moon makes it so there is humidity in the environment and new plants may germinate; the tree drops fruits that in turn are eaten by the herbivorous animals and their young so they grow in a future, these herbivorous animals are hunted by carnivorous and omnivorous (human) animals, the meat is for them and their young, the surplus is devoured by scavenging animals and brought to their young, the earth is nourished with what is finally left.", 
+            "subject": {
+              "keywords": [
+                {
+                  "text": "animals"
+                }
+              ], 
+              "text": "by carnivorous and omnivorous (human) animals"
+            }
+          }, 
+          {
+            "action": {
+              "normalized": "come", 
+              "text": "comes", 
+              "verb": {
+                "tense": "present", 
+                "text": "come"
+              }
+            }, 
+            "object": {
+              "keywords": [
+                {
+                  "text": "aforementioned tree"
+                }
+              ], 
+              "text": "to the aforementioned tree"
+            }, 
+            "sentence": " A bird comes to the aforementioned tree and brings what it needs for its nest, while the bird flies, a seed falls where the earth is fertile and everything begins again.", 
+            "subject": {
+              "keywords": [
+                {
+                  "text": "bird"
+                }
+              ], 
+              "text": "A bird"
+            }
+          }, 
+          {
+            "action": {
+              "normalized": "bring", 
+              "text": "brings", 
+              "verb": {
+                "tense": "present", 
+                "text": "bring"
+              }
+            }, 
+            "object": {
+              "keywords": [
+                {
+                  "text": "nest"
+                }
+              ], 
+              "text": "what it needs for its nest"
+            }, 
+            "sentence": " A bird comes to the aforementioned tree and brings what it needs for its nest, while the bird flies, a seed falls where the earth is fertile and everything begins again.", 
+            "subject": {
+              "keywords": [
+                {
+                  "text": "bird"
+                }
+              ], 
+              "text": "A bird"
+            }
+          }, 
+          {
+            "action": {
+              "normalized": "fall", 
+              "text": "falls", 
+              "verb": {
+                "tense": "present", 
+                "text": "fall"
+              }
+            }, 
+            "sentence": " A bird comes to the aforementioned tree and brings what it needs for its nest, while the bird flies, a seed falls where the earth is fertile and everything begins again.", 
+            "subject": {
+              "keywords": [
+                {
+                  "text": "seed"
+                }
+              ], 
+              "text": "a seed"
+            }
+          }, 
+          {
+            "action": {
+              "normalized": "be", 
+              "text": "is", 
+              "verb": {
+                "tense": "present", 
+                "text": "be"
+              }
+            }, 
+            "object": {
+              "text": "fertile and everything"
+            }, 
+            "sentence": " A bird comes to the aforementioned tree and brings what it needs for its nest, while the bird flies, a seed falls where the earth is fertile and everything begins again.", 
+            "subject": {
+              "keywords": [
+                {
+                  "text": "earth"
+                }
+              ], 
+              "text": "the earth"
+            }
+          }, 
+          {
+            "action": {
+              "normalized": "begin", 
+              "text": "begins", 
+              "verb": {
+                "tense": "present", 
+                "text": "begin"
+              }
+            }, 
+            "sentence": " A bird comes to the aforementioned tree and brings what it needs for its nest, while the bird flies, a seed falls where the earth is fertile and everything begins again.", 
+            "subject": {
+              "text": "everything"
+            }
+          }, 
+          {
+            "action": {
+              "normalized": "have", 
+              "text": "has", 
+              "verb": {
+                "tense": "present", 
+                "text": "have"
+              }
+            }, 
+            "object": {
+              "keywords": [
+                {
+                  "text": "order"
+                }
+              ], 
+              "text": "an order"
+            }, 
+            "sentence": " From this idea that everything in Wild Nature has an order, and because we say that we obey this order and these natural laws, those who disobey these natural statutes are confined to obeying the system and denying their human nature.", 
+            "subject": {
+              "keywords": [
+                {
+                  "text": "Wild Nature"
+                }
+              ], 
+              "text": "everything in Wild Nature"
+            }
+          }, 
+          {
+            "action": {
+              "normalized": "say", 
+              "text": "say", 
+              "verb": {
+                "tense": "present", 
+                "text": "say"
+              }
+            }, 
+            "object": {
+              "keywords": [
+                {
+                  "text": "natural statutes"
+                }, 
+                {
+                  "text": "human nature"
+                }, 
+                {
+                  "text": "natural laws"
+                }, 
+                {
+                  "text": "order"
+                }
+              ], 
+              "text": "that we obey this order and these natural laws, those who disobey these natural statutes are confined to obeying the system and denying their human nature"
+            }, 
+            "sentence": " From this idea that everything in Wild Nature has an order, and because we say that we obey this order and these natural laws, those who disobey these natural statutes are confined to obeying the system and denying their human nature.", 
+            "subject": {
+              "text": "we"
+            }
+          }, 
+          {
+            "action": {
+              "normalized": "disobey", 
+              "text": "disobey", 
+              "verb": {
+                "tense": "present", 
+                "text": "disobey"
+              }
+            }, 
+            "object": {
+              "keywords": [
+                {
+                  "text": "natural statutes"
+                }
+              ], 
+              "text": "these natural statutes"
+            }, 
+            "sentence": " From this idea that everything in Wild Nature has an order, and because we say that we obey this order and these natural laws, those who disobey these natural statutes are confined to obeying the system and denying their human nature.", 
+            "subject": {
+              "text": "those"
+            }
+          }, 
+          {
+            "action": {
+              "normalized": "obey", 
+              "text": "obeying", 
+              "verb": {
+                "tense": "future", 
+                "text": "obey"
+              }
+            }, 
+            "object": {
+              "text": "the system"
+            }, 
+            "sentence": " From this idea that everything in Wild Nature has an order, and because we say that we obey this order and these natural laws, those who disobey these natural statutes are confined to obeying the system and denying their human nature.", 
+            "subject": {
+              "keywords": [
+                {
+                  "text": "natural statutes"
+                }
+              ], 
+              "text": "those who disobey these natural statutes"
+            }
+          }, 
+          {
+            "action": {
+              "normalized": "deny", 
+              "text": "denying", 
+              "verb": {
+                "tense": "present", 
+                "text": "deny"
+              }
+            }, 
+            "object": {
+              "keywords": [
+                {
+                  "text": "human nature"
+                }
+              ], 
+              "text": "their human nature"
+            }, 
+            "sentence": " From this idea that everything in Wild Nature has an order, and because we say that we obey this order and these natural laws, those who disobey these natural statutes are confined to obeying the system and denying their human nature.", 
+            "subject": {
+              "text": "those"
+            }
+          }
+        ], 
+        "sentiment": {
+          "document": {
+            "label": "negative", 
+            "score": -0.437609
+          }
+        }
+      }, 
+      "enriched_title": {
+        "categories": [], 
+        "concepts": [], 
+        "entities": [], 
+        "keywords": [
+          {
+            "relevance": 0.957583, 
+            "sentiment": {
+              "score": 0
+            }, 
+            "text": "Communiques"
+          }, 
+          {
+            "relevance": 0.781075, 
+            "sentiment": {
+              "score": 0
+            }, 
+            "text": "FRR Audibooks"
+          }
+        ], 
+        "relations": [], 
+        "semantic_roles": [], 
+        "sentiment": {
+          "document": {
+            "label": "neutral", 
+            "score": 0
+          }
+        }
+      }, 
+      "extracted_metadata": {
+        "file_type": "json", 
+        "filename": "1497918766423.zip-ef518f081c47ab0cfeb31c71fa8e69e2.xml", 
+        "sha1": "110d84e6ad2e049ed0f4c42425b0a2c90741c039"
+      }, 
+      "forum_title": "anarchistnews.org", 
+      "host": "anarchistnews.org", 
+      "id": "XK1ECm0hSn8CNQbF5BPexCh76bm2_nkJqPolE6T2F0JDS5WswaReYm-mfuS7zYrV", 
+      "language": "en", 
+      "publication_date": "2017-06-19T03:58:00Z", 
+      "score": 2.0764554, 
+      "source_type": "mainstream", 
+      "text": "Home \u00bb FRR Audibooks: ITS Communiques 5+6+7 FRR Audibooks: ITS Communiques 5+6+7 Posted on: 18 June 2017 By: Dirtroll Free Radical Radio Audiobooks continues with the Individualists Tending Toward The Wild recording series with ITS communiques 5, 6, and 7. Some interesting nuggets, of which there are many: In #5, they take responsibility for a Greenpeace bombing and warn all leftists they're targets too. In #6, they change their stance on things like using the genderless letter 'x', and bombing Greenpeace. In #7 they reflect on their relationship to anarchism and where they differ, as well as respond to technology apologia. And since you're probably too lazy/skeptical to actually click through to the audio or read the text, here are two juicy quotes out of context for you internet slaves to feed off in the comments: But ITS thinks that authority is not always bad\u2013it is bad when it restricts", 
+      "title": "FRR Audibooks: ITS Communiques 5+6+7", 
+      "url": "http://anarchistnews.org/content/frr-audibooks-its-communiques-567"
+    }, 
+    {
+      "author": "news@washjrnl.com (Staff)", 
+      "country": "US", 
+      "crawl_date": "2017-06-22T18:51:30Z", 
+      "enriched_text": {
+        "categories": [
+          {
+            "label": "/business and industrial/agriculture and forestry/crops and seed", 
+            "score": 0.577029
+          }, 
+          {
+            "label": "/health and fitness/exercise", 
+            "score": 0.574044
+          }, 
+          {
+            "label": "/home and garden", 
+            "score": 0.55927
+          }
+        ], 
+        "concepts": [
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Garden", 
+            "relevance": 0.984068, 
+            "text": "Garden"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Plant", 
+            "relevance": 0.855187, 
+            "text": "Plant"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Gardening", 
+            "relevance": 0.669422, 
+            "text": "Gardening"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Landscape", 
+            "relevance": 0.606229, 
+            "text": "Landscape"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Annual_plant", 
+            "relevance": 0.53046, 
+            "text": "Annual plant"
+          }
+        ], 
+        "entities": [
+          {
+            "count": 1, 
+            "relevance": 0.814454, 
+            "sentiment": {
+              "score": 0
+            }, 
+            "text": "ISU", 
+            "type": "Organization"
+          }, 
+          {
+            "count": 1, 
+            "relevance": 0.801283, 
+            "sentiment": {
+              "score": 0.82319
+            }, 
+            "text": "AMES", 
+            "type": "Organization"
+          }
+        ], 
+        "keywords": [
+          {
+            "relevance": 0.904111, 
+            "sentiment": {
+              "score": 0.670246
+            }, 
+            "text": "fruit-bearing plants Jun"
+          }, 
+          {
+            "relevance": 0.812797, 
+            "sentiment": {
+              "score": 0.82319
+            }, 
+            "text": "planting fruit-bearing plants"
+          }, 
+          {
+            "relevance": 0.589098, 
+            "sentiment": {
+              "score": 0
+            }, 
+            "text": "ISU Extension"
+          }, 
+          {
+            "relevance": 0.249041, 
+            "sentiment": {
+              "score": 0.755448
+            }, 
+            "text": "patience"
+          }, 
+          {
+            "relevance": 0.248182, 
+            "sentiment": {
+              "score": 0
+            }, 
+            "text": "caution"
+          }, 
+          {
+            "relevance": 0.239931, 
+            "sentiment": {
+              "score": 0.682194
+            }, 
+            "text": "Yard"
+          }, 
+          {
+            "relevance": 0.235704, 
+            "sentiment": {
+              "score": 0.82319
+            }, 
+            "text": "AMES"
+          }, 
+          {
+            "relevance": 0.215329, 
+            "sentiment": {
+              "score": 0.82319
+            }, 
+            "text": "gardens"
+          }
+        ], 
+        "relations": [
+          {
+            "arguments": [
+              {
+                "entities": [
+                  {
+                    "text": "Jun", 
+                    "type": "Person"
+                  }
+                ], 
+                "text": "Jun"
+              }, 
+              {
+                "entities": [
+                  {
+                    "text": "plants", 
+                    "type": "Facility"
+                  }
+                ], 
+                "text": "plants"
+              }
+            ], 
+            "score": 0.415993, 
+            "sentence": "Yard and Garden: Handling newly planted fruit-bearing plants Jun 22, 2017  AMES - Going through the process of planting fruit-bearing plants for gardens and landscapes is exciting, but it does require some patience.", 
+            "type": "locatedAt"
+          }, 
+          {
+            "arguments": [
+              {
+                "entities": [
+                  {
+                    "text": "Jun", 
+                    "type": "Person"
+                  }
+                ], 
+                "text": "Jun"
+              }, 
+              {
+                "entities": [
+                  {
+                    "text": "22", 
+                    "type": "Age"
+                  }
+                ], 
+                "text": "22"
+              }
+            ], 
+            "score": 0.961299, 
+            "sentence": "Yard and Garden: Handling newly planted fruit-bearing plants Jun 22, 2017  AMES - Going through the process of planting fruit-bearing plants for gardens and landscapes is exciting, but it does require some patience.", 
+            "type": "hasAttribute"
+          }
+        ], 
+        "semantic_roles": [
+          {
+            "action": {
+              "normalized": "be", 
+              "text": "is", 
+              "verb": {
+                "tense": "present", 
+                "text": "be"
+              }
+            }, 
+            "object": {
+              "text": "exciting"
+            }, 
+            "sentence": " AMES \u2013 Going through the process of planting fruit-bearing plants for gardens and landscapes is exciting, but it does require some patience.", 
+            "subject": {
+              "entities": [
+                {
+                  "text": "AMES", 
+                  "type": "Organization"
+                }
+              ], 
+              "keywords": [
+                {
+                  "text": "planting fruit-bearing plants"
+                }, 
+                {
+                  "text": "AMES"
+                }, 
+                {
+                  "text": "gardens"
+                }, 
+                {
+                  "text": "process"
+                }
+              ], 
+              "text": "AMES \u2013 Going through the process of planting fruit-bearing plants for gardens and landscapes"
+            }
+          }, 
+          {
+            "action": {
+              "normalized": "do", 
+              "text": "does", 
+              "verb": {
+                "tense": "present", 
+                "text": "do"
+              }
+            }, 
+            "object": {
+              "keywords": [
+                {
+                  "text": "patience"
+                }
+              ], 
+              "text": "require some patience"
+            }, 
+            "sentence": " AMES \u2013 Going through the process of planting fruit-bearing plants for gardens and landscapes is exciting, but it does require some patience.", 
+            "subject": {
+              "text": "it"
+            }
+          }, 
+          {
+            "action": {
+              "normalized": "do require", 
+              "text": "does require", 
+              "verb": {
+                "tense": "present", 
+                "text": "require"
+              }
+            }, 
+            "object": {
+              "keywords": [
+                {
+                  "text": "patience"
+                }
+              ], 
+              "text": "some patience"
+            }, 
+            "sentence": " AMES \u2013 Going through the process of planting fruit-bearing plants for gardens and landscapes is exciting, but it does require some patience.", 
+            "subject": {
+              "text": "it"
+            }
+          }, 
+          {
+            "action": {
+              "normalized": "to bear", 
+              "text": "to bear", 
+              "verb": {
+                "tense": "future", 
+                "text": "bear"
+              }
+            }, 
+            "object": {
+              "keywords": [
+                {
+                  "text": "fruit"
+                }
+              ], 
+              "text": "fruit"
+            }, 
+            "sentence": " Not all plants are ready to bear fruit immediately, and it might be smart to exercise caution.", 
+            "subject": {
+              "keywords": [
+                {
+                  "text": "plants"
+                }
+              ], 
+              "text": "Not all plants"
+            }
+          }
+        ], 
+        "sentiment": {
+          "document": {
+            "label": "positive", 
+            "score": 0.831296
+          }
+        }
+      }, 
+      "enriched_title": {
+        "categories": [
+          {
+            "label": "/home and garden", 
+            "score": 0.968035
+          }, 
+          {
+            "label": "/business and industrial/logistics/air freight", 
+            "score": 0.0549808
+          }, 
+          {
+            "label": "/style and fashion/accessories/gloves", 
+            "score": 0.0472304
+          }
+        ], 
+        "concepts": [
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Garden", 
+            "relevance": 0.93829, 
+            "text": "Garden"
+          }
+        ], 
+        "entities": [], 
+        "keywords": [
+          {
+            "relevance": 0.95612, 
+            "sentiment": {
+              "score": 0.8103
+            }, 
+            "text": "fruit-bearing plants"
+          }, 
+          {
+            "relevance": 0.83252, 
+            "sentiment": {
+              "score": 0.717805
+            }, 
+            "text": "Yard"
+          }, 
+          {
+            "relevance": 0.718932, 
+            "sentiment": {
+              "score": 0.717805
+            }, 
+            "text": "Garden"
+          }, 
+          {
+            "relevance": 0.713319, 
+            "sentiment": {
+              "score": 0.8103
+            }, 
+            "text": "Handling"
+          }
+        ], 
+        "relations": [], 
+        "semantic_roles": [], 
+        "sentiment": {
+          "document": {
+            "label": "positive", 
+            "score": 0.833139
+          }
+        }
+      }, 
+      "extracted_metadata": {
+        "file_type": "json", 
+        "filename": "1498157490152.zip-02f3f124990e64e376bb5baf33cfcdd0.xml", 
+        "sha1": "6f661c6b808d3531cea3be451fc91b18fc36cf6c"
+      }, 
+      "forum_title": "Washington Evening Journal Lifestyles Headlines", 
+      "host": "washington-ia.villagesoup.com", 
+      "id": "e4lrhFENOHk-Fyp_Dah3oxKdOjRDihdGTM6q8Rb8paodxQwy-q-sGX1t8-7X3eYV", 
+      "language": "en", 
+      "main_image_url": "https://washington-ia.villagesoup.com/theme/vs/img/VS_FB.png", 
+      "publication_date": "2017-06-22T16:09:00Z", 
+      "score": 2.0455294, 
+      "source_type": "mainstream", 
+      "text": "Yard and Garden: Handling newly planted fruit-bearing plants Jun 22, 2017 AMES \u2013 Going through the process of planting fruit-bearing plants for gardens and landscapes is exciting, but it does require some patience. Not all plants are ready to bear fruit immediately, and it might be smart to exercise caution. ISU Extension", 
+      "title": "Yard and Garden: Handling newly planted fruit-bearing plants", 
+      "url": "https://washington-ia.villagesoup.com/p/1663398"
+    }, 
+    {
+      "country": "US", 
+      "crawl_date": "2017-07-27T23:55:13Z", 
+      "enriched_text": {
+        "categories": [
+          {
+            "label": "/business and industrial/agriculture and forestry/crops and seed", 
+            "score": 0.802453
+          }, 
+          {
+            "label": "/business and industrial/company/earnings", 
+            "score": 0.148532
+          }, 
+          {
+            "label": "/home and garden", 
+            "score": 0.121702
+          }
+        ], 
+        "concepts": [
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Seed", 
+            "relevance": 0.844163, 
+            "text": "Seed"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Plant", 
+            "relevance": 0.811032, 
+            "text": "Plant"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Fruit", 
+            "relevance": 0.800963, 
+            "text": "Fruit"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Welcome_to_the_Hellmouth", 
+            "relevance": 0.734757, 
+            "text": "Welcome to the Hellmouth"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Moss", 
+            "relevance": 0.726558, 
+            "text": "Moss"
+          }
+        ], 
+        "entities": [], 
+        "keywords": [
+          {
+            "relevance": 0.989937, 
+            "sentiment": {
+              "score": 0
+            }, 
+            "text": "harvest"
+          }, 
+          {
+            "relevance": 0.985783, 
+            "sentiment": {
+              "score": -0.270168
+            }, 
+            "text": "seeds"
+          }, 
+          {
+            "relevance": 0.790551, 
+            "sentiment": {
+              "score": -0.270168
+            }, 
+            "text": "plant"
+          }
+        ], 
+        "relations": [], 
+        "semantic_roles": [
+          {
+            "action": {
+              "normalized": "Do", 
+              "text": "Do", 
+              "verb": {
+                "negated": true, 
+                "tense": "present", 
+                "text": "Do"
+              }
+            }, 
+            "sentence": "Don't judge each day by the harvest you reap but by the seeds that you plant.", 
+            "subject": {
+              "keywords": [
+                {
+                  "text": "judge"
+                }
+              ], 
+              "text": "judge"
+            }
+          }
+        ], 
+        "sentiment": {
+          "document": {
+            "label": "neutral", 
+            "score": 0
+          }
+        }
+      }, 
+      "enriched_title": {
+        "categories": [
+          {
+            "label": "/business and industrial/agriculture and forestry/crops and seed", 
+            "score": 0.802453
+          }, 
+          {
+            "label": "/business and industrial/company/earnings", 
+            "score": 0.148532
+          }, 
+          {
+            "label": "/home and garden", 
+            "score": 0.121702
+          }
+        ], 
+        "concepts": [
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Seed", 
+            "relevance": 0.844163, 
+            "text": "Seed"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Plant", 
+            "relevance": 0.811032, 
+            "text": "Plant"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Fruit", 
+            "relevance": 0.800963, 
+            "text": "Fruit"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Welcome_to_the_Hellmouth", 
+            "relevance": 0.734757, 
+            "text": "Welcome to the Hellmouth"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Moss", 
+            "relevance": 0.726558, 
+            "text": "Moss"
+          }
+        ], 
+        "entities": [], 
+        "keywords": [
+          {
+            "relevance": 0.982642, 
+            "sentiment": {
+              "score": 0
+            }, 
+            "text": "harvest"
+          }, 
+          {
+            "relevance": 0.981446, 
+            "sentiment": {
+              "score": -0.270168
+            }, 
+            "text": "seeds"
+          }, 
+          {
+            "relevance": 0.801989, 
+            "sentiment": {
+              "score": -0.270168
+            }, 
+            "text": "plant"
+          }
+        ], 
+        "relations": [], 
+        "semantic_roles": [
+          {
+            "action": {
+              "normalized": "Do", 
+              "text": "Do", 
+              "verb": {
+                "negated": true, 
+                "tense": "present", 
+                "text": "Do"
+              }
+            }, 
+            "sentence": "Don't judge each day by the harvest you reap but by the seeds that you plant.", 
+            "subject": {
+              "keywords": [
+                {
+                  "text": "judge"
+                }
+              ], 
+              "text": "judge"
+            }
+          }
+        ], 
+        "sentiment": {
+          "document": {
+            "label": "neutral", 
+            "score": 0
+          }
+        }
+      }, 
+      "extracted_metadata": {
+        "file_type": "json", 
+        "filename": "1501199713464.zip-202880571f1351239a2dc75a64ac39e5.xml", 
+        "sha1": "825a2017645e510724444b46da69343f17cd5f78"
+      }, 
+      "forum_title": "Aviation eBrief", 
+      "host": "smartbrief.com", 
+      "id": "apZioUe_OEGFoOwR0IouPRKwA_nz5_HehBKrrzgQEGFpWIVZODF3vAARh8LggzAg", 
+      "language": "en", 
+      "main_image_url": "http://cdn.smartbrief.com/sites/default/files/styles/thumbnail/public/briefs/aopa_logo_website_230x200.gif?itok=j0gl9DJe", 
+      "publication_date": "2017-07-27T17:53:00Z", 
+      "score": 2.0379844, 
+      "source_type": "mainstream", 
+      "text": "Don't judge each day by the harvest you reap but by the seeds that you plant. 7/26/2017", 
+      "title": "Don't judge each day by the harvest you reap but by the seeds that you plant.", 
+      "url": "http://www.smartbrief.com/branded/A80DF615-7E38-48E7-9993-743FEC2E10FC/CEEAD745-E963-49B2-9E32-424F463A5302"
+    }, 
+    {
+      "country": "US", 
+      "crawl_date": "2017-07-28T09:19:57Z", 
+      "enriched_text": {
+        "categories": [
+          {
+            "label": "/business and industrial/agriculture and forestry/crops and seed", 
+            "score": 0.802453
+          }, 
+          {
+            "label": "/business and industrial/company/earnings", 
+            "score": 0.148532
+          }, 
+          {
+            "label": "/home and garden", 
+            "score": 0.121702
+          }
+        ], 
+        "concepts": [
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Seed", 
+            "relevance": 0.844163, 
+            "text": "Seed"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Plant", 
+            "relevance": 0.811032, 
+            "text": "Plant"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Fruit", 
+            "relevance": 0.800963, 
+            "text": "Fruit"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Welcome_to_the_Hellmouth", 
+            "relevance": 0.734757, 
+            "text": "Welcome to the Hellmouth"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Moss", 
+            "relevance": 0.726558, 
+            "text": "Moss"
+          }
+        ], 
+        "entities": [], 
+        "keywords": [
+          {
+            "relevance": 0.989937, 
+            "sentiment": {
+              "score": 0
+            }, 
+            "text": "harvest"
+          }, 
+          {
+            "relevance": 0.985783, 
+            "sentiment": {
+              "score": -0.270168
+            }, 
+            "text": "seeds"
+          }, 
+          {
+            "relevance": 0.790551, 
+            "sentiment": {
+              "score": -0.270168
+            }, 
+            "text": "plant"
+          }
+        ], 
+        "relations": [], 
+        "semantic_roles": [
+          {
+            "action": {
+              "normalized": "Do", 
+              "text": "Do", 
+              "verb": {
+                "negated": true, 
+                "tense": "present", 
+                "text": "Do"
+              }
+            }, 
+            "sentence": "Don't judge each day by the harvest you reap but by the seeds that you plant.", 
+            "subject": {
+              "keywords": [
+                {
+                  "text": "judge"
+                }
+              ], 
+              "text": "judge"
+            }
+          }
+        ], 
+        "sentiment": {
+          "document": {
+            "label": "neutral", 
+            "score": 0
+          }
+        }
+      }, 
+      "enriched_title": {
+        "categories": [
+          {
+            "label": "/business and industrial/agriculture and forestry/crops and seed", 
+            "score": 0.802453
+          }, 
+          {
+            "label": "/business and industrial/company/earnings", 
+            "score": 0.148532
+          }, 
+          {
+            "label": "/home and garden", 
+            "score": 0.121702
+          }
+        ], 
+        "concepts": [
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Seed", 
+            "relevance": 0.844163, 
+            "text": "Seed"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Plant", 
+            "relevance": 0.811032, 
+            "text": "Plant"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Fruit", 
+            "relevance": 0.800963, 
+            "text": "Fruit"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Welcome_to_the_Hellmouth", 
+            "relevance": 0.734757, 
+            "text": "Welcome to the Hellmouth"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Moss", 
+            "relevance": 0.726558, 
+            "text": "Moss"
+          }
+        ], 
+        "entities": [], 
+        "keywords": [
+          {
+            "relevance": 0.982642, 
+            "sentiment": {
+              "score": 0
+            }, 
+            "text": "harvest"
+          }, 
+          {
+            "relevance": 0.981446, 
+            "sentiment": {
+              "score": -0.270168
+            }, 
+            "text": "seeds"
+          }, 
+          {
+            "relevance": 0.801989, 
+            "sentiment": {
+              "score": -0.270168
+            }, 
+            "text": "plant"
+          }
+        ], 
+        "relations": [], 
+        "semantic_roles": [
+          {
+            "action": {
+              "normalized": "Do", 
+              "text": "Do", 
+              "verb": {
+                "negated": true, 
+                "tense": "present", 
+                "text": "Do"
+              }
+            }, 
+            "sentence": "Don't judge each day by the harvest you reap but by the seeds that you plant.", 
+            "subject": {
+              "keywords": [
+                {
+                  "text": "judge"
+                }
+              ], 
+              "text": "judge"
+            }
+          }
+        ], 
+        "sentiment": {
+          "document": {
+            "label": "neutral", 
+            "score": 0
+          }
+        }
+      }, 
+      "extracted_metadata": {
+        "file_type": "json", 
+        "filename": "1501233597196.zip-2a1c99a311f3579ce122ec175e126a52.xml", 
+        "sha1": "28001bda9538d774ac443b6e460e933eae9f3f1a"
+      }, 
+      "forum_title": "ASTA SmartBrief", 
+      "host": "smartbrief.com", 
+      "id": "faHGvAsv36BU7Ileu6p1sPYzXCdjDjdFz3LIFMRxIIEJbkUltfR1G9lXSuq1ohCw", 
+      "language": "en", 
+      "main_image_url": "http://cdn.smartbrief.com/sites/default/files/styles/thumbnail/public/briefs/ASTA_230x200.gif?itok=ktcHFDXt", 
+      "publication_date": "2017-07-27T14:32:00Z", 
+      "score": 2.035459, 
+      "source_type": "mainstream", 
+      "text": "Don't judge each day by the harvest you reap but by the seeds that you plant. 7/26/2017", 
+      "title": "Don't judge each day by the harvest you reap but by the seeds that you plant.", 
+      "url": "http://www.smartbrief.com/branded/49307AD8-CCC6-4DE9-9E99-3018ECECC049/CEEAD745-E963-49B2-9E32-424F463A5302"
+    }, 
+    {
+      "country": "US", 
+      "crawl_date": "2017-07-28T05:57:43Z", 
+      "enriched_text": {
+        "categories": [
+          {
+            "label": "/business and industrial/agriculture and forestry/crops and seed", 
+            "score": 0.802453
+          }, 
+          {
+            "label": "/business and industrial/company/earnings", 
+            "score": 0.148532
+          }, 
+          {
+            "label": "/home and garden", 
+            "score": 0.121702
+          }
+        ], 
+        "concepts": [
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Seed", 
+            "relevance": 0.844163, 
+            "text": "Seed"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Plant", 
+            "relevance": 0.811032, 
+            "text": "Plant"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Fruit", 
+            "relevance": 0.800963, 
+            "text": "Fruit"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Welcome_to_the_Hellmouth", 
+            "relevance": 0.734757, 
+            "text": "Welcome to the Hellmouth"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Moss", 
+            "relevance": 0.726558, 
+            "text": "Moss"
+          }
+        ], 
+        "entities": [], 
+        "keywords": [
+          {
+            "relevance": 0.989937, 
+            "sentiment": {
+              "score": 0
+            }, 
+            "text": "harvest"
+          }, 
+          {
+            "relevance": 0.985783, 
+            "sentiment": {
+              "score": -0.270168
+            }, 
+            "text": "seeds"
+          }, 
+          {
+            "relevance": 0.790551, 
+            "sentiment": {
+              "score": -0.270168
+            }, 
+            "text": "plant"
+          }
+        ], 
+        "relations": [], 
+        "semantic_roles": [
+          {
+            "action": {
+              "normalized": "Do", 
+              "text": "Do", 
+              "verb": {
+                "negated": true, 
+                "tense": "present", 
+                "text": "Do"
+              }
+            }, 
+            "sentence": "Don't judge each day by the harvest you reap but by the seeds that you plant.", 
+            "subject": {
+              "keywords": [
+                {
+                  "text": "judge"
+                }
+              ], 
+              "text": "judge"
+            }
+          }
+        ], 
+        "sentiment": {
+          "document": {
+            "label": "neutral", 
+            "score": 0
+          }
+        }
+      }, 
+      "enriched_title": {
+        "categories": [
+          {
+            "label": "/business and industrial/agriculture and forestry/crops and seed", 
+            "score": 0.802453
+          }, 
+          {
+            "label": "/business and industrial/company/earnings", 
+            "score": 0.148532
+          }, 
+          {
+            "label": "/home and garden", 
+            "score": 0.121702
+          }
+        ], 
+        "concepts": [
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Seed", 
+            "relevance": 0.844163, 
+            "text": "Seed"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Plant", 
+            "relevance": 0.811032, 
+            "text": "Plant"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Fruit", 
+            "relevance": 0.800963, 
+            "text": "Fruit"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Welcome_to_the_Hellmouth", 
+            "relevance": 0.734757, 
+            "text": "Welcome to the Hellmouth"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Moss", 
+            "relevance": 0.726558, 
+            "text": "Moss"
+          }
+        ], 
+        "entities": [], 
+        "keywords": [
+          {
+            "relevance": 0.982642, 
+            "sentiment": {
+              "score": 0
+            }, 
+            "text": "harvest"
+          }, 
+          {
+            "relevance": 0.981446, 
+            "sentiment": {
+              "score": -0.270168
+            }, 
+            "text": "seeds"
+          }, 
+          {
+            "relevance": 0.801989, 
+            "sentiment": {
+              "score": -0.270168
+            }, 
+            "text": "plant"
+          }
+        ], 
+        "relations": [], 
+        "semantic_roles": [
+          {
+            "action": {
+              "normalized": "Do", 
+              "text": "Do", 
+              "verb": {
+                "negated": true, 
+                "tense": "present", 
+                "text": "Do"
+              }
+            }, 
+            "sentence": "Don't judge each day by the harvest you reap but by the seeds that you plant.", 
+            "subject": {
+              "keywords": [
+                {
+                  "text": "judge"
+                }
+              ], 
+              "text": "judge"
+            }
+          }
+        ], 
+        "sentiment": {
+          "document": {
+            "label": "neutral", 
+            "score": 0
+          }
+        }
+      }, 
+      "extracted_metadata": {
+        "file_type": "json", 
+        "filename": "1501221463476.zip-e4dd106527416ae0f0129418206156da.xml", 
+        "sha1": "44e8b4c073d8f4894c6511456491f1dd31aeee50"
+      }, 
+      "forum_title": "AABB SmartBrief", 
+      "host": "smartbrief.com", 
+      "id": "xLFWCBsyRr16UBLPsQpajuH5gqMUBh5vM9thlhPC_QBb11clERVBRMkFgZ97uW-Q", 
+      "language": "en", 
+      "main_image_url": "http://cdn.smartbrief.com/sites/default/files/styles/thumbnail/public/briefs/aabb_logo.gif?itok=tuRDMCwH", 
+      "publication_date": "2017-07-27T19:00:00Z", 
+      "score": 2.032449, 
+      "source_type": "mainstream", 
+      "text": "Don't judge each day by the harvest you reap but by the seeds that you plant. 7/26/2017", 
+      "title": "Don't judge each day by the harvest you reap but by the seeds that you plant.", 
+      "url": "http://www.smartbrief.com/branded/1430EB90-12D1-4526-ADFE-60AEAC44798E/CEEAD745-E963-49B2-9E32-424F463A5302"
+    }, 
+    {
+      "country": "US", 
+      "crawl_date": "2017-07-28T20:28:42Z", 
+      "enriched_text": {
+        "categories": [
+          {
+            "label": "/business and industrial/agriculture and forestry/crops and seed", 
+            "score": 0.802453
+          }, 
+          {
+            "label": "/business and industrial/company/earnings", 
+            "score": 0.148532
+          }, 
+          {
+            "label": "/home and garden", 
+            "score": 0.121702
+          }
+        ], 
+        "concepts": [
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Seed", 
+            "relevance": 0.844163, 
+            "text": "Seed"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Plant", 
+            "relevance": 0.811032, 
+            "text": "Plant"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Fruit", 
+            "relevance": 0.800963, 
+            "text": "Fruit"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Welcome_to_the_Hellmouth", 
+            "relevance": 0.734757, 
+            "text": "Welcome to the Hellmouth"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Moss", 
+            "relevance": 0.726558, 
+            "text": "Moss"
+          }
+        ], 
+        "entities": [], 
+        "keywords": [
+          {
+            "relevance": 0.989937, 
+            "sentiment": {
+              "score": 0
+            }, 
+            "text": "harvest"
+          }, 
+          {
+            "relevance": 0.985783, 
+            "sentiment": {
+              "score": -0.270168
+            }, 
+            "text": "seeds"
+          }, 
+          {
+            "relevance": 0.790551, 
+            "sentiment": {
+              "score": -0.270168
+            }, 
+            "text": "plant"
+          }
+        ], 
+        "relations": [], 
+        "semantic_roles": [
+          {
+            "action": {
+              "normalized": "Do", 
+              "text": "Do", 
+              "verb": {
+                "negated": true, 
+                "tense": "present", 
+                "text": "Do"
+              }
+            }, 
+            "sentence": "Don't judge each day by the harvest you reap but by the seeds that you plant.", 
+            "subject": {
+              "keywords": [
+                {
+                  "text": "judge"
+                }
+              ], 
+              "text": "judge"
+            }
+          }
+        ], 
+        "sentiment": {
+          "document": {
+            "label": "neutral", 
+            "score": 0
+          }
+        }
+      }, 
+      "enriched_title": {
+        "categories": [
+          {
+            "label": "/business and industrial/agriculture and forestry/crops and seed", 
+            "score": 0.802453
+          }, 
+          {
+            "label": "/business and industrial/company/earnings", 
+            "score": 0.148532
+          }, 
+          {
+            "label": "/home and garden", 
+            "score": 0.121702
+          }
+        ], 
+        "concepts": [
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Seed", 
+            "relevance": 0.844163, 
+            "text": "Seed"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Plant", 
+            "relevance": 0.811032, 
+            "text": "Plant"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Fruit", 
+            "relevance": 0.800963, 
+            "text": "Fruit"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Welcome_to_the_Hellmouth", 
+            "relevance": 0.734757, 
+            "text": "Welcome to the Hellmouth"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Moss", 
+            "relevance": 0.726558, 
+            "text": "Moss"
+          }
+        ], 
+        "entities": [], 
+        "keywords": [
+          {
+            "relevance": 0.982642, 
+            "sentiment": {
+              "score": 0
+            }, 
+            "text": "harvest"
+          }, 
+          {
+            "relevance": 0.981446, 
+            "sentiment": {
+              "score": -0.270168
+            }, 
+            "text": "seeds"
+          }, 
+          {
+            "relevance": 0.801989, 
+            "sentiment": {
+              "score": -0.270168
+            }, 
+            "text": "plant"
+          }
+        ], 
+        "relations": [], 
+        "semantic_roles": [
+          {
+            "action": {
+              "normalized": "Do", 
+              "text": "Do", 
+              "verb": {
+                "negated": true, 
+                "tense": "present", 
+                "text": "Do"
+              }
+            }, 
+            "sentence": "Don't judge each day by the harvest you reap but by the seeds that you plant.", 
+            "subject": {
+              "keywords": [
+                {
+                  "text": "judge"
+                }
+              ], 
+              "text": "judge"
+            }
+          }
+        ], 
+        "sentiment": {
+          "document": {
+            "label": "neutral", 
+            "score": 0
+          }
+        }
+      }, 
+      "extracted_metadata": {
+        "file_type": "json", 
+        "filename": "1501273722669.zip-b591d5f0b21ce7f2432fd5d8a8ce2221.xml", 
+        "sha1": "77c694f84133319d745024fd514c76bcc6fa5a64"
+      }, 
+      "forum_title": "NAW SmartBrief", 
+      "host": "smartbrief.com", 
+      "id": "3MWpvS2T1YMwbWFytHY8BOoVq5wQNBwSgtT7CBaJZBHj_cciz-D64bhtZDP78lrX", 
+      "language": "en", 
+      "main_image_url": "http://cdn.smartbrief.com/sites/default/files/styles/thumbnail/public/briefs/naw_logo.gif?itok=rA0gedZy", 
+      "publication_date": "2017-07-28T13:03:00Z", 
+      "score": 2.032449, 
+      "source_type": "mainstream", 
+      "text": "Don't judge each day by the harvest you reap but by the seeds that you plant. 7/26/2017", 
+      "title": "Don't judge each day by the harvest you reap but by the seeds that you plant.", 
+      "url": "http://www.smartbrief.com/branded/3E572E16-3FBC-11D5-AD13-000244141872/CEEAD745-E963-49B2-9E32-424F463A5302"
+    }, 
+    {
+      "country": "US", 
+      "crawl_date": "2017-06-20T01:58:06Z", 
+      "enriched_text": {
+        "categories": [
+          {
+            "label": "/business and industrial/agriculture and forestry/crops and seed", 
+            "score": 0.529604
+          }, 
+          {
+            "label": "/science/biology/breeding", 
+            "score": 0.374281
+          }, 
+          {
+            "label": "/pets/dogs", 
+            "score": 0.338535
+          }
+        ], 
+        "concepts": [
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Season", 
+            "relevance": 0.956241, 
+            "text": "Season"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Plant", 
+            "relevance": 0.803572, 
+            "text": "Plant"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Southern_Hemisphere", 
+            "relevance": 0.763714, 
+            "text": "Southern Hemisphere"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Seed", 
+            "relevance": 0.685197, 
+            "text": "Seed"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Northern_Hemisphere", 
+            "relevance": 0.675334, 
+            "text": "Northern Hemisphere"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Fruit", 
+            "relevance": 0.640509, 
+            "text": "Fruit"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Climate", 
+            "relevance": 0.621688, 
+            "text": "Climate"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Spring_(season)", 
+            "relevance": 0.577954, 
+            "text": "Spring"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Equator", 
+            "relevance": 0.575326, 
+            "text": "Equator"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Solstice", 
+            "relevance": 0.552449, 
+            "text": "Solstice"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/South_America", 
+            "relevance": 0.549563, 
+            "text": "South America"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Pinophyta", 
+            "relevance": 0.544526, 
+            "text": "Pinophyta"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Moss", 
+            "relevance": 0.537873, 
+            "text": "Moss"
+          }
+        ], 
+        "entities": [
+          {
+            "count": 1, 
+            "relevance": 0.91849, 
+            "sentiment": {
+              "score": -0.533481
+            }, 
+            "text": "Sensi Seeds", 
+            "type": "GeographicFeature"
+          }, 
+          {
+            "count": 3, 
+            "relevance": 0.751688, 
+            "sentiment": {
+              "score": -0.542903
+            }, 
+            "text": "cannabis", 
+            "type": "Drug"
+          }, 
+          {
+            "count": 1, 
+            "disambiguation": {
+              "subtype": [
+                "Region"
+              ]
+            }, 
+            "relevance": 0.267128, 
+            "sentiment": {
+              "score": -0.301737
+            }, 
+            "text": "Northern Hemisphere", 
+            "type": "Location"
+          }
+        ], 
+        "keywords": [
+          {
+            "relevance": 0.923901, 
+            "sentiment": {
+              "score": -0.533481
+            }, 
+            "text": "Sensi Seeds"
+          }, 
+          {
+            "relevance": 0.798632, 
+            "sentiment": {
+              "score": 0
+            }, 
+            "text": "Sensi Seeds BlogJune"
+          }, 
+          {
+            "relevance": 0.657485, 
+            "sentiment": {
+              "score": 0
+            }, 
+            "text": "Sensi Seeds Blog"
+          }, 
+          {
+            "relevance": 0.513056, 
+            "sentiment": {
+              "score": -0.533481
+            }, 
+            "text": "Seeds outdoor cannabis"
+          }, 
+          {
+            "relevance": 0.481574, 
+            "sentiment": {
+              "score": 0
+            }, 
+            "text": "cannabis outdoor season"
+          }, 
+          {
+            "relevance": 0.317282, 
+            "sentiment": {
+              "score": 0.385728
+            }, 
+            "text": "seed bank solution"
+          }, 
+          {
+            "relevance": 0.312077, 
+            "sentiment": {
+              "score": -0.552326
+            }, 
+            "text": "cannabis growers"
+          }, 
+          {
+            "relevance": 0.220363, 
+            "sentiment": {
+              "score": -0.301737
+            }, 
+            "text": "Northern Hemisphere"
+          }
+        ], 
+        "relations": [
+          {
+            "arguments": [
+              {
+                "entities": [
+                  {
+                    "text": "Sensi Seeds Blog", 
+                    "type": "Person"
+                  }
+                ], 
+                "text": "Sensi Seeds"
+              }, 
+              {
+                "entities": [
+                  {
+                    "text": "our", 
+                    "type": "Person"
+                  }
+                ], 
+                "text": "you"
+              }
+            ], 
+            "score": 0.472362, 
+            "sentence": "The post 3 Sensi Seeds strains you can still plant right now appeared first on Sensi Seeds Blog.", 
+            "type": "partOfMany"
+          }
+        ], 
+        "semantic_roles": [
+          {
+            "action": {
+              "normalized": "have be", 
+              "text": "has been", 
+              "verb": {
+                "tense": "past", 
+                "text": "be"
+              }
+            }, 
+            "sentence": "From Sensi Seeds BlogJune 19, 2017 - 10:25am The cannabis outdoor season is on, or at least is has been so for a few months in the Northern Hemisphere.", 
+            "subject": {
+              "entities": [
+                {
+                  "text": "cannabis", 
+                  "type": "Drug"
+                }
+              ], 
+              "keywords": [
+                {
+                  "text": "cannabis outdoor season"
+                }
+              ], 
+              "text": "25am The cannabis outdoor season"
+            }
+          }, 
+          {
+            "action": {
+              "normalized": "find", 
+              "text": "find", 
+              "verb": {
+                "tense": "present", 
+                "text": "find"
+              }
+            }, 
+            "object": {
+              "text": "themselves"
+            }, 
+            "sentence": " Perhaps this is why many cannabis growers find themselves seedling-less come June.", 
+            "subject": {
+              "entities": [
+                {
+                  "text": "cannabis", 
+                  "type": "Drug"
+                }
+              ], 
+              "keywords": [
+                {
+                  "text": "cannabis growers"
+                }
+              ], 
+              "text": "many cannabis growers"
+            }
+          }, 
+          {
+            "action": {
+              "normalized": "have", 
+              "text": "have", 
+              "verb": {
+                "tense": "present", 
+                "text": "have"
+              }
+            }, 
+            "object": {
+              "keywords": [
+                {
+                  "text": "seed bank solution"
+                }
+              ], 
+              "text": "a seed bank solution"
+            }, 
+            "sentence": " But for every grower issue, we have a seed bank solution!", 
+            "subject": {
+              "text": "we"
+            }
+          }, 
+          {
+            "action": {
+              "normalized": "plant", 
+              "text": "plant", 
+              "verb": {
+                "tense": "future", 
+                "text": "plant"
+              }
+            }, 
+            "sentence": " Check out in this article our top 3 of Sensi Seeds outdoor cannabis strains you can still plant in June.", 
+            "subject": {
+              "text": "you"
+            }
+          }, 
+          {
+            "action": {
+              "normalized": "strain", 
+              "text": "strains", 
+              "verb": {
+                "tense": "present", 
+                "text": "strain"
+              }
+            }, 
+            "object": {
+              "keywords": [
+                {
+                  "text": "Sensi Seeds Blog"
+                }
+              ], 
+              "text": "you can still plant right now appeared first on Sensi Seeds Blog"
+            }, 
+            "sentence": " The post 3 Sensi Seeds strains you can still plant right now appeared first on Sensi Seeds Blog.", 
+            "subject": {
+              "keywords": [
+                {
+                  "text": "Sensi Seeds"
+                }, 
+                {
+                  "text": "post"
+                }
+              ], 
+              "text": "The post 3 Sensi Seeds"
+            }
+          }, 
+          {
+            "action": {
+              "normalized": "plant", 
+              "text": "plant", 
+              "verb": {
+                "tense": "future", 
+                "text": "plant"
+              }
+            }, 
+            "object": {
+              "keywords": [
+                {
+                  "text": "Sensi Seeds strains"
+                }, 
+                {
+                  "text": "post"
+                }
+              ], 
+              "text": "The post 3 Sensi Seeds strains"
+            }, 
+            "sentence": " The post 3 Sensi Seeds strains you can still plant right now appeared first on Sensi Seeds Blog.", 
+            "subject": {
+              "text": "you"
+            }
+          }, 
+          {
+            "action": {
+              "normalized": "appear", 
+              "text": "appeared", 
+              "verb": {
+                "tense": "future", 
+                "text": "appear"
+              }
+            }, 
+            "sentence": " The post 3 Sensi Seeds strains you can still plant right now appeared first on Sensi Seeds Blog.", 
+            "subject": {
+              "keywords": [
+                {
+                  "text": "Sensi Seeds"
+                }, 
+                {
+                  "text": "post"
+                }
+              ], 
+              "text": "The post 3 Sensi Seeds strains you can still plant right"
+            }
+          }
+        ], 
+        "sentiment": {
+          "document": {
+            "label": "negative", 
+            "score": -0.202392
+          }
+        }
+      }, 
+      "enriched_title": {
+        "categories": [
+          {
+            "label": "/business and industrial/agriculture and forestry/crops and seed", 
+            "score": 0.360298
+          }, 
+          {
+            "label": "/food and drink/food/grains and pasta", 
+            "score": 0.352116
+          }, 
+          {
+            "label": "/health and fitness/disease", 
+            "score": 0.261729
+          }
+        ], 
+        "concepts": [
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Seed", 
+            "relevance": 0.844163, 
+            "text": "Seed"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Plant", 
+            "relevance": 0.811032, 
+            "text": "Plant"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Fruit", 
+            "relevance": 0.800963, 
+            "text": "Fruit"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Moss", 
+            "relevance": 0.726558, 
+            "text": "Moss"
+          }, 
+          {
+            "dbpedia_resource": "http://dbpedia.org/resource/Pinophyta", 
+            "relevance": 0.69196, 
+            "text": "Pinophyta"
+          }
+        ], 
+        "entities": [], 
+        "keywords": [
+          {
+            "relevance": 0.944172, 
+            "sentiment": {
+              "score": -0.537888
+            }, 
+            "text": "Sensi Seeds"
+          }
+        ], 
+        "relations": [], 
+        "semantic_roles": [
+          {
+            "action": {
+              "normalized": "strain", 
+              "text": "strains", 
+              "verb": {
+                "tense": "present", 
+                "text": "strain"
+              }
+            }, 
+            "sentence": "3 Sensi Seeds strains you can still plant right now", 
+            "subject": {
+              "keywords": [
+                {
+                  "text": "Sensi Seeds"
+                }
+              ], 
+              "text": "3 Sensi Seeds"
+            }
+          }, 
+          {
+            "action": {
+              "normalized": "plant", 
+              "text": "plant", 
+              "verb": {
+                "tense": "future", 
+                "text": "plant"
+              }
+            }, 
+            "sentence": "3 Sensi Seeds strains you can still plant right now", 
+            "subject": {
+              "text": "you"
+            }
+          }
+        ], 
+        "sentiment": {
+          "document": {
+            "label": "negative", 
+            "score": -0.537888
+          }
+        }
+      }, 
+      "extracted_metadata": {
+        "file_type": "json", 
+        "filename": "1497923886685.zip-86355cea4195cd0e10fdb3061d2e6dc8.xml", 
+        "sha1": "89242b916c13433eb66c4b63d784ec8092a37d25"
+      }, 
+      "forum_title": "eWallstreeter", 
+      "host": "ewallstreeter.com", 
+      "id": "qmBElGdDfqA3f3hiX6QhdygqRF9_O7rTrCf8oC_sg9X3D2KxzOHGOsyDYhUjblVT", 
+      "language": "en", 
+      "publication_date": "2017-06-19T14:25:00Z", 
+      "score": 2.0302024, 
+      "source_type": "mainstream", 
+      "text": "From Sensi Seeds BlogJune 19, 2017 - 10:25am The cannabis outdoor season is on, or at least is has been so for a few months in the Northern Hemisphere. So many things to prepare and to fawn over on one\u2019s way towards Spring and Summer! Perhaps this is why many cannabis growers find themselves seedling-less come June. But for every grower issue, we have a seed bank solution! Check out in this article our top 3 of Sensi Seeds outdoor cannabis strains you can still plant in June. The post 3 Sensi Seeds strains you can still plant right now appeared first on Sensi Seeds Blog.", 
+      "title": "3 Sensi Seeds strains you can still plant right now", 
+      "url": "http://ewallstreeter.com/sensi-seeds-strains-you-can-still-plant-right-now-4757"
+    }
+  ]
+}
