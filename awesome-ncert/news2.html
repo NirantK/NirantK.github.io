@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+<h1><center>Relevant News Articles</center></h1>
+<div id="div1"></div>
+<div id="div2"></div>
+<div id="div3"></div>
+</body>
+<script src="http://code.jquery.com/jquery-1.11.3.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/jquery.ajax-cross-origin.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+    jQuery.ajax({ 
+        crossOrigin: true,
+        // type: 'GET',
+        url: 'https://ncert-hackone.mybluemix.net/api/news/C2' ,
+        // dataType: 'json', 
+        success: function(data) { 
+        	json_data = JSON.parse(data);
+        	console.log("type of data: "+typeof(json_data));
+    		title = json_data.results[0]['title'];
+    		text = json_data.results[0]['text'];
+    		url_data = json_data.results[0]['url'];
+    		var div_data = "<div><h2>"+title+"</h2><p><a href='"+url_data+"'>"+url_data+"</a></p><p>"+text+"</p></div>";
+    		$("#div1").html(div_data);
+
+    		title = json_data.results[1]['title'];
+    		text = json_data.results[1]['text'];
+    		url_data = json_data.results[1]['url'];
+    		var div_data = "<div><h2>"+title+"</h2><p><a href='"+url_data+"'>"+url_data+"</a></p><p>"+text+"</p></div>";
+    		$("#div2").html(div_data);
+
+    		title = json_data.results[2]['title'];
+    		text = json_data.results[2]['text'];
+    		url_data = json_data.results[2]['url'];
+    		var div_data = "<div><h2>"+title+"</h2><p><a href='"+url_data+"'>"+url_data+"</a></p><p>"+text+"</p></div>";
+    		$("#div3").html(div_data);
+        }
+    });
+  });
+
+// var parseJson = function (response) {
+// 	// console.log(response);
+//     return response.json();
+// };
+
+// function getJSONP(url, success) {
+
+//     var ud = '_' + +new Date,
+//         script = document.createElement('script'),
+//         head = document.getElementsByTagName('head')[0] 
+//                || document.documentElement;
+
+//     window[ud] = function(data) {
+//         head.removeChild(script);
+//         success && success(data);
+//     };
+
+//     script.src = url.replace('callback=?', 'callback=' + ud);
+//     head.appendChild(script);
+
+// }
+// // url = 'http://soundcloud.com/oembed?url=http%3A//soundcloud.com/forss/flickermood&format=js&callback=?'
+// url = 'https://ncert-hackone.mybluemix.net/api/news/fesc101'
+// getJSONP(url, function(data){
+//     // console.log(data['matching_results']);
+// });  
+
+
+// const url = 'data.json';
+// response = fetch(url); // Call the fetch function passing the url of the API as a parameter
+// console.log(response);
+// console.log(fetch(url).then(parseJson));
+
+document.getElementById('div1').innerHTML= "<h2>Loading NEWS Title</h2><h3>Loading Link</h3><h3>Loading Preview Text</h3><br>";
+
+// document.getElementById('div2').innerHTML= "<h2>Title</h2><h3>Link</h3><h3>Text</h3><br>";
+
+// document.getElementById('div3').innerHTML= "<h2>Title</h2><h3>Link</h3><h3>Text</h3><br>";
+
+</script>
+</html>
