@@ -14,7 +14,7 @@ $(document).ready(function() {
     jQuery.ajax({ 
         crossOrigin: true,
         // type: 'GET',
-        url: 'https://ncert-hackone.mybluemix.net/api/news/fesc101' ,
+        url: 'https://ncert-hackone.mybluemix.net/api/news/C1' ,
         // dataType: 'json', 
         success: function(data) { 
         	json_data = JSON.parse(data);
@@ -73,11 +73,11 @@ $(document).ready(function() {
 // console.log(response);
 // console.log(fetch(url).then(parseJson));
 
-// document.getElementById('div1').innerHTML= "<h2>Title</h2><h3>Link</h3><h3>Text</h3><br>";
+document.getElementById('div1').innerHTML= "<h2>Title</h2><h3>Link</h3><h3>Text</h3><br>";
 
-document.getElementById('div2').innerHTML= "<h2>Topic</h2><h3>Posted on:write_date</h3><h3>Text</h3><br>";
+document.getElementById('div2').innerHTML= "<h2>Title</h2><h3>Link</h3><h3>Text</h3><br>";
 
-document.getElementById('div3').innerHTML= "<h2>Topic</h2><h3>Posted on:write_date</h3><h3>Text</h3><br>";
+document.getElementById('div3').innerHTML= "<h2>Title</h2><h3>Link</h3><h3>Text</h3><br>";
 
 </script>
 </html>
