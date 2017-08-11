@@ -7,8 +7,18 @@
 <div id="div3"></div>
 </body>
 <script>
-//var json=JSON.parse(data.json);
-document.getElementById('div1').innerHTML= "<h2>Topic</h2><h3>Posted on:write_date</h3><h3>Text</h3><br>";
+
+var parseJson = function (response) {
+	// console.log(response);
+    return response.json();
+};
+
+const url = 'data.json';
+response = fetch(url); // Call the fetch function passing the url of the API as a parameter
+console.log(response);
+// console.log(fetch(url).then(parseJson));
+
+document.getElementById('div1').innerHTML= "<h2>Title</h2><h3>Link</h3><h3>Text</h3><br>";
 
 document.getElementById('div2').innerHTML= "<h2>Topic</h2><h3>Posted on:write_date</h3><h3>Text</h3><br>";
 
