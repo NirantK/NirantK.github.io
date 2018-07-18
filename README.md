@@ -3,7 +3,7 @@ Nirant Kasliwal
 
 This repository hosts the content at [my web page](http://www.nirantk.github.io)
 
-[Linkedin](https://www.linkedin.com/in/nirant/) |  [Github](https://github.com/NirantK/) | [Resume](http://www.nirantk.in/resume/nirant-kasliwal-resume.pdf)
+[Linkedin](https://www.linkedin.com/in/nirant/) |  [Github](https://github.com/NirantK/) | [Resume](http://www.nirantk.com/resume/nirant-kasliwal-resume.pdf)
 
 # Community Contributions
 
