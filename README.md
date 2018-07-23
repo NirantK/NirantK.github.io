@@ -17,6 +17,9 @@ This repository hosts the content at [my web page](http://www.nirantk.github.io)
 
 # Personal Projects: 
 
+## WIP: [Natural Language Processing with Deep Learning in Python](http://nirantk.com/nlp-python-deep-learning/)
+- Series of 5-10 notebooks exploring several great text processing tools such as spaCy, gensim, and PyTorch for text processing and natural language processing
+
 ## WIP: [hindi2vec](https://github.com/NirantK/hindi2vec)
 - State of the Art Language Modeling in Hindi
 
