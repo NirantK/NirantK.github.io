@@ -11,6 +11,10 @@ Nirant Kasliwal
 
 [The Hitchhiker's Guide to NLP in spaCy](https://www.kaggle.com/nirant/hitchhiker-s-guide-to-nlp-in-spacy/) won the first ever NLP themed Kaggle Kernel award. I won a free licensed copy of [Prodi.gy](https://prodi.gy/) worth $390 with it, and $500 in cash. 
 
+### Best of Jupyter - found helpful by Nobel Laureates
+Tips, Tricks, Best Practices for working with Jupyter Notebook's was appreciated by Economics Nobel Laureate 2018, Dr. Paul Romer: 
+"..., this looks very helpful" on [Twitter](https://twitter.com/paulmromer/status/985518009879089152)
+
 ### International FastAI Part 2 v2 Fellowship
 - Selected to be among the ~500 International Fellows attending the Advanced Deep Learning Course by [fastAI](www.fast.ai) Live
 - Achieved **State of the Art Language Modeling in Hindi** [hindi2vec](https://github.com/NirantK/hindi2vec) as part of the experiments during fellowship
