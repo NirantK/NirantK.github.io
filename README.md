@@ -33,6 +33,9 @@ FactorDaily's piece on [The great rush to data sciences in India](https://factor
 - Primary Maintainer for [Awesome-NLP](https://github.com/keon/awesome-nlp), which is also featured in [Github's Official Machine Learning Collection](https://github.com/collections/machine-learning)
 - Curated list of Natural Language Processing Resources with **50+ contributors, 6k+ stars**, 1k+ forks
 
+### [hindi2vec](https://github.com/NirantK/hindi2vec)
+- State of the Art Language Modeling in Hindi + new datasets based on ULimFit
+
 ### [Awesome Project Ideas](https://github.com/NirantK/awesome-project-ideas)
 - Curated list of machine learning (mostly deep learning) project ideas with datasets with **1.5k+ stars**
 - Ideas range from Vision, Text, Forecasting to Recommender Systems.
