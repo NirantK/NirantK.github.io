@@ -8,6 +8,7 @@ Nirant Kasliwal
 # NLP in Python: Quickstart Guide
 Authored a Book for Programmers to Brew NLP Recipes
 ---
+
 [![](https://images-eu.ssl-images-amazon.com/images/I/41uaueSqtUL._SX260_.jpg)](https://www.amazon.in/dp/B07L3PLQS1)
 
 * Written with code examples and programmer-first mindset. [Code here](https://github.com/NirantK/nlp-python-deep-learning]
