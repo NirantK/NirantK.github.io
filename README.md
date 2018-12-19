@@ -5,9 +5,15 @@ Nirant Kasliwal
 
 ## What's New
 
-### Won the Kaggle Kernel Prize
+# NLP in Python: Quickstart Guide
 
-[![](https://pbs.twimg.com/media/DpVZDf0WsAETYwY.png)](https://www.kaggle.com/nirant/hitchhiker-s-guide-to-nlp-in-spacy/)
+Book for Programmers to Brew NLP Recipes
+* Published in [US](https://www.amazon.com/dp/B07L3PLQS1), UK and [India](https://www.amazon.in/dp/B07L3PLQS1)
+* Written with code examples and programmer-first mindset. [Code here](https://github.com/NirantK/nlp-python-deep-learning]
+* Includes Text Embedding, Linguistics 101, Ensemble Modeling, Chatbots with small data, ML and Deep learning for text classification using tools like spaCy, PyTorch, & gensim. 
+
+### Won the Kaggle Kernel Prize
+<img src="https://pbs.twimg.com/media/DpVZDf0WsAETYwY.png)](https://www.kaggle.com/nirant/hitchhiker-s-guide-to-nlp-in-spacy/">
 
 [The Hitchhiker's Guide to NLP in spaCy](https://www.kaggle.com/nirant/hitchhiker-s-guide-to-nlp-in-spacy/) won the first ever NLP themed Kaggle Kernel award. I won a free licensed copy of [Prodi.gy](https://prodi.gy/) worth $390 with it, and $500 in cash. 
 
