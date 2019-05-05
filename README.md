@@ -5,6 +5,11 @@ Nirant Kasliwal
 
 ## What's New
 
+### Friends & Careers
+
+My friend [Tingting](./tingting.md) is looking for roles in Product Management! 
+My friend Aditya is hiring for Machine Learning/NLP engineering
+
 ### First Runner's Up at the Future Group Datathon
 - Two stage Machine Learning hackathon called [Tathastu](https://www.tathastu.ai/datathon), working on recommendation systems and item information extraction problems (March 2019)
 - Judged by a jury from Palantir and Future Group Consumer & Data Lab
