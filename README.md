@@ -5,17 +5,16 @@ Nirant Kasliwal
 
 ## What's New
 
-### Friends & Careers
-
-My friend [Tingting](./tingting.md) is looking for roles in Product Management! 
-My friend Aditya is hiring for Machine Learning/NLP engineering
+### Active Project: [Awesome NLP](https://github.com/keon/awesome-nlp) 
+- Primary Maintainer for [Awesome-NLP](https://github.com/keon/awesome-nlp), which is also featured in [Github's Official Machine Learning Collection](https://github.com/collections/machine-learning)
+- Curated list of Natural Language Processing Resources with **75+ contributors, 8k+ stars**, 1k+ forks
 
 ### First Runner's Up at the Future Group Datathon
 - Two stage Machine Learning hackathon called [Tathastu](https://www.tathastu.ai/datathon), working on recommendation systems and item information extraction problems (March 2019)
 - Judged by a jury from Palantir and Future Group Consumer & Data Lab
 
 ## NLP in Python: Quickstart Guide
-### Authored a Book for Programmers to Brew NLP Recipes (2018)
+### Authored a Book for Programmers to Brew NLP Recipes (Jan 2019)
 ---
 
 [![](https://images-eu.ssl-images-amazon.com/images/I/41uaueSqtUL._SX260_.jpg)](https://www.amazon.in/dp/B07L3PLQS1)
@@ -30,12 +29,14 @@ My friend Aditya is hiring for Machine Learning/NLP engineering
 
 [The Hitchhiker's Guide to NLP in spaCy](https://www.kaggle.com/nirant/hitchhiker-s-guide-to-nlp-in-spacy/) won the first ever NLP themed Kaggle Kernel award. I won a free licensed copy of [Prodi.gy](https://prodi.gy/) worth $390 with it, and $500 in cash. 
 
-### Best of Jupyter - Programming Notes found helpful by Nobel Laureate
+## Best of Jupyter
+### Programming Notes found helpful by Nobel Laureate
+
 Tips, Tricks, Best Practices for working with Jupyter Notebook's was appreciated by Economics Nobel Laureate 2018 : 
 
 > "..., this looks very helpful" - Dr. Paul Romer on [Twitter](https://twitter.com/paulmromer/status/985518009879089152)
 
-### International FastAI Part 2 v2 Fellowship 2018 & 2019
+## International FastAI Part 2 v2 Fellowship 2018 & 2019
 - Selected to be among the ~500 International Fellows attending the Advanced Deep Learning Course by [fastAI](www.fast.ai) Live
 - Achieved **State of the Art Language Modeling in Hindi** [hindi2vec](https://github.com/NirantK/hindi2vec) as part of the work done during the fellowship
 
@@ -50,12 +51,6 @@ FactorDaily's piece on [The great rush to data sciences in India](https://factor
 ### SoTA Language Modeling Results for Hindi 
 - State of the Art Language Modeling in Hindi + new datasets based on ULimFit
 - Code here at [hindi2vec](https://github.com/NirantK/hindi2vec)
-
-## Popular Github Repositories
-
-### [Awesome NLP](https://github.com/keon/awesome-nlp) 
-- Primary Maintainer for [Awesome-NLP](https://github.com/keon/awesome-nlp), which is also featured in [Github's Official Machine Learning Collection](https://github.com/collections/machine-learning)
-- Curated list of Natural Language Processing Resources with **50+ contributors, 6k+ stars**, 1k+ forks
 
 ### [Awesome Project Ideas](https://github.com/NirantK/awesome-project-ideas)
 - Curated list of machine learning (mostly deep learning) project ideas with datasets with **1.5k+ stars**
