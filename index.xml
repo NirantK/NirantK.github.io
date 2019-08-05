@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Project P1&#39;s Title on Nirant Kasliwal</title>
+    <title>Nirant Kasliwal</title>
     <link>https://nirantk.com/</link>
-    <description>Recent content in Project P1&#39;s Title on Nirant Kasliwal</description>
+    <description>Recent content on Nirant Kasliwal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 02 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 05 Aug 2019 23:29:18 +0530</lastBuildDate>
     
 	<atom:link href="https://nirantk.com/index.xml" rel="self" type="application/rss+xml" />
     
@@ -33,6 +33,16 @@ Observations These are nebulous ideas or dots. I don&amp;rsquo;t know how they c
  You: Hey, I know something better!
 Me: Please tell me about it! Raise a PR. Or reply to the tweet above!
  The Mindset  Presentations Skills Considered Harmful tl;dr: Do not block the message with your actions. Put in the work to get the message across.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://nirantk.com/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nirantk.com/about/</guid>
+      <description>Nirant Kasliwal Linkedin | Github | Twitter
+What&amp;rsquo;s New Inaugural Speaker at PyData Bangalore  Talk: Quiz Generation with spaCy; video  Kaggle Kernel - you can fork and play with this using Kaggle&amp;rsquo;s Compute Notebook with Quiz Generation Examples from Github Repo on NLP in Python Reading on Dependency Parsing: Speech &amp;amp; Language Processing by Daniel Jurafsky, Chp.13   Active Project: Awesome NLP  Primary Maintainer for Awesome-NLP, which is also featured in Github&amp;rsquo;s Official Machine Learning Collection Curated list of Natural Language Processing Resources with 75+ contributors, 8k+ stars, 1k+ forks  First Runner&amp;rsquo;s Up at the Future Group Datathon  Two stage Machine Learning hackathon called Tathastu, working on recommendation systems and item information extraction problems (March 2019) Judged by a jury from Palantir and Future Group Consumer &amp;amp; Data Lab  Tech Talks  inMobi Tech Talks: A Nightmare on the LM Street; Slides Wingify DevFest: NLP for Indian Languages; Slides, Youtube  NLP in Python: Quickstart Guide Authored a Book for Programmers to Brew NLP Recipes (Jan 2019)</description>
     </item>
     
     <item>
