@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Nirant Kasliwal</title>
+    <title>Project P1&#39;s Title on Nirant Kasliwal</title>
     <link>https://nirantk.com/</link>
-    <description>Recent content on Nirant Kasliwal</description>
+    <description>Recent content in Project P1&#39;s Title on Nirant Kasliwal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 05 Aug 2019 23:29:18 +0530</lastBuildDate>
+    <lastBuildDate>Tue, 02 Jan 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://nirantk.com/index.xml" rel="self" type="application/rss+xml" />
     
@@ -37,19 +37,10 @@ Me: Please tell me about it! Raise a PR. Or reply to the tweet above!
     
     <item>
       <title></title>
-      <link>https://nirantk.com/readme/</link>
+      <link>https://nirantk.com/failresume/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://nirantk.com/readme/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://nirantk.com/fail/resume/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nirantk.com/fail/resume/</guid>
+      <guid>https://nirantk.com/failresume/</guid>
       <description>Failure Resume :) A failure resume is, as its name suggests, a list of rejections and setbacks.
 This concept originated in academia, but can be applied to improve one’s career, resilience, and approach to challenges in any walk of life.
 I’ve organized my setbacks by year (starting with 2016), and what constitutes a “failure” here is based solely on my own judgement. It’s important to not only list the failures, but also learn from them, so I will add reflections to some of them (in progress).</description>

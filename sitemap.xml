@@ -8,39 +8,27 @@
   </url>
   
   <url>
-    <loc>https://nirantk.com/</loc>
-    <lastmod>2019-08-05T23:29:18+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://nirantk.com/posts/</loc>
-    <lastmod>2019-08-05T23:29:18+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://nirantk.com/posts/techtalktips/</loc>
     <lastmod>2019-08-05T23:29:18+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://nirantk.com/readme/</loc>
-    <priority>0</priority>
+    <loc>https://nirantk.com/posts/</loc>
+    <lastmod>2019-08-05T23:29:18+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://nirantk.com/fail/resume/</loc>
+    <loc>https://nirantk.com/</loc>
+    <lastmod>2018-01-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nirantk.com/failresume/</loc>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://nirantk.com/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://nirantk.com/fail/</loc>
     <priority>0</priority>
   </url>
   
