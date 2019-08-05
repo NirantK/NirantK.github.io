@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Fails on </title>
+    <link>/fail/</link>
+    <description>Recent content in Fails on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    
+	<atom:link href="/fail/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>/fail/readme/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/fail/readme/</guid>
+      <description>Failure Resume :) A failure resume is, as its name suggests, a list of rejections and setbacks.
+This concept originated in academia, but can be applied to improve one’s career, resilience, and approach to challenges in any walk of life.
+I’ve organized my setbacks by year (starting with 2016), and what constitutes a “failure” here is based solely on my own judgement. It’s important to not only list the failures, but also learn from them, so I will add reflections to some of them (in progress).</description>
+    </item>
+    
+  </channel>
+</rss>
