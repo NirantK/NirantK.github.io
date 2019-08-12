@@ -13,10 +13,10 @@
     
     <item>
       <title>Bezos &amp; Amazon Inc.</title>
-      <link>https://nirantk.com/posts/amazon/</link>
+      <link>https://nirantk.com/amazon/</link>
       <pubDate>Mon, 05 Aug 2019 23:29:18 +0530</pubDate>
       
-      <guid>https://nirantk.com/posts/amazon/</guid>
+      <guid>https://nirantk.com/amazon/</guid>
       <description>Bezos &amp;amp; Amazon Inc. This short page is my personal collection of lessons, ideas, observation, &amp;amp; notes.
 I don&amp;rsquo;t expect them to be useful for anyone except me, but hey - if you do, say Hi to me on Twitter
 Introductory This is mostly obvious stuff. - Book - The Everything Store - Betting on Things that Never Change by Morgan Housel
@@ -24,12 +24,24 @@ Observations These are nebulous ideas or dots. I don&amp;rsquo;t know how they c
     </item>
     
     <item>
-      <title>Tech Talk Tips</title>
-      <link>https://nirantk.com/posts/techtalktips/</link>
+      <title>Failure Resume</title>
+      <link>https://nirantk.com/failresume/</link>
       <pubDate>Mon, 05 Aug 2019 23:29:18 +0530</pubDate>
       
-      <guid>https://nirantk.com/posts/techtalktips/</guid>
-      <description>Tech Talk Tips Collection of the Best Advice on Internet that I know about on giving a tech talk. Based on responses from my question on Twitter.
+      <guid>https://nirantk.com/failresume/</guid>
+      <description>Failure Resume :)
+A failure resume is, as its name suggests, a list of rejections and setbacks.
+This concept originated in academia, but can be applied to improve one’s career, resilience, and approach to challenges in any walk of life.
+I’ve organized my setbacks by year (starting with 2016), and what constitutes a “failure” here is based solely on my own judgement. It’s important to not only list the failures, but also learn from them, so I will add reflections to some of them (in progress).</description>
+    </item>
+    
+    <item>
+      <title>Tech Talk Tips</title>
+      <link>https://nirantk.com/techtalktips/</link>
+      <pubDate>Mon, 05 Aug 2019 23:29:18 +0530</pubDate>
+      
+      <guid>https://nirantk.com/techtalktips/</guid>
+      <description>Collection of the Best Advice on Internet that I know about on giving a tech talk. Based on responses from my question on Twitter.
  You: Hey, I know something better!
 Me: Please tell me about it! Raise a PR. Or reply to the tweet above!
  The Mindset  Presentations Skills Considered Harmful tl;dr: Do not block the message with your actions. Put in the work to get the message across.</description>
@@ -47,13 +59,20 @@ What&amp;rsquo;s New Inaugural Speaker at PyData Bangalore  Talk: Quiz Generatio
     
     <item>
       <title></title>
-      <link>https://nirantk.com/failresume/</link>
+      <link>https://nirantk.com/articles/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://nirantk.com/failresume/</guid>
-      <description>Failure Resume :) A failure resume is, as its name suggests, a list of rejections and setbacks.
-This concept originated in academia, but can be applied to improve one’s career, resilience, and approach to challenges in any walk of life.
-I’ve organized my setbacks by year (starting with 2016), and what constitutes a “failure” here is based solely on my own judgement. It’s important to not only list the failures, but also learn from them, so I will add reflections to some of them (in progress).</description>
+      <guid>https://nirantk.com/articles/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://nirantk.com/essays/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nirantk.com/essays/</guid>
+      <description></description>
     </item>
     
   </channel>

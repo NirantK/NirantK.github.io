@@ -3,7 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://nirantk.com/posts/amazon/</loc>
+    <loc>https://nirantk.com/amazon/</loc>
+    <lastmod>2019-08-05T23:29:18+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nirantk.com/failresume/</loc>
     <lastmod>2019-08-05T23:29:18+05:30</lastmod>
   </url>
   
@@ -14,14 +19,20 @@
   </url>
   
   <url>
-    <loc>https://nirantk.com/posts/</loc>
+    <loc>https://nirantk.com/tags/</loc>
     <lastmod>2019-08-05T23:29:18+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://nirantk.com/posts/techtalktips/</loc>
+    <loc>https://nirantk.com/techtalktips/</loc>
     <lastmod>2019-08-05T23:29:18+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nirantk.com/tags/tech/</loc>
+    <lastmod>2019-08-05T23:29:18+05:30</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -30,17 +41,17 @@
   </url>
   
   <url>
-    <loc>https://nirantk.com/failresume/</loc>
+    <loc>https://nirantk.com/articles/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nirantk.com/essays/</loc>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://nirantk.com/categories/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://nirantk.com/tags/</loc>
     <priority>0</priority>
   </url>
   
