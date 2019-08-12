@@ -3,6 +3,76 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://nirantk.com/categories/</loc>
+    <lastmod>2019-08-12T23:09:05+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nirantk.com/categories/</loc>
+    <lastmod>2019-08-12T23:09:05+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nirantk.com/</loc>
+    <lastmod>2019-08-12T23:09:05+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nirantk.com/now/</loc>
+    <lastmod>2019-08-12T23:09:05+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nirantk.com/tags/</loc>
+    <lastmod>2019-08-12T23:09:05+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nirantk.com/tags/personal/</loc>
+    <lastmod>2019-08-12T23:09:05+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nirantk.com/articles/</loc>
+    <lastmod>2019-08-12T23:02:04+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nirantk.com/articles/test/</loc>
+    <lastmod>2019-08-12T23:02:04+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nirantk.com/categories/dev/</loc>
+    <lastmod>2019-08-12T23:02:04+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nirantk.com/tags/dev/</loc>
+    <lastmod>2019-08-12T23:02:04+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nirantk.com/tags/hugo/</loc>
+    <lastmod>2019-08-12T23:02:04+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nirantk.com/tags/hyde-hyde/</loc>
+    <lastmod>2019-08-12T23:02:04+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://nirantk.com/about/</loc>
     <lastmod>2019-08-05T23:29:18+05:30</lastmod>
   </url>
@@ -24,36 +94,13 @@
   </url>
   
   <url>
-    <loc>https://nirantk.com/</loc>
-    <lastmod>2019-08-05T23:29:18+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://nirantk.com/tags/</loc>
-    <lastmod>2019-08-05T23:29:18+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://nirantk.com/drafts/techtalktips/</loc>
     <lastmod>2019-08-05T23:29:18+05:30</lastmod>
   </url>
   
   <url>
-    <loc>https://nirantk.com/tags/personal/</loc>
-    <lastmod>2019-08-05T23:29:18+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://nirantk.com/tags/tech/</loc>
     <lastmod>2019-08-05T23:29:18+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://nirantk.com/categories/</loc>
     <priority>0</priority>
   </url>
   

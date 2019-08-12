@@ -6,10 +6,21 @@
     <description>Recent content in personal on Nirant Kasliwal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 05 Aug 2019 23:29:18 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 12 Aug 2019 23:09:05 +0530</lastBuildDate>
     
 	<atom:link href="https://nirantk.com/tags/personal/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Now</title>
+      <link>https://nirantk.com/now/</link>
+      <pubDate>Mon, 12 Aug 2019 23:09:05 +0530</pubDate>
+      
+      <guid>https://nirantk.com/now/</guid>
+      <description>What I’m doing now Work: I lead Machine Learning Engineering for Verloop - we help automate conversations between you and a business. Life: Rather scattered and still confused
+Torschlusspaniki / Panicking About the word
+My previous workplaces made a serious dent in the size of my dreams. It is only at welcoming meadow-like work culture at Verloop - that I&amp;rsquo;ve come to feel like going back on the chase.</description>
+    </item>
     
     <item>
       <title>About Me</title>

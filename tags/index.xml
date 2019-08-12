@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Nirant Kasliwal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 05 Aug 2019 23:29:18 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 12 Aug 2019 23:09:05 +0530</lastBuildDate>
     
 	<atom:link href="https://nirantk.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,9 +14,36 @@
     <item>
       <title>personal</title>
       <link>https://nirantk.com/tags/personal/</link>
-      <pubDate>Mon, 05 Aug 2019 23:29:18 +0530</pubDate>
+      <pubDate>Mon, 12 Aug 2019 23:09:05 +0530</pubDate>
       
       <guid>https://nirantk.com/tags/personal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dev</title>
+      <link>https://nirantk.com/tags/dev/</link>
+      <pubDate>Mon, 12 Aug 2019 23:02:04 +0530</pubDate>
+      
+      <guid>https://nirantk.com/tags/dev/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hugo</title>
+      <link>https://nirantk.com/tags/hugo/</link>
+      <pubDate>Mon, 12 Aug 2019 23:02:04 +0530</pubDate>
+      
+      <guid>https://nirantk.com/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hyde-hyde</title>
+      <link>https://nirantk.com/tags/hyde-hyde/</link>
+      <pubDate>Mon, 12 Aug 2019 23:02:04 +0530</pubDate>
+      
+      <guid>https://nirantk.com/tags/hyde-hyde/</guid>
       <description></description>
     </item>
     
