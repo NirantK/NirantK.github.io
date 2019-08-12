@@ -1,29 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Nirant Kasliwal</title>
-    <link>https://nirantk.com/</link>
-    <description>Recent content on Nirant Kasliwal</description>
+    <title>Drafts on Nirant Kasliwal</title>
+    <link>https://nirantk.com/drafts/</link>
+    <description>Recent content in Drafts on Nirant Kasliwal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Mon, 05 Aug 2019 23:29:18 +0530</lastBuildDate>
     
-	<atom:link href="https://nirantk.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://nirantk.com/drafts/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>About Me</title>
-      <link>https://nirantk.com/about/</link>
-      <pubDate>Mon, 05 Aug 2019 23:29:18 +0530</pubDate>
-      
-      <guid>https://nirantk.com/about/</guid>
-      <description>Linkedin | Github | Twitter
-Hiya! You found me. I&amp;rsquo;m Nirant.
-I build Machine Learning/Data Science powered products. I make sometimes clever products which make human life easier.
-Past NLP in Python: Quickstart Guide Wrote a Book for Programmers to Brew NLP Recipes (Jan 2019)
-
- Written with code examples and programmer-first mindset. Try it out yourself on Github Includes Text Embedding, Linguistics 101, Ensemble Modeling, Chatbots with small data, ML and Deep learning for text classification using tools like spaCy, PyTorch, &amp;amp; gensim.</description>
-    </item>
     
     <item>
       <title>Bezos &amp; Amazon Inc.</title>
