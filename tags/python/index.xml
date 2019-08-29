@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Writings on Nirant Kasliwal</title>
-    <link>https://nirantk.com/writing/</link>
-    <description>Recent content in Writings on Nirant Kasliwal</description>
+    <title>python on Nirant Kasliwal</title>
+    <link>https://nirantk.com/tags/python/</link>
+    <description>Recent content in python on Nirant Kasliwal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Tue, 27 Aug 2019 23:29:18 +0530</lastBuildDate>
     
-	<atom:link href="https://nirantk.com/writing/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://nirantk.com/tags/python/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -31,19 +31,6 @@ _fstring = f&amp;#39;Total: {one + two}&amp;#39; # Go f-string!</description>
       <description>The Silent Rise of PyTorch Ecosystem While Tensorflow has made peace with Keras as it’s high level API and mxNet now support Gluon — PyTorch is the bare matrix love.
 PyTorch has seen rapid adoption in academia and all the industrial labs that I have spoken to as well. One of the reasons people (specially engineers doing experiments) like PyTorch is the ease of debugging.
 What I don’t like about PyTorch is it’s incessant requirement of debugging because of inconsistent dimensions problems.</description>
-    </item>
-    
-    <item>
-      <title>Tech Talk Tips</title>
-      <link>https://nirantk.com/writing/techtalktips/</link>
-      <pubDate>Mon, 05 Aug 2019 23:29:18 +0530</pubDate>
-      
-      <guid>https://nirantk.com/writing/techtalktips/</guid>
-      <description>Collection of the Best Advice on Internet that I know about on giving a tech talk. Based on responses from my question on Twitter.
-  Meghana gave a talk based on these tips at PyData Bengaluru
-   You: Hey, I know something better!
-Me: Please tell me about it! Raise a PR. Or reply to the tweet above!
- The Mindset  Presentations Skills Considered Harmful tl;dr: Do not block the message with your actions.</description>
     </item>
     
   </channel>
