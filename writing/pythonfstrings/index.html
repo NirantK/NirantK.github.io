@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     
-    <title>Nirant Kasliwal  | Tech Talk Tips</title>
+    <title>Nirant Kasliwal  | Best of Python 3 f-strings</title>
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="320">
 
@@ -28,39 +28,27 @@
 
     
 
-    <meta property="og:title" content="Tech Talk Tips" />
-<meta property="og:description" content="Collection of the Best Advice on Internet that I know about on giving a tech talk. Based on responses from my question on Twitter.
-Meghana at PyData BLR
- You: Hey, I know something better!
-Me: Please tell me about it! Raise a PR. Or reply to the tweet above!
- The Mindset  Presentations Skills Considered Harmful tl;dr: Do not block the message with your actions. Put in the work to get the message across." />
+    <meta property="og:title" content="Best of Python 3 f-strings" />
+<meta property="og:description" content="Python f-string Primer" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://nirantk.com/writing/techtalktips/" />
-<meta property="article:published_time" content="2019-08-05T23:29:18&#43;05:30"/>
-<meta property="article:modified_time" content="2019-08-05T23:29:18&#43;05:30"/>
+<meta property="og:url" content="https://nirantk.com/writing/pythonfstrings/" />
+<meta property="article:published_time" content="2019-08-27T23:29:18&#43;05:30"/>
+<meta property="article:modified_time" content="2019-08-27T23:29:18&#43;05:30"/>
 
-<meta itemprop="name" content="Tech Talk Tips">
-<meta itemprop="description" content="Collection of the Best Advice on Internet that I know about on giving a tech talk. Based on responses from my question on Twitter.
-Meghana at PyData BLR
- You: Hey, I know something better!
-Me: Please tell me about it! Raise a PR. Or reply to the tweet above!
- The Mindset  Presentations Skills Considered Harmful tl;dr: Do not block the message with your actions. Put in the work to get the message across.">
+<meta itemprop="name" content="Best of Python 3 f-strings">
+<meta itemprop="description" content="Python f-string Primer">
 
 
-<meta itemprop="datePublished" content="2019-08-05T23:29:18&#43;05:30" />
-<meta itemprop="dateModified" content="2019-08-05T23:29:18&#43;05:30" />
-<meta itemprop="wordCount" content="382">
+<meta itemprop="datePublished" content="2019-08-27T23:29:18&#43;05:30" />
+<meta itemprop="dateModified" content="2019-08-27T23:29:18&#43;05:30" />
+<meta itemprop="wordCount" content="467">
 
 
 
 <meta itemprop="keywords" content="tech," />
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Tech Talk Tips"/>
-<meta name="twitter:description" content="Collection of the Best Advice on Internet that I know about on giving a tech talk. Based on responses from my question on Twitter.
-Meghana at PyData BLR
- You: Hey, I know something better!
-Me: Please tell me about it! Raise a PR. Or reply to the tweet above!
- The Mindset  Presentations Skills Considered Harmful tl;dr: Do not block the message with your actions. Put in the work to get the message across."/>
+<meta name="twitter:title" content="Best of Python 3 f-strings"/>
+<meta name="twitter:description" content="Python f-string Primer"/>
 
   </head>
 
@@ -168,74 +156,81 @@ Me: Please tell me about it! Raise a PR. Or reply to the tweet above!
           
         WRITINGS
       </p>
-      <h1 class="f1 athelas mb1">Tech Talk Tips</h1>
+      <h1 class="f1 athelas mb1">Best of Python 3 f-strings</h1>
       
-      <time class="f6 mv4 dib tracked" datetime="2019-08-05T23:29:18&#43;05:30">August 5, 2019</time>
+      <time class="f6 mv4 dib tracked" datetime="2019-08-27T23:29:18&#43;05:30">August 27, 2019</time>
       
       
-        <span class="f6 mv4 dib tracked"> - 2 minutes read</span>
-        <span class="f6 mv4 dib tracked"> - 382 words</span>
+        <span class="f6 mv4 dib tracked"> - 3 minutes read</span>
+        <span class="f6 mv4 dib tracked"> - 467 words</span>
       
     </header>
 
     <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l">
 
-<p>Collection of the Best Advice on Internet that I know about on giving a tech talk. Based on responses from my question on <a href="https://twitter.com/NirantK/status/1149155845604704257">Twitter</a>.</p>
+<p>This piece is primarily meant for those new to Python. These include mathematicians, economists, and so on who want to use Python within a Jupyter environment. Here is a quick guide on how to make <a href="https://github.com/NirantK/best-of-jupyter">Best of Jupyter</a>.</p>
 
-<p><blockquote class="imgur-embed-pub" lang="en" data-id="a/W8WlTP8" data-context="false" ><a href="//imgur.com/a/W8WlTP8">Meghana at PyData BLR</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script></p>
+<h2 id="quick-primer">Quick Primer</h2>
+
+<p>If you are familiar with earlier Python versions, here are my top picks on how to move from .format () to this new one:</p>
+
+<script src="https://gist.github.com/NirantK/9d667034ef7feac484c21528251decbb.js"></script>
+
+<h2 id="f-string-magic">f-string Magic</h2>
+
+<p>f-strings are how you should use print statements in Python. It is fairly reminiscent of LaTeX in it’s inline notation:</p>
+
+<script src="https://gist.github.com/NirantK/345e8d846bbc13a18caec0e40b47fde3.js"></script>
+
+<p>Notice how the variable <em>name</em> can now be used inline. This is a simple and easy to use syntax: just include the variable in surrounding <em>{}</em> while marking the string type as f-string using the ‘_f_’ in the beginning.</p>
+
+<p><em>Note to the advanced programmer</em>:</p>
+
+<p>‘f’ may be combined with ‘r’ to produce raw f-string which can be used inside regex or similar functions. ‘f’ may not be combined with ‘u’, this is because all Python3.6+ strings are Unicode by default now. This means, you can write fstrings in Hindi, Chinese, French, Korean and atleast 10 other languages.</p>
 
 <blockquote>
-<p>You: Hey, I know something better!</p>
-
-<p>Me: Please tell me about it! Raise a PR. Or reply to the tweet above!</p>
+<p>You can write fstrings in Hindi, Chinese, French, Korean and any language covered by Unicode.</p>
 </blockquote>
 
-<h2 id="the-mindset">The Mindset</h2>
+<p>But why are these called formatted-strings in the first place? Because you can use with some cool formatting hacks.</p>
+
+<h2 id="simplified-alignment-and-spacing">Simplified Alignment and Spacing</h2>
+
+<p>Have you ever tried creating a table such as that for logging or visualization? Arranging the elements becomes a nightmare with several <code>\t</code> tab characters flying around.</p>
+
+<p>This is much easier with Python f-strings using the colon ‘:’ operator, followed by a an alignment operator and field width value.</p>
+
+<p>There are atleast 3 alignment operator: &lt; for left aligned, &gt; for right aligned, and ^ for center aligned. Refer the code example:</p>
+
+<script src="https://gist.github.com/NirantK/c20e7b2e3cc302a967171c327089a5db.js"></script>
+
+<p>You also have support for decimal truncation and similar standard formatting utilities:
+<script src="https://gist.github.com/NirantK/3faa8e43ba0a376e56210c92fb3740e2.js"></script></p>
+
+<p>You might notice something interesting here: width and precision are automatically picked up from the scope. This means you can calculate width and precision using screen width or other inputs from system and use that.</p>
+
+<h2 id="full-python-expressions-support">Full Python Expressions Support</h2>
+
+<p>The above is only possible because the expression inside {} is actually being evaluated, or in programming terms: being executed.</p>
+
+<script src="https://gist.github.com/NirantK/413f48601f9e22887e74f8b263179fa5.js"></script>
+
+<p>This implies, that you can make any function call from within those {}.</p>
+
+<p>Though, you should avoid doing this in practice very often because it might make your debugging very difficult. Instead, store the returned value from function in a variable and then add the variable in a fstring print statement.</p>
+
+<p>Those coming from functional programming might miss their lambda functions. Don’t worry, Python has you covered:</p>
+
+<h2 id="lambda-functions-in-f-strings">Lambda Functions in f-strings</h2>
+
+<script src="https://gist.github.com/NirantK/c770b55f0f0a6941a58ed751b86f535e.js"></script>
+
+<h1 id="summary">Summary</h1>
 
 <ul>
-<li><a href="http://seriouspony.com/blog/2013/10/4/presentation-skills-considered-harmful">Presentations Skills Considered Harmful</a>
-tl;dr: Do not block the message with your actions. Put in the work to get the message across.</li>
-</ul>
-
-<h2 id="how-to-structure-and-style-the-talk">How to structure and style the talk?</h2>
-
-<blockquote>
-<p>Everyone&rsquo;s experiences are different so not sure how well mine generalise. But: find someone whose style of presentation you like &amp; take some inspiration. There are soo many different ways of delivering a talk &amp; it&rsquo;s all about finding the one that works best for your personality.</p>
-
-<p>IMO, slides shouldn&rsquo;t contain <em>everything</em> that&rsquo;s being said in the talk. They should provide an overview of the main points and complement them visually – e.g. with diagrams, illustrations, small code examples. Also, people LOVE taking pics of slides.</p>
-
-<p>I typically practice my talks in logical units, then practice the transitions, then put it all together at the end. I find that much easier and more efficient than only ever doing full run-throughs. But then again, people have different preferences here.</p>
-</blockquote>
-
-<ul>
-<li>From Ines, the co-creator of spaCy</li>
-</ul>
-
-<h2 id="on-how-to-start-the-talk">On how to start the talk:</h2>
-
-<blockquote>
-<p>Give an outline to the audience about the topics that will be addressed. More importantly, gauge the existing level of understanding of the subject of the audience and modify the presentation accordingly. Best way is to ask questions before starting the presentation.</p>
-</blockquote>
-
-<h2 id="on-what-is-important">On what is important</h2>
-
-<blockquote>
-<p>Holding the attention of the audience is v important. You are easier to pay attention to when you are
-* entertaining to the audience
-* telling a story
-* telling the truth</p>
-
-<p>For every point of truth you want to cover, wrap it with an entertaining story arc. One are per point.</p>
-
-<p>List all your points. Then list all the stories you could tell per point. Then sort the stories by entertainment value to the audience.
-Assume one story arc is approx per 10 mins of speaking. A mental model of &ldquo;telling a fun story to someone you&rsquo;ve met a few times&rdquo; helps.
-- From Sidu Ponappa (@ponappa), GoJek India MD</p>
-</blockquote>
-
-<h1 id="more-good">More good</h1>
-
-<ul>
-<li><a href="https://twitter.com/techspeakdigest?lang=en">Technical Speaking Archives</a></li>
+<li>f strings mean you can include variables and function calls inside your print statements</li>
+<li>Inline variables: these are easier to read and debug for the developer</li>
+<li><strong><em>Use f-strings when you can</em></strong>!</li>
 </ul>
 <ul class="pa0">
   
@@ -256,18 +251,34 @@ Assume one story arc is approx per 10 mins of speaking. A mental model of &ldquo
 <ul>
 <li>
 <ul>
-<li><a href="#the-mindset">The Mindset</a></li>
-<li><a href="#how-to-structure-and-style-the-talk">How to structure and style the talk?</a></li>
-<li><a href="#on-how-to-start-the-talk">On how to start the talk:</a></li>
-<li><a href="#on-what-is-important">On what is important</a></li>
+<li><a href="#quick-primer">Quick Primer</a></li>
+<li><a href="#f-string-magic">f-string Magic</a></li>
+<li><a href="#simplified-alignment-and-spacing">Simplified Alignment and Spacing</a></li>
+<li><a href="#full-python-expressions-support">Full Python Expressions Support</a></li>
+<li><a href="#lambda-functions-in-f-strings">Lambda Functions in f-strings</a></li>
 </ul></li>
-<li><a href="#more-good">More good</a></li>
+<li><a href="#summary">Summary</a></li>
 </ul>
 </nav>
   </div>
 
 
 
+
+  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Related</p>
+    <ul class="pa0 list">
+	   
+	     <li  class="mb2">
+          <a href="/writing/silentriseofpytorch/">The Silent Rise of PyTorch Ecosystem</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/writing/techtalktips/">Tech Talk Tips</a>
+        </li>
+	    
+    </ul>
+</div>
 
 </aside>
 
