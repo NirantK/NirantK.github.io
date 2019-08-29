@@ -3,24 +3,10 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://nirantk.com/about/</loc>
+    <loc>https://nirantk.com/failresume/</loc>
     <lastmod>2019-08-05T23:29:18+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nirantk.com/drafts/amazon/</loc>
-    <lastmod>2019-08-05T23:29:18+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nirantk.com/drafts/</loc>
-    <lastmod>2019-08-05T23:29:18+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://nirantk.com/drafts/failresume/</loc>
-    <lastmod>2019-08-05T23:29:18+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
@@ -30,14 +16,29 @@
   </url>
   
   <url>
+    <loc>https://nirantk.com/now/</loc>
+    <lastmod>2019-08-05T23:29:18+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://nirantk.com/tags/</loc>
     <lastmod>2019-08-05T23:29:18+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://nirantk.com/drafts/techtalktips/</loc>
+    <loc>https://nirantk.com/writing/techtalktips/</loc>
     <lastmod>2019-08-05T23:29:18+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://nirantk.com/writing/</loc>
+    <lastmod>2019-08-05T23:29:18+05:30</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -53,8 +54,9 @@
   </url>
   
   <url>
-    <loc>https://nirantk.com/drafts/openingquotes/</loc>
-    <priority>0</priority>
+    <loc>https://nirantk.com/about/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>

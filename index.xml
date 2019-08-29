@@ -12,48 +12,35 @@
     
     
     <item>
-      <title>About Me</title>
-      <link>https://nirantk.com/about/</link>
-      <pubDate>Mon, 05 Aug 2019 23:29:18 +0530</pubDate>
-      
-      <guid>https://nirantk.com/about/</guid>
-      <description>Linkedin | Github | Twitter
-Hiya! You found me. I&amp;rsquo;m Nirant.
-I build Machine Learning/Data Science powered products. I make sometimes clever products which make human life easier.
-Past NLP in Python: Quickstart Guide Wrote a Book for Programmers to Brew NLP Recipes (Jan 2019)
-
- Written with code examples and programmer-first mindset. Try it out yourself on Github Includes Text Embedding, Linguistics 101, Ensemble Modeling, Chatbots with small data, ML and Deep learning for text classification using tools like spaCy, PyTorch, &amp;amp; gensim.</description>
-    </item>
-    
-    <item>
-      <title>Bezos &amp; Amazon Inc.</title>
-      <link>https://nirantk.com/drafts/amazon/</link>
-      <pubDate>Mon, 05 Aug 2019 23:29:18 +0530</pubDate>
-      
-      <guid>https://nirantk.com/drafts/amazon/</guid>
-      <description>Bezos &amp;amp; Amazon Inc. This short page is my personal collection of lessons, ideas, observation, &amp;amp; notes.
-I don&amp;rsquo;t expect them to be useful for anyone except me, but hey - if you do, say Hi to me on Twitter
-Introductory This is mostly obvious stuff. - Book - The Everything Store - Betting on Things that Never Change by Morgan Housel
-Observations These are nebulous ideas or dots. I don&amp;rsquo;t know how they connect.</description>
-    </item>
-    
-    <item>
       <title>Fail Resume</title>
-      <link>https://nirantk.com/drafts/failresume/</link>
+      <link>https://nirantk.com/failresume/</link>
       <pubDate>Mon, 05 Aug 2019 23:29:18 +0530</pubDate>
       
-      <guid>https://nirantk.com/drafts/failresume/</guid>
+      <guid>https://nirantk.com/failresume/</guid>
       <description>A failure resume is, as its name suggests, a list of rejections and setbacks.
 This concept originated in academia, but can be applied to improve one’s career, resilience, and approach to challenges in any walk of life.
 I’ve organized my setbacks by year (starting with 2016), and what constitutes a “failure” here is based solely on my own judgement. It’s important to not only list the failures, but also learn from them, so I will add reflections to some of them (in progress).</description>
     </item>
     
     <item>
-      <title>Tech Talk Tips</title>
-      <link>https://nirantk.com/drafts/techtalktips/</link>
+      <title>Now</title>
+      <link>https://nirantk.com/now/</link>
       <pubDate>Mon, 05 Aug 2019 23:29:18 +0530</pubDate>
       
-      <guid>https://nirantk.com/drafts/techtalktips/</guid>
+      <guid>https://nirantk.com/now/</guid>
+      <description>What I’m doing now Work: I look at Machine Learning and Natural Language stuff for Verloop. We help make customer support more humane.
+Career: Rather scattered and still exploratory
+Personal - Fitness Goal: Be able to run 10 km and dead lift my body weight on the same day in 2021
+Torschlusspaniki About the word Torschlusspaniki
+My previous workplaces made a serious dent in the size of my dreams. It is only at welcoming meadow work culture at Verloop - that I&amp;rsquo;ve come to feel like going back on the chase.</description>
+    </item>
+    
+    <item>
+      <title>Tech Talk Tips</title>
+      <link>https://nirantk.com/writing/techtalktips/</link>
+      <pubDate>Mon, 05 Aug 2019 23:29:18 +0530</pubDate>
+      
+      <guid>https://nirantk.com/writing/techtalktips/</guid>
       <description>Collection of the Best Advice on Internet that I know about on giving a tech talk. Based on responses from my question on Twitter.
  You: Hey, I know something better!
 Me: Please tell me about it! Raise a PR. Or reply to the tweet above!
@@ -62,12 +49,14 @@ Me: Please tell me about it! Raise a PR. Or reply to the tweet above!
     
     <item>
       <title></title>
-      <link>https://nirantk.com/drafts/openingquotes/</link>
+      <link>https://nirantk.com/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://nirantk.com/drafts/openingquotes/</guid>
-      <description>“ये जो लोग-बाग हैं जंगल की आग हैं क्यूँ आग में जलूँ&amp;hellip; ये नाकाम प्यार में खुश हैं ये हार में इन जैसा क्यूँ बनूँ&amp;hellip;”
-We have all worked so hard to achieve mediocrity @NotetoSelf: You know the essay which starts with these lines. It has been in your head for years now. Do NOT TYPE IT. Typing it, Giving words to it. Will make it real. Just do not.</description>
+      <guid>https://nirantk.com/about/</guid>
+      <description>Linkedin | Github | Twitter
+Hiya! You found me. I&amp;rsquo;m Nirant.
+Past NLP in Python: Quickstart Guide Wrote a Book for Programmers to Brew NLP Recipes (Jan 2019) 
+ Written with code examples and programmer-first mindset. Try it out yourself on Github Includes Text Embedding, Linguistics 101, Ensemble Modeling, Chatbots with small data, ML and Deep learning for text classification using tools like spaCy, PyTorch, &amp;amp; gensim. Published in US, UK and India  Tech Talks  inMobi Tech Talks: A Nightmare on the LM Street; Slides Wingify DevFest: NLP for Indian Languages; Slides, Youtube PyData Bengaluru Inaugral Talk: Quiz Generation with spaCy; Youtube  Community Contributions  Awesome Project Ideas - Curated list of machine learning (mostly deep learning) project ideas with datasets.</description>
     </item>
     
   </channel>
