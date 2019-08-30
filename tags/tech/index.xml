@@ -46,5 +46,17 @@ Me: Please tell me about it! Raise a PR. Or reply to the tweet above!
  The Mindset  Presentations Skills Considered Harmful tl;dr: Do not block the message with your actions.</description>
     </item>
     
+    <item>
+      <title>How to prepare for a Data Science job from college?</title>
+      <link>https://nirantk.com/writing/datasciencejob/</link>
+      <pubDate>Mon, 12 Dec 2016 23:29:18 +0530</pubDate>
+      
+      <guid>https://nirantk.com/writing/datasciencejob/</guid>
+      <description>A Getting Started Guide
+Let us get our facts straight, shall we?
+I am writing from my non-existent but probably relevant experience. I worked in a Machine Learning role at Samsung Research, Bengaluru. It is only 1 of the 4 research enterprises which hire Machine Learning researchers from Indian colleges — the other being Microsoft, Xerox, and IBM Watson.
+I am now in a even more Computer Vision focused role for a small enterprise tech company.</description>
+    </item>
+    
   </channel>
 </rss>
