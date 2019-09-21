@@ -23,6 +23,15 @@ _fstring = f&amp;#39;Total: {one + two}&amp;#39; # Go f-string!</description>
     </item>
     
     <item>
+      <title>Don&#39;t Bask in Reflected Glory</title>
+      <link>https://nirantk.com/writing/reflectedglory/</link>
+      <pubDate>Tue, 27 Aug 2019 23:29:18 +0530</pubDate>
+      
+      <guid>https://nirantk.com/writing/reflectedglory/</guid>
+      <description>ये जो लोग-बाग हैं, जंगल की आग हैं Ye jo log baag hain, Jungle ki aag hain The people, are jungle fire क्यूँ आग में जलूँ... Kyun aag mein jalun Why should I burn in the fire? ये नाकाम प्यार में, खुश हैं ये हार में Ye nakaam pyaar mein, Khush hai yeh haar mein Defeated in love, they&#39;re happy in defeat इन जैसा क्यूँ बनूँ... Inn jaisa kyun banun Why should I be like them?</description>
+    </item>
+    
+    <item>
       <title>The Silent Rise of PyTorch Ecosystem</title>
       <link>https://nirantk.com/writing/silentriseofpytorch/</link>
       <pubDate>Tue, 27 Aug 2019 23:29:18 +0530</pubDate>
@@ -31,17 +40,6 @@ _fstring = f&amp;#39;Total: {one + two}&amp;#39; # Go f-string!</description>
       <description>The Silent Rise of PyTorch Ecosystem While Tensorflow has made peace with Keras as it’s high level API and mxNet now support Gluon — PyTorch is the bare matrix love.
 PyTorch has seen rapid adoption in academia and all the industrial labs that I have spoken to as well. One of the reasons people (specially engineers doing experiments) like PyTorch is the ease of debugging.
 What I don’t like about PyTorch is it’s incessant requirement of debugging because of inconsistent dimensions problems.</description>
-    </item>
-    
-    <item>
-      <title>[Draft] Reflected Glory</title>
-      <link>https://nirantk.com/writing/reflectedglory/</link>
-      <pubDate>Tue, 27 Aug 2019 23:29:18 +0530</pubDate>
-      
-      <guid>https://nirantk.com/writing/reflectedglory/</guid>
-      <description>This is a follow up on Identity - or Keep Your Identity Small by Paul Graham.
-I&amp;rsquo;ve added the relevant excerpts below in case you have not read that already, though I highly recommend that you do.
-The essay is little more than 10 years old at this point. I&amp;rsquo;m disappointed because no one has written a good method on how to act on the advice which Paul shares in that piece.</description>
     </item>
     
     <item>
