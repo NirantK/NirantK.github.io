@@ -34,6 +34,17 @@ What I don’t like about PyTorch is it’s incessant requirement of debugging b
     </item>
     
     <item>
+      <title>[Draft] Reflected Glory</title>
+      <link>https://nirantk.com/writing/reflectedglory/</link>
+      <pubDate>Tue, 27 Aug 2019 23:29:18 +0530</pubDate>
+      
+      <guid>https://nirantk.com/writing/reflectedglory/</guid>
+      <description>This is a follow up on Identity - or Keep Your Identity Small by Paul Graham.
+I&amp;rsquo;ve added the relevant excerpts below in case you have not read that already, though I highly recommend that you do.
+The essay is little more than 10 years old at this point. I&amp;rsquo;m disappointed because no one has written a good method on how to act on the advice which Paul shares in that piece.</description>
+    </item>
+    
+    <item>
       <title>Fail Resume</title>
       <link>https://nirantk.com/failresume/</link>
       <pubDate>Mon, 05 Aug 2019 23:29:18 +0530</pubDate>
@@ -64,8 +75,7 @@ My previous workplaces made a serious dent in the size of my dreams. It is only 
       
       <guid>https://nirantk.com/writing/techtalktips/</guid>
       <description>Collection of the Best Advice on Internet that I know about on giving a tech talk. Based on responses from my question on Twitter.
-  Meghana gave a talk based on these tips at PyData Bengaluru
-   You: Hey, I know something better!
+Meghana gave a talk based on these tips at PyData Bengaluru   You: Hey, I know something better!
 Me: Please tell me about it! Raise a PR. Or reply to the tweet above!
  The Mindset  Presentations Skills Considered Harmful tl;dr: Do not block the message with your actions.</description>
     </item>
