@@ -3,6 +3,50 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://nirantk.com/writing/modelmonitoring/</loc>
+    <lastmod>2019-09-21T23:29:18+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://nirantk.com/</loc>
+    <lastmod>2019-09-21T23:29:18+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://nirantk.com/tags/</loc>
+    <lastmod>2019-09-21T23:29:18+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nirantk.com/writing/</loc>
+    <lastmod>2019-09-21T23:29:18+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nirantk.com/tags/machine-learning/</loc>
+    <lastmod>2019-09-21T23:29:18+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nirantk.com/tags/production-ml/</loc>
+    <lastmod>2019-09-21T23:29:18+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nirantk.com/tags/python/</loc>
+    <lastmod>2019-09-21T23:29:18+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://nirantk.com/writing/pythonfstrings/</loc>
     <lastmod>2019-08-27T23:29:18+05:30</lastmod>
     <changefreq>monthly</changefreq>
@@ -17,29 +61,10 @@
   </url>
   
   <url>
-    <loc>https://nirantk.com/</loc>
-    <lastmod>2019-08-27T23:29:18+05:30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://nirantk.com/tags/</loc>
-    <lastmod>2019-08-27T23:29:18+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://nirantk.com/writing/silentriseofpytorch/</loc>
     <lastmod>2019-08-27T23:29:18+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://nirantk.com/writing/</loc>
-    <lastmod>2019-08-27T23:29:18+05:30</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -50,12 +75,6 @@
   
   <url>
     <loc>https://nirantk.com/tags/notes-for-self/</loc>
-    <lastmod>2019-08-27T23:29:18+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://nirantk.com/tags/python/</loc>
     <lastmod>2019-08-27T23:29:18+05:30</lastmod>
     <priority>0</priority>
   </url>

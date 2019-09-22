@@ -6,10 +6,37 @@
     <description>Recent content in Tags on Nirant Kasliwal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 27 Aug 2019 23:29:18 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 21 Sep 2019 23:29:18 +0530</lastBuildDate>
     
 	<atom:link href="https://nirantk.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>machine learning</title>
+      <link>https://nirantk.com/tags/machine-learning/</link>
+      <pubDate>Sat, 21 Sep 2019 23:29:18 +0530</pubDate>
+      
+      <guid>https://nirantk.com/tags/machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>production ml</title>
+      <link>https://nirantk.com/tags/production-ml/</link>
+      <pubDate>Sat, 21 Sep 2019 23:29:18 +0530</pubDate>
+      
+      <guid>https://nirantk.com/tags/production-ml/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>https://nirantk.com/tags/python/</link>
+      <pubDate>Sat, 21 Sep 2019 23:29:18 +0530</pubDate>
+      
+      <guid>https://nirantk.com/tags/python/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>deeplearning</title>
@@ -26,15 +53,6 @@
       <pubDate>Tue, 27 Aug 2019 23:29:18 +0530</pubDate>
       
       <guid>https://nirantk.com/tags/notes-for-self/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>python</title>
-      <link>https://nirantk.com/tags/python/</link>
-      <pubDate>Tue, 27 Aug 2019 23:29:18 +0530</pubDate>
-      
-      <guid>https://nirantk.com/tags/python/</guid>
       <description></description>
     </item>
     
