@@ -8,8 +8,9 @@
     content="">
 <meta name="description"
     content="ML Model Monitoring Mayank asked on Twitter:
- Some ideas/ papers/ tools on monitoring models in production. A use case would be say a classification task over large inputs and I visualise how are the predicted values or even confidence scores very over time?
- Quick Hacks pandas-profiling If you are logging confidence scores, the quickest hack is to load them into a dataframe and visusalize with pandas-profiling: https://github.com/pandas-profiling/pandas-profiling/" />
+ Some ideas/papers/tools on monitoring models in production. A use case would be say a classification task over large inputs. I want to visualise how are the predicted values or even confidence scores vary over time? (paraphrased)
+ Quick Hacks pandas-profiling If you are logging confidence scores, you can begin there. The quickest hack is to visualize with pandas-profiling: https://github.com/pandas-profiling/pandas-profiling/
+Rolling means Calculate rolling aggregates (e." />
 <meta name="keywords" content="" />
 <meta name="robots" content="noodp" />
 <link rel="canonical" href="https://nirantk.com/writing/modelmonitoring/" />
@@ -45,7 +46,7 @@
 
 <meta itemprop="datePublished" content="2019-09-21T23:29:18&#43;05:30" />
 <meta itemprop="dateModified" content="2019-09-21T23:29:18&#43;05:30" />
-<meta itemprop="wordCount" content="726">
+<meta itemprop="wordCount" content="681">
 
 
 
@@ -136,7 +137,7 @@
 <li><a href="#training-serving">Training-Serving</a></li>
 <li><a href="#data-differences">Data Differences</a>
 <ul>
-<li><a href="#schema-skew-copied-from-google-s-ml-guide">Schema skew (copied from Google&rsquo;s ML Guide)</a></li>
+<li><a href="#schema-skew-from-google-s-ml-guide">Schema skew (from Google&rsquo;s ML Guide)</a></li>
 <li><a href="#class-distribution-check-with-great-expectations">Class Distribution check with Great Expectations</a></li>
 </ul></li>
 <li><a href="#feature-viz-for-monitoring">Feature Viz for Monitoring</a>
@@ -165,20 +166,21 @@
 <p>Mayank asked on <a href="https://twitter.com/MayankSatnalika/status/1175446811860824064">Twitter</a>:</p>
 
 <blockquote>
-<p>Some ideas/ papers/ tools on  monitoring models in production. A use case would be say a classification task over large inputs and I visualise how are the predicted values or even confidence scores very over time?</p>
+<p>Some ideas/papers/tools on  monitoring models in production. A use case would be say a classification task over large inputs. I want to visualise how are the predicted values or even confidence scores vary over time? (paraphrased)</p>
 </blockquote>
 
 <h2 id="quick-hacks">Quick Hacks</h2>
 
 <h3 id="pandas-profiling">pandas-profiling</h3>
 
-<p>If you are logging confidence scores, the quickest hack is to load them into a dataframe and visusalize with pandas-profiling: <a href="https://github.com/pandas-profiling/pandas-profiling/">https://github.com/pandas-profiling/pandas-profiling/</a></p>
+<p>If you are logging confidence scores, you can begin there. The quickest hack is to visualize with pandas-profiling:
+<a href="https://github.com/pandas-profiling/pandas-profiling/">https://github.com/pandas-profiling/pandas-profiling/</a></p>
 
 <h3 id="rolling-means">Rolling means</h3>
 
-<p>Similarly quick is to calculate rolling aggregates (e.g. mean, variance) of your confidence scores and add them to your set of monitoring and alerting product metrics.</p>
+<p>Calculate rolling aggregates (e.g. mean, variance) of your confidence scores. pandas inbuilt. Quite quick. Add them to your set of monitoring and alerting product metrics.</p>
 
-<p>A slightly better version of this would be to do it on cohort level. Actually, doing all of the following analyis on cohort level makes sense:</p>
+<p>A better version of this would be to do it on cohort level. Actually, doing all the following analysis on cohort level makes sense.</p>
 
 <h3 id="confidence-scores-and-thresholds">Confidence Scores and Thresholds</h3>
 
@@ -197,14 +199,14 @@
 <ul>
 <li><p>Find out samples which have high confidence and tag them first, this is a form of negative sample mining</p></li>
 
-<li><p>In case of multi-class: Figure out samples which have low confidence, but the highest prediction is correct &ndash; add these back to your new training+validation set first</p></li>
+<li><p>For multi-class classification: Figure out samples which did not clear your threshold, and the prediction is correct. Add these back to your new training+validation set</p></li>
 
-<li><p>Tag samples which are too close to the threshold (or close to the hyperplane separating the classes) - this will help you understand your model and dataset&rsquo;s (vaguely) <em>margin of separation</em> better</p></li>
+<li><p>Tag samples which are too close to the threshold. This will help you understand your model and dataset&rsquo;s <em>margin of separation</em> better</p></li>
 </ul>
 
 <h2 id="training-serving">Training-Serving</h2>
 
-<p>Let me share a secret with you Mayank: You can discover some of the most frequent issues with your model-in-production issues just by investigating <strong>training-serving skews</strong> or differences.</p>
+<p>The most common causes of trouble in production ML models is <strong>training-serving skews</strong> or differences.</p>
 
 <p>The differences can be on 3 levels:
 Data, Features, Predictions</p>
@@ -218,15 +220,16 @@ Schema change - someone dropped a column!,
 Class Distribution Change - When did this 10% training class have 20% predictions, or
 Data Input Drift - users have started typing instead of copy-pasting!</p>
 
-<h3 id="schema-skew-copied-from-google-s-ml-guide">Schema skew (copied from Google&rsquo;s ML Guide)</h3>
+<h3 id="schema-skew-from-google-s-ml-guide">Schema skew (from Google&rsquo;s ML Guide)</h3>
 
-<p>Training and serving input data do not conform to the same schema.  The format or distribution of the serving data changes while your model continues to train on old data.</p>
+<p>Training and serving input data do not conform to the same schema.  The format of the serving data changes while your model continues to train on old data.</p>
 
 <p><strong>Solution?</strong> Use the same schema to validate training and serving data. Ensure you separately check for statistics not checked by your schema, such as the fraction of missing values</p>
 
 <h3 id="class-distribution-check-with-great-expectations">Class Distribution check with Great Expectations</h3>
 
-<p>Training and serving input data do not conform to the same class frequency distribution. After confirming that this has indeed happened for valid reasons, update the model by training with updated frequency distribution of each class.</p>
+<p>Training and serving input data should conform to the same class frequency distribution.
+Confirm this. If not, update the model by training with updated class frequency distribution.</p>
 
 <p>For monitoring these first two, check out: <a href="https://github.com/great-expectations/great_expectations">https://github.com/great-expectations/great_expectations</a></p>
 
@@ -234,17 +237,17 @@ Data Input Drift - users have started typing instead of copy-pasting!</p>
 
 <h2 id="feature-viz-for-monitoring">Feature Viz for Monitoring</h2>
 
-<p>Almost all models for high dimensional data (images or text), indirectly or directly <em>vectorize</em> data. I am using features and vectorized embedding as loosely synonymous here.</p>
+<p>Almost all models for high dimensional data (images or text) <em>vectorize</em> data. I am using features and vectorized embedding as loosely synonymous here.</p>
 
 <p>Let&rsquo;s take text as an example:</p>
 
 <h3 id="class-level-with-umap">Class Level with umap</h3>
 
-<p>With umap <a href="https://github.com/lmcinnes/umap">https://github.com/lmcinnes/umap</a>, you can get plots like these for pretty much any vector space on the class level:</p>
+<p>Use any dimensionality reduction like PCA or umap (<a href="https://github.com/lmcinnes/umap">https://github.com/lmcinnes/umap</a>) for your feature space. Notice that these are on class level.</p>
 
 <p><img src="https://raw.githubusercontent.com/NirantK/blog/master/content/images/umap-tweets-plot.png" alt="umap-tweet-plots" title="UMAP Tweet Plots" /></p>
 
-<p>Plot similar plots for both training and test, and see if they have visually similar distributions.</p>
+<p>Plot similar plots for both training and test, and see if they have similar distributions.</p>
 
 <h2 id="prediction-viz-for-monitoring">Prediction Viz for Monitoring</h2>
 
@@ -260,7 +263,7 @@ Data Input Drift - users have started typing instead of copy-pasting!</p>
 
 <h3 id="class-level">Class Level</h3>
 
-<p>You can aggregate your predictions across multiple sameples on a class level:</p>
+<p>You can aggregate your predictions across multiple samples on a class level:</p>
 
 <p><img src="https://raw.githubusercontent.com/NirantK/blog/master/content/images/agg-lime-viz.png" alt="agg-lime-viz" title="Aggregated Lime Visualization for Explaining Model Predictions on Class Level" /></p>
 
