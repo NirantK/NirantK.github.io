@@ -6,7 +6,7 @@
     <description>Recent content in Writings on Nirant Kasliwal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 21 Sep 2019 23:29:18 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 21 Sep 2019 00:00:18 +0530</lastBuildDate>
     
 	<atom:link href="https://nirantk.com/writing/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,13 +14,22 @@
     <item>
       <title>ML Model Monitoring</title>
       <link>https://nirantk.com/writing/modelmonitoring/</link>
-      <pubDate>Sat, 21 Sep 2019 23:29:18 +0530</pubDate>
+      <pubDate>Sat, 21 Sep 2019 00:00:18 +0530</pubDate>
       
       <guid>https://nirantk.com/writing/modelmonitoring/</guid>
       <description>ML Model Monitoring Mayank asked on Twitter:
  Some ideas/papers/tools on monitoring models in production. A use case would be say a classification task over large inputs. I want to visualise how are the predicted values or even confidence scores vary over time? (paraphrased)
  Quick Hacks pandas-profiling If you are logging confidence scores, you can begin there. The quickest hack is to visualize with pandas-profiling: https://github.com/pandas-profiling/pandas-profiling/
 Rolling means Calculate rolling aggregates (e.</description>
+    </item>
+    
+    <item>
+      <title>Don&#39;t Bask in Reflected Glory</title>
+      <link>https://nirantk.com/writing/reflectedglory/</link>
+      <pubDate>Wed, 18 Sep 2019 00:00:09 +0530</pubDate>
+      
+      <guid>https://nirantk.com/writing/reflectedglory/</guid>
+      <description>ये जो लोग-बाग हैं, जंगल की आग हैं Ye jo log baag hain, Jungle ki aag hain The people, are jungle fire क्यूँ आग में जलूँ... Kyun aag mein jalun Why should I burn in the fire? ये नाकाम प्यार में, खुश हैं ये हार में Ye nakaam pyaar mein, Khush hai yeh haar mein Defeated in love, they&#39;re happy in defeat इन जैसा क्यूँ बनूँ... Inn jaisa kyun banun Why should I be like them?</description>
     </item>
     
     <item>
