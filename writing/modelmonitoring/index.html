@@ -9,7 +9,7 @@
 <meta name="description"
     content="ML Model Monitoring Mayank asked on Twitter:
  Some ideas/ papers/ tools on monitoring models in production. A use case would be say a classification task over large inputs and I visualise how are the predicted values or even confidence scores very over time?
- Quick Hacks pandas-profiling If you are checkpointing confidence scores, the quickest hack is to load them into a dataframe and visusalize with pandas-profiling: https://github.com/pandas-profiling/pandas-profiling/" />
+ Quick Hacks pandas-profiling If you are logging confidence scores, the quickest hack is to load them into a dataframe and visusalize with pandas-profiling: https://github.com/pandas-profiling/pandas-profiling/" />
 <meta name="keywords" content="" />
 <meta name="robots" content="noodp" />
 <link rel="canonical" href="https://nirantk.com/writing/modelmonitoring/" />
@@ -172,11 +172,11 @@
 
 <h3 id="pandas-profiling">pandas-profiling</h3>
 
-<p>If you are checkpointing confidence scores, the quickest hack is to load them into a dataframe and visusalize with pandas-profiling: <a href="https://github.com/pandas-profiling/pandas-profiling/">https://github.com/pandas-profiling/pandas-profiling/</a></p>
+<p>If you are logging confidence scores, the quickest hack is to load them into a dataframe and visusalize with pandas-profiling: <a href="https://github.com/pandas-profiling/pandas-profiling/">https://github.com/pandas-profiling/pandas-profiling/</a></p>
 
 <h3 id="rolling-means">Rolling means</h3>
 
-<p>Similarly quick is to calculate rolling aggreates (e.g. mean, variance) of your confidence scores and add them to your set of monitoring and alerting product metrics.</p>
+<p>Similarly quick is to calculate rolling aggregates (e.g. mean, variance) of your confidence scores and add them to your set of monitoring and alerting product metrics.</p>
 
 <p>A slightly better version of this would be to do it on cohort level. Actually, doing all of the following analyis on cohort level makes sense:</p>
 

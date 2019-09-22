@@ -19,7 +19,7 @@
       <guid>https://nirantk.com/writing/modelmonitoring/</guid>
       <description>ML Model Monitoring Mayank asked on Twitter:
  Some ideas/ papers/ tools on monitoring models in production. A use case would be say a classification task over large inputs and I visualise how are the predicted values or even confidence scores very over time?
- Quick Hacks pandas-profiling If you are checkpointing confidence scores, the quickest hack is to load them into a dataframe and visusalize with pandas-profiling: https://github.com/pandas-profiling/pandas-profiling/</description>
+ Quick Hacks pandas-profiling If you are logging confidence scores, the quickest hack is to load them into a dataframe and visusalize with pandas-profiling: https://github.com/pandas-profiling/pandas-profiling/</description>
     </item>
     
     <item>
