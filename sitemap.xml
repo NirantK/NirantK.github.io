@@ -54,13 +54,6 @@
   </url>
   
   <url>
-    <loc>https://nirantk.com/writing/reflectedglory/</loc>
-    <lastmod>2019-08-27T23:29:18+05:30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://nirantk.com/writing/silentriseofpytorch/</loc>
     <lastmod>2019-08-27T23:29:18+05:30</lastmod>
     <changefreq>monthly</changefreq>
@@ -69,12 +62,6 @@
   
   <url>
     <loc>https://nirantk.com/tags/deeplearning/</loc>
-    <lastmod>2019-08-27T23:29:18+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://nirantk.com/tags/notes-for-self/</loc>
     <lastmod>2019-08-27T23:29:18+05:30</lastmod>
     <priority>0</priority>
   </url>
