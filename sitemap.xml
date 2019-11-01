@@ -3,29 +3,42 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://nirantk.com/writing/modelmonitoring/</loc>
-    <lastmod>2019-09-21T00:00:18+05:30</lastmod>
+    <loc>https://nirantk.com/</loc>
+    <lastmod>2019-09-24T00:00:09+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://nirantk.com/</loc>
-    <lastmod>2019-09-21T00:00:18+05:30</lastmod>
+    <loc>https://nirantk.com/writing/beliefs/</loc>
+    <lastmod>2019-09-24T00:00:09+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://nirantk.com/tags/</loc>
-    <lastmod>2019-09-21T00:00:18+05:30</lastmod>
+    <lastmod>2019-09-24T00:00:09+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://nirantk.com/writing/</loc>
-    <lastmod>2019-09-21T00:00:18+05:30</lastmod>
+    <lastmod>2019-09-24T00:00:09+05:30</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nirantk.com/tags/notes-for-self/</loc>
+    <lastmod>2019-09-24T00:00:09+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nirantk.com/writing/modelmonitoring/</loc>
+    <lastmod>2019-09-21T00:00:18+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
@@ -51,12 +64,6 @@
     <lastmod>2019-09-18T00:00:09+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://nirantk.com/tags/notes-for-self/</loc>
-    <lastmod>2019-09-18T00:00:09+05:30</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -86,19 +93,6 @@
   </url>
   
   <url>
-    <loc>https://nirantk.com/drafts/worth/</loc>
-    <lastmod>2019-08-05T23:29:18+05:30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://nirantk.com/drafts/</loc>
-    <lastmod>2019-08-05T23:29:18+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://nirantk.com/failresume/</loc>
     <lastmod>2019-08-05T23:29:18+05:30</lastmod>
     <changefreq>monthly</changefreq>
@@ -107,20 +101,6 @@
   
   <url>
     <loc>https://nirantk.com/now/</loc>
-    <lastmod>2019-08-05T23:29:18+05:30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://nirantk.com/drafts/openingquotes/</loc>
-    <lastmod>2019-08-05T23:29:18+05:30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://nirantk.com/drafts/prosumer/</loc>
     <lastmod>2019-08-05T23:29:18+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -154,13 +134,6 @@
   </url>
   
   <url>
-    <loc>https://nirantk.com/drafts/datasciencehiring/</loc>
-    <lastmod>2016-12-12T23:29:18+05:30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://nirantk.com/writing/datasciencejob/</loc>
     <lastmod>2016-12-12T23:29:18+05:30</lastmod>
     <changefreq>monthly</changefreq>
@@ -175,12 +148,6 @@
   
   <url>
     <loc>https://nirantk.com/about/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://nirantk.com/drafts/amazon/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
