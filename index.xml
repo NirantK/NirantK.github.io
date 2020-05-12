@@ -6,10 +6,21 @@
     <description>Recent content on Nirant Kasliwal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 27 Oct 2019 23:29:18 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 09 May 2020 23:29:18 +0530</lastBuildDate>
     
 	<atom:link href="https://nirantk.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Fail Resume</title>
+      <link>https://nirantk.com/writing/failresume/</link>
+      <pubDate>Sat, 09 May 2020 23:29:18 +0530</pubDate>
+      
+      <guid>https://nirantk.com/writing/failresume/</guid>
+      <description>A fail resume is, as its name suggests, a list of rejections and setbacks.
+This concept originated in academia, but can be applied to improve one’s career, resilience, and approach to challenges in any walk of life.
+I’ve organized my setbacks by year (starting with 2016), and what constitutes a “failure” here is based solely on my own judgement. It’s important to not only list the failures, but also learn from them, so I will add reflections to some of them (in progress).</description>
+    </item>
     
     <item>
       <title>Math for Machine Learning</title>
@@ -24,10 +35,10 @@ http://d2l.ai/chapter_appendix_math/index.html</description>
     
     <item>
       <title>Personal Manifesto</title>
-      <link>https://nirantk.com/writing/beliefs/</link>
+      <link>https://nirantk.com/writing/manifesto/</link>
       <pubDate>Tue, 24 Sep 2019 00:00:09 +0530</pubDate>
       
-      <guid>https://nirantk.com/writing/beliefs/</guid>
+      <guid>https://nirantk.com/writing/manifesto/</guid>
       <description>On Death  Is usually better the sooner it happens. Just like it’s best to retire from your cricket career at your peak for your own sake, it’s best to die when you are at your peak. You just might become Father of the Nation.
  No one wishes that they’d accomplished less on their death beds. You might hear that no one wishes that they’d worked more. That’s right too.</description>
     </item>
