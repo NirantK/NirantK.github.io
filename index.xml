@@ -76,17 +76,6 @@ What I don’t like about PyTorch is it’s incessant requirement of debugging b
     </item>
     
     <item>
-      <title>Fail Resume</title>
-      <link>https://nirantk.com/failresume/</link>
-      <pubDate>Mon, 05 Aug 2019 23:29:18 +0530</pubDate>
-      
-      <guid>https://nirantk.com/failresume/</guid>
-      <description>A failure resume is, as its name suggests, a list of rejections and setbacks.
-This concept originated in academia, but can be applied to improve one’s career, resilience, and approach to challenges in any walk of life.
-I’ve organized my setbacks by year (starting with 2016), and what constitutes a “failure” here is based solely on my own judgement. It’s important to not only list the failures, but also learn from them, so I will add reflections to some of them (in progress).</description>
-    </item>
-    
-    <item>
       <title>Now</title>
       <link>https://nirantk.com/now/</link>
       <pubDate>Mon, 05 Aug 2019 23:29:18 +0530</pubDate>
@@ -145,7 +134,8 @@ I am now in a even more Computer Vision focused role for a small enterprise tech
       
       <guid>https://nirantk.com/about/</guid>
       <description>Hiya! I&amp;rsquo;m Nirant! It means the calm of the forest in Gujarati, Sanskrit and Prakrit. The last two are languages, all but lost to time.
-3 things I want you to know about me: 1. Make $$ doing NLP. Even wrote a book about NLP. I talk a lot about it too. 2. I write blogs about career, technology and business: Newsletter 3. I&amp;rsquo;m always happy to help those who ask crisp and descriptive questions.</description>
+3 things I want you to know about me:
+ Make $$ doing NLP. Even wrote a book about NLP. I talk a lot about it too I write blogs about career, technology and business: Newsletter I&amp;rsquo;m always happy to help those who ask crisp and descriptive questions.</description>
     </item>
     
   </channel>
