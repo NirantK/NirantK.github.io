@@ -19,7 +19,7 @@
       <guid>https://nirantk.com/writing/failresume/</guid>
       <description>A fail resume is, as its name suggests, a list of rejections and setbacks.
 This concept originated in academia, but can be applied to improve one’s career, resilience, and approach to challenges in any walk of life.
-I’ve organized my setbacks by year (starting with 2016), and what constitutes a “failure” here is based solely on my own judgement. It’s important to not only list the failures, but also learn from them, so I will add reflections to some of them (in progress).</description>
+I’ve organized my setbacks by year (starting with 2016), and what constitutes a “failure” (or fail) here is based solely on my own judgement. It’s important to not only list the failures, but also learn from them, so I will add reflections to some of them (in progress).</description>
     </item>
     
     <item>
@@ -49,7 +49,7 @@ http://d2l.ai/chapter_appendix_math/index.html</description>
       <pubDate>Sat, 21 Sep 2019 00:00:18 +0530</pubDate>
       
       <guid>https://nirantk.com/writing/modelmonitoring/</guid>
-      <description>ML Model Monitoring Mayank asked on Twitter:
+      <description>Mayank asked on Twitter:
  Some ideas/papers/tools on monitoring models in production. A use case would be say a classification task over large inputs. I want to visualise how are the predicted values or even confidence scores vary over time? (paraphrased)
  Quick Hacks pandas-profiling If you are logging confidence scores, you can begin there. The quickest hack is to visualize with pandas-profiling: https://github.com/pandas-profiling/pandas-profiling/
 Rolling means Calculate rolling aggregates (e.</description>

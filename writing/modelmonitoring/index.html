@@ -41,7 +41,7 @@
 
 <meta itemprop="datePublished" content="2019-09-21T00:00:18&#43;05:30" />
 <meta itemprop="dateModified" content="2019-09-21T00:00:18&#43;05:30" />
-<meta itemprop="wordCount" content="681">
+<meta itemprop="wordCount" content="689">
 
 
 
@@ -174,13 +174,11 @@
       
       
         <span class="f6 mv4 dib tracked"> - 4 minutes read</span>
-        <span class="f6 mv4 dib tracked"> - 681 words</span>
+        <span class="f6 mv4 dib tracked"> - 689 words</span>
       
     </header>
 
     <section class="nested-copy-line-height lh-copy serif f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l">
-
-<h1 id="ml-model-monitoring">ML Model Monitoring</h1>
 
 <p>Mayank asked on <a href="https://twitter.com/MayankSatnalika/status/1175446811860824064">Twitter</a>:</p>
 
@@ -229,8 +227,6 @@
 
 <p>The differences can be on 3 levels:
 Data, Features, Predictions</p>
-
-<p>The better hack would be to consider a rolling mean of</p>
 
 <h2 id="data-differences">Data Differences</h2>
 
@@ -286,6 +282,14 @@ Confirm this. If not, update the model by training with updated class frequency 
 
 <p><img src="https://raw.githubusercontent.com/NirantK/blog/master/content/images/agg-lime-viz.png" alt="agg-lime-viz" title="Aggregated Lime Visualization for Explaining Model Predictions on Class Level" /></p>
 
+<h2 id="training-data-checks">Training Data Checks</h2>
+
+<p>Expanding on <a href="https://twitter.com/aerinykim/status/1259945059085987843">@aerinykim&rsquo;s tweet</a></p>
+
+<h3 id="robustness">Robustness</h3>
+
+<p>Adding in-domain noise or perturbations should not change the model training and inference both.</p>
+
 <h1 id="citations-and-resources">Citations and Resources</h1>
 
 <p>[1] Machine Learning Testing in Production: <a href="https://developers.google.com/machine-learning/testing-debugging/pipeline/production">https://developers.google.com/machine-learning/testing-debugging/pipeline/production</a></p>
@@ -320,7 +324,7 @@ Confirm this. If not, update the model by training with updated class frequency 
     <p class="f5 b mb3">What&#39;s in this writing</p>
       <nav id="TableOfContents">
 <ul>
-<li><a href="#ml-model-monitoring">ML Model Monitoring</a>
+<li>
 <ul>
 <li><a href="#quick-hacks">Quick Hacks</a>
 <ul>
@@ -343,6 +347,10 @@ Confirm this. If not, update the model by training with updated class frequency 
 <ul>
 <li><a href="#sample-level-with-lime">Sample Level with LIME</a></li>
 <li><a href="#class-level">Class Level</a></li>
+</ul></li>
+<li><a href="#training-data-checks">Training Data Checks</a>
+<ul>
+<li><a href="#robustness">Robustness</a></li>
 </ul></li>
 </ul></li>
 <li><a href="#citations-and-resources">Citations and Resources</a></li>
