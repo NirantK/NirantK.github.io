@@ -35,6 +35,19 @@
   </url>
   
   <url>
+    <loc>https://nirantk.com/writing/ruleof40/</loc>
+    <lastmod>2019-11-29T00:00:18+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://nirantk.com/tags/career/</loc>
+    <lastmod>2019-11-29T00:00:18+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://nirantk.com/writing/mathforai/</loc>
     <lastmod>2019-10-27T23:29:18+05:30</lastmod>
     <changefreq>monthly</changefreq>
@@ -168,12 +181,6 @@
     <lastmod>2016-12-12T23:29:18+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://nirantk.com/tags/career/</loc>
-    <lastmod>2016-12-12T23:29:18+05:30</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
