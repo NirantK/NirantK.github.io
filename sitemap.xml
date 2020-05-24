@@ -3,29 +3,42 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://nirantk.com/writing/failresume/</loc>
-    <lastmod>2020-05-09T23:29:18+05:30</lastmod>
+    <loc>https://nirantk.com/writing/ankitnagori/</loc>
+    <lastmod>2020-05-24T00:00:09+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://nirantk.com/</loc>
-    <lastmod>2020-05-09T23:29:18+05:30</lastmod>
+    <lastmod>2020-05-24T00:00:09+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://nirantk.com/tags/</loc>
-    <lastmod>2020-05-09T23:29:18+05:30</lastmod>
+    <lastmod>2020-05-24T00:00:09+05:30</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://nirantk.com/writing/</loc>
-    <lastmod>2020-05-09T23:29:18+05:30</lastmod>
+    <lastmod>2020-05-24T00:00:09+05:30</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nirantk.com/tags/niranting/</loc>
+    <lastmod>2020-05-24T00:00:09+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nirantk.com/writing/failresume/</loc>
+    <lastmod>2020-05-09T23:29:18+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
