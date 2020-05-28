@@ -1,15 +1,36 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Nirant Kasliwal</title>
+    <title>nirant kasliwal on Nirant Kasliwal</title>
     <link>https://nirantk.com/</link>
-    <description>Recent content on Nirant Kasliwal</description>
+    <description>Recent content in nirant kasliwal on Nirant Kasliwal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 09 May 2020 23:29:18 +0530</lastBuildDate>
+    <lastBuildDate>Wed, 27 May 2020 00:00:09 +0530</lastBuildDate>
     
 	<atom:link href="https://nirantk.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>NLP &amp; Engineering Newsletter</title>
+      <link>https://nirantk.com/nlp/newsletter/join/</link>
+      <pubDate>Wed, 27 May 2020 00:00:09 +0530</pubDate>
+      
+      <guid>https://nirantk.com/nlp/newsletter/join/</guid>
+      <description> </description>
+    </item>
+    
+    <item>
+      <title>Thank You for Joining</title>
+      <link>https://nirantk.com/nlp/newsletter/confirm/</link>
+      <pubDate>Wed, 27 May 2020 00:00:09 +0530</pubDate>
+      
+      <guid>https://nirantk.com/nlp/newsletter/confirm/</guid>
+      <description>Thank you for subscribing! Thought I&amp;rsquo;d share some of the most work which the community has found useful over the years:
+Most Helpful Links Confused on how to get started with NLP in your Programming language? Check out Awesome NLP
+The State of the Art for Natural Langauge Processing is tracked at NLP Progress
+Looking for Machine Learning and Deep Learning Project Ideas which you can try on your own?</description>
+    </item>
     
     <item>
       <title>Fail Resume</title>
