@@ -3,6 +3,38 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://nirantk.com/writing/shreyas/</loc>
+    <lastmod>2020-06-16T00:09:00+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://nirantk.com/tags/</loc>
+    <lastmod>2020-06-16T00:09:00+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nirantk.com/writing/</loc>
+    <lastmod>2020-06-16T00:09:00+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nirantk.com/</loc>
+    <lastmod>2020-06-16T00:09:00+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://nirantk.com/tags/niranting/</loc>
+    <lastmod>2020-06-16T00:09:00+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://nirantk.com/nlp/newsletter/join/</loc>
     <lastmod>2020-05-27T00:00:09+05:30</lastmod>
     <changefreq>monthly</changefreq>
@@ -23,13 +55,6 @@
   </url>
   
   <url>
-    <loc>https://nirantk.com/</loc>
-    <lastmod>2020-05-27T00:00:09+05:30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>https://nirantk.com/writing/failresume/</loc>
     <lastmod>2020-05-09T23:29:18+05:30</lastmod>
     <changefreq>monthly</changefreq>
@@ -37,19 +62,7 @@
   </url>
   
   <url>
-    <loc>https://nirantk.com/tags/</loc>
-    <lastmod>2020-05-09T23:29:18+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://nirantk.com/writing/</loc>
-    <lastmod>2020-05-09T23:29:18+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://nirantk.com/tags/notesforself/</loc>
+    <loc>https://nirantk.com/tags/notes-for-self/</loc>
     <lastmod>2020-05-09T23:29:18+05:30</lastmod>
     <priority>0</priority>
   </url>
@@ -59,12 +72,6 @@
     <lastmod>2020-04-30T00:00:09+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://nirantk.com/tags/niranting/</loc>
-    <lastmod>2020-04-30T00:00:09+05:30</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -94,7 +101,7 @@
   </url>
   
   <url>
-    <loc>https://nirantk.com/tags/machinelearning/</loc>
+    <loc>https://nirantk.com/tags/machine-learning/</loc>
     <lastmod>2019-10-27T23:29:18+05:30</lastmod>
     <priority>0</priority>
   </url>
@@ -107,12 +114,6 @@
   
   <url>
     <loc>https://nirantk.com/tags/matrix_calculus/</loc>
-    <lastmod>2019-10-27T23:29:18+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://nirantk.com/tags/resource_list/</loc>
     <lastmod>2019-10-27T23:29:18+05:30</lastmod>
     <priority>0</priority>
   </url>
@@ -131,22 +132,10 @@
   </url>
   
   <url>
-    <loc>https://nirantk.com/tags/notes-for-self/</loc>
-    <lastmod>2019-09-24T00:00:09+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://nirantk.com/writing/modelmonitoring/</loc>
     <lastmod>2019-09-21T00:00:18+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://nirantk.com/tags/machine-learning/</loc>
-    <lastmod>2019-09-21T00:00:18+05:30</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
