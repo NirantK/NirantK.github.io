@@ -6,21 +6,10 @@
     <description>Recent content in niranting on Nirant Kasliwal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 16 Jun 2020 00:09:00 +0530</lastBuildDate>
+    <lastBuildDate>Thu, 30 Apr 2020 00:00:09 +0530</lastBuildDate>
     
 	<atom:link href="https://nirantk.com/tags/niranting/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Moving from Engineering to PM: Shreyas Karanth</title>
-      <link>https://nirantk.com/writing/shreyas/</link>
-      <pubDate>Tue, 16 Jun 2020 00:09:00 +0530</pubDate>
-      
-      <guid>https://nirantk.com/writing/shreyas/</guid>
-      <description>Gyan Session with Shreyas Shreyas Karpanth is a Product Manager at Soroco. Before this, he was the fastest growing engineer - going from a fresh grad to a Technical Lead within 3 years of graduation. I asked a bunch of questions why he moved to Product Management
-What do you love the most? Nirant: What have you loved the most, in transitioning from tech to product?
-Shreyas: 1. 90% of the articles I read when I was in tech, were &amp;ldquo;product&amp;rdquo; articles.</description>
-    </item>
     
     <item>
       <title>Ankit Nagori, Co-Founder of Cult</title>
@@ -32,6 +21,16 @@ Shreyas: 1. 90% of the articles I read when I was in tech, were &amp;ldquo;produ
 This first appeared on https://niranting.substack.com
  Transcript Origin Story  IIT to Flipkart for 6 years and then left with Mukesh Bansal of Myntra to start Cure.fit
  Ankit Nagori 0:00 Great. So I think my journey my journey started with Flipkart. That was a couple of years after I finished my undergrad at IIT.</description>
+    </item>
+    
+    <item>
+      <title>Moving from SW Engg to Product: Shreyas Karanth</title>
+      <link>https://nirantk.com/writing/shreyas/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nirantk.com/writing/shreyas/</guid>
+      <description>Gyan Session with Shreyas Shreyas Karanth is a Product Manager at Soroco. Soroco is a Large Enterprise-focussed B2B Managed Solutions company.
+Before Product Management, Shreyas was the fastest growing engineer - going from a fresh grad to a Technical Lead within 3 years of graduation. This is also where I worked with him, as an engineer. Here, I asked a bunch of questions why he moved to Product Management, what excites him and what he considers as Product Management work at Soroco.</description>
     </item>
     
   </channel>
