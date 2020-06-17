@@ -23,6 +23,18 @@ http://d2l.ai/chapter_appendix_math/index.html</description>
     </item>
     
     <item>
+      <title>ML Model Monitoring</title>
+      <link>https://nirantk.com/writing/modelmonitoring/</link>
+      <pubDate>Sat, 21 Sep 2019 00:00:18 +0530</pubDate>
+      
+      <guid>https://nirantk.com/writing/modelmonitoring/</guid>
+      <description>Mayank asked on Twitter:
+ Some ideas/papers/tools on monitoring models in production. A use case would be say a classification task over large inputs. I want to visualise how are the predicted values or even confidence scores vary over time? (paraphrased)
+ Quick Hacks pandas-profiling If you are logging confidence scores, you can begin there. The quickest hack is to visualize with pandas-profiling: https://github.com/pandas-profiling/pandas-profiling/
+Rolling means Calculate rolling aggregates (e.</description>
+    </item>
+    
+    <item>
       <title>Best of Python 3 f-strings</title>
       <link>https://nirantk.com/writing/pythonfstrings/</link>
       <pubDate>Tue, 27 Aug 2019 23:29:18 +0530</pubDate>

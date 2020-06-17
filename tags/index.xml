@@ -6,10 +6,28 @@
     <description>Recent content in Tags on Nirant Kasliwal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 09 May 2020 23:29:18 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jun 2020 00:09:00 +0530</lastBuildDate>
     
 	<atom:link href="https://nirantk.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>niranting</title>
+      <link>https://nirantk.com/tags/niranting/</link>
+      <pubDate>Mon, 15 Jun 2020 00:09:00 +0530</pubDate>
+      
+      <guid>https://nirantk.com/tags/niranting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>career</title>
+      <link>https://nirantk.com/tags/career/</link>
+      <pubDate>Sun, 07 Jun 2020 00:09:00 +0530</pubDate>
+      
+      <guid>https://nirantk.com/tags/career/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>notes for self</title>
@@ -21,56 +39,20 @@
     </item>
     
     <item>
-      <title>niranting</title>
-      <link>https://nirantk.com/tags/niranting/</link>
-      <pubDate>Thu, 30 Apr 2020 00:00:09 +0530</pubDate>
+      <title>personal-finance</title>
+      <link>https://nirantk.com/tags/personal-finance/</link>
+      <pubDate>Sun, 15 Mar 2020 00:09:00 +0530</pubDate>
       
-      <guid>https://nirantk.com/tags/niranting/</guid>
+      <guid>https://nirantk.com/tags/personal-finance/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>career</title>
-      <link>https://nirantk.com/tags/career/</link>
-      <pubDate>Fri, 29 Nov 2019 00:00:18 +0530</pubDate>
-      
-      <guid>https://nirantk.com/tags/career/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>deeplearning</title>
-      <link>https://nirantk.com/tags/deeplearning/</link>
-      <pubDate>Sun, 27 Oct 2019 23:29:18 +0530</pubDate>
-      
-      <guid>https://nirantk.com/tags/deeplearning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>machine learning</title>
+      <title>machine-learning</title>
       <link>https://nirantk.com/tags/machine-learning/</link>
       <pubDate>Sun, 27 Oct 2019 23:29:18 +0530</pubDate>
       
       <guid>https://nirantk.com/tags/machine-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>math</title>
-      <link>https://nirantk.com/tags/math/</link>
-      <pubDate>Sun, 27 Oct 2019 23:29:18 +0530</pubDate>
-      
-      <guid>https://nirantk.com/tags/math/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>matrix_calculus</title>
-      <link>https://nirantk.com/tags/matrix_calculus/</link>
-      <pubDate>Sun, 27 Oct 2019 23:29:18 +0530</pubDate>
-      
-      <guid>https://nirantk.com/tags/matrix_calculus/</guid>
       <description></description>
     </item>
     
@@ -93,9 +75,18 @@
     </item>
     
     <item>
+      <title>deeplearning</title>
+      <link>https://nirantk.com/tags/deeplearning/</link>
+      <pubDate>Tue, 27 Aug 2019 23:29:18 +0530</pubDate>
+      
+      <guid>https://nirantk.com/tags/deeplearning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>python</title>
       <link>https://nirantk.com/tags/python/</link>
-      <pubDate>Sat, 21 Sep 2019 00:00:18 +0530</pubDate>
+      <pubDate>Tue, 27 Aug 2019 23:29:18 +0530</pubDate>
       
       <guid>https://nirantk.com/tags/python/</guid>
       <description></description>

@@ -6,10 +6,38 @@
     <description>Recent content in Writings on Nirant Kasliwal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 09 May 2020 23:29:18 +0530</lastBuildDate>
+    <lastBuildDate>Mon, 15 Jun 2020 00:09:00 +0530</lastBuildDate>
     
 	<atom:link href="https://nirantk.com/writing/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Moving from SW Engg to Product</title>
+      <link>https://nirantk.com/writing/shreyas/</link>
+      <pubDate>Mon, 15 Jun 2020 00:09:00 +0530</pubDate>
+      
+      <guid>https://nirantk.com/writing/shreyas/</guid>
+      <description>Shreyas Karanth is a Product Manager at Soroco. Soroco is a Large Enterprise-focussed B2B Managed Solutions company.
+title = &amp;ldquo;Moving from Tech to Product: Shreyas Karanth&amp;rdquo; date = 2020-06-15T00:09:00+05:30
+Before Product Management, Shreyas was the fastest growing engineer - going from a fresh grad to a Technical Lead within 3 years of graduation. This is also when I worked with him, during his engineering days. Here, I asked a bunch of questions why he moved to Product Management, what excites him and what he considers as Product Management work at Soroco.</description>
+    </item>
+    
+    <item>
+      <title>Standing Out at Work</title>
+      <link>https://nirantk.com/writing/standout/</link>
+      <pubDate>Sun, 07 Jun 2020 00:09:00 +0530</pubDate>
+      
+      <guid>https://nirantk.com/writing/standout/</guid>
+      <description>In my short career, I&amp;rsquo;ve seen some amazing young people stand out at work.
+Here is what they did, organized by 5 themes:
+ Unlock Knowledge
+ Automate Boring Stuff
+ Write Widely
+ Solve Open Problems
+ Outside-Visible Work
+  Unlock Knowledge Expertise and know-how stay trapped in emails, docs and codebases. Unlock this for everyone else.
+Get your Star Salesman on an internal podcast to spill their secrets.</description>
+    </item>
     
     <item>
       <title>Fail Resume</title>
@@ -32,6 +60,19 @@ I’ve organized my setbacks by year (starting with 2016), and what constitutes 
 This first appeared on https://niranting.substack.com
  Transcript Origin Story  IIT to Flipkart for 6 years and then left with Mukesh Bansal of Myntra to start Cure.fit
  Ankit Nagori 0:00 Great. So I think my journey my journey started with Flipkart. That was a couple of years after I finished my undergrad at IIT.</description>
+    </item>
+    
+    <item>
+      <title>Recession Proofing My Career</title>
+      <link>https://nirantk.com/writing/recession-proofing/</link>
+      <pubDate>Sun, 15 Mar 2020 00:09:00 +0530</pubDate>
+      
+      <guid>https://nirantk.com/writing/recession-proofing/</guid>
+      <description>I’d written originally this in August 2019 with a bit of foresight of a pending recession.
+I wrote this primarily for myself. Multiple reviewers have mentioned that they found it immensely useful, so sharing it with you here!
+Unfortunately, I didn’t follow some of the important notes here myself. Hope you do better than me!!!
+Hard Assumptions  Recession will happen in the next 6-24 months
+ Will hurt technology startup professionals which depend on VC money directly as pay cheques</description>
     </item>
     
     <item>
@@ -146,16 +187,6 @@ For Steve, it was not about achieving these, it was, as I have come to call it: 
 Let us get our facts straight, shall we?
 I am writing from my non-existent but probably relevant experience. I worked in a Machine Learning role at Samsung Research, Bengaluru. It is only 1 of the 4 research enterprises which hire Machine Learning researchers from Indian colleges — the other being Microsoft, Xerox, and IBM Watson.
 I am now in a even more Computer Vision focused role for a small enterprise tech company.</description>
-    </item>
-    
-    <item>
-      <title>Moving from SW Engg to Product: Shreyas Karanth</title>
-      <link>https://nirantk.com/writing/shreyas/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nirantk.com/writing/shreyas/</guid>
-      <description>Gyan Session with Shreyas Shreyas Karanth is a Product Manager at Soroco. Soroco is a Large Enterprise-focussed B2B Managed Solutions company.
-Before Product Management, Shreyas was the fastest growing engineer - going from a fresh grad to a Technical Lead within 3 years of graduation. This is also where I worked with him, as an engineer. Here, I asked a bunch of questions why he moved to Product Management, what excites him and what he considers as Product Management work at Soroco.</description>
     </item>
     
   </channel>
