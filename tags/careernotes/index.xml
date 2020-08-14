@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>careernotes on Nirant Kasliwal</title>
+    <link>https://nirantk.com/tags/careernotes/</link>
+    <description>Recent content in careernotes on Nirant Kasliwal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Fri, 31 Jul 2020 00:09:00 +0530</lastBuildDate>
+    
+	<atom:link href="https://nirantk.com/tags/careernotes/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Data Science Career Notes</title>
+      <link>https://nirantk.com/writing/careernotes/</link>
+      <pubDate>Fri, 31 Jul 2020 00:09:00 +0530</pubDate>
+      
+      <guid>https://nirantk.com/writing/careernotes/</guid>
+      <description>Who is this for? This is written for me, 5 years ago - when I was starting my career in Data Science. You can treat these Notes or Advice or Opinion.
+Circa 2015, Data Science was still poorly understood in India. The most respected job in my immediate techie friend circle was actually a backend dev job at Directi or Tower Capital.
+The &amp;ldquo;coolest&amp;rdquo; gigs on the campus were perhaps the high paying jobs at well reputed brands like Amazon - which implicitly even gave you can option to move to Seattle.</description>
+    </item>
+    
+  </channel>
+</rss>

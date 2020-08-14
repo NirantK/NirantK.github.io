@@ -6,10 +6,44 @@
     <description>Recent content in Writings on Nirant Kasliwal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 15 Jun 2020 00:09:00 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 14 Aug 2020 00:09:00 +0530</lastBuildDate>
     
 	<atom:link href="https://nirantk.com/writing/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Talent Cooling</title>
+      <link>https://nirantk.com/writing/talentcooling/</link>
+      <pubDate>Fri, 14 Aug 2020 00:09:00 +0530</pubDate>
+      
+      <guid>https://nirantk.com/writing/talentcooling/</guid>
+      <description>Evaporative Cooling [1] is a pretty remarkable idea which explains the decline of several knowledge-work communities and thereby companies.
+ Evaporative Cooling occurs when the most high value contributors to a community realize that the community is no longer serving their needs any more and so therefore, leave.
+ Then something remarkably interesting happens:
+ When that happens, it drops the general quality of the community down such that the next most high value contributors now find the community underwhelming.</description>
+    </item>
+    
+    <item>
+      <title>The BITS Pilani Experience</title>
+      <link>https://nirantk.com/writing/bitsian/</link>
+      <pubDate>Sun, 09 Aug 2020 00:09:00 +0530</pubDate>
+      
+      <guid>https://nirantk.com/writing/bitsian/</guid>
+      <description>There is a invisible binding thread among most BITSian’s - optimistic, easy going, but somewhat pragmatic. The sky is the limit, but most of them realize flying in hot air pockets is easy - it’s the takeoff that hurts.
+I guess there is a flavour of cheerful pragmatism that is uniquely BITSian. You can get ice cream and ice cream shakes anywhere - but Sharma’s MNB is uniquely BITSian.
+I am no longer in BITS Pilani.</description>
+    </item>
+    
+    <item>
+      <title>Data Science Career Notes</title>
+      <link>https://nirantk.com/writing/careernotes/</link>
+      <pubDate>Fri, 31 Jul 2020 00:09:00 +0530</pubDate>
+      
+      <guid>https://nirantk.com/writing/careernotes/</guid>
+      <description>Who is this for? This is written for me, 5 years ago - when I was starting my career in Data Science. You can treat these Notes or Advice or Opinion.
+Circa 2015, Data Science was still poorly understood in India. The most respected job in my immediate techie friend circle was actually a backend dev job at Directi or Tower Capital.
+The &amp;ldquo;coolest&amp;rdquo; gigs on the campus were perhaps the high paying jobs at well reputed brands like Amazon - which implicitly even gave you can option to move to Seattle.</description>
+    </item>
     
     <item>
       <title>Moving from SW Engg to Product</title>

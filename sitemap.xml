@@ -3,6 +3,76 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://nirantk.com/tags/</loc>
+    <lastmod>2020-08-14T00:09:00+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nirantk.com/writing/talentcooling/</loc>
+    <lastmod>2020-08-14T00:09:00+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://nirantk.com/writing/</loc>
+    <lastmod>2020-08-14T00:09:00+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nirantk.com/tags/career/</loc>
+    <lastmod>2020-08-14T00:09:00+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nirantk.com/</loc>
+    <lastmod>2020-08-14T00:09:00+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://nirantk.com/tags/niranting/</loc>
+    <lastmod>2020-08-14T00:09:00+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nirantk.com/writing/bitsian/</loc>
+    <lastmod>2020-08-09T00:09:00+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://nirantk.com/writing/careernotes/</loc>
+    <lastmod>2020-07-31T00:09:00+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://nirantk.com/tags/careernotes/</loc>
+    <lastmod>2020-07-31T00:09:00+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nirantk.com/tags/datascience/</loc>
+    <lastmod>2020-07-31T00:09:00+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nirantk.com/drafts/</loc>
+    <lastmod>2020-06-15T00:09:00+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://nirantk.com/writing/shreyas/</loc>
     <lastmod>2020-06-15T00:09:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
@@ -10,28 +80,10 @@
   </url>
   
   <url>
-    <loc>https://nirantk.com/tags/</loc>
-    <lastmod>2020-06-15T00:09:00+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://nirantk.com/writing/</loc>
-    <lastmod>2020-06-15T00:09:00+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://nirantk.com/</loc>
+    <loc>https://nirantk.com/drafts/theatre/</loc>
     <lastmod>2020-06-15T00:09:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://nirantk.com/tags/niranting/</loc>
-    <lastmod>2020-06-15T00:09:00+05:30</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -39,12 +91,6 @@
     <lastmod>2020-06-07T00:09:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://nirantk.com/tags/career/</loc>
-    <lastmod>2020-06-07T00:09:00+05:30</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -72,12 +118,6 @@
     <lastmod>2020-05-09T23:29:18+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://nirantk.com/tags/notes-for-self/</loc>
-    <lastmod>2020-05-09T23:29:18+05:30</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
