@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>nirant kasliwal on Nirant Kasliwal</title>
+    <title>Nirant Kasliwal</title>
     <link>https://nirantk.com/</link>
-    <description>Recent content in nirant kasliwal on Nirant Kasliwal</description>
+    <description>Recent content on Nirant Kasliwal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Fri, 14 Aug 2020 00:09:00 +0530</lastBuildDate>
@@ -97,6 +97,16 @@ Hard Assumptions  Recession will happen in the next 6-24 months
     </item>
     
     <item>
+      <title>Act Like You&#39;re 35</title>
+      <link>https://nirantk.com/writing/actlike35/</link>
+      <pubDate>Sat, 07 Dec 2019 00:09:00 +0530</pubDate>
+      
+      <guid>https://nirantk.com/writing/actlike35/</guid>
+      <description>Don’t just network with people your own age Beware the whiz kid syndrome. Smart, young people have a habit of forming communities of other smart young people and feeding off each other’s energy. Argghhhh. Are you not just making mistakes made by older people again? Make original mistakes
+Youth enclaves can actually be restrictive. In fact their networking should be about meeting useful mentors and career champions who can open doors and fast track careers.</description>
+    </item>
+    
+    <item>
       <title>Thinking of Your Career as a Startup</title>
       <link>https://nirantk.com/writing/ruleof40/</link>
       <pubDate>Fri, 29 Nov 2019 00:00:18 +0530</pubDate>
@@ -180,9 +190,7 @@ What I don’t like about PyTorch is it’s incessant requirement of debugging b
       
       <guid>https://nirantk.com/now/</guid>
       <description>What I’m doing now Work: I look at Machine Learning and Natural Language stuff for Verloop. We help make customer support more humane.
-Torschlusspaniki About the word Torschlusspaniki My previous workplaces made a serious dent in the size of my dreams.
-Psychological safety is a weird concept. I wish more leaders understood this intuitively.
-Last Updated in October 2019 from Bengaluru, India
+Last Updated in August 2020 from Bengaluru, India
 The concept of now page is from Derek Sivers</description>
     </item>
     

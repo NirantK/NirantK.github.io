@@ -3,6 +3,20 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://nirantk.com/writing/</loc>
+    <lastmod>2020-08-14T00:09:00+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://nirantk.com/</loc>
+    <lastmod>2020-08-14T00:09:00+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://nirantk.com/tags/</loc>
     <lastmod>2020-08-14T00:09:00+05:30</lastmod>
     <priority>0</priority>
@@ -16,22 +30,9 @@
   </url>
   
   <url>
-    <loc>https://nirantk.com/writing/</loc>
-    <lastmod>2020-08-14T00:09:00+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://nirantk.com/tags/career/</loc>
     <lastmod>2020-08-14T00:09:00+05:30</lastmod>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://nirantk.com/</loc>
-    <lastmod>2020-08-14T00:09:00+05:30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
@@ -86,6 +87,13 @@
     <loc>https://nirantk.com/tags/personal-finance/</loc>
     <lastmod>2020-03-15T00:09:00+05:30</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nirantk.com/writing/actlike35/</loc>
+    <lastmod>2019-12-07T00:09:00+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
