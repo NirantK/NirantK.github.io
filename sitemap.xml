@@ -42,17 +42,16 @@
   </url>
   
   <url>
-    <loc>https://nirantk.com/writing/bitsian/</loc>
-    <lastmod>2020-08-09T00:09:00+05:30</lastmod>
+    <loc>https://nirantk.com/writing/shreyas/</loc>
+    <lastmod>2020-06-15T00:09:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://nirantk.com/writing/shreyas/</loc>
+    <loc>https://nirantk.com/tags/exclusive-convo/</loc>
     <lastmod>2020-06-15T00:09:00+05:30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -204,6 +203,13 @@
   <url>
     <loc>https://nirantk.com/writing/goodfight/</loc>
     <lastmod>2017-12-15T00:00:09+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://nirantk.com/writing/bitsian/</loc>
+    <lastmod>2017-11-24T00:09:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
