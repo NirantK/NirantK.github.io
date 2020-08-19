@@ -61,27 +61,6 @@ Get your Star Salesman on an internal podcast to spill their secrets.</descripti
     </item>
     
     <item>
-      <title>NLP &amp; Engineering Newsletter</title>
-      <link>https://nirantk.com/nlp/newsletter/join/</link>
-      <pubDate>Wed, 27 May 2020 00:00:09 +0530</pubDate>
-      
-      <guid>https://nirantk.com/nlp/newsletter/join/</guid>
-      <description> </description>
-    </item>
-    
-    <item>
-      <title>Thank You for Joining</title>
-      <link>https://nirantk.com/nlp/newsletter/confirm/</link>
-      <pubDate>Wed, 27 May 2020 00:00:09 +0530</pubDate>
-      
-      <guid>https://nirantk.com/nlp/newsletter/confirm/</guid>
-      <description>Thanks! Here is your gift Thank you for subscribing! Here are some of the top resources on NLP and Engineering:
- Confused on how to get started with NLP in your Programming language? Check out Awesome NLP
- The State of the Art for Natural Langauge Processing is tracked at NLP Progress
- Looking for Machine Learning and Deep Learning Project Ideas which you can try on your own? Check out Awesome Project Ideas</description>
-    </item>
-    
-    <item>
       <title>Fail Resume</title>
       <link>https://nirantk.com/writing/failresume/</link>
       <pubDate>Sat, 09 May 2020 23:29:18 +0530</pubDate>
@@ -201,9 +180,7 @@ What I don’t like about PyTorch is it’s incessant requirement of debugging b
       
       <guid>https://nirantk.com/now/</guid>
       <description>What I’m doing now Work: I look at Machine Learning and Natural Language stuff for Verloop. We help make customer support more humane.
-Career: Rather scattered and still exploratory
-Torschlusspaniki About the word Torschlusspaniki
-My previous workplaces made a serious dent in the size of my dreams.
+Torschlusspaniki About the word Torschlusspaniki My previous workplaces made a serious dent in the size of my dreams.
 Psychological safety is a weird concept. I wish more leaders understood this intuitively.
 Last Updated in October 2019 from Bengaluru, India
 The concept of now page is from Derek Sivers</description>
