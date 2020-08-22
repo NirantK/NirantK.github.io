@@ -1,15 +1,27 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>machine-learning on Nirant Kasliwal</title>
+    <title>machine learning on Nirant Kasliwal</title>
     <link>https://nirantk.com/tags/machine-learning/</link>
-    <description>Recent content in machine-learning on Nirant Kasliwal</description>
+    <description>Recent content in machine learning on Nirant Kasliwal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 27 Oct 2019 23:29:18 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 29 Aug 2020 00:09:00 +0530</lastBuildDate>
     
 	<atom:link href="https://nirantk.com/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Verloop ML Interview Prep Guide</title>
+      <link>https://nirantk.com/writing/verloop-ml-prep-guide/</link>
+      <pubDate>Sat, 29 Aug 2020 00:09:00 +0530</pubDate>
+      
+      <guid>https://nirantk.com/writing/verloop-ml-prep-guide/</guid>
+      <description>Preparation Guide I&amp;rsquo;ve been an early Machine Learning Engineer at Verloop.io for almost 1.5 years, primarily working on NLP problems and now more in an Engineering Manager-ish role.
+This is the guide which I sometimes send to our candidates after they submit the Programming Challenge.
+If a candidate has relevant open source code sample, specially to other repositories we may choose to waive off the Programming Challenge completely.
+I hope this is most useful to candidate interviewing for ML roles in companies similar to us in terms of size, scale and challenges.</description>
+    </item>
     
     <item>
       <title>Math for Machine Learning</title>
@@ -32,6 +44,29 @@ http://d2l.ai/chapter_appendix_math/index.html</description>
  Some ideas/papers/tools on monitoring models in production. A use case would be say a classification task over large inputs. I want to visualise how are the predicted values or even confidence scores vary over time? (paraphrased)
  Quick Hacks pandas-profiling If you are logging confidence scores, you can begin there. The quickest hack is to visualize with pandas-profiling: https://github.com/pandas-profiling/pandas-profiling/
 Rolling means Calculate rolling aggregates (e.</description>
+    </item>
+    
+    <item>
+      <title>The Silent Rise of PyTorch Ecosystem</title>
+      <link>https://nirantk.com/writing/silentriseofpytorch/</link>
+      <pubDate>Tue, 27 Aug 2019 23:29:18 +0530</pubDate>
+      
+      <guid>https://nirantk.com/writing/silentriseofpytorch/</guid>
+      <description>The Silent Rise of PyTorch Ecosystem While Tensorflow has made peace with Keras as it’s high level API and mxNet now support Gluon — PyTorch is the bare matrix love.
+PyTorch has seen rapid adoption in academia and all the industrial labs that I have spoken to as well. One of the reasons people (specially engineers doing experiments) like PyTorch is the ease of debugging.
+What I don’t like about PyTorch is it’s incessant requirement of debugging because of inconsistent dimensions problems.</description>
+    </item>
+    
+    <item>
+      <title>How to prepare for a Data Science job from college?</title>
+      <link>https://nirantk.com/writing/datasciencejob/</link>
+      <pubDate>Mon, 12 Dec 2016 23:29:18 +0530</pubDate>
+      
+      <guid>https://nirantk.com/writing/datasciencejob/</guid>
+      <description>A Getting Started Guide
+Let us get our facts straight, shall we?
+I am writing from my non-existent but probably relevant experience. I worked in a Machine Learning role at Samsung Research, Bengaluru. It is only 1 of the 4 research enterprises which hire Machine Learning researchers from Indian colleges — the other being Microsoft, Xerox, and IBM Watson.
+I am now in a even more Computer Vision focused role for a small enterprise tech company.</description>
     </item>
     
   </channel>
