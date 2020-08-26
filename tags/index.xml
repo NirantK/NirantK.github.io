@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Nirant Kasliwal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 14 Aug 2020 00:09:00 +0530</lastBuildDate>
+    <lastBuildDate>Sun, 30 Aug 2020 00:09:00 +0530</lastBuildDate>
     
 	<atom:link href="https://nirantk.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,9 +14,36 @@
     <item>
       <title>career</title>
       <link>https://nirantk.com/tags/career/</link>
-      <pubDate>Fri, 14 Aug 2020 00:09:00 +0530</pubDate>
+      <pubDate>Sun, 30 Aug 2020 00:09:00 +0530</pubDate>
       
       <guid>https://nirantk.com/tags/career/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>machine learning</title>
+      <link>https://nirantk.com/tags/machine-learning/</link>
+      <pubDate>Sun, 30 Aug 2020 00:09:00 +0530</pubDate>
+      
+      <guid>https://nirantk.com/tags/machine-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tech</title>
+      <link>https://nirantk.com/tags/tech/</link>
+      <pubDate>Sun, 30 Aug 2020 00:09:00 +0530</pubDate>
+      
+      <guid>https://nirantk.com/tags/tech/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>verloop</title>
+      <link>https://nirantk.com/tags/verloop/</link>
+      <pubDate>Sun, 30 Aug 2020 00:09:00 +0530</pubDate>
+      
+      <guid>https://nirantk.com/tags/verloop/</guid>
       <description></description>
     </item>
     
@@ -44,24 +71,6 @@
       <pubDate>Sun, 15 Mar 2020 00:09:00 +0530</pubDate>
       
       <guid>https://nirantk.com/tags/personal-finance/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>machine learning</title>
-      <link>https://nirantk.com/tags/machine-learning/</link>
-      <pubDate>Sun, 27 Oct 2019 23:29:18 +0530</pubDate>
-      
-      <guid>https://nirantk.com/tags/machine-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tech</title>
-      <link>https://nirantk.com/tags/tech/</link>
-      <pubDate>Sun, 27 Oct 2019 23:29:18 +0530</pubDate>
-      
-      <guid>https://nirantk.com/tags/tech/</guid>
       <description></description>
     </item>
     

@@ -6,9 +6,20 @@
     <description>Recent content in Drafts on Nirant Kasliwal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
+    <lastBuildDate>Sun, 30 Aug 2020 00:09:00 +0530</lastBuildDate>
     
 	<atom:link href="https://nirantk.com/drafts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Case Study: Building a Data Science Team at a Startup</title>
+      <link>https://nirantk.com/drafts/case-study-building-a-data-science-team/</link>
+      <pubDate>Sun, 30 Aug 2020 00:09:00 +0530</pubDate>
+      
+      <guid>https://nirantk.com/drafts/case-study-building-a-data-science-team/</guid>
+      <description>Hello, if we are meeting for the first time, a short version of my story so far: After doing research engineering for almost 4 years across startups and Samsung Research, I joined as an early machine learning engineer at Verloop.io - a B2B startup that makes customer support automation SaaS. We&amp;rsquo;re directly responsible for most Data Science needs within the business.
+While there is plenty of good advice on making ML work and making a career as a Data Scientist, I want to do a retrospective on what I&amp;rsquo;ve learnt in building a team which is far more competent than I am.</description>
+    </item>
     
     <item>
       <title></title>
