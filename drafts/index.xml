@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Drafts on Nirant Kasliwal</title>
+    <link>https://nirantk.com/drafts/</link>
+    <description>Recent content in Drafts on Nirant Kasliwal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    
+	<atom:link href="https://nirantk.com/drafts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://nirantk.com/drafts/read-cs-papers/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nirantk.com/drafts/read-cs-papers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://nirantk.com/drafts/sprezzatura/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nirantk.com/drafts/sprezzatura/</guid>
+      <description>Winning is now going to be talked about in terms of human values
+https://twitter.com/fortelabs/status/1297619990699417600</description>
+    </item>
+    
+  </channel>
+</rss>
