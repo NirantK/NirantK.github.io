@@ -6,22 +6,10 @@
     <description>Recent content on Nirant Kasliwal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 29 Aug 2020 00:09:00 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 14 Aug 2020 00:09:00 +0530</lastBuildDate>
     
 	<atom:link href="https://nirantk.com/writing/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Verloop ML Interview Prep Guide</title>
-      <link>https://nirantk.com/writing/verloop-ml-prep-guide/</link>
-      <pubDate>Sat, 29 Aug 2020 00:09:00 +0530</pubDate>
-      
-      <guid>https://nirantk.com/writing/verloop-ml-prep-guide/</guid>
-      <description>Preparation Guide I&amp;rsquo;ve been an early Machine Learning Engineer at Verloop.io for almost 1.5 years, primarily working on NLP problems and now more in an Engineering Manager-ish role.
-This is the guide which I sometimes send to our candidates after they submit the Programming Challenge.
-If a candidate has relevant open source code sample, specially to other repositories we may choose to waive off the Programming Challenge completely.
-I hope this is most useful to candidate interviewing for ML roles in companies similar to us in terms of size, scale and challenges.</description>
-    </item>
     
     <item>
       <title>Talent Cooling</title>
