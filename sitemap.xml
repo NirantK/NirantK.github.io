@@ -3,67 +3,23 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://nirantk.com/drafts/case-study-building-a-data-science-team/</loc>
-    <lastmod>2020-08-30T00:09:00+05:30</lastmod>
+    <loc>https://nirantk.com/writing/</loc>
+    <lastmod>2020-08-14T00:09:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://nirantk.com/drafts/</loc>
-    <lastmod>2020-08-30T00:09:00+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://nirantk.com/</loc>
-    <lastmod>2020-08-30T00:09:00+05:30</lastmod>
+    <lastmod>2020-08-14T00:09:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://nirantk.com/tags/</loc>
-    <lastmod>2020-08-30T00:09:00+05:30</lastmod>
+    <lastmod>2020-08-14T00:09:00+05:30</lastmod>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://nirantk.com/tags/career/</loc>
-    <lastmod>2020-08-30T00:09:00+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://nirantk.com/tags/machine-learning/</loc>
-    <lastmod>2020-08-30T00:09:00+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://nirantk.com/tags/tech/</loc>
-    <lastmod>2020-08-30T00:09:00+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://nirantk.com/tags/verloop/</loc>
-    <lastmod>2020-08-30T00:09:00+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://nirantk.com/writing/</loc>
-    <lastmod>2020-08-29T00:09:00+05:30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://nirantk.com/writing/verloop-ml-prep-guide/</loc>
-    <lastmod>2020-08-29T00:09:00+05:30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
   </url>
   
   <url>
@@ -71,6 +27,12 @@
     <lastmod>2020-08-14T00:09:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://nirantk.com/tags/career/</loc>
+    <lastmod>2020-08-14T00:09:00+05:30</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -145,6 +107,18 @@
     <lastmod>2019-10-27T23:29:18+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://nirantk.com/tags/machine-learning/</loc>
+    <lastmod>2019-10-27T23:29:18+05:30</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://nirantk.com/tags/tech/</loc>
+    <lastmod>2019-10-27T23:29:18+05:30</lastmod>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -227,6 +201,13 @@
   </url>
   
   <url>
+    <loc>https://nirantk.com/writing/picking-startup-to-work-with/</loc>
+    <lastmod>2017-12-29T00:09:00+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://nirantk.com/writing/goodfight/</loc>
     <lastmod>2017-12-15T00:00:09+05:30</lastmod>
     <changefreq>monthly</changefreq>
@@ -251,16 +232,6 @@
     <loc>https://nirantk.com/about/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://nirantk.com/drafts/read-cs-papers/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://nirantk.com/drafts/sprezzatura/</loc>
-    <priority>0</priority>
   </url>
   
   <url>
