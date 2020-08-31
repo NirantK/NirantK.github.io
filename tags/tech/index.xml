@@ -6,10 +6,21 @@
     <description>Recent content in tech on Nirant Kasliwal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 27 Oct 2019 23:29:18 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 29 Aug 2020 00:09:00 +0530</lastBuildDate>
     
 	<atom:link href="https://nirantk.com/tags/tech/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Verloop NLP Interview Prep Guide</title>
+      <link>https://nirantk.com/writing/verloop-ml-prep-guide/</link>
+      <pubDate>Sat, 29 Aug 2020 00:09:00 +0530</pubDate>
+      
+      <guid>https://nirantk.com/writing/verloop-ml-prep-guide/</guid>
+      <description>Preparation Guide I&amp;rsquo;ve been an early Machine Learning Engineer at Verloop.io for almost 1.5 years, primarily working on NLP problems and now more in an Engineering Manager-ish role.
+This is the guide which I sometimes send to our candidates after they submit the Programming Challenge. If a candidate has relevant open source code sample, specially to other repositories we may choose to waive off the Programming Challenge completely.
+I originally wrote this to give a chance to folks coming from non-NLP background to get a sense of the problem space a little better.</description>
+    </item>
     
     <item>
       <title>Math for Machine Learning</title>
@@ -67,17 +78,6 @@ What I don’t like about PyTorch is it’s incessant requirement of debugging b
    You: Hey, I know something better!
 Me: Please tell me about it! Raise a PR. Or reply to the tweet above!
  The Mindset  Presentations Skills Considered Harmful tl;dr: Do not block the message with your actions.</description>
-    </item>
-    
-    <item>
-      <title>Startup Employee Diary: Picking a Startup Team You Want to Work With</title>
-      <link>https://nirantk.com/writing/picking-startup-to-work-with/</link>
-      <pubDate>Fri, 29 Dec 2017 00:09:00 +0530</pubDate>
-      
-      <guid>https://nirantk.com/writing/picking-startup-to-work-with/</guid>
-      <description>Revised: September 2020 from here
-Great Startups always ask someone who is joining for a reference check. They speak to your previous managers and colleagues. There is no reason why candidates should not do the same. In fact, in many ways - startup employees have more opportunity costs than the founders themselves.
-I&amp;rsquo;m always surprised by the lack of due diligence which candidates do when interviewing with us. I assume that atleast a part of this is that they can do this, and further: how to evaluate engineering team worth working with?</description>
     </item>
     
     <item>
