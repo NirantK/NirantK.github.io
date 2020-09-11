@@ -6,10 +6,22 @@
     <description>Recent content in tech on Nirant Kasliwal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 29 Aug 2020 00:09:00 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 12 Sep 2020 00:09:00 +0530</lastBuildDate>
     
 	<atom:link href="https://nirantk.com/tags/tech/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>First 90 Days - Software Engineer Version</title>
+      <link>https://nirantk.com/writing/first-90-days-engineer-version/</link>
+      <pubDate>Sat, 12 Sep 2020 00:09:00 +0530</pubDate>
+      
+      <guid>https://nirantk.com/writing/first-90-days-engineer-version/</guid>
+      <description>Aditya Ankur, asked me:
+I know that there is a book for the first 90 days as an executive. Is there something similar for programmers?
+I don&amp;rsquo;t quite know of a book/essay which covers this yet sticks to the question. So I am writing one for him.
+The First 90 Days for a New Engineer I expect each step to take roughly between 10 and 30 days, depending on the pace of your project + size of the team.</description>
+    </item>
     
     <item>
       <title>Verloop NLP Interview Prep Guide</title>

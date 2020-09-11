@@ -6,7 +6,7 @@
     <description>Recent content in Tags on Nirant Kasliwal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 29 Aug 2020 00:09:00 +0530</lastBuildDate>
+    <lastBuildDate>Sat, 12 Sep 2020 00:09:00 +0530</lastBuildDate>
     
 	<atom:link href="https://nirantk.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,9 +14,18 @@
     <item>
       <title>career</title>
       <link>https://nirantk.com/tags/career/</link>
-      <pubDate>Sat, 29 Aug 2020 00:09:00 +0530</pubDate>
+      <pubDate>Sat, 12 Sep 2020 00:09:00 +0530</pubDate>
       
       <guid>https://nirantk.com/tags/career/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>tech</title>
+      <link>https://nirantk.com/tags/tech/</link>
+      <pubDate>Sat, 12 Sep 2020 00:09:00 +0530</pubDate>
+      
+      <guid>https://nirantk.com/tags/tech/</guid>
       <description></description>
     </item>
     
@@ -26,15 +35,6 @@
       <pubDate>Sat, 29 Aug 2020 00:09:00 +0530</pubDate>
       
       <guid>https://nirantk.com/tags/machine-learning/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>tech</title>
-      <link>https://nirantk.com/tags/tech/</link>
-      <pubDate>Sat, 29 Aug 2020 00:09:00 +0530</pubDate>
-      
-      <guid>https://nirantk.com/tags/tech/</guid>
       <description></description>
     </item>
     
