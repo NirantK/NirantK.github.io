@@ -289,5 +289,24 @@ I am assuming that you already know the hygiene factors: Make few promises. Keep
 Contribute to Developer Ecosystem Improving any part of the developer ecosystem is useful and visible at the same time.</description>
     </item>
     
+    <item>
+      <title></title>
+      <link>https://nirantk.com/drafts/invisible-algo/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nirantk.com/drafts/invisible-algo/</guid>
+      <description>Logistic Regression was perhaps the algorithm with most far reaching and invisible algorithm.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://nirantk.com/rohan/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://nirantk.com/rohan/</guid>
+      <description>Hello Rohan!
+Just showing that cometclub.today/rohan is quite easy/fast to do</description>
+    </item>
+    
   </channel>
 </rss>
