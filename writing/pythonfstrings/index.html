@@ -6,7 +6,8 @@
     
     <title>Best of Python 3 f-strings | Nirant Kasliwal</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="generator" content="Hugo 0.55.6" />
+    <meta name="description" content="Python f-string Primer">
+    <meta name="generator" content="Hugo 0.78.1" />
     
     
       <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
@@ -30,15 +31,12 @@
 <meta property="og:description" content="Python f-string Primer" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://nirantk.com/writing/pythonfstrings/" />
-<meta property="article:published_time" content="2019-08-27T23:29:18&#43;05:30"/>
-<meta property="article:modified_time" content="2019-08-27T23:29:18&#43;05:30"/>
-
+<meta property="article:published_time" content="2019-08-27T23:29:18+05:30" />
+<meta property="article:modified_time" content="2019-08-27T23:29:18+05:30" />
 <meta itemprop="name" content="Best of Python 3 f-strings">
 <meta itemprop="description" content="Python f-string Primer">
-
-
-<meta itemprop="datePublished" content="2019-08-27T23:29:18&#43;05:30" />
-<meta itemprop="dateModified" content="2019-08-27T23:29:18&#43;05:30" />
+<meta itemprop="datePublished" content="2019-08-27T23:29:18+05:30" />
+<meta itemprop="dateModified" content="2019-08-27T23:29:18+05:30" />
 <meta itemprop="wordCount" content="646">
 
 
@@ -219,48 +217,31 @@
         <span class="f6 mv4 dib tracked"> - 646 words</span>
       
     </header>
-    <div class="nested-copy-line-height lh-copy avenir f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l">
-
-<p>This piece is primarily meant for those new to Python. These include mathematicians, economists, and so on who want to use Python within a Jupyter environment. Here is a quick guide on how to make <a href="https://github.com/NirantK/best-of-jupyter">Best of Jupyter</a>.</p>
-
+    <div class="nested-copy-line-height lh-copy avenir f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>This piece is primarily meant for those new to Python. These include mathematicians, economists, and so on who want to use Python within a Jupyter environment. Here is a quick guide on how to make <a href="https://github.com/NirantK/best-of-jupyter">Best of Jupyter</a>.</p>
 <h2 id="quick-primer">Quick Primer</h2>
-
 <p>If you are familiar with earlier Python versions, here are my top picks on how to move from .format () to this new one:</p>
-
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">_fstring <span style="color:#f92672">=</span> f<span style="color:#e6db74">&#39;Total: {one + two}&#39;</span>  <span style="color:#75715e"># Go f-string!</span>
 _format <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;Total: {}&#39;</span><span style="color:#f92672">.</span>format(one <span style="color:#f92672">+</span> two)
 _percent <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;Total: </span><span style="color:#e6db74">%s</span><span style="color:#e6db74">&#39;</span> <span style="color:#f92672">%</span> (one <span style="color:#f92672">+</span> two)
 _concatenation <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;Total: &#39;</span> <span style="color:#f92672">+</span> str(one <span style="color:#f92672">+</span> two)
 <span style="color:#66d9ef">assert</span> _fstring <span style="color:#f92672">==</span> _format <span style="color:#f92672">==</span> _percent <span style="color:#f92672">==</span> _concatenation</code></pre></div>
-
 <h2 id="f-string-magic">f-string Magic</h2>
-
 <p>f-strings are how you should use print statements in Python. It is fairly reminiscent of LaTeX in it’s inline notation:
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># inline variables, similar to LaTeX</span>
 name <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Fred&#34;</span>
 <span style="color:#66d9ef">print</span>(f<span style="color:#e6db74">&#34;He said his name is {name}.&#34;</span>)
 <span style="color:#75715e"># &#39;He said his name is Fred.&#39;</span></code></pre></div></p>
-
-<p>Notice how the variable <em>name</em> can now be used inline. This is a simple and easy to use syntax: just include the variable in surrounding <em>{}</em> while marking the string type as f-string using the ‘_f_’ in the beginning.</p>
-
+<p>Notice how the variable <em>name</em> can now be used inline. This is a simple and easy to use syntax: just include the variable in surrounding <em>{}</em> while marking the string type as f-string using the ‘<em>f</em>’ in the beginning.</p>
 <p><em>Note to the advanced programmer</em>:</p>
-
 <p>‘f’ may be combined with ‘r’ to produce raw f-string which can be used inside regex or similar functions. ‘f’ may not be combined with ‘u’, this is because all Python3.6+ strings are Unicode by default now. This means, you can write fstrings in Hindi, Chinese, French, Korean and atleast 10 other languages.</p>
-
 <blockquote>
 <p>You can write fstrings in Hindi, Chinese, French, Korean and any language covered by Unicode.</p>
 </blockquote>
-
 <p>But why are these called formatted-strings in the first place? Because you can use with some cool formatting hacks.</p>
-
 <h2 id="simplified-alignment-and-spacing">Simplified Alignment and Spacing</h2>
-
 <p>Have you ever tried creating a table such as that for logging or visualization? Arranging the elements becomes a nightmare with several <code>\t</code> tab characters flying around.</p>
-
 <p>This is much easier with Python f-strings using the colon ‘:’ operator, followed by a an alignment operator and field width value.</p>
-
 <p>There are atleast 3 alignment operator: &lt; for left aligned, &gt; for right aligned, and ^ for center aligned. Refer the code example:</p>
-
 <p><div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">correct <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;correct&#39;</span>
 phonetic_correct <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;phonetic_correct&#39;</span>
 typo <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;typo&#39;</span>
@@ -282,7 +263,6 @@ phonetic_distance <span style="color:#f92672">=</span> <span style="color:#e6db7
 <span style="color:#66d9ef">print</span>(f<span style="color:#e6db74">&#39;{correct:^10}|{phonetic_correct:^20}|{typo:^10}|{phonetic_typo:^20}|{phonetic_distance:^20}|&#39;</span>) 
 <span style="color:#75715e"># Centre Aligned:</span>
 <span style="color:#75715e">#  correct  |  phonetic_correct  |   typo   |   phonetic_typo    | phonetic_distance  |</span></code></pre></div></p>
-
 <p>You also have support for decimal truncation and similar standard formatting utilities:
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># auto-resolve variable scope when nested</span>
 width <span style="color:#f92672">=</span> <span style="color:#ae81ff">10</span>
@@ -290,28 +270,18 @@ precision <span style="color:#f92672">=</span> <span style="color:#ae81ff">4</sp
 value <span style="color:#f92672">=</span> decimal<span style="color:#f92672">.</span>Decimal(<span style="color:#e6db74">&#34;12.34567&#34;</span>)
 <span style="color:#66d9ef">print</span>(f<span style="color:#e6db74">&#34;result: {value:{width}.{precision}}&#34;</span>)  <span style="color:#75715e"># nested fields</span>
 <span style="color:#75715e"># &#39;result:      12.35&#39;</span></code></pre></div></p>
-
 <p>You might notice something interesting here: width and precision are automatically picked up from the scope. This means you can calculate width and precision using screen width or other inputs from system and use that.</p>
-
 <h2 id="full-python-expressions-support">Full Python Expressions Support</h2>
-
 <p>The above is only possible because the expression inside {} is actually being evaluated, or in programming terms: being executed.</p>
-
 <p>This implies, that you can make any function call from within those {}.</p>
-
 <p>Though, you should avoid doing this in practice very often because it might make your debugging very difficult. Instead, store the returned value from function in a variable and then add the variable in a fstring print statement.</p>
-
 <p>Those coming from functional programming might miss their lambda functions. Don’t worry, Python has you covered:</p>
-
 <h2 id="lambda-functions-in-f-strings">Lambda Functions in f-strings</h2>
-
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#75715e"># If you feel you must use lambdas, they may be used inside of parentheses:</span>
 <span style="color:#66d9ef">print</span>(f<span style="color:#e6db74">&#39;{(lambda x: x*3)(3)}&#39;</span>)
 <span style="color:#75715e"># &#39;9&#39;</span>
 <span style="color:#75715e"># note that this returned a &lt;str&gt; and not &lt;int&gt;</span></code></pre></div>
-
 <h1 id="summary">Summary</h1>
-
 <ul>
 <li>f strings mean you can include variables and function calls inside your print statements</li>
 <li>Inline variables: these are easier to read and debug for the developer</li>
@@ -337,17 +307,13 @@ value <span style="color:#f92672">=</span> decimal<span style="color:#f92672">.<
     <aside class="w-30-l mt6-l"><div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
     <p class="f5 b mb3">What&#39;s in this writing</p>
       <nav id="TableOfContents">
-<ul>
-<li>
-<ul>
-<li><a href="#quick-primer">Quick Primer</a></li>
-<li><a href="#f-string-magic">f-string Magic</a></li>
-<li><a href="#simplified-alignment-and-spacing">Simplified Alignment and Spacing</a></li>
-<li><a href="#full-python-expressions-support">Full Python Expressions Support</a></li>
-<li><a href="#lambda-functions-in-f-strings">Lambda Functions in f-strings</a></li>
-</ul></li>
-<li><a href="#summary">Summary</a></li>
-</ul>
+  <ul>
+    <li><a href="#quick-primer">Quick Primer</a></li>
+    <li><a href="#f-string-magic">f-string Magic</a></li>
+    <li><a href="#simplified-alignment-and-spacing">Simplified Alignment and Spacing</a></li>
+    <li><a href="#full-python-expressions-support">Full Python Expressions Support</a></li>
+    <li><a href="#lambda-functions-in-f-strings">Lambda Functions in f-strings</a></li>
+  </ul>
 </nav>
   </div>
 

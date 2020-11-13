@@ -1,9 +1,16 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
     <loc>https://nirantk.com/writing/</loc>
+    <lastmod>2020-09-12T00:09:00+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://nirantk.com/tags/career/</loc>
     <lastmod>2020-09-12T00:09:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -26,19 +33,29 @@
   <url>
     <loc>https://nirantk.com/tags/</loc>
     <lastmod>2020-09-12T00:09:00+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://nirantk.com/tags/career/</loc>
-    <lastmod>2020-09-12T00:09:00+05:30</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://nirantk.com/tags/tech/</loc>
     <lastmod>2020-09-12T00:09:00+05:30</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://nirantk.com/tags/machine-learning/</loc>
+    <lastmod>2020-08-29T00:09:00+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://nirantk.com/tags/verloop/</loc>
+    <lastmod>2020-08-29T00:09:00+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
@@ -49,15 +66,10 @@
   </url>
   
   <url>
-    <loc>https://nirantk.com/tags/machine-learning/</loc>
-    <lastmod>2020-08-29T00:09:00+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://nirantk.com/tags/verloop/</loc>
-    <lastmod>2020-08-29T00:09:00+05:30</lastmod>
-    <priority>0</priority>
+    <loc>https://nirantk.com/tags/niranting/</loc>
+    <lastmod>2020-08-14T00:09:00+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
@@ -68,9 +80,10 @@
   </url>
   
   <url>
-    <loc>https://nirantk.com/tags/niranting/</loc>
-    <lastmod>2020-08-14T00:09:00+05:30</lastmod>
-    <priority>0</priority>
+    <loc>https://nirantk.com/tags/exclusive-convo/</loc>
+    <lastmod>2020-06-15T00:09:00+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
@@ -78,12 +91,6 @@
     <lastmod>2020-06-15T00:09:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://nirantk.com/tags/exclusive-convo/</loc>
-    <lastmod>2020-06-15T00:09:00+05:30</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
@@ -108,16 +115,17 @@
   </url>
   
   <url>
-    <loc>https://nirantk.com/writing/recession-proofing/</loc>
+    <loc>https://nirantk.com/tags/personal-finance/</loc>
     <lastmod>2020-03-15T00:09:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>https://nirantk.com/tags/personal-finance/</loc>
+    <loc>https://nirantk.com/writing/recession-proofing/</loc>
     <lastmod>2020-03-15T00:09:00+05:30</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
@@ -135,8 +143,22 @@
   </url>
   
   <url>
+    <loc>https://nirantk.com/writing/diwali_2019/</loc>
+    <lastmod>2019-11-01T00:09:00+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://nirantk.com/writing/mathforai/</loc>
     <lastmod>2019-10-27T23:29:18+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://nirantk.com/tags/notes-for-self/</loc>
+    <lastmod>2019-09-24T00:00:09+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -149,12 +171,6 @@
   </url>
   
   <url>
-    <loc>https://nirantk.com/tags/notes-for-self/</loc>
-    <lastmod>2019-09-24T00:00:09+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://nirantk.com/writing/modelmonitoring/</loc>
     <lastmod>2019-09-21T00:00:18+05:30</lastmod>
     <changefreq>monthly</changefreq>
@@ -164,7 +180,8 @@
   <url>
     <loc>https://nirantk.com/tags/production-ml/</loc>
     <lastmod>2019-09-21T00:00:18+05:30</lastmod>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
@@ -182,6 +199,20 @@
   </url>
   
   <url>
+    <loc>https://nirantk.com/tags/deeplearning/</loc>
+    <lastmod>2019-08-27T23:29:18+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://nirantk.com/tags/python/</loc>
+    <lastmod>2019-08-27T23:29:18+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://nirantk.com/writing/silentriseofpytorch/</loc>
     <lastmod>2019-08-27T23:29:18+05:30</lastmod>
     <changefreq>monthly</changefreq>
@@ -189,19 +220,14 @@
   </url>
   
   <url>
-    <loc>https://nirantk.com/tags/deeplearning/</loc>
-    <lastmod>2019-08-27T23:29:18+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://nirantk.com/tags/python/</loc>
-    <lastmod>2019-08-27T23:29:18+05:30</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://nirantk.com/now/</loc>
+    <lastmod>2019-08-05T23:29:18+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://nirantk.com/tags/personal/</loc>
     <lastmod>2019-08-05T23:29:18+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -215,9 +241,10 @@
   </url>
   
   <url>
-    <loc>https://nirantk.com/tags/personal/</loc>
-    <lastmod>2019-08-05T23:29:18+05:30</lastmod>
-    <priority>0</priority>
+    <loc>https://nirantk.com/writing/diwali_2018/</loc>
+    <lastmod>2018-11-13T00:09:00+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
@@ -256,27 +283,26 @@
   
   <url>
     <loc>https://nirantk.com/drafts/bigco-vs-startups/</loc>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://nirantk.com/drafts/invisible-algo/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>https://nirantk.com/rohan/</loc>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://nirantk.com/categories/</loc>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
   <url>
     <loc>https://nirantk.com/drafts/</loc>
-    <priority>0</priority>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
   </url>
   
 </urlset>

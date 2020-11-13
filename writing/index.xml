@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Nirant Kasliwal</title>
@@ -6,11 +6,7 @@
     <description>Recent content on Nirant Kasliwal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 12 Sep 2020 00:09:00 +0530</lastBuildDate>
-    
-	<atom:link href="https://nirantk.com/writing/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Sat, 12 Sep 2020 00:09:00 +0530</lastBuildDate><atom:link href="https://nirantk.com/writing/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>First 90 Days - Software Engineer Version</title>
       <link>https://nirantk.com/writing/first-90-days-engineer-version/</link>
@@ -63,11 +59,11 @@ This is also when I worked with him, during his engineering days. Here, I asked 
       <guid>https://nirantk.com/writing/standout/</guid>
       <description>In my short career, I&amp;rsquo;ve seen some amazing young people stand out at work.
 Here is what they did, organized by 5 themes:
- Unlock Knowledge
- Automate Boring Stuff
- Write Widely
- Solve Open Problems
- Outside-Visible Work
+  Unlock Knowledge
+  Automate Boring Stuff
+  Write Widely
+  Solve Open Problems
+  Outside-Visible Work
   Unlock Knowledge Expertise and know-how stay trapped in emails, docs and codebases. Unlock this for everyone else.
 Get your Star Salesman on an internal podcast to spill their secrets.</description>
     </item>
@@ -91,7 +87,7 @@ I’ve organized my setbacks by year (starting with 2016), and what constitutes 
       <guid>https://nirantk.com/writing/ankitnagori/</guid>
       <description>Last month, I had a chance to talk to Ankit Nagori - the co-founder at Cult or Cure.fit
 This first appeared on https://niranting.substack.com
- Transcript Origin Story  IIT to Flipkart for 6 years and then left with Mukesh Bansal of Myntra to start Cure.fit
+Transcript Origin Story  IIT to Flipkart for 6 years and then left with Mukesh Bansal of Myntra to start Cure.fit
  Ankit Nagori 0:00 Great. So I think my journey my journey started with Flipkart. That was a couple of years after I finished my undergrad at IIT.</description>
     </item>
     
@@ -104,8 +100,8 @@ This first appeared on https://niranting.substack.com
       <description>I’d written originally this in August 2019 with a bit of foresight of a pending recession.
 I wrote this primarily for myself. Multiple reviewers have mentioned that they found it immensely useful, so sharing it with you here!
 Unfortunately, I didn’t follow some of the important notes here myself. Hope you do better than me!!!
-Hard Assumptions  Recession will happen in the next 6-24 months
- Will hurt technology startup professionals which depend on VC money directly as pay cheques</description>
+Hard Assumptions   Recession will happen in the next 6-24 months
+  Will hurt technology startup professionals which depend on VC money directly as pay cheques</description>
     </item>
     
     <item>
@@ -132,6 +128,19 @@ The other extreme is also fine: You join a small startup which can make great us
     </item>
     
     <item>
+      <title>Happy Diwali 2019</title>
+      <link>https://nirantk.com/writing/diwali_2019/</link>
+      <pubDate>Fri, 01 Nov 2019 00:09:00 +0530</pubDate>
+      
+      <guid>https://nirantk.com/writing/diwali_2019/</guid>
+      <description>I wanted to drop by and wish you a very Happy Diwali!
+This is an annual email that I write to say thanks to mentors, friends, allies - everyone who has chipped in sculpt a better me.
+So that is what I&amp;rsquo;ll begin with: Thanks a ton for being there for me!
+Also, checkout the 2018 edition of the annual email in attachment if you&amp;rsquo;re curious :)
+Moving onto the least comfortable piece, talking about myself:</description>
+    </item>
+    
+    <item>
       <title>Math for Machine Learning</title>
       <link>https://nirantk.com/writing/mathforai/</link>
       <pubDate>Sun, 27 Oct 2019 23:29:18 +0530</pubDate>
@@ -148,8 +157,8 @@ http://d2l.ai/chapter_appendix_math/index.html</description>
       <pubDate>Tue, 24 Sep 2019 00:00:09 +0530</pubDate>
       
       <guid>https://nirantk.com/writing/manifesto/</guid>
-      <description>On Death  Is usually better the sooner it happens. Just like it’s best to retire from your cricket career at your peak for your own sake, it’s best to die when you are at your peak. You just might become Father of the Nation.
- No one wishes that they’d accomplished less on their death beds. You might hear that no one wishes that they’d worked more. That’s right too.</description>
+      <description>On Death   Is usually better the sooner it happens. Just like it’s best to retire from your cricket career at your peak for your own sake, it’s best to die when you are at your peak. You just might become Father of the Nation.
+  No one wishes that they’d accomplished less on their death beds. You might hear that no one wishes that they’d worked more. That’s right too.</description>
     </item>
     
     <item>
@@ -161,7 +170,7 @@ http://d2l.ai/chapter_appendix_math/index.html</description>
       <description>Mayank asked on Twitter:
  Some ideas/papers/tools on monitoring models in production. A use case would be say a classification task over large inputs. I want to visualise how are the predicted values or even confidence scores vary over time? (paraphrased)
  Quick Hacks pandas-profiling If you are logging confidence scores, you can begin there. The quickest hack is to visualize with pandas-profiling: https://github.com/pandas-profiling/pandas-profiling/
-Rolling means Calculate rolling aggregates (e.</description>
+Rolling means Calculate rolling aggregates (e.g. mean, variance) of your confidence scores.</description>
     </item>
     
     <item>
@@ -204,8 +213,21 @@ What I don’t like about PyTorch is it’s incessant requirement of debugging b
       <description>Collection of the Best Advice on Internet that I know about on giving a tech talk. Based on responses from my question on Twitter.
   Meghana gave a talk based on these tips at PyData Bengaluru
    You: Hey, I know something better!
-Me: Please tell me about it! Raise a PR. Or reply to the tweet above!
+  Me: Please tell me about it! Raise a PR. Or reply to the tweet above!
  The Mindset  Presentations Skills Considered Harmful tl;dr: Do not block the message with your actions.</description>
+    </item>
+    
+    <item>
+      <title>Happy Diwali 2018</title>
+      <link>https://nirantk.com/writing/diwali_2018/</link>
+      <pubDate>Tue, 13 Nov 2018 00:09:00 +0530</pubDate>
+      
+      <guid>https://nirantk.com/writing/diwali_2018/</guid>
+      <description>How are you?
+I send these letters every year. This is a way for me to send thanks to all the mentors and friends who&amp;rsquo;ve been part of my journey so far. And I wanted to drop by and say
+Happy Diwali :) What is up with you? Is there something I can do for you?
+For what is up with me?
+Health &amp;amp; Wealth Health Since the beginning of this year, I have tried &amp;lsquo;building better healthy habits&amp;rsquo;.</description>
     </item>
     
     <item>
@@ -237,8 +259,7 @@ For Steve, it was not about achieving these, it was, as I have come to call it: 
       
       <guid>https://nirantk.com/writing/bitsian/</guid>
       <description>There is a invisible binding thread among most BITSian’s - optimistic, easy going, but somewhat pragmatic. The sky is the limit, but most of them realize flying in hot air pockets is easy - it’s the takeoff that hurts.
-I guess there is a flavour of cheerful pragmatism that is uniquely BITSian. You can get ice cream and ice cream shakes anywhere - but Sharma’s MNB is uniquely BITSian.
-I am no longer in BITS Pilani.</description>
+ I guess there is a flavour of cheerful pragmatism that is uniquely BITSian. You can get ice cream and ice cream shakes anywhere - but Sharma’s MNB is uniquely BITSian.</description>
     </item>
     
     <item>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>niranting on Nirant Kasliwal</title>
@@ -6,11 +6,7 @@
     <description>Recent content in niranting on Nirant Kasliwal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 14 Aug 2020 00:09:00 +0530</lastBuildDate>
-    
-	<atom:link href="https://nirantk.com/tags/niranting/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Fri, 14 Aug 2020 00:09:00 +0530</lastBuildDate><atom:link href="https://nirantk.com/tags/niranting/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Talent Cooling</title>
       <link>https://nirantk.com/writing/talentcooling/</link>
@@ -44,12 +40,38 @@ Youth enclaves can actually be restrictive. In fact their networking should be a
     </item>
     
     <item>
+      <title>Happy Diwali 2019</title>
+      <link>https://nirantk.com/writing/diwali_2019/</link>
+      <pubDate>Fri, 01 Nov 2019 00:09:00 +0530</pubDate>
+      
+      <guid>https://nirantk.com/writing/diwali_2019/</guid>
+      <description>I wanted to drop by and wish you a very Happy Diwali!
+This is an annual email that I write to say thanks to mentors, friends, allies - everyone who has chipped in sculpt a better me.
+So that is what I&amp;rsquo;ll begin with: Thanks a ton for being there for me!
+Also, checkout the 2018 edition of the annual email in attachment if you&amp;rsquo;re curious :)
+Moving onto the least comfortable piece, talking about myself:</description>
+    </item>
+    
+    <item>
       <title>Don&#39;t Bask in Reflected Glory</title>
       <link>https://nirantk.com/writing/reflectedglory/</link>
       <pubDate>Wed, 18 Sep 2019 00:00:09 +0530</pubDate>
       
       <guid>https://nirantk.com/writing/reflectedglory/</guid>
       <description>ये जो लोग-बाग हैं, जंगल की आग हैं Ye jo log baag hain, Jungle ki aag hain The people, are jungle fire क्यूँ आग में जलूँ... Kyun aag mein jalun Why should I burn in the fire? ये नाकाम प्यार में, खुश हैं ये हार में Ye nakaam pyaar mein, Khush hai yeh haar mein Defeated in love, they&#39;re happy in defeat इन जैसा क्यूँ बनूँ... Inn jaisa kyun banun Why should I be like them?</description>
+    </item>
+    
+    <item>
+      <title>Happy Diwali 2018</title>
+      <link>https://nirantk.com/writing/diwali_2018/</link>
+      <pubDate>Tue, 13 Nov 2018 00:09:00 +0530</pubDate>
+      
+      <guid>https://nirantk.com/writing/diwali_2018/</guid>
+      <description>How are you?
+I send these letters every year. This is a way for me to send thanks to all the mentors and friends who&amp;rsquo;ve been part of my journey so far. And I wanted to drop by and say
+Happy Diwali :) What is up with you? Is there something I can do for you?
+For what is up with me?
+Health &amp;amp; Wealth Health Since the beginning of this year, I have tried &amp;lsquo;building better healthy habits&amp;rsquo;.</description>
     </item>
     
     <item>
@@ -71,8 +93,7 @@ For Steve, it was not about achieving these, it was, as I have come to call it: 
       
       <guid>https://nirantk.com/writing/bitsian/</guid>
       <description>There is a invisible binding thread among most BITSian’s - optimistic, easy going, but somewhat pragmatic. The sky is the limit, but most of them realize flying in hot air pockets is easy - it’s the takeoff that hurts.
-I guess there is a flavour of cheerful pragmatism that is uniquely BITSian. You can get ice cream and ice cream shakes anywhere - but Sharma’s MNB is uniquely BITSian.
-I am no longer in BITS Pilani.</description>
+ I guess there is a flavour of cheerful pragmatism that is uniquely BITSian. You can get ice cream and ice cream shakes anywhere - but Sharma’s MNB is uniquely BITSian.</description>
     </item>
     
   </channel>

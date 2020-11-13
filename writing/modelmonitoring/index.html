@@ -6,7 +6,8 @@
     
     <title>ML Model Monitoring | Nirant Kasliwal</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="generator" content="Hugo 0.55.6" />
+    <meta name="description" content="Guide to Monitoring your ML Models in Production">
+    <meta name="generator" content="Hugo 0.78.1" />
     
     
       <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
@@ -30,15 +31,12 @@
 <meta property="og:description" content="Guide to Monitoring your ML Models in Production" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://nirantk.com/writing/modelmonitoring/" />
-<meta property="article:published_time" content="2019-09-21T00:00:18&#43;05:30"/>
-<meta property="article:modified_time" content="2019-09-21T00:00:18&#43;05:30"/>
-
+<meta property="article:published_time" content="2019-09-21T00:00:18+05:30" />
+<meta property="article:modified_time" content="2019-09-21T00:00:18+05:30" />
 <meta itemprop="name" content="ML Model Monitoring">
 <meta itemprop="description" content="Guide to Monitoring your ML Models in Production">
-
-
-<meta itemprop="datePublished" content="2019-09-21T00:00:18&#43;05:30" />
-<meta itemprop="dateModified" content="2019-09-21T00:00:18&#43;05:30" />
+<meta itemprop="datePublished" content="2019-09-21T00:00:18+05:30" />
+<meta itemprop="dateModified" content="2019-09-21T00:00:18+05:30" />
 <meta itemprop="wordCount" content="689">
 
 
@@ -219,126 +217,76 @@
         <span class="f6 mv4 dib tracked"> - 689 words</span>
       
     </header>
-    <div class="nested-copy-line-height lh-copy avenir f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l">
-
-<p>Mayank asked on <a href="https://twitter.com/MayankSatnalika/status/1175446811860824064">Twitter</a>:</p>
-
+    <div class="nested-copy-line-height lh-copy avenir f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><p>Mayank asked on <a href="https://twitter.com/MayankSatnalika/status/1175446811860824064">Twitter</a>:</p>
 <blockquote>
 <p>Some ideas/papers/tools on  monitoring models in production. A use case would be say a classification task over large inputs. I want to visualise how are the predicted values or even confidence scores vary over time? (paraphrased)</p>
 </blockquote>
-
 <h2 id="quick-hacks">Quick Hacks</h2>
-
 <h3 id="pandas-profiling">pandas-profiling</h3>
-
 <p>If you are logging confidence scores, you can begin there. The quickest hack is to visualize with pandas-profiling:
 <a href="https://github.com/pandas-profiling/pandas-profiling/">https://github.com/pandas-profiling/pandas-profiling/</a></p>
-
 <h3 id="rolling-means">Rolling means</h3>
-
 <p>Calculate rolling aggregates (e.g. mean, variance) of your confidence scores. pandas inbuilt. Quite quick. Add them to your set of monitoring and alerting product metrics.</p>
-
 <p>A better version of this would be to do it on cohort level. Actually, doing all the following analysis on cohort level makes sense.</p>
-
 <h3 id="confidence-scores-and-thresholds">Confidence Scores and Thresholds</h3>
-
 <p>One of the most common mistakes is to use static threshold(s) on a confidence score(s).</p>
-
 <p>If you hear someone saying that they do not use thresholds for a classification problem. Stop and think. They are using a threshold, usually 0.5 from within the ML library that you are using.</p>
-
 <p>This is sub-optimal. The better option would be to use a holdout validation set and determine the threshold from that.</p>
-
 <h3 id="tagging-data">Tagging Data</h3>
-
 <p>It is obvious that you will tag the predictions for which the model is least confident &ndash; so that the model can learn.</p>
-
 <p>What you should also do is this:</p>
-
 <ul>
-<li><p>Find out samples which have high confidence and tag them first, this is a form of negative sample mining</p></li>
-
-<li><p>For multi-class classification: Figure out samples which did not clear your threshold, and the prediction is correct. Add these back to your new training+validation set</p></li>
-
-<li><p>Tag samples which are too close to the threshold. This will help you understand your model and dataset&rsquo;s <em>margin of separation</em> better</p></li>
+<li>
+<p>Find out samples which have high confidence and tag them first, this is a form of negative sample mining</p>
+</li>
+<li>
+<p>For multi-class classification: Figure out samples which did not clear your threshold, and the prediction is correct. Add these back to your new training+validation set</p>
+</li>
+<li>
+<p>Tag samples which are too close to the threshold. This will help you understand your model and dataset&rsquo;s <em>margin of separation</em> better</p>
+</li>
 </ul>
-
 <h2 id="training-serving">Training-Serving</h2>
-
 <p>The most common causes of trouble in production ML models is <strong>training-serving skews</strong> or differences.</p>
-
 <p>The differences can be on 3 levels:
 Data, Features, Predictions</p>
-
 <h2 id="data-differences">Data Differences</h2>
-
 <p>Data differences can be of several types, the most frequest are these:
 Schema change - someone dropped a column!,
 Class Distribution Change - When did this 10% training class have 20% predictions, or
 Data Input Drift - users have started typing instead of copy-pasting!</p>
-
-<h3 id="schema-skew-from-google-s-ml-guide">Schema skew (from Google&rsquo;s ML Guide)</h3>
-
-<p>Training and serving input data do not conform to the same schema.  The format of the serving data changes while your model continues to train on old data.</p>
-
+<h3 id="schema-skew-from-googles-ml-guide">Schema skew (from Google&rsquo;s ML Guide)</h3>
+<p>Training and serving input data do not conform to the same schema. 	The format of the serving data changes while your model continues to train on old data.</p>
 <p><strong>Solution?</strong> Use the same schema to validate training and serving data. Ensure you separately check for statistics not checked by your schema, such as the fraction of missing values</p>
-
 <h3 id="class-distribution-check-with-great-expectations">Class Distribution check with Great Expectations</h3>
-
 <p>Training and serving input data should conform to the same class frequency distribution.
 Confirm this. If not, update the model by training with updated class frequency distribution.</p>
-
 <p>For monitoring these first two, check out: <a href="https://github.com/great-expectations/great_expectations">https://github.com/great-expectations/great_expectations</a></p>
-
 <p>For understanding data drift, you need to visualize data itself. This is too data-domain specific (e.g. text, audio, image). And more often than not, it is just as better to visualize features or vectors.</p>
-
 <h2 id="feature-viz-for-monitoring">Feature Viz for Monitoring</h2>
-
 <p>Almost all models for high dimensional data (images or text) <em>vectorize</em> data. I am using features and vectorized embedding as loosely synonymous here.</p>
-
 <p>Let&rsquo;s take text as an example:</p>
-
 <h3 id="class-level-with-umap">Class Level with umap</h3>
-
 <p>Use any dimensionality reduction like PCA or umap (<a href="https://github.com/lmcinnes/umap">https://github.com/lmcinnes/umap</a>) for your feature space. Notice that these are on class level.</p>
-
-<p><img src="https://raw.githubusercontent.com/NirantK/blog/master/content/images/umap-tweets-plot.png" alt="umap-tweet-plots" title="UMAP Tweet Plots" /></p>
-
+<p><img src="https://raw.githubusercontent.com/NirantK/blog/master/content/images/umap-tweets-plot.png" alt="umap-tweet-plots" title="UMAP Tweet Plots"></p>
 <p>Plot similar plots for both training and test, and see if they have similar distributions.</p>
-
 <h2 id="prediction-viz-for-monitoring">Prediction Viz for Monitoring</h2>
-
 <p>Here you can get lazy, but I&rsquo;d still recommend that you build data-domain specific <em>explainers</em></p>
-
 <h3 id="sample-level-with-lime">Sample Level with LIME</h3>
-
 <p>Consider this for text:</p>
-
-<p><img src="https://raw.githubusercontent.com/NirantK/blog/master/content/images/lime-viz.png" alt="lime-viz" title="Lime Visualization for Explaining Model Predictions" /></p>
-
+<p><img src="https://raw.githubusercontent.com/NirantK/blog/master/content/images/lime-viz.png" alt="lime-viz" title="Lime Visualization for Explaining Model Predictions"></p>
 <p>Check out other black box ML explainers: <a href="https://lilianweng.github.io/lil-log/2017/08/01/how-to-explain-the-prediction-of-a-machine-learning-model.html">https://lilianweng.github.io/lil-log/2017/08/01/how-to-explain-the-prediction-of-a-machine-learning-model.html</a> by the amazing @lilianweng</p>
-
 <h3 id="class-level">Class Level</h3>
-
 <p>You can aggregate your predictions across multiple samples on a class level:</p>
-
-<p><img src="https://raw.githubusercontent.com/NirantK/blog/master/content/images/agg-lime-viz.png" alt="agg-lime-viz" title="Aggregated Lime Visualization for Explaining Model Predictions on Class Level" /></p>
-
+<p><img src="https://raw.githubusercontent.com/NirantK/blog/master/content/images/agg-lime-viz.png" alt="agg-lime-viz" title="Aggregated Lime Visualization for Explaining Model Predictions on Class Level"></p>
 <h2 id="training-data-checks">Training Data Checks</h2>
-
 <p>Expanding on <a href="https://twitter.com/aerinykim/status/1259945059085987843">@aerinykim&rsquo;s tweet</a></p>
-
 <h3 id="robustness">Robustness</h3>
-
 <p>Adding in-domain noise or perturbations should not change the model training and inference both.</p>
-
 <h1 id="citations-and-resources">Citations and Resources</h1>
-
 <p>[1] Machine Learning Testing in Production: <a href="https://developers.google.com/machine-learning/testing-debugging/pipeline/production">https://developers.google.com/machine-learning/testing-debugging/pipeline/production</a></p>
-
 <p>[2] Recommended by DJ Patil as &ldquo;Spot On, Excellent&rdquo;: <a href="http://www.unofficialgoogledatascience.com/2016/10/practical-advice-for-analysis-of-large.html">http://www.unofficialgoogledatascience.com/2016/10/practical-advice-for-analysis-of-large.html</a></p>
-
 <p>[3] Practical NLP by Ameisen: <a href="https://bit.ly/nlp-insight">https://bit.ly/nlp-insight</a>. The images for umap, LIME, and aggregated LIME are all from nlp-insight</p>
-
 <p>[4] Machine Learning:The High-Interest Credit Card of Technical Debt: <a href="https://storage.googleapis.com/pub-tools-public-publication-data/pdf/43146.pdf">https://storage.googleapis.com/pub-tools-public-publication-data/pdf/43146.pdf</a></p>
 <ul class="pa0">
   
@@ -364,38 +312,39 @@ Confirm this. If not, update the model by training with updated class frequency 
     <aside class="w-30-l mt6-l"><div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
     <p class="f5 b mb3">What&#39;s in this writing</p>
       <nav id="TableOfContents">
-<ul>
-<li>
-<ul>
-<li><a href="#quick-hacks">Quick Hacks</a>
-<ul>
-<li><a href="#pandas-profiling">pandas-profiling</a></li>
-<li><a href="#rolling-means">Rolling means</a></li>
-<li><a href="#confidence-scores-and-thresholds">Confidence Scores and Thresholds</a></li>
-<li><a href="#tagging-data">Tagging Data</a></li>
-</ul></li>
-<li><a href="#training-serving">Training-Serving</a></li>
-<li><a href="#data-differences">Data Differences</a>
-<ul>
-<li><a href="#schema-skew-from-google-s-ml-guide">Schema skew (from Google&rsquo;s ML Guide)</a></li>
-<li><a href="#class-distribution-check-with-great-expectations">Class Distribution check with Great Expectations</a></li>
-</ul></li>
-<li><a href="#feature-viz-for-monitoring">Feature Viz for Monitoring</a>
-<ul>
-<li><a href="#class-level-with-umap">Class Level with umap</a></li>
-</ul></li>
-<li><a href="#prediction-viz-for-monitoring">Prediction Viz for Monitoring</a>
-<ul>
-<li><a href="#sample-level-with-lime">Sample Level with LIME</a></li>
-<li><a href="#class-level">Class Level</a></li>
-</ul></li>
-<li><a href="#training-data-checks">Training Data Checks</a>
-<ul>
-<li><a href="#robustness">Robustness</a></li>
-</ul></li>
-</ul></li>
-<li><a href="#citations-and-resources">Citations and Resources</a></li>
-</ul>
+  <ul>
+    <li><a href="#quick-hacks">Quick Hacks</a>
+      <ul>
+        <li><a href="#pandas-profiling">pandas-profiling</a></li>
+        <li><a href="#rolling-means">Rolling means</a></li>
+        <li><a href="#confidence-scores-and-thresholds">Confidence Scores and Thresholds</a></li>
+        <li><a href="#tagging-data">Tagging Data</a></li>
+      </ul>
+    </li>
+    <li><a href="#training-serving">Training-Serving</a></li>
+    <li><a href="#data-differences">Data Differences</a>
+      <ul>
+        <li><a href="#schema-skew-from-googles-ml-guide">Schema skew (from Google&rsquo;s ML Guide)</a></li>
+        <li><a href="#class-distribution-check-with-great-expectations">Class Distribution check with Great Expectations</a></li>
+      </ul>
+    </li>
+    <li><a href="#feature-viz-for-monitoring">Feature Viz for Monitoring</a>
+      <ul>
+        <li><a href="#class-level-with-umap">Class Level with umap</a></li>
+      </ul>
+    </li>
+    <li><a href="#prediction-viz-for-monitoring">Prediction Viz for Monitoring</a>
+      <ul>
+        <li><a href="#sample-level-with-lime">Sample Level with LIME</a></li>
+        <li><a href="#class-level">Class Level</a></li>
+      </ul>
+    </li>
+    <li><a href="#training-data-checks">Training Data Checks</a>
+      <ul>
+        <li><a href="#robustness">Robustness</a></li>
+      </ul>
+    </li>
+  </ul>
 </nav>
   </div>
 

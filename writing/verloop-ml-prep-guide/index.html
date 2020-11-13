@@ -6,7 +6,8 @@
     
     <title>Verloop NLP Interview Prep Guide | Nirant Kasliwal</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="generator" content="Hugo 0.55.6" />
+    <meta name="description" content="What we share in our ML/NLP round">
+    <meta name="generator" content="Hugo 0.78.1" />
     
     
       <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
@@ -30,15 +31,12 @@
 <meta property="og:description" content="What we share in our ML/NLP round" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://nirantk.com/writing/verloop-ml-prep-guide/" />
-<meta property="article:published_time" content="2020-08-29T00:09:00&#43;05:30"/>
-<meta property="article:modified_time" content="2020-08-29T00:09:00&#43;05:30"/>
-
+<meta property="article:published_time" content="2020-08-29T00:09:00+05:30" />
+<meta property="article:modified_time" content="2020-08-29T00:09:00+05:30" />
 <meta itemprop="name" content="Verloop NLP Interview Prep Guide">
 <meta itemprop="description" content="What we share in our ML/NLP round">
-
-
-<meta itemprop="datePublished" content="2020-08-29T00:09:00&#43;05:30" />
-<meta itemprop="dateModified" content="2020-08-29T00:09:00&#43;05:30" />
+<meta itemprop="datePublished" content="2020-08-29T00:09:00+05:30" />
+<meta itemprop="dateModified" content="2020-08-29T00:09:00+05:30" />
 <meta itemprop="wordCount" content="1331">
 
 
@@ -207,195 +205,160 @@
         <span class="f6 mv4 dib tracked"> - 1331 words</span>
       
     </header>
-    <div class="nested-copy-line-height lh-copy avenir f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l">
-
-<h1 id="preparation-guide">Preparation Guide</h1>
-
+    <div class="nested-copy-line-height lh-copy avenir f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><h1 id="preparation-guide">Preparation Guide</h1>
 <p>I&rsquo;ve been an early Machine Learning Engineer at <a href="https://verloop.io">Verloop.io</a> for almost 1.5 years, primarily working on NLP problems and now more in an Engineering Manager-ish role.</p>
-
 <p>This is the guide which I sometimes send to our candidates after they submit the Programming Challenge. If a candidate has relevant open source code sample, specially to other repositories we may choose to waive off the Programming Challenge completely.</p>
-
 <p>I originally wrote this to give a chance to folks coming from non-NLP background to get a sense of the problem space a little better. I&rsquo;d hoped that it&rsquo;d absolve smart people of the assumption that Churn, Text Generation and Image Segmentation can be all solve with the same idea-kit, but no luck.</p>
-
 <p>I hope this is most useful to candidate interviewing for ML roles in companies similar to us in terms of size, scale and challenges. This is also useful to:</p>
-
 <ul>
 <li>Early career folks - typically less than 2 years of NLP experience</li>
 <li>Folks coming from Computer Vision/Tabular Data/Classical ML background</li>
 </ul>
-
 <h1 id="the-role">The Role</h1>
-
 <p>Machine Learning Engineers at Verloop develop technologies that influence how users interact, engage and feel about chat and customer service. As a/an MLE, you will specialize in supervised/unsupervised learning and apply techniques to various problems, mostly dealing with high volume natural language processing applications.</p>
-
 <p>At Verloop, the same team of engineers owns the entire stack from research to production. This means that the following roles HAVE NOT EXISTED at Verloop:</p>
-
 <ol>
-<li><p>Data Scientist:</p>
-
+<li>
+<p>Data Scientist:</p>
 <ul>
 <li>Does: Data Analytics, Exploration, Model A/B Testing and Data Modeling</li>
 <li>Tools: Everything from Data Viz to Excel, Pandas, spaCy and Scikit-Learn</li>
-</ul></li>
-
-<li><p>Data Engineer:</p>
-
+</ul>
+</li>
+<li>
+<p>Data Engineer:</p>
 <ul>
 <li>Does: Builds ata pipelines, storage, data version control, monitoring</li>
 <li>Tools: Kafka, Airflow etc.</li>
-</ul></li>
-
-<li><p>ML Researcher:</p>
-
+</ul>
+</li>
+<li>
+<p>ML Researcher:</p>
 <ul>
 <li>Does: Trains forward looking, NOT production ready models. Focussed on experimentation</li>
 <li>Tools: huggingface/transformers, spaCy, flair (by Zolando Research)</li>
-</ul></li>
+</ul>
+</li>
 </ol>
-
 <p>All of the above is done by MLE at Verloop. Every engineer is expected to build a strong suite in one or more of the above roles, while maintaining a high minimum at the others.</p>
-
 <p>Verloop MLE often contribute to adjacent/overlapping challenges such as DevOps for Machine Learning aka ML Ops. These are often problems in model serving, automated deployment, data versioning, model monitoring, alerting and other parts of developer tooling.</p>
-
-<hr />
-
+<hr>
 <p><em>I&rsquo;m hiring for a MLE SDE 2 Position</em></p>
-
 <p><em>If this is something which interests you, and you are interested in working with us, please directly book an intro call with me here: <a href="https://calendly.com/nirant-k-verloop/intro-call-with-verloop-tech">https://calendly.com/nirant-k-verloop/intro-call-with-verloop-tech</a></em></p>
-
-<hr />
-
+<hr>
 <h1 id="programming-tips">Programming Tips</h1>
-
 <p>Write your code (unless otherwise stated) as if you are deploying this code to production. So anything which you&rsquo;d want to pay attention to for your production code should ideally be there.</p>
-
 <p>That said, here are some things which we pay attention to in your code sample:</p>
-
-<h2 id="api-object-oriented-design">API &amp; Object Oriented Design</h2>
-
+<h2 id="api--object-oriented-design">API &amp; Object Oriented Design</h2>
 <ul>
 <li>Almost always useful to separate views from models</li>
 <li>If you are implementing REST, do REST properly</li>
 <li>Keeping common sense names for endpoints make everyones life easier</li>
 </ul>
-
 <p>See <a href="https://12factor.net">12 Factor App</a> for the gold standard on App Dev practices, here we select only a few and explain what we pay attention to</p>
-
-<h2 id="code-readability-style-design">Code Readability, Style &amp; Design</h2>
-
+<h2 id="code-readability-style--design">Code Readability, Style &amp; Design</h2>
 <ul>
 <li>Use tools like <code>isort</code> in Python to neatly organize your imports. Avoid using <code>fastai</code> style imports of <code>from X import *</code></li>
 <li>Docstrings for functions, inline comments where applicable to explain the &ldquo;why&rdquo; or &ldquo;how&rdquo; - but not what</li>
 <li>We like the style to be consistent. E.g. in case of Python, following PEP8 or Google Styleguide will improve your code readability by a lot</li>
 <li>In Python, type hints will make your and our life easier when we have to debug something</li>
 </ul>
-
 <h2 id="developer-hygiene">Developer Hygiene</h2>
-
 <ul>
 <li>Use a <code>requirements.txt</code>, conda <code>environment.yml</code> or Dockerfile to declare your dependencies</li>
 <li>Write tests!</li>
 <li>Use logging. Generously with levels. But not so much that it slows your production performance.</li>
 <li>README with comments, notes, assumptions and what the code is doing</li>
 </ul>
-
 <h1 id="machine-learning-tips">Machine Learning Tips</h1>
-
 <p>In contrast to interview processes which go wide, covering everything from Probability, Statistics, Linear Algebra to Deep Learning and everything in between - we go deep on primarily one aspect: Applied Natural Language Processing. We operate close to Research, occassionally doing research even.</p>
-
 <p>These are supposed to be indicative/descriptive of the technical skill we desire. These are not prescriptive i.e. you do not have to do the course to clear our interviews.</p>
-
 <p>We just have seen everyone with equivalent skill as these courses do well in our interview process.</p>
-
 <h2 id="deep-learning">Deep Learning</h2>
-
 <ul>
 <li>Basics for Beginners: <a href="https://course.fast.ai">FastAI Part 1 &amp; 2</a>
-
 <ul>
 <li>Trivia: 2 out of our team of 6 have been fast.ai International Fellows.</li>
-</ul></li>
 </ul>
-
+</li>
+</ul>
 <h3 id="natural-language-processing-deep-dive">Natural Language Processing Deep Dive</h3>
-
 <ul>
-<li><p><a href="https://www.fast.ai/2019/07/08/fastai-nlp/">NLP: Code First Introduction</a> by FastAI’s Dr. Rachel Thomas</p></li>
-
-<li><p>NLP with Deep Learning: <a href="https://web.stanford.edu/class/cs224n/">cs224n by Stanford</a></p>
-
+<li>
+<p><a href="https://www.fast.ai/2019/07/08/fastai-nlp/">NLP: Code First Introduction</a> by FastAI’s Dr. Rachel Thomas</p>
+</li>
+<li>
+<p>NLP with Deep Learning: <a href="https://web.stanford.edu/class/cs224n/">cs224n by Stanford</a></p>
 <ul>
 <li>For a SDE 2 role, having Deep Learning skills equivalent to this course is necessary but not sufficient</li>
-</ul></li>
-
-<li><p>(Hard Mode) Yandex Data School’s <a href="https://github.com/yandexdataschool/nlp_course">NLP Course</a></p></li>
 </ul>
-
+</li>
+<li>
+<p>(Hard Mode) Yandex Data School’s <a href="https://github.com/yandexdataschool/nlp_course">NLP Course</a></p>
+</li>
+</ul>
 <h1 id="general-interview-tips">General Interview Tips</h1>
-
 <p><strong>Think Out Loud</strong> &ndash; We want to understand how you think, so explain your thought process and decision making throughout the interview.</p>
-
 <p>Remember we’re not evaluating your technical ability alone, but also how you solve problems.</p>
-
 <p><strong>Clarify</strong> &ndash; Many questions will be deliberately open-ended to provide insight into what parts and information you value within the technological puzzle.</p>
-
 <p>We’re looking to see how you engage with the problem and your primary method for solving it.</p>
-
 <p>Be sure to talk through your thought process and feel free to ask specific questions if you need clarification.</p>
-
 <p><strong>Do your Homework</strong> &ndash; The primary reason that this is a Take Home Challenge plus a discussion is that we don&rsquo;t want to evaluate your ability to think on your feet.</p>
-
 <p>That said, if you come to the interview without enough homework on your own submission and question &ndash; you&rsquo;ll be put in a place where a lot of thinking will in fact be on your feet.</p>
-
 <h1 id="machine-learning-interview-technical-prep">Machine Learning Interview Technical Prep</h1>
-
 <ul>
-<li><p>At least one interview will be focused on your expertise within Machine Learning. General knowledge of the field and its main concepts should be demonstrated throughout the interview, such as supervised learning, unsupervised learning, overfitting, boosting, and regularization.</p></li>
-
-<li><p>Experience with common learning paradigms such as decision trees, k-means, LSTMs and understanding of how to apply those techniques to various problems is important.</p></li>
+<li>
+<p>At least one interview will be focused on your expertise within Machine Learning. General knowledge of the field and its main concepts should be demonstrated throughout the interview, such as supervised learning, unsupervised learning, overfitting, boosting, and regularization.</p>
+</li>
+<li>
+<p>Experience with common learning paradigms such as decision trees, k-means, LSTMs and understanding of how to apply those techniques to various problems is important.</p>
+</li>
 </ul>
-
 <h1 id="how-to-prepare">How to Prepare?</h1>
-
 <ul>
-<li><p>Get extremely comfortable with writing code to do Machine Learning (and by extension, Deep Learning). This means knowing what to google, what libraries to use and so on is very valuable.</p></li>
-
-<li><p>Be mentally prepared to talk about your approaches and results. This is effectively a defence of your work. Help us understand why you made certain decisions, choices, and what went in your head.</p></li>
-
-<li><p>Get comfortable working with real world text datasets, for instance multi-lingual datasets, code-mixed. Look for sample efficient learning methods and learn where these models fail or mislead.</p></li>
+<li>
+<p>Get extremely comfortable with writing code to do Machine Learning (and by extension, Deep Learning). This means knowing what to google, what libraries to use and so on is very valuable.</p>
+</li>
+<li>
+<p>Be mentally prepared to talk about your approaches and results. This is effectively a defence of your work. Help us understand why you made certain decisions, choices, and what went in your head.</p>
+</li>
+<li>
+<p>Get comfortable working with real world text datasets, for instance multi-lingual datasets, code-mixed. Look for sample efficient learning methods and learn where these models fail or mislead.</p>
+</li>
 </ul>
-
 <h1 id="things-to-think-about">Things to Think About</h1>
-
 <ul>
-<li><p>This round is case-study driven. We value initiative and experimentation speed+quality over success. This means that even if you try an approach, which does not work for some reason - show us the work that you did: We’d love to learn what you tried.</p></li>
-
-<li><p>Ask yourself why would they have selected this problem for the challenge? What are some basics in this domain I should know about?</p></li>
-
-<li><p>What is the highest level of accuracy that others have achieved with this dataset or similar problems/datasets?</p></li>
-
-<li><p>What types of visualizations will help me grasp the nature of the problem/data?</p></li>
-
-<li><p>Which modelling techniques are good at capturing the types of relationships I see in this data?</p></li>
-
-<li><p>What are some of the weaknesses of the model and how can the model be improved with additional work?</p></li>
-
-<li><p>How do I measure performance? Does it help to have confidence values against the prediction?</p></li>
-
-<li><p>What is latency and compute needs for this model?</p></li>
+<li>
+<p>This round is case-study driven. We value initiative and experimentation speed+quality over success. This means that even if you try an approach, which does not work for some reason - show us the work that you did: We’d love to learn what you tried.</p>
+</li>
+<li>
+<p>Ask yourself why would they have selected this problem for the challenge? What are some basics in this domain I should know about?</p>
+</li>
+<li>
+<p>What is the highest level of accuracy that others have achieved with this dataset or similar problems/datasets?</p>
+</li>
+<li>
+<p>What types of visualizations will help me grasp the nature of the problem/data?</p>
+</li>
+<li>
+<p>Which modelling techniques are good at capturing the types of relationships I see in this data?</p>
+</li>
+<li>
+<p>What are some of the weaknesses of the model and how can the model be improved with additional work?</p>
+</li>
+<li>
+<p>How do I measure performance? Does it help to have confidence values against the prediction?</p>
+</li>
+<li>
+<p>What is latency and compute needs for this model?</p>
+</li>
 </ul>
-
-<hr />
-
+<hr>
 <p><em>I&rsquo;m hiring for a MLE SDE 2 Position</em></p>
-
 <p><em>If this is something which interests you, and you are interested in working with us, please directly book an intro call with me here: <a href="https://calendly.com/nirant-k-verloop/intro-call-with-verloop-tech">https://calendly.com/nirant-k-verloop/intro-call-with-verloop-tech</a></em></p>
-
-<hr />
-
+<hr>
 <p>This document is inspired by similar documents by Google Inc. I borrowed from the best when relevant.</p>
-
-<iframe src="https://niranting.substack.com/embed" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+<!-- raw HTML omitted -->
 <ul class="pa0">
   
    <li class="list">
@@ -424,27 +387,19 @@
     <aside class="w-30-l mt6-l"><div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
     <p class="f5 b mb3">What&#39;s in this writing</p>
       <nav id="TableOfContents">
-<ul>
-<li><a href="#preparation-guide">Preparation Guide</a></li>
-<li><a href="#the-role">The Role</a></li>
-<li><a href="#programming-tips">Programming Tips</a>
-<ul>
-<li><a href="#api-object-oriented-design">API &amp; Object Oriented Design</a></li>
-<li><a href="#code-readability-style-design">Code Readability, Style &amp; Design</a></li>
-<li><a href="#developer-hygiene">Developer Hygiene</a></li>
-</ul></li>
-<li><a href="#machine-learning-tips">Machine Learning Tips</a>
-<ul>
-<li><a href="#deep-learning">Deep Learning</a>
-<ul>
-<li><a href="#natural-language-processing-deep-dive">Natural Language Processing Deep Dive</a></li>
-</ul></li>
-</ul></li>
-<li><a href="#general-interview-tips">General Interview Tips</a></li>
-<li><a href="#machine-learning-interview-technical-prep">Machine Learning Interview Technical Prep</a></li>
-<li><a href="#how-to-prepare">How to Prepare?</a></li>
-<li><a href="#things-to-think-about">Things to Think About</a></li>
-</ul>
+  <ul>
+    <li><a href="#api--object-oriented-design">API &amp; Object Oriented Design</a></li>
+    <li><a href="#code-readability-style--design">Code Readability, Style &amp; Design</a></li>
+    <li><a href="#developer-hygiene">Developer Hygiene</a></li>
+  </ul>
+
+  <ul>
+    <li><a href="#deep-learning">Deep Learning</a>
+      <ul>
+        <li><a href="#natural-language-processing-deep-dive">Natural Language Processing Deep Dive</a></li>
+      </ul>
+    </li>
+  </ul>
 </nav>
   </div>
 

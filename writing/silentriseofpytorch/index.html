@@ -6,7 +6,8 @@
     
     <title>The Silent Rise of PyTorch Ecosystem | Nirant Kasliwal</title>
     <meta name="viewport" content="width=device-width,minimum-scale=1">
-    <meta name="generator" content="Hugo 0.55.6" />
+    <meta name="description" content="What is blazing across the PyTorch Ecosystem?">
+    <meta name="generator" content="Hugo 0.78.1" />
     
     
       <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
@@ -30,15 +31,12 @@
 <meta property="og:description" content="What is blazing across the PyTorch Ecosystem?" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://nirantk.com/writing/silentriseofpytorch/" />
-<meta property="article:published_time" content="2019-08-27T23:29:18&#43;05:30"/>
-<meta property="article:modified_time" content="2019-08-27T23:29:18&#43;05:30"/>
-
+<meta property="article:published_time" content="2019-08-27T23:29:18+05:30" />
+<meta property="article:modified_time" content="2019-08-27T23:29:18+05:30" />
 <meta itemprop="name" content="The Silent Rise of PyTorch Ecosystem">
 <meta itemprop="description" content="What is blazing across the PyTorch Ecosystem?">
-
-
-<meta itemprop="datePublished" content="2019-08-27T23:29:18&#43;05:30" />
-<meta itemprop="dateModified" content="2019-08-27T23:29:18&#43;05:30" />
+<meta itemprop="datePublished" content="2019-08-27T23:29:18+05:30" />
+<meta itemprop="dateModified" content="2019-08-27T23:29:18+05:30" />
 <meta itemprop="wordCount" content="586">
 
 
@@ -219,82 +217,50 @@
         <span class="f6 mv4 dib tracked"> - 586 words</span>
       
     </header>
-    <div class="nested-copy-line-height lh-copy avenir f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l">
-
-<h1 id="the-silent-rise-of-pytorch-ecosystem">The Silent Rise of PyTorch Ecosystem</h1>
-
+    <div class="nested-copy-line-height lh-copy avenir f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><h1 id="the-silent-rise-of-pytorch-ecosystem">The Silent Rise of PyTorch Ecosystem</h1>
 <p>While Tensorflow has made peace with Keras as it’s high level API and mxNet now support Gluon — PyTorch is the bare matrix love.</p>
-
 <p>PyTorch has seen rapid adoption in academia and all the industrial labs that I have spoken to as well. One of the reasons people (specially engineers doing experiments) like PyTorch is the ease of debugging.</p>
-
 <p>What I don’t like about PyTorch is it’s incessant requirement of debugging because of inconsistent dimensions problems. In fact, one of the most recommended speed hacks for faster development: assert tensor shapes!</p>
-
 <p>This is something which Keras abstracts out really well. Additionally, PyTorch has no high level abstractions which picks good defaults for most common problems.</p>
-
 <p>This leads us to the observation that there are three niche problems unsolved in the PyTorch ecosystem:</p>
-
 <h2 id="unsolved-problems">Unsolved Problems</h2>
-
 <ul>
 <li><strong>General Purpose Abstraction</strong>: Over PyTorch similar to Keras or tf.learn</li>
 <li><strong>Adoption</strong>: Something to help traditional ML practitioners adopt PyTorch more easily</li>
 <li><strong>Production Use Cases</strong>: Something which allows engineers to take Pytorch code as-is in production or port to Caffe2 with minimal effort. I like Gluon for this, it has no community support but is backed by MSFT and AWS both.</li>
 </ul>
-
 <p>Few specialized efforts like <a href="https://github.com/allenai/allennlp">AllenAI’s NLP</a> though built for NLP, or PyTorch <a href="https://github.com/pytorch/vision">torchvision</a> &amp; <a href="https://github.com/pytorch/text">torchtext</a> are domain specific instead of a generic abstraction similar to Keras. They deserve their own discussion space, separate from here.</p>
-
 <h2 id="the-better-alternatives">The Better Alternatives</h2>
-
-<h2 id="fast-ai">fast.ai</h2>
-
+<h2 id="fastai">fast.ai</h2>
 <ul>
 <li><a href="https://github.com/fastai/fastai">github</a>, <a href="https://docs.fast.ai/">docs</a></li>
 </ul>
-
 <p>fastai has outrageously good defaults for both vision and NLP. They have several amazing implementations for Cyclic Learning Rate, learning rate schedulers, data augmentation, decent API design, interesting dataloaders, and most important: extremely extensible!</p>
-
 <p>It as seen some rather great adoption among Kagglers and beginners alike for faster experimentation. It is also helped by their amazing MOOC course.</p>
-
 <h2 id="ignite">Ignite</h2>
-
 <ul>
 <li><a href="https://github.com/pytorch/ignite">github</a>, <a href="https://pytorch.org/ignite/">docs</a></li>
 </ul>
-
 <p>Ignite helps you write compact but full-featured training loops in a few lines of code. It is fairly extensible, and results in a lot of compact code. There is no peeking under the hood. This is the best contender for Keras for PyTorch power users.</p>
-
 <p>I do not know of any power users of Ignite, despite their elegant design. Nor have I seen it’s adoption in the wild.</p>
-
 <h2 id="ptl-pytorch-lightning">PTL: PyTorch-Lightning</h2>
-
 <ul>
 <li><a href="https://github.com/williamFalcon/pytorch-lightning">github</a></li>
 </ul>
-
 <p>Built by folks over at NYU and FAIR, Lightning is gives you the skeleton to flesh our your experiments. The best contender to <strong>Keras for Researchers</strong>. The built in mixed precision support (via apex) and distributed training is definitely helpful.</p>
-
 <p>The biggest value add I guess will be explicit decision, all in one class— instead of the scattered pieces we see with PyTorch. Yay Reproducibility!</p>
-
 <p>The lib is still very new, and that shows up in it’s lack of adoption but is getting a lot of star counts in first week of launch!</p>
-
 <p>Check out detailed <a href="https://towardsdatascience.com/pytorch-lightning-vs-pytorch-ignite-vs-fast-ai-61dc7480ad8a">comparison between Lightning and Ignite</a> from the creator of Lightning</p>
-
 <h2 id="skorch">Skorch</h2>
-
 <ul>
 <li><a href="https://github.com/dnouri/skorch">github</a></li>
 </ul>
-
 <p>skorch is attacking the bringing ML people to Deep Learning problem above</p>
-
 <p>skorch is a scikit-learn style wrapper (with metrics and pipelines support!) for Pytorch by a commercial entity invested in it’s adoption. It is being developed fairly actively (most recent master commit is less than 15 days old) and marching to v1.</p>
-
 <h2 id="summary">Summary</h2>
-
 <p>fast.ai: researchers, rapid iterators like Kagglers
 skorch: welcome people coming from more traditional Machine learning backgrounds
 PyTorch Lightning: custom built for DL experts looking for experimentation tooling</p>
-
 <p><strong>Ending Note</strong>: What are using for deep learning experiments? Have you seen the light with PyTorch or still going with Tensorflow? Tell me @nirantk</p>
 <ul class="pa0">
   
@@ -324,18 +290,15 @@ PyTorch Lightning: custom built for DL experts looking for experimentation tooli
     <aside class="w-30-l mt6-l"><div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
     <p class="f5 b mb3">What&#39;s in this writing</p>
       <nav id="TableOfContents">
-<ul>
-<li><a href="#the-silent-rise-of-pytorch-ecosystem">The Silent Rise of PyTorch Ecosystem</a>
-<ul>
-<li><a href="#unsolved-problems">Unsolved Problems</a></li>
-<li><a href="#the-better-alternatives">The Better Alternatives</a></li>
-<li><a href="#fast-ai">fast.ai</a></li>
-<li><a href="#ignite">Ignite</a></li>
-<li><a href="#ptl-pytorch-lightning">PTL: PyTorch-Lightning</a></li>
-<li><a href="#skorch">Skorch</a></li>
-<li><a href="#summary">Summary</a></li>
-</ul></li>
-</ul>
+  <ul>
+    <li><a href="#unsolved-problems">Unsolved Problems</a></li>
+    <li><a href="#the-better-alternatives">The Better Alternatives</a></li>
+    <li><a href="#fastai">fast.ai</a></li>
+    <li><a href="#ignite">Ignite</a></li>
+    <li><a href="#ptl-pytorch-lightning">PTL: PyTorch-Lightning</a></li>
+    <li><a href="#skorch">Skorch</a></li>
+    <li><a href="#summary">Summary</a></li>
+  </ul>
 </nav>
   </div>
 
