@@ -45,6 +45,20 @@
   </url>
   
   <url>
+    <loc>https://nirantk.com/writing/character-is-net-worth/</loc>
+    <lastmod>2020-10-10T00:09:00+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://nirantk.com/tags/niranting/</loc>
+    <lastmod>2020-10-10T00:09:00+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>https://nirantk.com/tags/career/</loc>
     <lastmod>2020-09-12T00:09:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
@@ -68,13 +82,6 @@
   <url>
     <loc>https://nirantk.com/writing/verloop-ml-prep-guide/</loc>
     <lastmod>2020-08-29T00:09:00+05:30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://nirantk.com/tags/niranting/</loc>
-    <lastmod>2020-08-14T00:09:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
