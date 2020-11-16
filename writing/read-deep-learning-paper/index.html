@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    
+    <title>How to Read a Deep Learning Paper | Nirant Kasliwal</title>
+    <meta name="viewport" content="width=device-width,minimum-scale=1">
+    <meta name="description" content="Making the best of your Paper Reading Time">
+    <meta name="generator" content="Hugo 0.78.1" />
+    
+    
+      <META NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+    
+
+    
+    
+      <link href="/dist/css/app.4fc0b62e4b82c997bb0041217cd6b979.css" rel="stylesheet">
+    
+
+    
+
+    
+      
+
+    
+
+    
+    
+    <meta property="og:title" content="How to Read a Deep Learning Paper" />
+<meta property="og:description" content="Making the best of your Paper Reading Time" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://nirantk.com/writing/read-deep-learning-paper/" />
+<meta property="article:published_time" content="2020-11-15T23:29:18+05:30" />
+<meta property="article:modified_time" content="2020-11-15T23:29:18+05:30" />
+<meta itemprop="name" content="How to Read a Deep Learning Paper">
+<meta itemprop="description" content="Making the best of your Paper Reading Time">
+<meta itemprop="datePublished" content="2020-11-15T23:29:18+05:30" />
+<meta itemprop="dateModified" content="2020-11-15T23:29:18+05:30" />
+<meta itemprop="wordCount" content="2165">
+
+
+
+<meta itemprop="keywords" content="machine-learning,tech," />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="How to Read a Deep Learning Paper"/>
+<meta name="twitter:description" content="Making the best of your Paper Reading Time"/>
+
+	
+  </head>
+
+  <body class="ma0 avenir bg-near-white">
+
+    
+   
+  
+
+  
+  
+  <header class="cover bg-top" style="background-image: url('https://nirantk.com/images/paper-background.jpg');">
+    <div class="pb3-m pb6-l bg-black-60">
+      <nav class="pv3 ph3 ph4-ns" role="navigation">
+  <div class="flex-l justify-between items-center center">
+    <a href="/" class="f3 fw2 hover-white no-underline white-90 dib">
+      
+        Nirant Kasliwal
+      
+    </a>
+    <div class="flex-l items-center">
+      
+
+      
+        <ul class="pl0 mr3">
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/about" title="about page">
+              about
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/" title="home page">
+              home
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="https://niranting.substack.com/" title="newsletter page">
+              newsletter
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/now" title="now page">
+              now
+            </a>
+          </li>
+          
+          <li class="list f5 f4-ns fw4 dib pr3">
+            <a class="hover-white no-underline white-90" href="/writing" title="writing page">
+              writing
+            </a>
+          </li>
+          
+        </ul>
+      
+      
+
+
+
+
+<a href="https://twitter.com/@NirantK" target="_blank" class="link-transition twitter link dib z-999 pt3 pt0-l mr1" title="Twitter link" rel="noopener" aria-label="follow on Twitter——Opens in a new window">
+  <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M37.167,22.283c-2.619,0.953-4.274,3.411-4.086,6.101  l0.063,1.038l-1.048-0.127c-3.813-0.487-7.145-2.139-9.974-4.915l-1.383-1.377l-0.356,1.017c-0.754,2.267-0.272,4.661,1.299,6.271  c0.838,0.89,0.649,1.017-0.796,0.487c-0.503-0.169-0.943-0.296-0.985-0.233c-0.146,0.149,0.356,2.076,0.754,2.839  c0.545,1.06,1.655,2.097,2.871,2.712l1.027,0.487l-1.215,0.021c-1.173,0-1.215,0.021-1.089,0.467  c0.419,1.377,2.074,2.839,3.918,3.475l1.299,0.444l-1.131,0.678c-1.676,0.976-3.646,1.526-5.616,1.568  C19.775,43.256,19,43.341,19,43.405c0,0.211,2.557,1.397,4.044,1.864c4.463,1.377,9.765,0.783,13.746-1.568  c2.829-1.673,5.657-5,6.978-8.221c0.713-1.716,1.425-4.851,1.425-6.354c0-0.975,0.063-1.102,1.236-2.267  c0.692-0.678,1.341-1.419,1.467-1.631c0.21-0.403,0.188-0.403-0.88-0.043c-1.781,0.636-2.033,0.551-1.152-0.402  c0.649-0.678,1.425-1.907,1.425-2.267c0-0.063-0.314,0.042-0.671,0.233c-0.377,0.212-1.215,0.53-1.844,0.72l-1.131,0.361l-1.027-0.7  c-0.566-0.381-1.361-0.805-1.781-0.932C39.766,21.902,38.131,21.944,37.167,22.283z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4  s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/></svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+
+<a href="https://www.linkedin.com/in/nirant" target="_blank" class="link-transition linkedin link dib z-999 pt3 pt0-l mr1" title="LinkedIn link" rel="noopener" aria-label="follow on LinkedIn——Opens in a new window">
+  <svg  height="32px"  style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+<a href="https://github.com/NirantK" target="_blank" class="link-transition github link dib z-999 pt3 pt0-l mr1" title="Github link" rel="noopener" aria-label="follow on Github——Opens in a new window">
+  <svg  height="32px"  style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+</nav>
+
+      <div class="tc-l pv6 ph3 ph4-ns">
+        
+          <h1 class="f2 f1-l fw2 white-90 mb0 lh-title">How to Read a Deep Learning Paper</h1>
+          
+            <h2 class="fw1 f5 f3-l white-80 measure-wide-l center lh-copy mt3 mb4">
+              Making the best of your Paper Reading Time
+            </h2>
+          
+        
+      </div>
+    </div>
+  </header>
+
+
+
+    <main class="pb7" role="main">
+      
+  
+  <article class="flex-l flex-wrap justify-between mw8 center ph3">
+    <header class="mt4 w-100">
+      <aside class="instapaper_ignoref b helvetica tracked">
+          
+        
+      </aside>
+      
+
+
+
+
+  <div id="sharing" class="mt3">
+
+    
+    <a href="https://www.facebook.com/sharer.php?u=https://nirantk.com/writing/read-deep-learning-paper/" class="facebook no-underline" aria-label="share on Facebook">
+      <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M28.765,50.32h6.744V33.998h4.499l0.596-5.624h-5.095  l0.007-2.816c0-1.466,0.14-2.253,2.244-2.253h2.812V17.68h-4.5c-5.405,0-7.307,2.729-7.307,7.317v3.377h-3.369v5.625h3.369V50.32z   M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;"/></svg>
+
+    </a>
+
+    
+    
+    <a href="https://twitter.com/share?url=https://nirantk.com/writing/read-deep-learning-paper/&amp;text=How%20to%20Read%20a%20Deep%20Learning%20Paper" class="twitter no-underline" aria-label="share on Twitter">
+      <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M37.167,22.283c-2.619,0.953-4.274,3.411-4.086,6.101  l0.063,1.038l-1.048-0.127c-3.813-0.487-7.145-2.139-9.974-4.915l-1.383-1.377l-0.356,1.017c-0.754,2.267-0.272,4.661,1.299,6.271  c0.838,0.89,0.649,1.017-0.796,0.487c-0.503-0.169-0.943-0.296-0.985-0.233c-0.146,0.149,0.356,2.076,0.754,2.839  c0.545,1.06,1.655,2.097,2.871,2.712l1.027,0.487l-1.215,0.021c-1.173,0-1.215,0.021-1.089,0.467  c0.419,1.377,2.074,2.839,3.918,3.475l1.299,0.444l-1.131,0.678c-1.676,0.976-3.646,1.526-5.616,1.568  C19.775,43.256,19,43.341,19,43.405c0,0.211,2.557,1.397,4.044,1.864c4.463,1.377,9.765,0.783,13.746-1.568  c2.829-1.673,5.657-5,6.978-8.221c0.713-1.716,1.425-4.851,1.425-6.354c0-0.975,0.063-1.102,1.236-2.267  c0.692-0.678,1.341-1.419,1.467-1.631c0.21-0.403,0.188-0.403-0.88-0.043c-1.781,0.636-2.033,0.551-1.152-0.402  c0.649-0.678,1.425-1.907,1.425-2.267c0-0.063-0.314,0.042-0.671,0.233c-0.377,0.212-1.215,0.53-1.844,0.72l-1.131,0.361l-1.027-0.7  c-0.566-0.381-1.361-0.805-1.781-0.932C39.766,21.902,38.131,21.944,37.167,22.283z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4  s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/></svg>
+
+    </a>
+
+    
+    <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https://nirantk.com/writing/read-deep-learning-paper/&amp;title=How%20to%20Read%20a%20Deep%20Learning%20Paper" class="linkedin no-underline" aria-label="share on LinkedIn">
+      <svg  height="32px"  style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+
+    </a>
+  </div>
+
+
+      <h1 class="f1 athelas mt3 mb1">How to Read a Deep Learning Paper</h1>
+      
+      
+      <time class="f6 mv4 dib tracked" datetime="2020-11-15T23:29:18+05:30">November 15, 2020</time>
+
+      
+      
+    </header>
+    <div class="nested-copy-line-height lh-copy avenir f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><h2 id="who-is-this-for">Who is this for?</h2>
+<p>Practitioners who are looking to level up their game in Deep Learning</p>
+<h2 id="why-do-we-need-instructions-on-how-to-read-a-deep-learning-paper">Why Do We Need Instructions on How to Read a Deep Learning Paper?</h2>
+<ul>
+<li>Quantity: There are more papers than we can humanly read even within our own niche. For instance, consider EMNLP - which is arguably the most popular Natural Language Processing conference selects more than 2K papers across a variety of topics. And NLP is just one area!</li>
+<li>Some people read academic papers like they read novels: Open link. Read the text. Scroll Down. Finish. Close tab. Some people read like a math book with problems, obsessing over every detail. Their Zotero or hypothes.is accounts are filled with annotations which they are probably never going to revisit in their lifetimes. Others skim but without a coherent structure. All of these are valid ways to read a paper.</li>
+<li>Here, I am trying to distill and form a better structure for myself to improve the return on my very limited <em>energy</em>.</li>
+</ul>
+<h2 id="four-types-of-reading">Four Types of Reading</h2>
+<ul>
+<li>
+<p>In his cult classic book, Mortimer J Adler explains his Four Types of Reading, mainly keeping a non-fiction book in mind. I am adapting these to the context of Deep Learning paper for us.</p>
+</li>
+<li>
+<p><strong>Elementary</strong>— This is the point where you&rsquo;re when you finish a 101 course in Machine Learning. You know the key terms and vocabulary e.g. convergence, loss functions and optimizers. You can understand what the words in the paper mean and read them, maybe follow the narrative, but not much more. Since you&rsquo;re reading this blog, I assume you are already reading at a level above this.</p>
+</li>
+<li>
+<p><strong>Inspectional</strong>— This is basically skimming. You look at the headings, read the beginning and end of some sections, some of the statements in bold. The intent is to get a <strong>fast &amp; superficial</strong> sense of what the author is trying to say.</p>
+<ul>
+<li>
+<h3 id="intelligently-skimming">Intelligently Skimming</h3>
+<ul>
+<li>The first type of inspectional reading is systematic skimming, which you can easily put into practice today. This is most useful when you&rsquo;re reading within a topic you&rsquo;ve some familiarity with. For instance, within most topics around intent classification in dialogue systems &ndash; this is how I would read. Here’s how you start:</li>
+<li><strong>Read the title and abstract.</strong> This might seem obvious, but authors do put in the effort to compress their key ideas, findings or contributions in these places. This effect is even more amplified since these are the most important fields on arXiv. If you spend a minute of full attention, you should get a feel for the intent and scope of the work. This will not only prime you for what you might be reading next, but also mentally map this work to ideas which you might be already familiar with.</li>
+<li><strong>Skim the Section Headings</strong>, which will give you a feel for organization of the paper. Is the paper emphasizing datasets? A new architecture? Or an empirical work which is basically throwing compute and sharing that &ldquo;See, It works!&rdquo;. I am always a little annoyed when I am discussing a paper when it turns out that the reader has not even got the intent of why the paper sections are organized in a specific way. Obviously, many conferences have specific templates which make it even easier to discover the structure which the authors actually wanted you to pay attention to.</li>
+<li><strong>Get a sense of the context</strong> This means skimming the Related Work section. The intent isn&rsquo;t to read every paper or idea mentioned in this section, but only the topics mentioned here. This will help you get a sense of the jargon used, the variety of topics and what the authors consider adjacent problems/areas.</li>
+<li><strong>Read the Conclusion.</strong> Authors generally do a good job summarizing their work in the last few pages. This where they sum up what they think is most important about their work. Just jump to this first.</li>
+<li>💡^^Bonus^^💡 <strong>Listen to an interview or podcast.</strong> While this has nothing to do with the actual paper, interviews can be a great way to get the gist of a book in 30minutes or so. Authors do so much promotion now that it&rsquo;s relatively easy to find interviews. And of course, they use the best examples from the book in these interviews.</li>
+</ul>
+</li>
+<li>
+<h3 id="superficial-reading">Superficial Reading</h3>
+<ul>
+<li>This is most useful when you’re reading outside your usual comfort zone.</li>
+<li>Here is the key idea: ^^Read without stopping^^</li>
+<li>If you read a lot of papers, you will find that there are some things that you don’t understand. If you stop and try to figure out what it means, it will take a long time to finish the paper. But if you keep on reading, the next thing that happens will help explain what the first thing meant. And so on.</li>
+<li>You might get very little of what is being said in the first pass and that&rsquo;s fine. You now know the lay of the land, and when you make a second pass &ndash; you can connect the dots much better and faster.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Analytical</strong> — This is where you really dive into a text. You read slowly and closely, you take notes, you look up words or references you don’t understand, and you try to get into the author’s head in order to be able to really get what’s being said.</p>
+<ul>
+<li>
+<p><strong>Don&rsquo;t Google Too Early</strong>. If there is a math formula, concept, or word you don’t know, first look at the context to try to discern its meaning. See if the author explains what happens when or why they used it. Warm up and use your brain to get started. If it’s something you simply can’t get past, or the word is clearly too important for you to glance over, then check the citations. If even that isn&rsquo;t enough, then finally Google it. The main point is that you can use the tools around you, but don’t lean on them. Let your brain work a little bit before letting Google work for you.</p>
+</li>
+<li>
+<p><strong>Get a sense of the author&rsquo;s background</strong>. Look at what institutions do they mention. Are they from academia? An applied AI lab like Apple or GoogleAI? Or an academic lab, sponsored by industry like DeepMind/FAIR? This might sound like an irrelevant detail to many people.</p>
+<ul>
+<li>So let me share two examples of how it can inform your reading:
+<ol>
+<li>There are some companies/labs where a person has to write a certain number of papers every year in order to get promoted (or even retain their jobs) &ndash; they typically have narrow ideas which solve a specific problem incredibly well, but are mostly not adaptable to another domain or context.</li>
+<li>Teams and labs have distinct flavors. For instance, the UPKLab does some of the most amazing work in Applied NLP, while Neubig lab is making a lot of progress in doing NLP for low-resource languages. Including work around OCR&rsquo;ing scanned texts. More famously, Sebastian Ruder has worked for quite some time in multilingual and cross-lingual representations of non-English languages.</li>
+</ol>
+</li>
+</ul>
+</li>
+<li>
+<h3 id="answer-the-4-key-questions">Answer the 4 Key Questions</h3>
+<ul>
+<li>This, Adler says, is actually the key to analytical reading. To be able to answer these questions shows that you have at least some understanding of the paper and what you&rsquo;ve read. If you can’t answer them, you probably haven’t quite paid attention well enough. I also find it personally helpful that you should actually write (or type) these answers out. Consider it to be like a book journal. It’ll stay with you and become much more ingrained than if you just answer them in your head.</li>
+<li><strong>What is the paper about, as a whole?</strong> This is essentially the abstract or conclusion. You could cheat, but that&rsquo;s not going to be very helpful. Instead use your own words and write a the highlights of what you can recall about the paper. See if you can connect it to the wider knowledge base which you&rsquo;ve read in the past.</li>
+<li><strong>What is being said in detail, and how?</strong> This is where you start to dig a little deeper. Briefly go back and skim through the paper, jogging your memory of the key points, formulae, section headings, graphs and tables with results. With most papers, outlining is pretty straightforward since the section headings do bulk of the job for you. For short papers, this could be as short as 5-10 lines. Pay special attention to what datasets, experiment configurations and ablation results if they&rsquo;re mentioned.</li>
+<li><strong>Is the paper true - in whole or in part?</strong> If you&rsquo;re reading within your own comfort zone, you&rsquo;ll begin to see by now the scenarios/tasks/areas where the paper falls short. For instance, if you&rsquo;re reading up on Long Range Transformers &ndash; based on your knowledge of pre-trained Transformer models like BERT, RoBERTa or T5, you should expect them do better at summarization and Q&amp;A tasks than these. If the paper falls short, you can quickly jot that down as a question to ask, ponder upon or experiment yourself.</li>
+<li><strong>So what? What’s the significance?</strong> Most papers are <strong>incremental</strong> in their contribution to the world. This is not necessarily a bad thing. As long as the paper made you see the field or area in a new light, or even a new nugget of knowledge - it was helpful. We should aim for reading papers which at-least give us something valuable in either perspective, knowledge (e.g. empirical facts) or methods. This is by far the most useful question to ask since it helps contextualize the contributions of the author against your own <strong>personal context, understanding and knowledge</strong>.</li>
+</ul>
+</li>
+<li>
+<p>The core idea here is that reading is not a passive process. You have to actively engage with the text and think about what you read. It&rsquo;s natural to just scan over the text without actually retaining anything. To counteract this, you need to make a conscious effort to stop and think about what the author is saying. A good way of doing this is to write down a list of questions about what the author says. This will force you to stop and think about the content. When answering these questions, you need to write them in your own words. This means that you can&rsquo;t just parrot the authors words back at them. Instead, you need to rephrase the question in your own words. This will help you engage with the ideas in a more meaningful way.</p>
+</li>
+<li>
+<p><strong>Optional, critique and share your thoughts with others.</strong> This step is dead last. Only after having read the entire paper, or sets of papers, and thoughtfully answering the 4 Key Questions can you critique or have meaningful discussions about the paper.</p>
+<ul>
+<li>For starters, a reasonable critique asks more questions (&ldquo;Did they assume X?&rdquo;, &ldquo;What would happen if I replaced method M1 with M3?&quot;) than it makes verdicts (&ldquo;The paper is amazing&rdquo;, &ldquo;This is stupid&rdquo;).</li>
+<li>The second point is to fight the temptation to write a paper summary instead of a critique. That&rsquo;s the fad these days but isn&rsquo;t quite meaningful enough. You writing a measly, annoying Medium blog might feel like an achievement to yourself (thanks to cheap applause) but doesn&rsquo;t improve your understanding as much as writing a critique will.
+- Also, you don&rsquo;t have to take everything that the authors claim as God&rsquo;s Gospel. Having a disagreement is completely fine and valid. But give them the benefit of doubt and ask questions instead of making assumptions. It goes without saying, that you don&rsquo;t have to disagree or agree with every part of the paper. You can freely completely love one part and ignore the rest. There is no need (or advantage) to have an opinion about everything.
+<ul>
+<li>^^Advanced Tip^^: You can use the Question Generation idea even during &ldquo;Intelligently Skimming&rdquo;, especially for topics where you&rsquo;re comfortable. This will save you a lot of time and energy during Analytical Reading.
+<ul>
+<li><a href="https://www.wikiwand.com/en/Inquiry-based_learning">Generate questions</a>
+about the content of the reading. For example, convert headings and
+sub-headings into questions, and then look for answers in the content of
+the text. Other more general questions may also be formulated:
+<ul>
+<li><strong>What is this paper about?</strong></li>
+<li><strong>What question is this section trying to answer?</strong></li>
+<li><strong>How does this information help me?</strong></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><strong>Syntopical</strong> — This is mostly used by researchers and professors. It’s where you read multiple papers on a single subject and form a thesis or original thought by comparing and contrasting various other authors’ thoughts. This is time and research intensive, and it’s not likely that you’ll do this type of reading very much, unless your day job is paying you to read and write papers. I do not have the relevant expertise to help you with this.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="to-quickly-recap">To quickly recap:</h2>
+<ol>
+<li>Use Inspectional Reading when you&rsquo;re first reading a paper</li>
+<li>Use Analytics Reading and Answer the 4 questions when you&rsquo;re looking to get a deeper, better gist of the paper</li>
+</ol>
+<h3 id="four-questions-you-should-be-able-to-answer">Four Questions You Should Be Able to Answer</h3>
+<ul>
+<li>What is this book about?</li>
+<li>What is being said in detail, and how?</li>
+<li>Is this paper true in whole or in part?</li>
+<li>So what?</li>
+</ul>
+<h2 id="resources">Resources</h2>
+<ul>
+<li>Art of Manliness<a href="https://www.artofmanliness.com/articles/how-to-read-a-book/"> https://www.artofmanliness.com/articles/how-to-read-a-book/</a></li>
+<li>Farnam Street<a href="https://fs.blog/how-to-read-a-book/"> https://fs.blog/how-to-read-a-book/</a></li>
+</ul>
+<ul class="pa0">
+  
+   <li class="list">
+     <a href="/tags/machine-learning" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">machine-learning</a>
+   </li>
+  
+   <li class="list">
+     <a href="/tags/tech" class="link f5 grow no-underline br-pill ba ph3 pv2 mb2 dib black sans-serif">tech</a>
+   </li>
+  
+</ul>
+<div class="mt6 instapaper_ignoref">
+      
+      
+      </div>
+    </div>
+
+    <aside class="w-30-l mt6-l"><div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">What&#39;s in this writing</p>
+      <nav id="TableOfContents">
+  <ul>
+    <li><a href="#who-is-this-for">Who is this for?</a></li>
+    <li><a href="#why-do-we-need-instructions-on-how-to-read-a-deep-learning-paper">Why Do We Need Instructions on How to Read a Deep Learning Paper?</a></li>
+    <li><a href="#four-types-of-reading">Four Types of Reading</a>
+      <ul>
+        <li><a href="#intelligently-skimming">Intelligently Skimming</a></li>
+        <li><a href="#superficial-reading">Superficial Reading</a></li>
+        <li><a href="#answer-the-4-key-questions">Answer the 4 Key Questions</a></li>
+      </ul>
+    </li>
+    <li><a href="#to-quickly-recap">To quickly recap:</a>
+      <ul>
+        <li><a href="#four-questions-you-should-be-able-to-answer">Four Questions You Should Be Able to Answer</a></li>
+      </ul>
+    </li>
+    <li><a href="#resources">Resources</a></li>
+  </ul>
+</nav>
+  </div>
+
+
+
+
+  <div class="bg-light-gray pa3 nested-list-reset nested-copy-line-height nested-links">
+    <p class="f5 b mb3">Related</p>
+    <ul class="pa0 list">
+	   
+	     <li  class="mb2">
+          <a href="/writing/mathforai/">Math for Machine Learning</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/writing/first-90-days-engineer-version/">First 90 Days - Software Engineer Version</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/writing/verloop-ml-prep-guide/">Verloop NLP Interview Prep Guide</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/writing/modelmonitoring/">ML Model Monitoring</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/writing/pythonfstrings/">Best of Python 3 f-strings</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/writing/silentriseofpytorch/">The Silent Rise of PyTorch Ecosystem</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/writing/techtalktips/">Tech Talk Tips</a>
+        </li>
+	    
+	     <li  class="mb2">
+          <a href="/writing/datasciencejob/">How to prepare for a Data Science job from college?</a>
+        </li>
+	    
+    </ul>
+</div>
+
+</aside>
+
+  </article>
+
+    </main>
+    <footer class="bg-black bottom-0 w-100 pa3" role="contentinfo">
+  <div class="flex justify-between">
+  <a class="f4 fw4 hover-white no-underline white-70 dn dib-ns pv2 ph3" href="https://nirantk.com/" >
+    &copy;  Nirant Kasliwal 2020 
+  </a>
+    <div>
+
+
+
+
+<a href="https://twitter.com/@NirantK" target="_blank" class="link-transition twitter link dib z-999 pt3 pt0-l mr1" title="Twitter link" rel="noopener" aria-label="follow on Twitter——Opens in a new window">
+  <svg height="32px"  style="enable-background:new 0 0 67 67;" version="1.1" viewBox="0 0 67 67" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><path d="M37.167,22.283c-2.619,0.953-4.274,3.411-4.086,6.101  l0.063,1.038l-1.048-0.127c-3.813-0.487-7.145-2.139-9.974-4.915l-1.383-1.377l-0.356,1.017c-0.754,2.267-0.272,4.661,1.299,6.271  c0.838,0.89,0.649,1.017-0.796,0.487c-0.503-0.169-0.943-0.296-0.985-0.233c-0.146,0.149,0.356,2.076,0.754,2.839  c0.545,1.06,1.655,2.097,2.871,2.712l1.027,0.487l-1.215,0.021c-1.173,0-1.215,0.021-1.089,0.467  c0.419,1.377,2.074,2.839,3.918,3.475l1.299,0.444l-1.131,0.678c-1.676,0.976-3.646,1.526-5.616,1.568  C19.775,43.256,19,43.341,19,43.405c0,0.211,2.557,1.397,4.044,1.864c4.463,1.377,9.765,0.783,13.746-1.568  c2.829-1.673,5.657-5,6.978-8.221c0.713-1.716,1.425-4.851,1.425-6.354c0-0.975,0.063-1.102,1.236-2.267  c0.692-0.678,1.341-1.419,1.467-1.631c0.21-0.403,0.188-0.403-0.88-0.043c-1.781,0.636-2.033,0.551-1.152-0.402  c0.649-0.678,1.425-1.907,1.425-2.267c0-0.063-0.314,0.042-0.671,0.233c-0.377,0.212-1.215,0.53-1.844,0.72l-1.131,0.361l-1.027-0.7  c-0.566-0.381-1.361-0.805-1.781-0.932C39.766,21.902,38.131,21.944,37.167,22.283z M33,64C16.432,64,3,50.569,3,34S16.432,4,33,4  s30,13.431,30,30S49.568,64,33,64z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/></svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+
+<a href="https://www.linkedin.com/in/nirant" target="_blank" class="link-transition linkedin link dib z-999 pt3 pt0-l mr1" title="LinkedIn link" rel="noopener" aria-label="follow on LinkedIn——Opens in a new window">
+  <svg  height="32px"  style="enable-background:new 0 0 65 65;" version="1.1" viewBox="0 0 65 65" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <path d="M50.837,48.137V36.425c0-6.275-3.35-9.195-7.816-9.195  c-3.604,0-5.219,1.983-6.119,3.374V27.71h-6.79c0.09,1.917,0,20.427,0,20.427h6.79V36.729c0-0.609,0.044-1.219,0.224-1.655  c0.49-1.22,1.607-2.483,3.482-2.483c2.458,0,3.44,1.873,3.44,4.618v10.929H50.837z M22.959,24.922c2.367,0,3.842-1.57,3.842-3.531  c-0.044-2.003-1.475-3.528-3.797-3.528s-3.841,1.524-3.841,3.528c0,1.961,1.474,3.531,3.753,3.531H22.959z M34,64  C17.432,64,4,50.568,4,34C4,17.431,17.432,4,34,4s30,13.431,30,30C64,50.568,50.568,64,34,64z M26.354,48.137V27.71h-6.789v20.427  H26.354z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+<a href="https://github.com/NirantK" target="_blank" class="link-transition github link dib z-999 pt3 pt0-l mr1" title="Github link" rel="noopener" aria-label="follow on Github——Opens in a new window">
+  <svg  height="32px"  style="enable-background:new 0 0 512 512;" version="1.1" viewBox="0 0 512 512" width="32px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+  <path d="M256,32C132.3,32,32,134.8,32,261.7c0,101.5,64.2,187.5,153.2,217.9c11.2,2.1,15.3-5,15.3-11.1   c0-5.5-0.2-19.9-0.3-39.1c-62.3,13.9-75.5-30.8-75.5-30.8c-10.2-26.5-24.9-33.6-24.9-33.6c-20.3-14.3,1.5-14,1.5-14   c22.5,1.6,34.3,23.7,34.3,23.7c20,35.1,52.4,25,65.2,19.1c2-14.8,7.8-25,14.2-30.7c-49.7-5.8-102-25.5-102-113.5   c0-25.1,8.7-45.6,23-61.6c-2.3-5.8-10-29.2,2.2-60.8c0,0,18.8-6.2,61.6,23.5c17.9-5.1,37-7.6,56.1-7.7c19,0.1,38.2,2.6,56.1,7.7   c42.8-29.7,61.5-23.5,61.5-23.5c12.2,31.6,4.5,55,2.2,60.8c14.3,16.1,23,36.6,23,61.6c0,88.2-52.4,107.6-102.3,113.3   c8,7.1,15.2,21.1,15.2,42.5c0,30.7-0.3,55.5-0.3,63c0,6.1,4,13.3,15.4,11C415.9,449.1,480,363.1,480,261.7   C480,134.8,379.7,32,256,32z"/>
+</svg>
+
+<span class="new-window"><svg  height="8px"  style="enable-background:new 0 0 1000 1000;" version="1.1" viewBox="0 0 1000 1000" width="8px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" >
+<path d="M598 128h298v298h-86v-152l-418 418-60-60 418-418h-152v-86zM810 810v-298h86v298c0 46-40 86-86 86h-596c-48 0-86-40-86-86v-596c0-46 38-86 86-86h298v86h-298v596h596z" style="fill-rule:evenodd;clip-rule:evenodd;fill:;"/>
+</svg>
+</span></a>
+
+
+
+
+
+
+
+</div>
+  </div>
+</footer>
+
+    
+
+  <script src="/dist/js/app.3fc0f988d21662902933.js"></script>
+
+
+  </body>
+</html>

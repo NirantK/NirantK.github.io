@@ -6,7 +6,17 @@
     <description>Recent content on Nirant Kasliwal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 12 Sep 2020 00:09:00 +0530</lastBuildDate><atom:link href="https://nirantk.com/writing/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 15 Nov 2020 23:29:18 +0530</lastBuildDate><atom:link href="https://nirantk.com/writing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Read a Deep Learning Paper</title>
+      <link>https://nirantk.com/writing/read-deep-learning-paper/</link>
+      <pubDate>Sun, 15 Nov 2020 23:29:18 +0530</pubDate>
+      
+      <guid>https://nirantk.com/writing/read-deep-learning-paper/</guid>
+      <description>Who is this for? Practitioners who are looking to level up their game in Deep Learning
+Why Do We Need Instructions on How to Read a Deep Learning Paper?  Quantity: There are more papers than we can humanly read even within our own niche. For instance, consider EMNLP - which is arguably the most popular Natural Language Processing conference selects more than 2K papers across a variety of topics. And NLP is just one area!</description>
+    </item>
+    
     <item>
       <title>First 90 Days - Software Engineer Version</title>
       <link>https://nirantk.com/writing/first-90-days-engineer-version/</link>

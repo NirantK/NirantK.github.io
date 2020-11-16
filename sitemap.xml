@@ -4,7 +4,42 @@
   
   <url>
     <loc>https://nirantk.com/writing/</loc>
-    <lastmod>2020-09-12T00:09:00+05:30</lastmod>
+    <lastmod>2020-11-15T23:29:18+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://nirantk.com/writing/read-deep-learning-paper/</loc>
+    <lastmod>2020-11-15T23:29:18+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://nirantk.com/tags/machine-learning/</loc>
+    <lastmod>2020-11-15T23:29:18+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://nirantk.com/</loc>
+    <lastmod>2020-11-15T23:29:18+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://nirantk.com/tags/</loc>
+    <lastmod>2020-11-15T23:29:18+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://nirantk.com/tags/tech/</loc>
+    <lastmod>2020-11-15T23:29:18+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -19,34 +54,6 @@
   <url>
     <loc>https://nirantk.com/writing/first-90-days-engineer-version/</loc>
     <lastmod>2020-09-12T00:09:00+05:30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://nirantk.com/</loc>
-    <lastmod>2020-09-12T00:09:00+05:30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://nirantk.com/tags/</loc>
-    <lastmod>2020-09-12T00:09:00+05:30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://nirantk.com/tags/tech/</loc>
-    <lastmod>2020-09-12T00:09:00+05:30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>https://nirantk.com/tags/machine-learning/</loc>
-    <lastmod>2020-08-29T00:09:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
