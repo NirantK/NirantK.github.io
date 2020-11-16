@@ -37,7 +37,7 @@
 <meta itemprop="description" content="Making the best of your Paper Reading Time">
 <meta itemprop="datePublished" content="2020-11-15T23:29:18+05:30" />
 <meta itemprop="dateModified" content="2020-11-15T23:29:18+05:30" />
-<meta itemprop="wordCount" content="2175">
+<meta itemprop="wordCount" content="2173">
 
 
 
@@ -217,38 +217,43 @@
     <div class="nested-copy-line-height lh-copy avenir f4 nested-links nested-img mid-gray pr4-l w-two-thirds-l"><h2 id="who-is-this-for">Who is this for?</h2>
 <p>Practitioners who are looking to level up their game in Deep Learning</p>
 <h2 id="why-do-we-need-instructions-on-how-to-read-a-deep-learning-paper">Why Do We Need Instructions on How to Read a Deep Learning Paper?</h2>
+<p>Quantity: There are more papers than we can humanly read even within our own niche. For instance, consider EMNLP - which is arguably the most popular Natural Language Processing conference selects more than 2K papers across a variety of topics. And NLP is just one area!</p>
+<p>Some people read academic papers like they read novels: Open link. Read the text. Scroll Down. Finish. Close tab. Some people read like a math book with problems, obsessing over every detail. Their Zotero or hypothes.is accounts are filled with annotations which they are probably never going to revisit in their lifetimes. Others skim but without a coherent structure. All of these are valid ways to read a paper.</p>
+<p>Here, I am trying to distill and form a better structure for myself to improve the return on my very limited <em>energy</em>.</p>
+<h1 id="four-types-of-reading">Four Types of Reading</h1>
 <ul>
-<li>Quantity: There are more papers than we can humanly read even within our own niche. For instance, consider EMNLP - which is arguably the most popular Natural Language Processing conference selects more than 2K papers across a variety of topics. And NLP is just one area!</li>
-<li>Some people read academic papers like they read novels: Open link. Read the text. Scroll Down. Finish. Close tab. Some people read like a math book with problems, obsessing over every detail. Their Zotero or hypothes.is accounts are filled with annotations which they are probably never going to revisit in their lifetimes. Others skim but without a coherent structure. All of these are valid ways to read a paper.</li>
-<li>Here, I am trying to distill and form a better structure for myself to improve the return on my very limited <em>energy</em>.</li>
+<li>In his cult classic book, Mortimer J Adler explains his Four Types of Reading, mainly keeping a non-fiction book in mind. I am adapting these to the context of Deep Learning paper for us.</li>
 </ul>
-<h2 id="four-types-of-reading">Four Types of Reading</h2>
-<ul>
-<li>
-<p>In his cult classic book, Mortimer J Adler explains his Four Types of Reading, mainly keeping a non-fiction book in mind. I am adapting these to the context of Deep Learning paper for us.</p>
-</li>
-<li>
-<p><strong>Elementary</strong>— This is the point where you&rsquo;re when you finish a 101 course in Machine Learning. You know the key terms and vocabulary e.g. convergence, loss functions and optimizers. You can understand what the words in the paper mean and read them, maybe follow the narrative, but not much more. Since you&rsquo;re reading this blog, I assume you are already reading at a level above this.</p>
-</li>
-</ul>
+<h2 id="elementary">Elementary</h2>
+<p>This is the point where you&rsquo;re when you finish a 101 course in Machine Learning. You know the key terms and vocabulary e.g. convergence, loss functions and optimizers. You can understand what the words in the paper mean and read them, maybe follow the narrative, but not much more. Since you&rsquo;re reading this blog, I assume you are already reading at a level above this.</p>
 <h2 id="inspectional">Inspectional</h2>
 <p>This is basically skimming. You look at the headings, read the beginning and end of some sections, some of the statements in bold. The intent is to get a <em>fast &amp; superficial</em> sense of what the author is trying to say.</p>
 <h3 id="intelligently-skimming">Intelligently Skimming</h3>
 <ul>
-<li>The first type of inspectional reading is systematic skimming, which you can easily put into practice today. This is most useful when you&rsquo;re reading within a topic you&rsquo;ve some familiarity with. For instance, within most topics around intent classification in dialogue systems &ndash; this is how I would read. Here’s how you start:</li>
-<li><strong>Read the title and abstract.</strong> This might seem obvious, but authors do put in the effort to compress their key ideas, findings or contributions in these places. This effect is even more amplified since these are the most important fields on arXiv. If you spend a minute of full attention, you should get a feel for the intent and scope of the work. This will not only prime you for what you might be reading next, but also mentally map this work to ideas which you might be already familiar with.</li>
-<li><strong>Skim the Section Headings</strong>, which will give you a feel for organization of the paper. Is the paper emphasizing datasets? A new architecture? Or an empirical work which is basically throwing compute and sharing that &ldquo;See, It works!&rdquo;. I am always a little annoyed when I am discussing a paper when it turns out that the reader has not even got the intent of why the paper sections are organized in a specific way. Obviously, many conferences have specific templates which make it even easier to discover the structure which the authors actually wanted you to pay attention to.</li>
-<li><strong>Get a sense of the context</strong> This means skimming the Related Work section. The intent isn&rsquo;t to read every paper or idea mentioned in this section, but only the topics mentioned here. This will help you get a sense of the jargon used, the variety of topics and what the authors consider adjacent problems/areas.</li>
-<li><strong>Read the Conclusion.</strong> Authors generally do a good job summarizing their work in the last few pages. This where they sum up what they think is most important about their work. Just jump to this first.</li>
-<li>💡^^Bonus^^💡 <strong>Listen to an interview or podcast.</strong> While this has nothing to do with the actual paper, interviews can be a great way to get the gist of a book in 30minutes or so. Authors do so much promotion now that it&rsquo;s relatively easy to find interviews. And of course, they use the best examples from the book in these interviews.</li>
+<li>
+<p>The first type of inspectional reading is systematic skimming, which you can easily put into practice today. This is most useful when you&rsquo;re reading within a topic you&rsquo;ve some familiarity with. For instance, within most topics around intent classification in dialogue systems &ndash; this is how I would read. Here’s how you start:</p>
+</li>
+<li>
+<p><strong>Read the title and abstract.</strong> This might seem obvious, but authors do put in the effort to compress their key ideas, findings or contributions in these places. This effect is even more amplified since these are the most important fields on arXiv. If you spend a minute of full attention, you should get a feel for the intent and scope of the work. This will not only prime you for what you might be reading next, but also mentally map this work to ideas which you might be already familiar with.</p>
+</li>
+<li>
+<p><strong>Skim the Section Headings</strong>, which will give you a feel for organization of the paper. Is the paper emphasizing datasets? A new architecture? Or an empirical work which is basically throwing compute and sharing that &ldquo;See, It works!&rdquo;. I am always a little annoyed when I am discussing a paper when it turns out that the reader has not even got the intent of why the paper sections are organized in a specific way. Obviously, many conferences have specific templates which make it even easier to discover the structure which the authors actually wanted you to pay attention to.</p>
+</li>
+<li>
+<p><strong>Get a sense of the context</strong> This means skimming the Related Work section. The intent isn&rsquo;t to read every paper or idea mentioned in this section, but only the topics mentioned here. This will help you get a sense of the jargon used, the variety of topics and what the authors consider adjacent problems/areas.</p>
+</li>
+<li>
+<p><strong>Read the Conclusion.</strong> Authors generally do a good job summarizing their work in the last few pages. This where they sum up what they think is most important about their work. Just jump to this first.</p>
+</li>
 </ul>
+<blockquote>
+<p>💡Pro Tip💡: <strong>Listen to an interview or podcast.</strong> While this has nothing to do with the actual paper, interviews can be a great way to get the gist of a book in 30minutes or so. Authors do so much promotion now that it&rsquo;s relatively easy to find interviews. And of course, they use the best examples from the book in these interviews.</p>
+</blockquote>
 <h3 id="superficial-reading">Superficial Reading</h3>
-<ul>
-<li>This is most useful when you’re reading outside your usual comfort zone.</li>
-<li>Here is the key idea: ^^Read without stopping^^</li>
-<li>If you read a lot of papers, you will find that there are some things that you don’t understand. If you stop and try to figure out what it means, it will take a long time to finish the paper. But if you keep on reading, the next thing that happens will help explain what the first thing meant. And so on.</li>
-<li>You might get very little of what is being said in the first pass and that&rsquo;s fine. You now know the lay of the land, and when you make a second pass &ndash; you can connect the dots much better and faster.</li>
-</ul>
+<p>This is most useful when you’re reading outside your usual comfort zone.
+Here is the key idea: ^^Read without stopping^^</p>
+<p>If you read a lot of papers, you will find that there are some things that you don’t understand. If you stop and try to figure out what it means, it will take a long time to finish the paper. But if you keep on reading, the next thing that happens will help explain what the first thing meant. And so on.</p>
+<p>You might get very little of what is being said in the first pass and that&rsquo;s fine. You now know the lay of the land, and when you make a second pass &ndash; you can connect the dots much better and faster.</p>
 <h2 id="analytical-reading">Analytical Reading</h2>
 <p>This is where you really dive into a text. You read slowly and closely, you take notes, you look up words or references you don’t understand, and you try to get into the author’s head in order to be able to really get what’s being said.</p>
 <p><strong>Don&rsquo;t Google Too Early</strong>. If there is a math formula, concept, or word you don’t know, first look at the context to try to discern its meaning. See if the author explains what happens when or why they used it. Warm up and use your brain to get started. If it’s something you simply can’t get past, or the word is clearly too important for you to glance over, then check the citations. If even that isn&rsquo;t enough, then finally Google it. The main point is that you can use the tools around you, but don’t lean on them. Let your brain work a little bit before letting Google work for you.</p>
@@ -265,15 +270,21 @@
 <p><strong>Is the paper true - in whole or in part?</strong> If you&rsquo;re reading within your own comfort zone, you&rsquo;ll begin to see by now the scenarios/tasks/areas where the paper falls short. For instance, if you&rsquo;re reading up on Long Range Transformers &ndash; based on your knowledge of pre-trained Transformer models like BERT, RoBERTa or T5, you should expect them do better at summarization and Q&amp;A tasks than these. If the paper falls short, you can quickly jot that down as a question to ask, ponder upon or experiment yourself.</p>
 <p><strong>So what? What’s the significance?</strong> Most papers are <em>incremental</em> in their contribution to the world. This is not necessarily a bad thing. As long as the paper made you see the field or area in a new light, or even a new nugget of knowledge - it was helpful. We should aim for reading papers which at-least give us something valuable in either perspective, knowledge (e.g. empirical facts) or methods. This is by far the most useful question to ask since it helps contextualize the contributions of the author against your own <em>personal context, understanding and knowledge</em>.</p>
 <p>The core idea here is that reading is not a passive process. You have to actively engage with the text and think about what you read. It&rsquo;s natural to just scan over the text without actually retaining anything. To counteract this, you need to make a conscious effort to stop and think about what the author is saying. A good way of doing this is to write down a list of questions about what the author says. This will force you to stop and think about the content. When answering these questions, you need to write them in your own words. This means that you can&rsquo;t just parrot the authors words back at them. Instead, you need to rephrase the question in your own words. This will help you engage with the ideas in a more meaningful way.</p>
+<blockquote>
+<p>💡Pro Tip💡: <a href="https://www.wikiwand.com/en/Inquiry-based_learning">Generate questions</a> about the content of the reading. For example, convert headings and sub-headings into questions, and then look for answers in the content of the text. Other more general questions may also be formulated:</p>
+<ul>
+<li><em>What is this paper about?</em></li>
+<li><em>What question is this section trying to answer?</em></li>
+<li><em>How does this information help me?</em></li>
+</ul>
+</blockquote>
 <p><strong>Optional, critique and share your thoughts with others.</strong> This step is dead last. Only after having read the entire paper, or sets of papers, and thoughtfully answering the 4 Key Questions can you critique or have meaningful discussions about the paper.
 - For starters, a reasonable critique asks more questions (&ldquo;Did they assume X?&rdquo;, &ldquo;What would happen if I replaced method M1 with M3?&quot;) than it makes verdicts (&ldquo;The paper is amazing&rdquo;, &ldquo;This is stupid&rdquo;).
 - The second point is to fight the temptation to write a paper summary instead of a critique. That&rsquo;s the fad these days but isn&rsquo;t quite meaningful enough. You writing a measly, annoying Medium blog might feel like an achievement to yourself (thanks to cheap applause) but doesn&rsquo;t improve your understanding as much as writing a critique will.
-- Also, you don&rsquo;t have to take everything that the authors claim as God&rsquo;s Gospel. Having a disagreement is completely fine and valid. But give them the benefit of doubt and ask questions instead of making assumptions. It goes without saying, that you don&rsquo;t have to disagree or agree with every part of the paper. You can freely completely love one part and ignore the rest. There is no need (or advantage) to have an opinion about everything.
--  ^^Advanced Tip^^: You can use the Question Generation idea even during &ldquo;Intelligently Skimming&rdquo;, especially for topics where you&rsquo;re comfortable. This will save you a lot of time and energy during Analytical Reading.
-- <a href="https://www.wikiwand.com/en/Inquiry-based_learning">Generate questions</a> about the content of the reading. For example, convert headings and sub-headings into questions, and then look for answers in the content of the text. Other more general questions may also be formulated:
-- <em>What is this paper about?</em>
-- <em>What question is this section trying to answer?</em>
-- <em>How does this information help me?</em></p>
+- Also, you don&rsquo;t have to take everything that the authors claim as God&rsquo;s Gospel. Having a disagreement is completely fine and valid. But give them the benefit of doubt and ask questions instead of making assumptions. It goes without saying, that you don&rsquo;t have to disagree or agree with every part of the paper. You can freely completely love one part and ignore the rest. There is no need (or advantage) to have an opinion about everything.</p>
+<blockquote>
+<p>💡Pro Tip💡: You can use the Question Generation idea even during &ldquo;Intelligently Skimming&rdquo;, especially for topics where you&rsquo;re comfortable. This will save you a lot of time and energy during Analytical Reading.</p>
+</blockquote>
 <p><strong>Syntopical</strong> — This is mostly used by researchers and professors. It’s where you read multiple papers on a single subject and form a thesis or original thought by comparing and contrasting various other authors’ thoughts. This is time and research intensive, and it’s not likely that you’ll do this type of reading very much, unless your day job is paying you to read and write papers. I do not have the relevant expertise to help you with this.</p>
 <h2 id="to-quickly-recap">To quickly recap:</h2>
 <blockquote>
@@ -319,7 +330,10 @@
   <ul>
     <li><a href="#who-is-this-for">Who is this for?</a></li>
     <li><a href="#why-do-we-need-instructions-on-how-to-read-a-deep-learning-paper">Why Do We Need Instructions on How to Read a Deep Learning Paper?</a></li>
-    <li><a href="#four-types-of-reading">Four Types of Reading</a></li>
+  </ul>
+
+  <ul>
+    <li><a href="#elementary">Elementary</a></li>
     <li><a href="#inspectional">Inspectional</a>
       <ul>
         <li><a href="#intelligently-skimming">Intelligently Skimming</a></li>
