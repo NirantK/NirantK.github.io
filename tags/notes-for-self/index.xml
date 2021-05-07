@@ -1,2 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>notes for self on Nirant Kasliwal</title><link>https://nirantk.com/tags/notes-for-self/</link><description>Recent content in notes for self on Nirant Kasliwal</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 24 Sep 2019 00:00:09 +0530</lastBuildDate><atom:link href="https://nirantk.com/tags/notes-for-self/index.xml" rel="self" type="application/rss+xml"/><item><title>Personal Manifesto</title><link>https://nirantk.com/writing/manifesto/</link><pubDate>Tue, 24 Sep 2019 00:00:09 +0530</pubDate><guid>https://nirantk.com/writing/manifesto/</guid><description>On Death Is usually better the sooner it happens. Just like it’s best to retire from your cricket career at your peak for your own sake, it’s best to die when you are at your peak. You just might become Father of the Nation.
-No one wishes that they’d accomplished less on their death beds. You might hear that no one wishes that they’d worked more. That’s right too.</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>notes for self on Nirant Kasliwal</title>
+    <link>https://nirantk.com/tags/notes-for-self/</link>
+    <description>Recent content in notes for self on Nirant Kasliwal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 24 Sep 2019 00:00:09 +0530</lastBuildDate><atom:link href="https://nirantk.com/tags/notes-for-self/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Personal Manifesto</title>
+      <link>https://nirantk.com/writing/manifesto/</link>
+      <pubDate>Tue, 24 Sep 2019 00:00:09 +0530</pubDate>
+      
+      <guid>https://nirantk.com/writing/manifesto/</guid>
+      <description>On Death   Is usually better the sooner it happens. Just like it’s best to retire from your cricket career at your peak for your own sake, it’s best to die when you are at your peak. You just might become Father of the Nation.
+  No one wishes that they’d accomplished less on their death beds. You might hear that no one wishes that they’d worked more. That’s right too.</description>
+    </item>
+    
+  </channel>
+</rss>

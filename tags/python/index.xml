@@ -1,5 +1,33 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>python on Nirant Kasliwal</title><link>https://nirantk.com/tags/python/</link><description>Recent content in python on Nirant Kasliwal</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 27 Aug 2019 23:29:18 +0530</lastBuildDate><atom:link href="https://nirantk.com/tags/python/index.xml" rel="self" type="application/rss+xml"/><item><title>Best of Python 3 f-strings</title><link>https://nirantk.com/writing/pythonfstrings/</link><pubDate>Tue, 27 Aug 2019 23:29:18 +0530</pubDate><guid>https://nirantk.com/writing/pythonfstrings/</guid><description>This piece is primarily meant for those new to Python. These include mathematicians, economists, and so on who want to use Python within a Jupyter environment. Here is a quick guide on how to make Best of Jupyter.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>python on Nirant Kasliwal</title>
+    <link>https://nirantk.com/tags/python/</link>
+    <description>Recent content in python on Nirant Kasliwal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 27 Aug 2019 23:29:18 +0530</lastBuildDate><atom:link href="https://nirantk.com/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Best of Python 3 f-strings</title>
+      <link>https://nirantk.com/writing/pythonfstrings/</link>
+      <pubDate>Tue, 27 Aug 2019 23:29:18 +0530</pubDate>
+      
+      <guid>https://nirantk.com/writing/pythonfstrings/</guid>
+      <description>This piece is primarily meant for those new to Python. These include mathematicians, economists, and so on who want to use Python within a Jupyter environment. Here is a quick guide on how to make Best of Jupyter.
 Quick Primer If you are familiar with earlier Python versions, here are my top picks on how to move from .format () to this new one:
-_fstring = f&amp;#39;Total: {one + two}&amp;#39; # Go f-string!</description></item><item><title>The Silent Rise of PyTorch Ecosystem</title><link>https://nirantk.com/writing/silentriseofpytorch/</link><pubDate>Tue, 27 Aug 2019 23:29:18 +0530</pubDate><guid>https://nirantk.com/writing/silentriseofpytorch/</guid><description>The Silent Rise of PyTorch Ecosystem While Tensorflow has made peace with Keras as it’s high level API and mxNet now support Gluon — PyTorch is the bare matrix love.
+_fstring = f&amp;#39;Total: {one + two}&amp;#39; # Go f-string!</description>
+    </item>
+    
+    <item>
+      <title>The Silent Rise of PyTorch Ecosystem</title>
+      <link>https://nirantk.com/writing/silentriseofpytorch/</link>
+      <pubDate>Tue, 27 Aug 2019 23:29:18 +0530</pubDate>
+      
+      <guid>https://nirantk.com/writing/silentriseofpytorch/</guid>
+      <description>The Silent Rise of PyTorch Ecosystem While Tensorflow has made peace with Keras as it’s high level API and mxNet now support Gluon — PyTorch is the bare matrix love.
 PyTorch has seen rapid adoption in academia and all the industrial labs that I have spoken to as well. One of the reasons people (specially engineers doing experiments) like PyTorch is the ease of debugging.
-What I don’t like about PyTorch is it’s incessant requirement of debugging because of inconsistent dimensions problems.</description></item></channel></rss>
+What I don’t like about PyTorch is it’s incessant requirement of debugging because of inconsistent dimensions problems.</description>
+    </item>
+    
+  </channel>
+</rss>
