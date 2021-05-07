@@ -18,37 +18,6 @@ Why Do We Need Instructions on How to Read a Deep Learning Paper? Quantity: Ther
     </item>
     
     <item>
-      <title>How to Find Frontiers of Software Craft</title>
-      <link>https://nirantk.com/drafts/how-to-find-frontiers-of-software-craft/</link>
-      <pubDate>Wed, 30 Sep 2020 00:09:00 +0530</pubDate>
-      
-      <guid>https://nirantk.com/drafts/how-to-find-frontiers-of-software-craft/</guid>
-      <description>Like most of my essays, this essay is written for myself from few years ago.
-Software Engineering, and it&amp;rsquo;s cousins like Computer Science are unique. Unlike relatively mature domains of say, linear algebra - the field is still growing and not yet coherent. That makes it some what hard to study and master.
-This also means we have a unique opportunity here. This makes it better to work in a field which is not yet c</description>
-    </item>
-    
-    <item>
-      <title>Data Science Org Designs</title>
-      <link>https://nirantk.com/drafts/data-org-design/</link>
-      <pubDate>Tue, 15 Sep 2020 00:09:00 +0530</pubDate>
-      
-      <guid>https://nirantk.com/drafts/data-org-design/</guid>
-      <description>Data Science Org Design While there is plenty of good advice on making ML work and making a career as a Data Scientist - I think very little discussion happens on the organization design for Data Science itself.
- Organization Design is determined by these 3 broad categories:
-  Software Engineer vs Research: To what extent is the Machine Learning team responsible for building or integrating with software? How important are Software Engineering skills on the team?</description>
-    </item>
-    
-    <item>
-      <title>We&#39;re all Gamers Now</title>
-      <link>https://nirantk.com/drafts/stop-larping/</link>
-      <pubDate>Tue, 15 Sep 2020 00:09:00 +0530</pubDate>
-      
-      <guid>https://nirantk.com/drafts/stop-larping/</guid>
-      <description>When I show up to Dr. Bob’s office, I don’t expect to deal with Bob; I expect to deal with The Doctor. The doctor is not going to behave as Bob, Alice, or Caroline might act, even if that’s who the doctor is. The doctor is going to behave as The Doctor! This is essentially a human user interface. I’m not Samo. I am The Patient. And Alice is The Doctor.</description>
-    </item>
-    
-    <item>
       <title>First 90 Days - Software Engineer Version</title>
       <link>https://nirantk.com/writing/first-90-days-engineer-version/</link>
       <pubDate>Sat, 12 Sep 2020 00:09:00 +0530</pubDate>
@@ -61,17 +30,6 @@ The First 90 Days for a New Engineer I expect each step to take roughly between 
     </item>
     
     <item>
-      <title>Case Study: Building a Data Science Team at a Startup</title>
-      <link>https://nirantk.com/drafts/case-study-building-a-data-science-team/</link>
-      <pubDate>Sun, 30 Aug 2020 00:09:00 +0530</pubDate>
-      
-      <guid>https://nirantk.com/drafts/case-study-building-a-data-science-team/</guid>
-      <description>Hello!
-If we are meeting for the first time, a short version of my story so far: After doing research engineering for almost 4 years across startups and a BigCo, I joined as an early machine learning engineer at Verloop.io - a B2B startup that makes customer support automation SaaS. We&amp;rsquo;re directly responsible for most Natural Language Processing needs within the business.
-While there is plenty of good advice on making ML work and making a career as a Data Scientist, I wanted to write my experience as a manager/early engineer who built out a ML team at a startup.</description>
-    </item>
-    
-    <item>
       <title>Verloop NLP Interview Prep Guide</title>
       <link>https://nirantk.com/writing/verloop-ml-prep-guide/</link>
       <pubDate>Sat, 29 Aug 2020 00:09:00 +0530</pubDate>
@@ -80,19 +38,6 @@ While there is plenty of good advice on making ML work and making a career as a 
       <description>Preparation Guide I&amp;rsquo;ve been an early Machine Learning Engineer at Verloop.io for almost 1.5 years, primarily working on NLP problems and now more in an Engineering Manager-ish role.
 This is the guide which I sometimes send to our candidates after they submit the Programming Challenge. If a candidate has relevant open source code sample, specially to other repositories we may choose to waive off the Programming Challenge completely.
 I originally wrote this to give a chance to folks coming from non-NLP background to get a sense of the problem space a little better.</description>
-    </item>
-    
-    <item>
-      <title>Data Science Career Notes</title>
-      <link>https://nirantk.com/drafts/careernotes/</link>
-      <pubDate>Fri, 31 Jul 2020 00:09:00 +0530</pubDate>
-      
-      <guid>https://nirantk.com/drafts/careernotes/</guid>
-      <description>Who is this for? This is written for me, 5 years ago - when I was starting my career in Data Science. You can treat these as Notes/Advice/Rant/Opinion.
-That said, I expect this to be helpful to:
-  Early to Mid Career Folks in Engineering roles considering moving to ML/Data Science
-  Primarily written for those in India
- Rant: If you&amp;rsquo;re not in India and any of this applies to you, please consider hiring a career coach - you&amp;rsquo;ve too much low hanging fruit in planning your career    Rant: Note that the most obnoxious, random comments will be marked by Rant.</description>
     </item>
     
     <item>
