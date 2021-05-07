@@ -6,7 +6,25 @@
     <description>Recent content in Tags on Nirant Kasliwal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 15 Nov 2020 23:29:18 +0530</lastBuildDate><atom:link href="https://nirantk.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 05 Jan 2021 23:29:18 +0530</lastBuildDate><atom:link href="https://nirantk.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>niranting</title>
+      <link>https://nirantk.com/tags/niranting/</link>
+      <pubDate>Tue, 05 Jan 2021 23:29:18 +0530</pubDate>
+      
+      <guid>https://nirantk.com/tags/niranting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>personal</title>
+      <link>https://nirantk.com/tags/personal/</link>
+      <pubDate>Tue, 05 Jan 2021 23:29:18 +0530</pubDate>
+      
+      <guid>https://nirantk.com/tags/personal/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>machine learning</title>
       <link>https://nirantk.com/tags/machine-learning/</link>
@@ -22,15 +40,6 @@
       <pubDate>Sun, 15 Nov 2020 23:29:18 +0530</pubDate>
       
       <guid>https://nirantk.com/tags/tech/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>niranting</title>
-      <link>https://nirantk.com/tags/niranting/</link>
-      <pubDate>Sat, 10 Oct 2020 00:09:00 +0530</pubDate>
-      
-      <guid>https://nirantk.com/tags/niranting/</guid>
       <description></description>
     </item>
     
@@ -103,15 +112,6 @@
       <pubDate>Tue, 27 Aug 2019 23:29:18 +0530</pubDate>
       
       <guid>https://nirantk.com/tags/python/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>personal</title>
-      <link>https://nirantk.com/tags/personal/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nirantk.com/tags/personal/</guid>
       <description></description>
     </item>
     

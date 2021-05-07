@@ -2,6 +2,31 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://nirantk.com/</loc>
+    <lastmod>2021-01-05T23:29:18+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://nirantk.com/tags/niranting/</loc>
+    <lastmod>2021-01-05T23:29:18+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://nirantk.com/now/</loc>
+    <lastmod>2021-01-05T23:29:18+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://nirantk.com/tags/personal/</loc>
+    <lastmod>2021-01-05T23:29:18+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://nirantk.com/tags/</loc>
+    <lastmod>2021-01-05T23:29:18+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://nirantk.com/writing/</loc>
     <lastmod>2020-11-15T23:29:18+05:30</lastmod>
     <changefreq>monthly</changefreq>
@@ -17,27 +42,12 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://nirantk.com/</loc>
-    <lastmod>2020-11-15T23:29:18+05:30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://nirantk.com/tags/</loc>
-    <lastmod>2020-11-15T23:29:18+05:30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://nirantk.com/tags/tech/</loc>
     <lastmod>2020-11-15T23:29:18+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://nirantk.com/writing/character-is-net-worth/</loc>
-    <lastmod>2020-10-10T00:09:00+05:30</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://nirantk.com/tags/niranting/</loc>
     <lastmod>2020-10-10T00:09:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -291,10 +301,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://nirantk.com/categories/</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://nirantk.com/tags/personal/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
