@@ -1,162 +1,23 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>niranting on Nirant Kasliwal</title>
-    <link>https://nirantk.com/tags/niranting.html</link>
-    <description>Recent content in niranting on Nirant Kasliwal</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Tue, 05 Jan 2021 23:29:18 +0530</lastBuildDate><atom:link href="https://nirantk.com/tags/niranting/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Now</title>
-      <link>https://nirantk.com/now.html</link>
-      <pubDate>Tue, 05 Jan 2021 23:29:18 +0530</pubDate>
-      
-      <guid>https://nirantk.com/now.html</guid>
-      <description>What I’m doing now Work: After a 2+ years stint building multi-lingual online ML systems (in the Chat Automation/Conversational AI space) at Verloop - I&amp;rsquo;m now a free agent and on a career break/sabbatical. Given the COVID situtation
- Last Updated in May 2021 from Bengaluru, India
-The concept of now page is from Derek Sivers</description>
-    </item>
-    
-    <item>
-      <title>Character is Net Worth</title>
-      <link>https://nirantk.com/writing/character-is-net-worth.html</link>
-      <pubDate>Sat, 10 Oct 2020 00:09:00 +0530</pubDate>
-      
-      <guid>https://nirantk.com/writing/character-is-net-worth.html</guid>
-      <description>A useful metaphor to think about character of a person is their financial “net worth”. Like your net worth, this does not mean that you have that much cash to spend. It is a sum total of something.
- Net Worth is the Sum Total of the Assets &amp;amp; Liabilities
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>niranting on Nirant Kasliwal</title><link>https://nirantk.com/tags/niranting.html</link><description>Recent content in niranting on Nirant Kasliwal</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 05 Jan 2021 23:29:18 +0530</lastBuildDate><atom:link href="https://nirantk.com/tags/niranting/index.xml" rel="self" type="application/rss+xml"/><item><title>Now</title><link>https://nirantk.com/now.html</link><pubDate>Tue, 05 Jan 2021 23:29:18 +0530</pubDate><guid>https://nirantk.com/now.html</guid><description>What I’m doing now Work: After a 2+ years stint building multi-lingual online ML systems (in the Chat Automation/Conversational AI space) at Verloop - I&amp;rsquo;m now a free agent and on a career break/sabbatical. Given the COVID situtation
+Last Updated in May 2021 from Bengaluru, India
+The concept of now page is from Derek Sivers</description></item><item><title>Character is Net Worth</title><link>https://nirantk.com/writing/character-is-net-worth.html</link><pubDate>Sat, 10 Oct 2020 00:09:00 +0530</pubDate><guid>https://nirantk.com/writing/character-is-net-worth.html</guid><description>A useful metaphor to think about character of a person is their financial “net worth”. Like your net worth, this does not mean that you have that much cash to spend. It is a sum total of something.
+Net Worth is the Sum Total of the Assets &amp;amp; Liabilities
 Character is the Sum Total of the Decisions you Own: Good and Bad
- Like your Net Worth can be negative due to a large liability e.</description>
-    </item>
-    
-    <item>
-      <title>Inconsequential Success</title>
-      <link>https://nirantk.com/drafts/inconsequential-success.html</link>
-      <pubDate>Tue, 15 Sep 2020 00:09:00 +0530</pubDate>
-      
-      <guid>https://nirantk.com/drafts/inconsequential-success.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Talent Cooling</title>
-      <link>https://nirantk.com/writing/talentcooling.html</link>
-      <pubDate>Fri, 14 Aug 2020 00:09:00 +0530</pubDate>
-      
-      <guid>https://nirantk.com/writing/talentcooling.html</guid>
-      <description>Talent Cooling Kills Startup Growth Evaporative Cooling [1] occurs when the most high value contributors to a community realize that the community is no longer serving their needs any more and so therefore, leave.
+Like your Net Worth can be negative due to a large liability e.</description></item><item><title>Talent Cooling</title><link>https://nirantk.com/writing/talentcooling.html</link><pubDate>Fri, 14 Aug 2020 00:09:00 +0530</pubDate><guid>https://nirantk.com/writing/talentcooling.html</guid><description>Talent Cooling Kills Startup Growth Evaporative Cooling [1] occurs when the most high value contributors to a community realize that the community is no longer serving their needs any more and so therefore, leave.
 Then something remarkably interesting happens:
- When that happens, it drops the general quality of the community down such that the next most high value contributors now find the community underwhelming. Each layer of disappearances slowly reduces the average quality of the group until such a point that you reach the people who are so unskilled-and-unaware of it that they’re unable to tell that they’re part of a mediocre group.</description>
-    </item>
-    
-    <item>
-      <title>Roles, Theatre and Girard</title>
-      <link>https://nirantk.com/drafts/theatre.html</link>
-      <pubDate>Mon, 15 Jun 2020 00:09:00 +0530</pubDate>
-      
-      <guid>https://nirantk.com/drafts/theatre.html</guid>
-      <description>Role Models and Distance Chesterton&amp;rsquo;s Outgroup
-https://alexdanco.com/2019/04/28/secrets-about-people-a-short-and-dangerous-introduction-to-rene-girard/</description>
-    </item>
-    
-    <item>
-      <title>Fail Resume</title>
-      <link>https://nirantk.com/writing/failresume.html</link>
-      <pubDate>Sat, 09 May 2020 23:29:18 +0530</pubDate>
-      
-      <guid>https://nirantk.com/writing/failresume.html</guid>
-      <description>A fail resume is, as its name suggests, a list of rejections and setbacks.
+When that happens, it drops the general quality of the community down such that the next most high value contributors now find the community underwhelming. Each layer of disappearances slowly reduces the average quality of the group until such a point that you reach the people who are so unskilled-and-unaware of it that they’re unable to tell that they’re part of a mediocre group.</description></item><item><title>Fail Resume</title><link>https://nirantk.com/writing/failresume.html</link><pubDate>Sat, 09 May 2020 23:29:18 +0530</pubDate><guid>https://nirantk.com/writing/failresume.html</guid><description>A fail resume is, as its name suggests, a list of rejections and setbacks.
 This concept originated in academia, but can be applied to improve one’s career, resilience, and approach to challenges in any walk of life.
-I’ve organized my setbacks by year (starting with 2016), and what constitutes a “failure” (or fail) here is based solely on my own judgement. It’s important to not only list the failures, but also learn from them, so I will add reflections to some of them (in progress).</description>
-    </item>
-    
-    <item>
-      <title>Act Like You&#39;re 35</title>
-      <link>https://nirantk.com/writing/actlike35.html</link>
-      <pubDate>Sat, 07 Dec 2019 00:09:00 +0530</pubDate>
-      
-      <guid>https://nirantk.com/writing/actlike35.html</guid>
-      <description>Don’t just network with people your own age Beware the whiz kid syndrome. Smart, young people have a habit of forming communities of other smart young people and feeding off each other’s energy. Argghhhh. Are you not just making mistakes made by older people again? Make original mistakes
-Youth enclaves can actually be restrictive. In fact their networking should be about meeting useful mentors and career champions who can open doors and fast track careers.</description>
-    </item>
-    
-    <item>
-      <title>Happy Diwali 2019</title>
-      <link>https://nirantk.com/writing/diwali_2019.html</link>
-      <pubDate>Fri, 01 Nov 2019 00:09:00 +0530</pubDate>
-      
-      <guid>https://nirantk.com/writing/diwali_2019.html</guid>
-      <description>I wanted to drop by and wish you a very Happy Diwali!
+I’ve organized my setbacks by year (starting with 2016), and what constitutes a “failure” (or fail) here is based solely on my own judgement. It’s important to not only list the failures, but also learn from them, so I will add reflections to some of them (in progress).</description></item><item><title>Act Like You're 35</title><link>https://nirantk.com/writing/actlike35.html</link><pubDate>Sat, 07 Dec 2019 00:09:00 +0530</pubDate><guid>https://nirantk.com/writing/actlike35.html</guid><description>Don’t just network with people your own age Beware the whiz kid syndrome. Smart, young people have a habit of forming communities of other smart young people and feeding off each other’s energy. Argghhhh. Are you not just making mistakes made by older people again? Make original mistakes
+Youth enclaves can actually be restrictive. In fact their networking should be about meeting useful mentors and career champions who can open doors and fast track careers.</description></item><item><title>Happy Diwali 2019</title><link>https://nirantk.com/writing/diwali_2019.html</link><pubDate>Fri, 01 Nov 2019 00:09:00 +0530</pubDate><guid>https://nirantk.com/writing/diwali_2019.html</guid><description>I wanted to drop by and wish you a very Happy Diwali!
 This is an annual email that I write to say thanks to mentors, friends, allies - everyone who has chipped in sculpt a better me.
 So that is what I&amp;rsquo;ll begin with: Thanks a ton for being there for me!
 Also, checkout the 2018 edition of the annual email in attachment if you&amp;rsquo;re curious :)
-Moving onto the least comfortable piece, talking about myself:</description>
-    </item>
-    
-    <item>
-      <title>Hinglish</title>
-      <link>https://nirantk.com/drafts/hinglish.html</link>
-      <pubDate>Tue, 24 Sep 2019 00:00:09 +0530</pubDate>
-      
-      <guid>https://nirantk.com/drafts/hinglish.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Don&#39;t Bask in Reflected Glory</title>
-      <link>https://nirantk.com/writing/reflectedglory.html</link>
-      <pubDate>Wed, 18 Sep 2019 00:00:09 +0530</pubDate>
-      
-      <guid>https://nirantk.com/writing/reflectedglory.html</guid>
-      <description>ये जो लोग-बाग हैं, जंगल की आग हैं Ye jo log baag hain, Jungle ki aag hain The people, are jungle fire क्यूँ आग में जलूँ... Kyun aag mein jalun Why should I burn in the fire? ये नाकाम प्यार में, खुश हैं ये हार में Ye nakaam pyaar mein, Khush hai yeh haar mein Defeated in love, they&#39;re happy in defeat इन जैसा क्यूँ बनूँ... Inn jaisa kyun banun Why should I be like them?</description>
-    </item>
-    
-    <item>
-      <title>Advice for Breaking into NLP outside Academia</title>
-      <link>https://nirantk.com/drafts/breaking-into-nlp.html</link>
-      <pubDate>Thu, 05 Sep 2019 00:09:00 +0530</pubDate>
-      
-      <guid>https://nirantk.com/drafts/breaking-into-nlp.html</guid>
-      <description>Bulk of this is borrowed from notes made my teammate and friend at Verloop.io&amp;rsquo;s NLP/ML team of our conversations. I&amp;rsquo;ve taken the liberty to remove our internal slang, abuses and some boring stuff.
-Asker: I want to build a community around me on NLP. How can I get discovered by others?
-NK: Broadly speaking, the aim in forming connections can be split into Long Term and Short term. A short term aim would be where you can receive something immediate out of the connections or a particular connection itself.</description>
-    </item>
-    
-    <item>
-      <title>Happy Diwali 2018</title>
-      <link>https://nirantk.com/writing/diwali_2018.html</link>
-      <pubDate>Tue, 13 Nov 2018 00:09:00 +0530</pubDate>
-      
-      <guid>https://nirantk.com/writing/diwali_2018.html</guid>
-      <description>How are you?
+Moving onto the least comfortable piece, talking about myself:</description></item><item><title>Don't Bask in Reflected Glory</title><link>https://nirantk.com/writing/reflectedglory.html</link><pubDate>Wed, 18 Sep 2019 00:00:09 +0530</pubDate><guid>https://nirantk.com/writing/reflectedglory.html</guid><description>ये जो लोग-बाग हैं, जंगल की आग हैं Ye jo log baag hain, Jungle ki aag hain The people, are jungle fire क्यूँ आग में जलूँ... Kyun aag mein jalun Why should I burn in the fire? ये नाकाम प्यार में, खुश हैं ये हार में Ye nakaam pyaar mein, Khush hai yeh haar mein Defeated in love, they're happy in defeat इन जैसा क्यूँ बनूँ... Inn jaisa kyun banun Why should I be like them?</description></item><item><title>Happy Diwali 2018</title><link>https://nirantk.com/writing/diwali_2018.html</link><pubDate>Tue, 13 Nov 2018 00:09:00 +0530</pubDate><guid>https://nirantk.com/writing/diwali_2018.html</guid><description>How are you?
 I send these letters every year. This is a way for me to send thanks to all the mentors and friends who&amp;rsquo;ve been part of my journey so far. And I wanted to drop by and say
 Happy Diwali :) What is up with you? Is there something I can do for you?
 For what is up with me?
-Health &amp;amp; Wealth Health Since the beginning of this year, I have tried &amp;lsquo;building better healthy habits&amp;rsquo;.</description>
-    </item>
-    
-    <item>
-      <title>The Good Fight</title>
-      <link>https://nirantk.com/writing/goodfight.html</link>
-      <pubDate>Fri, 15 Dec 2017 00:00:09 +0530</pubDate>
-      
-      <guid>https://nirantk.com/writing/goodfight.html</guid>
-      <description>In the first few pages of the book Born Standing Up, Steve says something poignant:
- One can have, it turns out, an affection for the war years.
- He was someone chasing something external: fame, glory, money or a version of these. Yet, in his dusk years — once he had achieved some of those, he valued his struggle more than his fame and glory.
-For Steve, it was not about achieving these, it was, as I have come to call it: a good fight.</description>
-    </item>
-    
-    <item>
-      <title>The BITS Pilani Experience</title>
-      <link>https://nirantk.com/writing/bitsian.html</link>
-      <pubDate>Fri, 24 Nov 2017 00:09:00 +0530</pubDate>
-      
-      <guid>https://nirantk.com/writing/bitsian.html</guid>
-      <description>There is a invisible binding thread among most BITSian’s - optimistic, easy going, but somewhat pragmatic. The sky is the limit, but most of them realize flying in hot air pockets is easy - it’s the takeoff that hurts.
- I guess there is a flavour of cheerful pragmatism that is uniquely BITSian. You can get ice cream and ice cream shakes anywhere - but Sharma’s MNB is uniquely BITSian.</description>
-    </item>
-    
-  </channel>
-</rss>
+Health &amp;amp; Wealth Health Since the beginning of this year, I have tried &amp;lsquo;building better healthy habits&amp;rsquo;.</description></item><item><title>The Good Fight</title><link>https://nirantk.com/writing/goodfight.html</link><pubDate>Fri, 15 Dec 2017 00:00:09 +0530</pubDate><guid>https://nirantk.com/writing/goodfight.html</guid><description>In the first few pages of the book Born Standing Up, Steve says something poignant:
+One can have, it turns out, an affection for the war years.
+He was someone chasing something external: fame, glory, money or a version of these. Yet, in his dusk years — once he had achieved some of those, he valued his struggle more than his fame and glory.
+For Steve, it was not about achieving these, it was, as I have come to call it: a good fight.</description></item><item><title>The BITS Pilani Experience</title><link>https://nirantk.com/writing/bitsian.html</link><pubDate>Fri, 24 Nov 2017 00:09:00 +0530</pubDate><guid>https://nirantk.com/writing/bitsian.html</guid><description>There is a invisible binding thread among most BITSian’s - optimistic, easy going, but somewhat pragmatic. The sky is the limit, but most of them realize flying in hot air pockets is easy - it’s the takeoff that hurts.
+I guess there is a flavour of cheerful pragmatism that is uniquely BITSian. You can get ice cream and ice cream shakes anywhere - but Sharma’s MNB is uniquely BITSian.</description></item></channel></rss>

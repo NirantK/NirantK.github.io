@@ -1,517 +1,73 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Nirant Kasliwal</title>
-    <link>https://nirantk.com/</link>
-    <description>Recent content on Nirant Kasliwal</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Tue, 05 Jan 2021 23:29:18 +0530</lastBuildDate><atom:link href="https://nirantk.com/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Now</title>
-      <link>https://nirantk.com/now.html</link>
-      <pubDate>Tue, 05 Jan 2021 23:29:18 +0530</pubDate>
-      
-      <guid>https://nirantk.com/now.html</guid>
-      <description>What I’m doing now Work: After a 2+ years stint building multi-lingual online ML systems (in the Chat Automation/Conversational AI space) at Verloop - I&amp;rsquo;m now a free agent and on a career break/sabbatical. Given the COVID situtation
- Last Updated in May 2021 from Bengaluru, India
-The concept of now page is from Derek Sivers</description>
-    </item>
-    
-    <item>
-      <title>How to Read a Deep Learning Paper</title>
-      <link>https://nirantk.com/writing/read-deep-learning-paper.html</link>
-      <pubDate>Sun, 15 Nov 2020 23:29:18 +0530</pubDate>
-      
-      <guid>https://nirantk.com/writing/read-deep-learning-paper.html</guid>
-      <description>Who is this for? Practitioners who are looking to level up their game in Deep Learning
-Why Do We Need Instructions on How to Read a Deep Learning Paper? Quantity: There are more papers than we can humanly read even within our own niche. For instance, consider EMNLP - which is arguably the most popular Natural Language Processing conference selects more than 2K papers across a variety of topics. And NLP is just one area!</description>
-    </item>
-    
-    <item>
-      <title>Character is Net Worth</title>
-      <link>https://nirantk.com/writing/character-is-net-worth.html</link>
-      <pubDate>Sat, 10 Oct 2020 00:09:00 +0530</pubDate>
-      
-      <guid>https://nirantk.com/writing/character-is-net-worth.html</guid>
-      <description>A useful metaphor to think about character of a person is their financial “net worth”. Like your net worth, this does not mean that you have that much cash to spend. It is a sum total of something.
- Net Worth is the Sum Total of the Assets &amp;amp; Liabilities
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Nirant Kasliwal</title><link>https://nirantk.com/</link><description>Recent content on Nirant Kasliwal</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 05 Jan 2021 23:29:18 +0530</lastBuildDate><atom:link href="https://nirantk.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Now</title><link>https://nirantk.com/now.html</link><pubDate>Tue, 05 Jan 2021 23:29:18 +0530</pubDate><guid>https://nirantk.com/now.html</guid><description>What I’m doing now Work: After a 2+ years stint building multi-lingual online ML systems (in the Chat Automation/Conversational AI space) at Verloop - I&amp;rsquo;m now a free agent and on a career break/sabbatical. Given the COVID situtation
+Last Updated in May 2021 from Bengaluru, India
+The concept of now page is from Derek Sivers</description></item><item><title>How to Read a Deep Learning Paper</title><link>https://nirantk.com/writing/read-deep-learning-paper.html</link><pubDate>Sun, 15 Nov 2020 23:29:18 +0530</pubDate><guid>https://nirantk.com/writing/read-deep-learning-paper.html</guid><description>Who is this for? Practitioners who are looking to level up their game in Deep Learning
+Why Do We Need Instructions on How to Read a Deep Learning Paper? Quantity: There are more papers than we can humanly read even within our own niche. For instance, consider EMNLP - which is arguably the most popular Natural Language Processing conference selects more than 2K papers across a variety of topics. And NLP is just one area!</description></item><item><title>Character is Net Worth</title><link>https://nirantk.com/writing/character-is-net-worth.html</link><pubDate>Sat, 10 Oct 2020 00:09:00 +0530</pubDate><guid>https://nirantk.com/writing/character-is-net-worth.html</guid><description>A useful metaphor to think about character of a person is their financial “net worth”. Like your net worth, this does not mean that you have that much cash to spend. It is a sum total of something.
+Net Worth is the Sum Total of the Assets &amp;amp; Liabilities
 Character is the Sum Total of the Decisions you Own: Good and Bad
- Like your Net Worth can be negative due to a large liability e.</description>
-    </item>
-    
-    <item>
-      <title>How to Find Frontiers of Software Craft</title>
-      <link>https://nirantk.com/drafts/how-to-find-frontiers-of-software-craft.html</link>
-      <pubDate>Wed, 30 Sep 2020 00:09:00 +0530</pubDate>
-      
-      <guid>https://nirantk.com/drafts/how-to-find-frontiers-of-software-craft.html</guid>
-      <description>Like most of my essays, this essay is written for myself from few years ago.
-Software Engineering, and it&amp;rsquo;s cousins like Computer Science are unique. Unlike relatively mature domains of say, linear algebra - the field is still growing and not yet coherent. That makes it some what hard to study and master.
-This also means we have a unique opportunity here. This makes it better to work in a field which is not yet c</description>
-    </item>
-    
-    <item>
-      <title>Data Science Org Designs</title>
-      <link>https://nirantk.com/drafts/data-org-design.html</link>
-      <pubDate>Tue, 15 Sep 2020 00:09:00 +0530</pubDate>
-      
-      <guid>https://nirantk.com/drafts/data-org-design.html</guid>
-      <description>Data Science Org Design While there is plenty of good advice on making ML work and making a career as a Data Scientist - I think very little discussion happens on the organization design for Data Science itself.
- Organization Design is determined by these 3 broad categories:
-  Software Engineer vs Research: To what extent is the Machine Learning team responsible for building or integrating with software? How important are Software Engineering skills on the team?</description>
-    </item>
-    
-    <item>
-      <title>Inconsequential Success</title>
-      <link>https://nirantk.com/drafts/inconsequential-success.html</link>
-      <pubDate>Tue, 15 Sep 2020 00:09:00 +0530</pubDate>
-      
-      <guid>https://nirantk.com/drafts/inconsequential-success.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>We&#39;re all Gamers Now</title>
-      <link>https://nirantk.com/drafts/stop-larping.html</link>
-      <pubDate>Tue, 15 Sep 2020 00:09:00 +0530</pubDate>
-      
-      <guid>https://nirantk.com/drafts/stop-larping.html</guid>
-      <description>When I show up to Dr. Bob’s office, I don’t expect to deal with Bob; I expect to deal with The Doctor. The doctor is not going to behave as Bob, Alice, or Caroline might act, even if that’s who the doctor is. The doctor is going to behave as The Doctor! This is essentially a human user interface. I’m not Samo. I am The Patient. And Alice is The Doctor.</description>
-    </item>
-    
-    <item>
-      <title>First 90 Days - Software Engineer Version</title>
-      <link>https://nirantk.com/writing/first-90-days-engineer-version.html</link>
-      <pubDate>Sat, 12 Sep 2020 00:09:00 +0530</pubDate>
-      
-      <guid>https://nirantk.com/writing/first-90-days-engineer-version.html</guid>
-      <description>Aditya Ankur, asked me:
+Like your Net Worth can be negative due to a large liability e.</description></item><item><title>First 90 Days - Software Engineer Version</title><link>https://nirantk.com/writing/first-90-days-engineer-version.html</link><pubDate>Sat, 12 Sep 2020 00:09:00 +0530</pubDate><guid>https://nirantk.com/writing/first-90-days-engineer-version.html</guid><description>Aditya Ankur, asked me:
 I know that there is a book for the first 90 days as an executive. Is there something similar for programmers?
 I don&amp;rsquo;t quite know of a book/essay which covers this yet sticks to the question. So I am writing one for him.
-The First 90 Days for a New Engineer I expect each step to take roughly between 10 and 30 days, depending on the pace of your project + size of the team.</description>
-    </item>
-    
-    <item>
-      <title>Case Study: Building a Data Science Team at a Startup</title>
-      <link>https://nirantk.com/drafts/case-study-building-a-data-science-team.html</link>
-      <pubDate>Sun, 30 Aug 2020 00:09:00 +0530</pubDate>
-      
-      <guid>https://nirantk.com/drafts/case-study-building-a-data-science-team.html</guid>
-      <description>Hello!
-If we are meeting for the first time, a short version of my story so far: After doing research engineering for almost 4 years across startups and a BigCo, I joined as an early machine learning engineer at Verloop.io - a B2B startup that makes customer support automation SaaS. We&amp;rsquo;re directly responsible for most Natural Language Processing needs within the business.
-While there is plenty of good advice on making ML work and making a career as a Data Scientist, I wanted to write my experience as a manager/early engineer who built out a ML team at a startup.</description>
-    </item>
-    
-    <item>
-      <title>Verloop NLP Interview Prep Guide</title>
-      <link>https://nirantk.com/writing/verloop-ml-prep-guide.html</link>
-      <pubDate>Sat, 29 Aug 2020 00:09:00 +0530</pubDate>
-      
-      <guid>https://nirantk.com/writing/verloop-ml-prep-guide.html</guid>
-      <description>Preparation Guide I&amp;rsquo;ve been an early Machine Learning Engineer at Verloop.io for almost 1.5 years, primarily working on NLP problems and now more in an Engineering Manager-ish role.
+The First 90 Days for a New Engineer I expect each step to take roughly between 10 and 30 days, depending on the pace of your project + size of the team.</description></item><item><title>Verloop NLP Interview Prep Guide</title><link>https://nirantk.com/writing/verloop-ml-prep-guide.html</link><pubDate>Sat, 29 Aug 2020 00:09:00 +0530</pubDate><guid>https://nirantk.com/writing/verloop-ml-prep-guide.html</guid><description>Preparation Guide I&amp;rsquo;ve been an early Machine Learning Engineer at Verloop.io for almost 1.5 years, primarily working on NLP problems and now more in an Engineering Manager-ish role.
 This is the guide which I sometimes send to our candidates after they submit the Programming Challenge. If a candidate has relevant open source code sample, specially to other repositories we may choose to waive off the Programming Challenge completely.
-I originally wrote this to give a chance to folks coming from non-NLP background to get a sense of the problem space a little better.</description>
-    </item>
-    
-    <item>
-      <title>Talent Cooling</title>
-      <link>https://nirantk.com/writing/talentcooling.html</link>
-      <pubDate>Fri, 14 Aug 2020 00:09:00 +0530</pubDate>
-      
-      <guid>https://nirantk.com/writing/talentcooling.html</guid>
-      <description>Talent Cooling Kills Startup Growth Evaporative Cooling [1] occurs when the most high value contributors to a community realize that the community is no longer serving their needs any more and so therefore, leave.
+I originally wrote this to give a chance to folks coming from non-NLP background to get a sense of the problem space a little better.</description></item><item><title>Talent Cooling</title><link>https://nirantk.com/writing/talentcooling.html</link><pubDate>Fri, 14 Aug 2020 00:09:00 +0530</pubDate><guid>https://nirantk.com/writing/talentcooling.html</guid><description>Talent Cooling Kills Startup Growth Evaporative Cooling [1] occurs when the most high value contributors to a community realize that the community is no longer serving their needs any more and so therefore, leave.
 Then something remarkably interesting happens:
- When that happens, it drops the general quality of the community down such that the next most high value contributors now find the community underwhelming. Each layer of disappearances slowly reduces the average quality of the group until such a point that you reach the people who are so unskilled-and-unaware of it that they’re unable to tell that they’re part of a mediocre group.</description>
-    </item>
-    
-    <item>
-      <title>Data Science Career Notes</title>
-      <link>https://nirantk.com/drafts/careernotes.html</link>
-      <pubDate>Fri, 31 Jul 2020 00:09:00 +0530</pubDate>
-      
-      <guid>https://nirantk.com/drafts/careernotes.html</guid>
-      <description>Who is this for? This is written for me, 5 years ago - when I was starting my career in Data Science. You can treat these as Notes/Advice/Rant/Opinion.
-That said, I expect this to be helpful to:
-  Early to Mid Career Folks in Engineering roles considering moving to ML/Data Science
-  Primarily written for those in India
- Rant: If you&amp;rsquo;re not in India and any of this applies to you, please consider hiring a career coach - you&amp;rsquo;ve too much low hanging fruit in planning your career    Rant: Note that the most obnoxious, random comments will be marked by Rant.</description>
-    </item>
-    
-    <item>
-      <title>Roles, Theatre and Girard</title>
-      <link>https://nirantk.com/drafts/theatre.html</link>
-      <pubDate>Mon, 15 Jun 2020 00:09:00 +0530</pubDate>
-      
-      <guid>https://nirantk.com/drafts/theatre.html</guid>
-      <description>Role Models and Distance Chesterton&amp;rsquo;s Outgroup
-https://alexdanco.com/2019/04/28/secrets-about-people-a-short-and-dangerous-introduction-to-rene-girard/</description>
-    </item>
-    
-    <item>
-      <title>Shreyas Karanth: Moving from SW Engg to Product</title>
-      <link>https://nirantk.com/writing/shreyas.html</link>
-      <pubDate>Mon, 15 Jun 2020 00:09:00 +0530</pubDate>
-      
-      <guid>https://nirantk.com/writing/shreyas.html</guid>
-      <description>Shreyas Karanth is a Product Manager at Soroco. Soroco is a Medium-sized Enterprise-focussed B2B Automation company. Before Product Management, Shreyas was the fastest growing engineer - going from a fresh grad to a Technical Lead within 3 years of graduation.
-This is also when I worked with him, during his engineering days. Here, I asked a bunch of questions why he moved to Product Management, what excites him and what he considers as Product Management work at Soroco.</description>
-    </item>
-    
-    <item>
-      <title>Standing Out at Work</title>
-      <link>https://nirantk.com/writing/standout.html</link>
-      <pubDate>Sun, 07 Jun 2020 00:09:00 +0530</pubDate>
-      
-      <guid>https://nirantk.com/writing/standout.html</guid>
-      <description>In my short career, I&amp;rsquo;ve seen some amazing young people stand out at work.
+When that happens, it drops the general quality of the community down such that the next most high value contributors now find the community underwhelming. Each layer of disappearances slowly reduces the average quality of the group until such a point that you reach the people who are so unskilled-and-unaware of it that they’re unable to tell that they’re part of a mediocre group.</description></item><item><title>Shreyas Karanth: Moving from SW Engg to Product</title><link>https://nirantk.com/writing/shreyas.html</link><pubDate>Mon, 15 Jun 2020 00:09:00 +0530</pubDate><guid>https://nirantk.com/writing/shreyas.html</guid><description>Shreyas Karanth is a Product Manager at Soroco. Soroco is a Medium-sized Enterprise-focussed B2B Automation company. Before Product Management, Shreyas was the fastest growing engineer - going from a fresh grad to a Technical Lead within 3 years of graduation.
+This is also when I worked with him, during his engineering days. Here, I asked a bunch of questions why he moved to Product Management, what excites him and what he considers as Product Management work at Soroco.</description></item><item><title>Standing Out at Work</title><link>https://nirantk.com/writing/standout.html</link><pubDate>Sun, 07 Jun 2020 00:09:00 +0530</pubDate><guid>https://nirantk.com/writing/standout.html</guid><description>In my short career, I&amp;rsquo;ve seen some amazing young people stand out at work.
 Here is what they did, organized by 5 themes:
-  Unlock Knowledge
-  Automate Boring Stuff
-  Write Widely
-  Solve Open Problems
-  Outside-Visible Work
-  Unlock Knowledge Expertise and know-how stay trapped in emails, docs and codebases. Unlock this for everyone else.
-Get your Star Salesman on an internal podcast to spill their secrets.</description>
-    </item>
-    
-    <item>
-      <title>Fail Resume</title>
-      <link>https://nirantk.com/writing/failresume.html</link>
-      <pubDate>Sat, 09 May 2020 23:29:18 +0530</pubDate>
-      
-      <guid>https://nirantk.com/writing/failresume.html</guid>
-      <description>A fail resume is, as its name suggests, a list of rejections and setbacks.
+Unlock Knowledge
+Automate Boring Stuff
+Write Widely
+Solve Open Problems
+Outside-Visible Work
+Unlock Knowledge Expertise and know-how stay trapped in emails, docs and codebases. Unlock this for everyone else.
+Get your Star Salesman on an internal podcast to spill their secrets.</description></item><item><title>Fail Resume</title><link>https://nirantk.com/writing/failresume.html</link><pubDate>Sat, 09 May 2020 23:29:18 +0530</pubDate><guid>https://nirantk.com/writing/failresume.html</guid><description>A fail resume is, as its name suggests, a list of rejections and setbacks.
 This concept originated in academia, but can be applied to improve one’s career, resilience, and approach to challenges in any walk of life.
-I’ve organized my setbacks by year (starting with 2016), and what constitutes a “failure” (or fail) here is based solely on my own judgement. It’s important to not only list the failures, but also learn from them, so I will add reflections to some of them (in progress).</description>
-    </item>
-    
-    <item>
-      <title>Ankit Nagori, Co-Founder of Cult</title>
-      <link>https://nirantk.com/writing/ankitnagori.html</link>
-      <pubDate>Thu, 30 Apr 2020 00:00:09 +0530</pubDate>
-      
-      <guid>https://nirantk.com/writing/ankitnagori.html</guid>
-      <description>Last month, I had a chance to talk to Ankit Nagori - the co-founder at Cult or Cure.fit
+I’ve organized my setbacks by year (starting with 2016), and what constitutes a “failure” (or fail) here is based solely on my own judgement. It’s important to not only list the failures, but also learn from them, so I will add reflections to some of them (in progress).</description></item><item><title>Ankit Nagori, Co-Founder of Cult</title><link>https://nirantk.com/writing/ankitnagori.html</link><pubDate>Thu, 30 Apr 2020 00:00:09 +0530</pubDate><guid>https://nirantk.com/writing/ankitnagori.html</guid><description>Last month, I had a chance to talk to Ankit Nagori - the co-founder at Cult or Cure.fit
 This first appeared on https://niranting.substack.com
-Transcript Origin Story  IIT to Flipkart for 6 years and then left with Mukesh Bansal of Myntra to start Cure.fit
- Ankit Nagori 0:00 Great. So I think my journey my journey started with Flipkart. That was a couple of years after I finished my undergrad at IIT.</description>
-    </item>
-    
-    <item>
-      <title>Recession Proofing My Career</title>
-      <link>https://nirantk.com/writing/recession-proofing.html</link>
-      <pubDate>Sun, 15 Mar 2020 00:09:00 +0530</pubDate>
-      
-      <guid>https://nirantk.com/writing/recession-proofing.html</guid>
-      <description>I’d written originally this in August 2019 with a bit of foresight of a pending recession.
+Transcript Origin Story IIT to Flipkart for 6 years and then left with Mukesh Bansal of Myntra to start Cure.fit
+Ankit Nagori 0:00 Great. So I think my journey my journey started with Flipkart. That was a couple of years after I finished my undergrad at IIT.</description></item><item><title>Recession Proofing My Career</title><link>https://nirantk.com/writing/recession-proofing.html</link><pubDate>Sun, 15 Mar 2020 00:09:00 +0530</pubDate><guid>https://nirantk.com/writing/recession-proofing.html</guid><description>I’d written originally this in August 2019 with a bit of foresight of a pending recession.
 I wrote this primarily for myself. Multiple reviewers have mentioned that they found it immensely useful, so sharing it with you here!
 Unfortunately, I didn’t follow some of the important notes here myself. Hope you do better than me!!!
-Hard Assumptions   Recession will happen in the next 6-24 months
-  Will hurt technology startup professionals which depend on VC money directly as pay cheques</description>
-    </item>
-    
-    <item>
-      <title>Act Like You&#39;re 35</title>
-      <link>https://nirantk.com/writing/actlike35.html</link>
-      <pubDate>Sat, 07 Dec 2019 00:09:00 +0530</pubDate>
-      
-      <guid>https://nirantk.com/writing/actlike35.html</guid>
-      <description>Don’t just network with people your own age Beware the whiz kid syndrome. Smart, young people have a habit of forming communities of other smart young people and feeding off each other’s energy. Argghhhh. Are you not just making mistakes made by older people again? Make original mistakes
-Youth enclaves can actually be restrictive. In fact their networking should be about meeting useful mentors and career champions who can open doors and fast track careers.</description>
-    </item>
-    
-    <item>
-      <title>Thinking of Your Career as a Startup</title>
-      <link>https://nirantk.com/writing/ruleof40.html</link>
-      <pubDate>Fri, 29 Nov 2019 00:00:18 +0530</pubDate>
-      
-      <guid>https://nirantk.com/writing/ruleof40.html</guid>
-      <description>Broadly speaking, it’s useful to think of your career as a startup.
+Hard Assumptions Recession will happen in the next 6-24 months
+Will hurt technology startup professionals which depend on VC money directly as pay cheques</description></item><item><title>Act Like You're 35</title><link>https://nirantk.com/writing/actlike35.html</link><pubDate>Sat, 07 Dec 2019 00:09:00 +0530</pubDate><guid>https://nirantk.com/writing/actlike35.html</guid><description>Don’t just network with people your own age Beware the whiz kid syndrome. Smart, young people have a habit of forming communities of other smart young people and feeding off each other’s energy. Argghhhh. Are you not just making mistakes made by older people again? Make original mistakes
+Youth enclaves can actually be restrictive. In fact their networking should be about meeting useful mentors and career champions who can open doors and fast track careers.</description></item><item><title>Thinking of Your Career as a Startup</title><link>https://nirantk.com/writing/ruleof40.html</link><pubDate>Fri, 29 Nov 2019 00:00:18 +0530</pubDate><guid>https://nirantk.com/writing/ruleof40.html</guid><description>Broadly speaking, it’s useful to think of your career as a startup.
 Your profit+growth percentage should be a minimum 40%
 So say, you join a big company like Microsoft and your skills grow at 20% every year, while your pay only grows 10% - that&amp;rsquo;s bad.
 You need to grow your skills and outcomes faster.
-The other extreme is also fine: You join a small startup which can make great use of entrepreneurial DNA plus specific skills.</description>
-    </item>
-    
-    <item>
-      <title>Happy Diwali 2019</title>
-      <link>https://nirantk.com/writing/diwali_2019.html</link>
-      <pubDate>Fri, 01 Nov 2019 00:09:00 +0530</pubDate>
-      
-      <guid>https://nirantk.com/writing/diwali_2019.html</guid>
-      <description>I wanted to drop by and wish you a very Happy Diwali!
+The other extreme is also fine: You join a small startup which can make great use of entrepreneurial DNA plus specific skills.</description></item><item><title>Happy Diwali 2019</title><link>https://nirantk.com/writing/diwali_2019.html</link><pubDate>Fri, 01 Nov 2019 00:09:00 +0530</pubDate><guid>https://nirantk.com/writing/diwali_2019.html</guid><description>I wanted to drop by and wish you a very Happy Diwali!
 This is an annual email that I write to say thanks to mentors, friends, allies - everyone who has chipped in sculpt a better me.
 So that is what I&amp;rsquo;ll begin with: Thanks a ton for being there for me!
 Also, checkout the 2018 edition of the annual email in attachment if you&amp;rsquo;re curious :)
-Moving onto the least comfortable piece, talking about myself:</description>
-    </item>
-    
-    <item>
-      <title>Math for Machine Learning</title>
-      <link>https://nirantk.com/writing/mathforai.html</link>
-      <pubDate>Sun, 27 Oct 2019 23:29:18 +0530</pubDate>
-      
-      <guid>https://nirantk.com/writing/mathforai.html</guid>
-      <description>Algebra, Topology, Differential Calculus, andi Optimization Theory For Computer Science and Machine Learning https://www.cis.upenn.edu/~jean/math-deep.pdf
+Moving onto the least comfortable piece, talking about myself:</description></item><item><title>Math for Machine Learning</title><link>https://nirantk.com/writing/mathforai.html</link><pubDate>Sun, 27 Oct 2019 23:29:18 +0530</pubDate><guid>https://nirantk.com/writing/mathforai.html</guid><description>Algebra, Topology, Differential Calculus, andi Optimization Theory For Computer Science and Machine Learning https://www.cis.upenn.edu/~jean/math-deep.pdf
 Mathematics for Machine Learning: https://mml-book.github.io/book/mml-book.pdf
-http://d2l.ai/chapter_appendix_math/index.html</description>
-    </item>
-    
-    <item>
-      <title>Hinglish</title>
-      <link>https://nirantk.com/drafts/hinglish.html</link>
-      <pubDate>Tue, 24 Sep 2019 00:00:09 +0530</pubDate>
-      
-      <guid>https://nirantk.com/drafts/hinglish.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Personal Manifesto</title>
-      <link>https://nirantk.com/writing/manifesto.html</link>
-      <pubDate>Tue, 24 Sep 2019 00:00:09 +0530</pubDate>
-      
-      <guid>https://nirantk.com/writing/manifesto.html</guid>
-      <description>On Death   Is usually better the sooner it happens. Just like it’s best to retire from your cricket career at your peak for your own sake, it’s best to die when you are at your peak. You just might become Father of the Nation.
-  No one wishes that they’d accomplished less on their death beds. You might hear that no one wishes that they’d worked more. That’s right too.</description>
-    </item>
-    
-    <item>
-      <title>ML Model Monitoring</title>
-      <link>https://nirantk.com/writing/modelmonitoring.html</link>
-      <pubDate>Sat, 21 Sep 2019 00:00:18 +0530</pubDate>
-      
-      <guid>https://nirantk.com/writing/modelmonitoring.html</guid>
-      <description>Mayank asked on Twitter:
- Some ideas/papers/tools on monitoring models in production. A use case would be say a classification task over large inputs. I want to visualise how are the predicted values or even confidence scores vary over time? (paraphrased)
- Quick Hacks pandas-profiling If you are logging confidence scores, you can begin there. The quickest hack is to visualize with pandas-profiling: https://github.com/pandas-profiling/pandas-profiling/
-Rolling means Calculate rolling aggregates (e.g. mean, variance) of your confidence scores.</description>
-    </item>
-    
-    <item>
-      <title>Don&#39;t Bask in Reflected Glory</title>
-      <link>https://nirantk.com/writing/reflectedglory.html</link>
-      <pubDate>Wed, 18 Sep 2019 00:00:09 +0530</pubDate>
-      
-      <guid>https://nirantk.com/writing/reflectedglory.html</guid>
-      <description>ये जो लोग-बाग हैं, जंगल की आग हैं Ye jo log baag hain, Jungle ki aag hain The people, are jungle fire क्यूँ आग में जलूँ... Kyun aag mein jalun Why should I burn in the fire? ये नाकाम प्यार में, खुश हैं ये हार में Ye nakaam pyaar mein, Khush hai yeh haar mein Defeated in love, they&#39;re happy in defeat इन जैसा क्यूँ बनूँ... Inn jaisa kyun banun Why should I be like them?</description>
-    </item>
-    
-    <item>
-      <title>Advice for Breaking into NLP outside Academia</title>
-      <link>https://nirantk.com/drafts/breaking-into-nlp.html</link>
-      <pubDate>Thu, 05 Sep 2019 00:09:00 +0530</pubDate>
-      
-      <guid>https://nirantk.com/drafts/breaking-into-nlp.html</guid>
-      <description>Bulk of this is borrowed from notes made my teammate and friend at Verloop.io&amp;rsquo;s NLP/ML team of our conversations. I&amp;rsquo;ve taken the liberty to remove our internal slang, abuses and some boring stuff.
-Asker: I want to build a community around me on NLP. How can I get discovered by others?
-NK: Broadly speaking, the aim in forming connections can be split into Long Term and Short term. A short term aim would be where you can receive something immediate out of the connections or a particular connection itself.</description>
-    </item>
-    
-    <item>
-      <title>Best of Python 3 f-strings</title>
-      <link>https://nirantk.com/writing/pythonfstrings.html</link>
-      <pubDate>Tue, 27 Aug 2019 23:29:18 +0530</pubDate>
-      
-      <guid>https://nirantk.com/writing/pythonfstrings.html</guid>
-      <description>This piece is primarily meant for those new to Python. These include mathematicians, economists, and so on who want to use Python within a Jupyter environment. Here is a quick guide on how to make Best of Jupyter.
+http://d2l.ai/chapter_appendix_math/index.html</description></item><item><title>Personal Manifesto</title><link>https://nirantk.com/writing/manifesto.html</link><pubDate>Tue, 24 Sep 2019 00:00:09 +0530</pubDate><guid>https://nirantk.com/writing/manifesto.html</guid><description>On Death Is usually better the sooner it happens. Just like it’s best to retire from your cricket career at your peak for your own sake, it’s best to die when you are at your peak. You just might become Father of the Nation.
+No one wishes that they’d accomplished less on their death beds. You might hear that no one wishes that they’d worked more. That’s right too.</description></item><item><title>ML Model Monitoring</title><link>https://nirantk.com/writing/modelmonitoring.html</link><pubDate>Sat, 21 Sep 2019 00:00:18 +0530</pubDate><guid>https://nirantk.com/writing/modelmonitoring.html</guid><description>Mayank asked on Twitter:
+Some ideas/papers/tools on monitoring models in production. A use case would be say a classification task over large inputs. I want to visualise how are the predicted values or even confidence scores vary over time? (paraphrased)
+Quick Hacks pandas-profiling If you are logging confidence scores, you can begin there. The quickest hack is to visualize with pandas-profiling: https://github.com/pandas-profiling/pandas-profiling/
+Rolling means Calculate rolling aggregates (e.g. mean, variance) of your confidence scores.</description></item><item><title>Don't Bask in Reflected Glory</title><link>https://nirantk.com/writing/reflectedglory.html</link><pubDate>Wed, 18 Sep 2019 00:00:09 +0530</pubDate><guid>https://nirantk.com/writing/reflectedglory.html</guid><description>ये जो लोग-बाग हैं, जंगल की आग हैं Ye jo log baag hain, Jungle ki aag hain The people, are jungle fire क्यूँ आग में जलूँ... Kyun aag mein jalun Why should I burn in the fire? ये नाकाम प्यार में, खुश हैं ये हार में Ye nakaam pyaar mein, Khush hai yeh haar mein Defeated in love, they're happy in defeat इन जैसा क्यूँ बनूँ... Inn jaisa kyun banun Why should I be like them?</description></item><item><title>Best of Python 3 f-strings</title><link>https://nirantk.com/writing/pythonfstrings.html</link><pubDate>Tue, 27 Aug 2019 23:29:18 +0530</pubDate><guid>https://nirantk.com/writing/pythonfstrings.html</guid><description>This piece is primarily meant for those new to Python. These include mathematicians, economists, and so on who want to use Python within a Jupyter environment. Here is a quick guide on how to make Best of Jupyter.
 Quick Primer If you are familiar with earlier Python versions, here are my top picks on how to move from .format () to this new one:
-_fstring = f&amp;#39;Total: {one + two}&amp;#39; # Go f-string!</description>
-    </item>
-    
-    <item>
-      <title>The Silent Rise of PyTorch Ecosystem</title>
-      <link>https://nirantk.com/writing/silentriseofpytorch.html</link>
-      <pubDate>Tue, 27 Aug 2019 23:29:18 +0530</pubDate>
-      
-      <guid>https://nirantk.com/writing/silentriseofpytorch.html</guid>
-      <description>The Silent Rise of PyTorch Ecosystem While Tensorflow has made peace with Keras as it’s high level API and mxNet now support Gluon — PyTorch is the bare matrix love.
+_fstring = f&amp;#39;Total: {one + two}&amp;#39; # Go f-string!</description></item><item><title>The Silent Rise of PyTorch Ecosystem</title><link>https://nirantk.com/writing/silentriseofpytorch.html</link><pubDate>Tue, 27 Aug 2019 23:29:18 +0530</pubDate><guid>https://nirantk.com/writing/silentriseofpytorch.html</guid><description>The Silent Rise of PyTorch Ecosystem While Tensorflow has made peace with Keras as it’s high level API and mxNet now support Gluon — PyTorch is the bare matrix love.
 PyTorch has seen rapid adoption in academia and all the industrial labs that I have spoken to as well. One of the reasons people (specially engineers doing experiments) like PyTorch is the ease of debugging.
-What I don’t like about PyTorch is it’s incessant requirement of debugging because of inconsistent dimensions problems.</description>
-    </item>
-    
-    <item>
-      <title>Character is Net Worth</title>
-      <link>https://nirantk.com/drafts/character-is-net-worth.html</link>
-      <pubDate>Mon, 05 Aug 2019 23:29:18 +0530</pubDate>
-      
-      <guid>https://nirantk.com/drafts/character-is-net-worth.html</guid>
-      <description>Being Nice is a Safety Net with Holes Measured Skills are an Operation Expense Unmeasured but Marketed Skills is an Asset Class #TODO finish this thought If I gave you 100,000 Rs today - what would you do with that? If you are
-What I found useful when thinking about these ideas: [1] Status as a Service: https://www.eugenewei.com/blog/2019/2/19/status-as-a-service [2] Keep your identity small: http://www.paulgraham.com/identity.html
-Reputation is Insurance In India, Amazon is known for a superior customer service than it&amp;rsquo;s home grown rival: Flipkart.</description>
-    </item>
-    
-    <item>
-      <title>Opening Quotes</title>
-      <link>https://nirantk.com/drafts/openingquotes.html</link>
-      <pubDate>Mon, 05 Aug 2019 23:29:18 +0530</pubDate>
-      
-      <guid>https://nirantk.com/drafts/openingquotes.html</guid>
-      <description>“ये जो लोग-बाग हैं जंगल की आग हैं क्यूँ आग में जलूँ&amp;hellip; ये नाकाम प्यार में खुश हैं ये हार में इन जैसा क्यूँ बनूँ&amp;hellip;”
-We have all worked so hard to achieve mediocrity</description>
-    </item>
-    
-    <item>
-      <title>Prosumer</title>
-      <link>https://nirantk.com/drafts/prosumer.html</link>
-      <pubDate>Mon, 05 Aug 2019 23:29:18 +0530</pubDate>
-      
-      <guid>https://nirantk.com/drafts/prosumer.html</guid>
-      <description>Keys: :raising_hand: What I&amp;rsquo;ve tried :100: Awesome, recommend :ear: Hearing good things about this :eyes: Keeping an eye on this
-The Celebs Superhuman Airtable Notion Emerging Coda (h/t @CaseyNewton)
-TickTick (to-do&amp;rsquo;s) (h/t @CaseyNewton)
-Woven (calendar) (h/t @CaseyNewton)
-The Just Born Tandem.chat Good problem, incomplete solutions: Breaker (podcasts but social) (h/t @CaseyNewton)
-Soon (Goodreads but for all other media) (h/t @CaseyNewton)
-Stoop (RSS reader for newsletters) (h/t @CaseyNewton)
-The Quirky Google Sheets Solutions SteinHQ https://steinhq.</description>
-    </item>
-    
-    <item>
-      <title>Tech Talk Tips</title>
-      <link>https://nirantk.com/writing/techtalktips.html</link>
-      <pubDate>Mon, 05 Aug 2019 23:29:18 +0530</pubDate>
-      
-      <guid>https://nirantk.com/writing/techtalktips.html</guid>
-      <description>Collection of the Best Advice on Internet that I know about on giving a tech talk. Based on responses from my question on Twitter.
- Meghana gave a talk based on these tips at PyData Bengaluru
-   You: Hey, I know something better!
-  Me: Please tell me about it! Raise a PR. Or reply to the tweet above!
- The Mindset  Presentations Skills Considered Harmful tl;dr: Do not block the message with your actions.</description>
-    </item>
-    
-    <item>
-      <title>Happy Diwali 2018</title>
-      <link>https://nirantk.com/writing/diwali_2018.html</link>
-      <pubDate>Tue, 13 Nov 2018 00:09:00 +0530</pubDate>
-      
-      <guid>https://nirantk.com/writing/diwali_2018.html</guid>
-      <description>How are you?
+What I don’t like about PyTorch is it’s incessant requirement of debugging because of inconsistent dimensions problems.</description></item><item><title>Tech Talk Tips</title><link>https://nirantk.com/writing/techtalktips.html</link><pubDate>Mon, 05 Aug 2019 23:29:18 +0530</pubDate><guid>https://nirantk.com/writing/techtalktips.html</guid><description>Collection of the Best Advice on Internet that I know about on giving a tech talk. Based on responses from my question on Twitter.
+Meghana gave a talk based on these tips at PyData Bengaluru
+You: Hey, I know something better!
+Me: Please tell me about it! Raise a PR. Or reply to the tweet above!
+The Mindset Presentations Skills Considered Harmful tl;dr: Do not block the message with your actions.</description></item><item><title>Happy Diwali 2018</title><link>https://nirantk.com/writing/diwali_2018.html</link><pubDate>Tue, 13 Nov 2018 00:09:00 +0530</pubDate><guid>https://nirantk.com/writing/diwali_2018.html</guid><description>How are you?
 I send these letters every year. This is a way for me to send thanks to all the mentors and friends who&amp;rsquo;ve been part of my journey so far. And I wanted to drop by and say
 Happy Diwali :) What is up with you? Is there something I can do for you?
 For what is up with me?
-Health &amp;amp; Wealth Health Since the beginning of this year, I have tried &amp;lsquo;building better healthy habits&amp;rsquo;.</description>
-    </item>
-    
-    <item>
-      <title>Picking a Startup Team You Want to Work With</title>
-      <link>https://nirantk.com/writing/picking-startup-to-work-with.html</link>
-      <pubDate>Fri, 29 Dec 2017 00:09:00 +0530</pubDate>
-      
-      <guid>https://nirantk.com/writing/picking-startup-to-work-with.html</guid>
-      <description>Why we need to do a reference check on startup teams we work with? Great Startups always ask someone who is joining for a reference check. They speak to your previous managers and colleagues. There is no reason why candidates should not do the same. Many startup employees have more opportunity costs than the founders themselves.
-I&amp;rsquo;m surprised by the lack of due diligence which candidates do when interviewing with us.</description>
-    </item>
-    
-    <item>
-      <title>The Good Fight</title>
-      <link>https://nirantk.com/writing/goodfight.html</link>
-      <pubDate>Fri, 15 Dec 2017 00:00:09 +0530</pubDate>
-      
-      <guid>https://nirantk.com/writing/goodfight.html</guid>
-      <description>In the first few pages of the book Born Standing Up, Steve says something poignant:
- One can have, it turns out, an affection for the war years.
- He was someone chasing something external: fame, glory, money or a version of these. Yet, in his dusk years — once he had achieved some of those, he valued his struggle more than his fame and glory.
-For Steve, it was not about achieving these, it was, as I have come to call it: a good fight.</description>
-    </item>
-    
-    <item>
-      <title>The BITS Pilani Experience</title>
-      <link>https://nirantk.com/writing/bitsian.html</link>
-      <pubDate>Fri, 24 Nov 2017 00:09:00 +0530</pubDate>
-      
-      <guid>https://nirantk.com/writing/bitsian.html</guid>
-      <description>There is a invisible binding thread among most BITSian’s - optimistic, easy going, but somewhat pragmatic. The sky is the limit, but most of them realize flying in hot air pockets is easy - it’s the takeoff that hurts.
- I guess there is a flavour of cheerful pragmatism that is uniquely BITSian. You can get ice cream and ice cream shakes anywhere - but Sharma’s MNB is uniquely BITSian.</description>
-    </item>
-    
-    <item>
-      <title>How to prepare for a Data Science job from college?</title>
-      <link>https://nirantk.com/writing/datasciencejob.html</link>
-      <pubDate>Mon, 12 Dec 2016 23:29:18 +0530</pubDate>
-      
-      <guid>https://nirantk.com/writing/datasciencejob.html</guid>
-      <description>A Getting Started Guide
+Health &amp;amp; Wealth Health Since the beginning of this year, I have tried &amp;lsquo;building better healthy habits&amp;rsquo;.</description></item><item><title>Picking a Startup Team You Want to Work With</title><link>https://nirantk.com/writing/picking-startup-to-work-with.html</link><pubDate>Fri, 29 Dec 2017 00:09:00 +0530</pubDate><guid>https://nirantk.com/writing/picking-startup-to-work-with.html</guid><description>Why we need to do a reference check on startup teams we work with? Great Startups always ask someone who is joining for a reference check. They speak to your previous managers and colleagues. There is no reason why candidates should not do the same. Many startup employees have more opportunity costs than the founders themselves.
+I&amp;rsquo;m surprised by the lack of due diligence which candidates do when interviewing with us.</description></item><item><title>The Good Fight</title><link>https://nirantk.com/writing/goodfight.html</link><pubDate>Fri, 15 Dec 2017 00:00:09 +0530</pubDate><guid>https://nirantk.com/writing/goodfight.html</guid><description>In the first few pages of the book Born Standing Up, Steve says something poignant:
+One can have, it turns out, an affection for the war years.
+He was someone chasing something external: fame, glory, money or a version of these. Yet, in his dusk years — once he had achieved some of those, he valued his struggle more than his fame and glory.
+For Steve, it was not about achieving these, it was, as I have come to call it: a good fight.</description></item><item><title>The BITS Pilani Experience</title><link>https://nirantk.com/writing/bitsian.html</link><pubDate>Fri, 24 Nov 2017 00:09:00 +0530</pubDate><guid>https://nirantk.com/writing/bitsian.html</guid><description>There is a invisible binding thread among most BITSian’s - optimistic, easy going, but somewhat pragmatic. The sky is the limit, but most of them realize flying in hot air pockets is easy - it’s the takeoff that hurts.
+I guess there is a flavour of cheerful pragmatism that is uniquely BITSian. You can get ice cream and ice cream shakes anywhere - but Sharma’s MNB is uniquely BITSian.</description></item><item><title>How to prepare for a Data Science job from college?</title><link>https://nirantk.com/writing/datasciencejob.html</link><pubDate>Mon, 12 Dec 2016 23:29:18 +0530</pubDate><guid>https://nirantk.com/writing/datasciencejob.html</guid><description>A Getting Started Guide
 Let us get our facts straight, shall we?
 I am writing from my non-existent but probably relevant experience. I worked in a Machine Learning role at Samsung Research, Bengaluru. It is only 1 of the 4 research enterprises which hire Machine Learning researchers from Indian colleges — the other being Microsoft, Xerox, and IBM Watson.
-I am now in a even more Computer Vision focused role for a small enterprise tech company.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://nirantk.com/about.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nirantk.com/about.html</guid>
-      <description>Me in 10 seconds I&amp;rsquo;ve been doing NLP (Natural Language Processing) for a bit, and did Computer Vision before. Have some exposure to Document Search, Embedded ML and Predictive Analytics before. Even wrote a book about NLP. I talk a lot about it too. Most recently, I built the ML team at Verloop.io from 0 to 1 as the Founding ML Engineer.
-Grew up in Surat, Gujarat. I now live in Bengaluru.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://nirantk.com/drafts/bigco-vs-startups.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nirantk.com/drafts/bigco-vs-startups.html</guid>
-      <description>https://danluu.com/startup-tradeoffs/#fnref:S
+I am now in a even more Computer Vision focused role for a small enterprise tech company.</description></item><item><title/><link>https://nirantk.com/about.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nirantk.com/about.html</guid><description>Me in 10 seconds Most recently, I built the ML team at Verloop.io from 0 to 1 as the Founding ML Engineer.
+I&amp;rsquo;ve been doing NLP (Natural Language Processing) for a bit, and did Computer Vision before. Have some exposure to Document Search, Embedded ML and Predictive Analytics before.
+Even wrote a book about NLP. I talk a lot about it too.
+Grew up in Surat, Gujarat. I now live in Bengaluru.</description></item><item><title/><link>https://nirantk.com/drafts/bigco-vs-startups.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nirantk.com/drafts/bigco-vs-startups.html</guid><description>https://danluu.com/startup-tradeoffs/#fnref:S
 Beyond First 90 Days - 2 Less Obvious Ideas
 I am assuming that you already know the hygiene factors: Make few promises. Keep most of them and exceed few of them atleast. Get to like the top 5% in the skill of effort estimation for your own work at the very least. And so on.
-Contribute to Developer Ecosystem Improving any part of the developer ecosystem is useful and visible at the same time.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://nirantk.com/drafts/invisible-algo.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nirantk.com/drafts/invisible-algo.html</guid>
-      <description>Logistic Regression was perhaps the algorithm with most far reaching and invisible algorithm.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://nirantk.com/drafts/metamorphosis-moment-for-data-science.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nirantk.com/drafts/metamorphosis-moment-for-data-science.html</guid>
-      <description>Editor&amp;rsquo;s Note 0: I&amp;rsquo;ve no editor. Editor&amp;rsquo;s Note 1: I use the terms machine learning, data science and AI interchangeably, just to annoy people who take terms too seriosuly. E.g. me
-Palantir is proving the limits of data science insights: https://simplystatistics.org/2020/08/26/palantir-shows-its-cards/
-Greylock&amp;rsquo;s Systems of Intelligence
-TikTok is violating the limits of data science baked into products
-Data Products are hard.</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://nirantk.com/drafts/read-cs-papers.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nirantk.com/drafts/read-cs-papers.html</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://nirantk.com/drafts/sprezzatura.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nirantk.com/drafts/sprezzatura.html</guid>
-      <description>One of the most interesting shifts and paradigms of last 20-30 years in Indian elite circles was the acceptance for what I call high visibility hard work. For instance, some of the most popular enterpreneurs of today openly talk about hard it is.
-This has few interesting outcomes:
- It helps people understand that there is a deep and personal cost to doing hard things e.g. enterpreneurship It also summarily led to the rejection of &amp;ldquo;Passion hypothesis&amp;rdquo; i.</description>
-    </item>
-    
-    <item>
-      <title>Bezos &amp; Amazon Inc.</title>
-      <link>https://nirantk.com/drafts/amazon.html</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://nirantk.com/drafts/amazon.html</guid>
-      <description>This short page is my personal collection of lessons, ideas, observation, &amp;amp; notes. They mostly concern Bezos, with some love for Ambani as well.
-I don&amp;rsquo;t expect them to be useful for anyone except me, but hey - if you do, say Hi to me on Twitter
-Mega-Tech of the Future  ReCode Podcast - How Jim Collins Helped Amazon Rescue Itself Peter Thiel tells Eric Schimdt in 2012 that Amazon is the only mega-tech that knows how to invest in the future What is Amazon?</description>
-    </item>
-    
-  </channel>
-</rss>
+Contribute to Developer Ecosystem Improving any part of the developer ecosystem is useful and visible at the same time.</description></item><item><title/><link>https://nirantk.com/drafts/invisible-algo.html</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://nirantk.com/drafts/invisible-algo.html</guid><description>Logistic Regression was perhaps the algorithm with most far reaching and invisible algorithm.</description></item></channel></rss>

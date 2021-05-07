@@ -1,122 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>machine learning on Nirant Kasliwal</title>
-    <link>https://nirantk.com/tags/machine-learning.html</link>
-    <description>Recent content in machine learning on Nirant Kasliwal</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <lastBuildDate>Sun, 15 Nov 2020 23:29:18 +0530</lastBuildDate><atom:link href="https://nirantk.com/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>How to Read a Deep Learning Paper</title>
-      <link>https://nirantk.com/writing/read-deep-learning-paper.html</link>
-      <pubDate>Sun, 15 Nov 2020 23:29:18 +0530</pubDate>
-      
-      <guid>https://nirantk.com/writing/read-deep-learning-paper.html</guid>
-      <description>Who is this for? Practitioners who are looking to level up their game in Deep Learning
-Why Do We Need Instructions on How to Read a Deep Learning Paper? Quantity: There are more papers than we can humanly read even within our own niche. For instance, consider EMNLP - which is arguably the most popular Natural Language Processing conference selects more than 2K papers across a variety of topics. And NLP is just one area!</description>
-    </item>
-    
-    <item>
-      <title>Data Science Org Designs</title>
-      <link>https://nirantk.com/drafts/data-org-design.html</link>
-      <pubDate>Tue, 15 Sep 2020 00:09:00 +0530</pubDate>
-      
-      <guid>https://nirantk.com/drafts/data-org-design.html</guid>
-      <description>Data Science Org Design While there is plenty of good advice on making ML work and making a career as a Data Scientist - I think very little discussion happens on the organization design for Data Science itself.
- Organization Design is determined by these 3 broad categories:
-  Software Engineer vs Research: To what extent is the Machine Learning team responsible for building or integrating with software? How important are Software Engineering skills on the team?</description>
-    </item>
-    
-    <item>
-      <title>We&#39;re all Gamers Now</title>
-      <link>https://nirantk.com/drafts/stop-larping.html</link>
-      <pubDate>Tue, 15 Sep 2020 00:09:00 +0530</pubDate>
-      
-      <guid>https://nirantk.com/drafts/stop-larping.html</guid>
-      <description>When I show up to Dr. Bob’s office, I don’t expect to deal with Bob; I expect to deal with The Doctor. The doctor is not going to behave as Bob, Alice, or Caroline might act, even if that’s who the doctor is. The doctor is going to behave as The Doctor! This is essentially a human user interface. I’m not Samo. I am The Patient. And Alice is The Doctor.</description>
-    </item>
-    
-    <item>
-      <title>Case Study: Building a Data Science Team at a Startup</title>
-      <link>https://nirantk.com/drafts/case-study-building-a-data-science-team.html</link>
-      <pubDate>Sun, 30 Aug 2020 00:09:00 +0530</pubDate>
-      
-      <guid>https://nirantk.com/drafts/case-study-building-a-data-science-team.html</guid>
-      <description>Hello!
-If we are meeting for the first time, a short version of my story so far: After doing research engineering for almost 4 years across startups and a BigCo, I joined as an early machine learning engineer at Verloop.io - a B2B startup that makes customer support automation SaaS. We&amp;rsquo;re directly responsible for most Natural Language Processing needs within the business.
-While there is plenty of good advice on making ML work and making a career as a Data Scientist, I wanted to write my experience as a manager/early engineer who built out a ML team at a startup.</description>
-    </item>
-    
-    <item>
-      <title>Verloop NLP Interview Prep Guide</title>
-      <link>https://nirantk.com/writing/verloop-ml-prep-guide.html</link>
-      <pubDate>Sat, 29 Aug 2020 00:09:00 +0530</pubDate>
-      
-      <guid>https://nirantk.com/writing/verloop-ml-prep-guide.html</guid>
-      <description>Preparation Guide I&amp;rsquo;ve been an early Machine Learning Engineer at Verloop.io for almost 1.5 years, primarily working on NLP problems and now more in an Engineering Manager-ish role.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>machine learning on Nirant Kasliwal</title><link>https://nirantk.com/tags/machine-learning.html</link><description>Recent content in machine learning on Nirant Kasliwal</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Sun, 15 Nov 2020 23:29:18 +0530</lastBuildDate><atom:link href="https://nirantk.com/tags/machine-learning/index.xml" rel="self" type="application/rss+xml"/><item><title>How to Read a Deep Learning Paper</title><link>https://nirantk.com/writing/read-deep-learning-paper.html</link><pubDate>Sun, 15 Nov 2020 23:29:18 +0530</pubDate><guid>https://nirantk.com/writing/read-deep-learning-paper.html</guid><description>Who is this for? Practitioners who are looking to level up their game in Deep Learning
+Why Do We Need Instructions on How to Read a Deep Learning Paper? Quantity: There are more papers than we can humanly read even within our own niche. For instance, consider EMNLP - which is arguably the most popular Natural Language Processing conference selects more than 2K papers across a variety of topics. And NLP is just one area!</description></item><item><title>Verloop NLP Interview Prep Guide</title><link>https://nirantk.com/writing/verloop-ml-prep-guide.html</link><pubDate>Sat, 29 Aug 2020 00:09:00 +0530</pubDate><guid>https://nirantk.com/writing/verloop-ml-prep-guide.html</guid><description>Preparation Guide I&amp;rsquo;ve been an early Machine Learning Engineer at Verloop.io for almost 1.5 years, primarily working on NLP problems and now more in an Engineering Manager-ish role.
 This is the guide which I sometimes send to our candidates after they submit the Programming Challenge. If a candidate has relevant open source code sample, specially to other repositories we may choose to waive off the Programming Challenge completely.
-I originally wrote this to give a chance to folks coming from non-NLP background to get a sense of the problem space a little better.</description>
-    </item>
-    
-    <item>
-      <title>Data Science Career Notes</title>
-      <link>https://nirantk.com/drafts/careernotes.html</link>
-      <pubDate>Fri, 31 Jul 2020 00:09:00 +0530</pubDate>
-      
-      <guid>https://nirantk.com/drafts/careernotes.html</guid>
-      <description>Who is this for? This is written for me, 5 years ago - when I was starting my career in Data Science. You can treat these as Notes/Advice/Rant/Opinion.
-That said, I expect this to be helpful to:
-  Early to Mid Career Folks in Engineering roles considering moving to ML/Data Science
-  Primarily written for those in India
- Rant: If you&amp;rsquo;re not in India and any of this applies to you, please consider hiring a career coach - you&amp;rsquo;ve too much low hanging fruit in planning your career    Rant: Note that the most obnoxious, random comments will be marked by Rant.</description>
-    </item>
-    
-    <item>
-      <title>Math for Machine Learning</title>
-      <link>https://nirantk.com/writing/mathforai.html</link>
-      <pubDate>Sun, 27 Oct 2019 23:29:18 +0530</pubDate>
-      
-      <guid>https://nirantk.com/writing/mathforai.html</guid>
-      <description>Algebra, Topology, Differential Calculus, andi Optimization Theory For Computer Science and Machine Learning https://www.cis.upenn.edu/~jean/math-deep.pdf
+I originally wrote this to give a chance to folks coming from non-NLP background to get a sense of the problem space a little better.</description></item><item><title>Math for Machine Learning</title><link>https://nirantk.com/writing/mathforai.html</link><pubDate>Sun, 27 Oct 2019 23:29:18 +0530</pubDate><guid>https://nirantk.com/writing/mathforai.html</guid><description>Algebra, Topology, Differential Calculus, andi Optimization Theory For Computer Science and Machine Learning https://www.cis.upenn.edu/~jean/math-deep.pdf
 Mathematics for Machine Learning: https://mml-book.github.io/book/mml-book.pdf
-http://d2l.ai/chapter_appendix_math/index.html</description>
-    </item>
-    
-    <item>
-      <title>ML Model Monitoring</title>
-      <link>https://nirantk.com/writing/modelmonitoring.html</link>
-      <pubDate>Sat, 21 Sep 2019 00:00:18 +0530</pubDate>
-      
-      <guid>https://nirantk.com/writing/modelmonitoring.html</guid>
-      <description>Mayank asked on Twitter:
- Some ideas/papers/tools on monitoring models in production. A use case would be say a classification task over large inputs. I want to visualise how are the predicted values or even confidence scores vary over time? (paraphrased)
- Quick Hacks pandas-profiling If you are logging confidence scores, you can begin there. The quickest hack is to visualize with pandas-profiling: https://github.com/pandas-profiling/pandas-profiling/
-Rolling means Calculate rolling aggregates (e.g. mean, variance) of your confidence scores.</description>
-    </item>
-    
-    <item>
-      <title>The Silent Rise of PyTorch Ecosystem</title>
-      <link>https://nirantk.com/writing/silentriseofpytorch.html</link>
-      <pubDate>Tue, 27 Aug 2019 23:29:18 +0530</pubDate>
-      
-      <guid>https://nirantk.com/writing/silentriseofpytorch.html</guid>
-      <description>The Silent Rise of PyTorch Ecosystem While Tensorflow has made peace with Keras as it’s high level API and mxNet now support Gluon — PyTorch is the bare matrix love.
+http://d2l.ai/chapter_appendix_math/index.html</description></item><item><title>ML Model Monitoring</title><link>https://nirantk.com/writing/modelmonitoring.html</link><pubDate>Sat, 21 Sep 2019 00:00:18 +0530</pubDate><guid>https://nirantk.com/writing/modelmonitoring.html</guid><description>Mayank asked on Twitter:
+Some ideas/papers/tools on monitoring models in production. A use case would be say a classification task over large inputs. I want to visualise how are the predicted values or even confidence scores vary over time? (paraphrased)
+Quick Hacks pandas-profiling If you are logging confidence scores, you can begin there. The quickest hack is to visualize with pandas-profiling: https://github.com/pandas-profiling/pandas-profiling/
+Rolling means Calculate rolling aggregates (e.g. mean, variance) of your confidence scores.</description></item><item><title>The Silent Rise of PyTorch Ecosystem</title><link>https://nirantk.com/writing/silentriseofpytorch.html</link><pubDate>Tue, 27 Aug 2019 23:29:18 +0530</pubDate><guid>https://nirantk.com/writing/silentriseofpytorch.html</guid><description>The Silent Rise of PyTorch Ecosystem While Tensorflow has made peace with Keras as it’s high level API and mxNet now support Gluon — PyTorch is the bare matrix love.
 PyTorch has seen rapid adoption in academia and all the industrial labs that I have spoken to as well. One of the reasons people (specially engineers doing experiments) like PyTorch is the ease of debugging.
-What I don’t like about PyTorch is it’s incessant requirement of debugging because of inconsistent dimensions problems.</description>
-    </item>
-    
-    <item>
-      <title>How to prepare for a Data Science job from college?</title>
-      <link>https://nirantk.com/writing/datasciencejob.html</link>
-      <pubDate>Mon, 12 Dec 2016 23:29:18 +0530</pubDate>
-      
-      <guid>https://nirantk.com/writing/datasciencejob.html</guid>
-      <description>A Getting Started Guide
+What I don’t like about PyTorch is it’s incessant requirement of debugging because of inconsistent dimensions problems.</description></item><item><title>How to prepare for a Data Science job from college?</title><link>https://nirantk.com/writing/datasciencejob.html</link><pubDate>Mon, 12 Dec 2016 23:29:18 +0530</pubDate><guid>https://nirantk.com/writing/datasciencejob.html</guid><description>A Getting Started Guide
 Let us get our facts straight, shall we?
 I am writing from my non-existent but probably relevant experience. I worked in a Machine Learning role at Samsung Research, Bengaluru. It is only 1 of the 4 research enterprises which hire Machine Learning researchers from Indian colleges — the other being Microsoft, Xerox, and IBM Watson.
-I am now in a even more Computer Vision focused role for a small enterprise tech company.</description>
-    </item>
-    
-  </channel>
-</rss>
+I am now in a even more Computer Vision focused role for a small enterprise tech company.</description></item></channel></rss>
