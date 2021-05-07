@@ -53,7 +53,37 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://nirantk.com/tags/career/</loc>
-    <lastmod>2020-09-12T00:09:00+05:30</lastmod>
+    <lastmod>2020-09-30T00:09:00+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://nirantk.com/drafts/</loc>
+    <lastmod>2020-09-30T00:09:00+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://nirantk.com/drafts/how-to-find-frontiers-of-software-craft/</loc>
+    <lastmod>2020-09-30T00:09:00+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://nirantk.com/drafts/data-org-design/</loc>
+    <lastmod>2020-09-15T00:09:00+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://nirantk.com/drafts/inconsequential-success/</loc>
+    <lastmod>2020-09-15T00:09:00+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://nirantk.com/tags/verloop/</loc>
+    <lastmod>2020-09-15T00:09:00+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://nirantk.com/drafts/stop-larping/</loc>
+    <lastmod>2020-09-15T00:09:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -62,8 +92,8 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://nirantk.com/tags/verloop/</loc>
-    <lastmod>2020-08-29T00:09:00+05:30</lastmod>
+    <loc>https://nirantk.com/drafts/case-study-building-a-data-science-team/</loc>
+    <lastmod>2020-08-30T00:09:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -77,7 +107,17 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://nirantk.com/drafts/careernotes/</loc>
+    <lastmod>2020-07-31T00:09:00+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://nirantk.com/tags/exclusive-convo/</loc>
+    <lastmod>2020-06-15T00:09:00+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://nirantk.com/drafts/theatre/</loc>
     <lastmod>2020-06-15T00:09:00+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
@@ -132,6 +172,11 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://nirantk.com/drafts/hinglish/</loc>
+    <lastmod>2019-09-24T00:00:09+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://nirantk.com/tags/notes-for-self/</loc>
     <lastmod>2019-09-24T00:00:09+05:30</lastmod>
     <changefreq>monthly</changefreq>
@@ -157,6 +202,11 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
+    <loc>https://nirantk.com/drafts/breaking-into-nlp/</loc>
+    <lastmod>2019-09-05T00:09:00+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
     <loc>https://nirantk.com/writing/pythonfstrings/</loc>
     <lastmod>2019-08-27T23:29:18+05:30</lastmod>
     <changefreq>monthly</changefreq>
@@ -174,6 +224,21 @@
   </url><url>
     <loc>https://nirantk.com/writing/silentriseofpytorch/</loc>
     <lastmod>2019-08-27T23:29:18+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://nirantk.com/drafts/character-is-net-worth/</loc>
+    <lastmod>2019-08-05T23:29:18+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://nirantk.com/drafts/openingquotes/</loc>
+    <lastmod>2019-08-05T23:29:18+05:30</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://nirantk.com/drafts/prosumer/</loc>
+    <lastmod>2019-08-05T23:29:18+05:30</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -219,11 +284,23 @@
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://nirantk.com/categories/</loc>
+    <loc>https://nirantk.com/drafts/metamorphosis-moment-for-data-science/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://nirantk.com/drafts/</loc>
+    <loc>https://nirantk.com/drafts/read-cs-papers/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://nirantk.com/drafts/sprezzatura/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://nirantk.com/drafts/amazon/</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://nirantk.com/categories/</loc>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
