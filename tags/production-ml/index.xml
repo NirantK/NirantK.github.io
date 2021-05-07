@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>production ml on Nirant Kasliwal</title>
-    <link>https://nirantk.com/tags/production-ml/</link>
+    <link>https://nirantk.com/tags/production-ml.html</link>
     <description>Recent content in production ml on Nirant Kasliwal</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sat, 21 Sep 2019 00:00:18 +0530</lastBuildDate><atom:link href="https://nirantk.com/tags/production-ml/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>ML Model Monitoring</title>
-      <link>https://nirantk.com/writing/modelmonitoring/</link>
+      <link>https://nirantk.com/writing/modelmonitoring.html</link>
       <pubDate>Sat, 21 Sep 2019 00:00:18 +0530</pubDate>
       
-      <guid>https://nirantk.com/writing/modelmonitoring/</guid>
+      <guid>https://nirantk.com/writing/modelmonitoring.html</guid>
       <description>Mayank asked on Twitter:
  Some ideas/papers/tools on monitoring models in production. A use case would be say a classification task over large inputs. I want to visualise how are the predicted values or even confidence scores vary over time? (paraphrased)
  Quick Hacks pandas-profiling If you are logging confidence scores, you can begin there. The quickest hack is to visualize with pandas-profiling: https://github.com/pandas-profiling/pandas-profiling/
